@@ -13,7 +13,8 @@
 		<file name="backgound-bloodson.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/backgrounds/background-bloodson.xml" />
 		<!--Languages-->		
 		<file name="languages.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/languages.xml" />
-		<!--Rules-->		
+		<!--Weapons-->		
+		<file name="items-weapons.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/items/item-weapons.xml" />
 
 	</files>
 </index>
