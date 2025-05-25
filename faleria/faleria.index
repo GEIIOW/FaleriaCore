@@ -10,7 +10,7 @@
 	</info>
 	<files>
 		<!--Backgrounds-->
-		<file name="backgound-bloodson.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/faleria/backgrounds/background-bloodson.xml" />
+		<file name="backgound-bloodson.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/backgrounds/background-bloodson.xml" />
 
 	</files>
 </index>
