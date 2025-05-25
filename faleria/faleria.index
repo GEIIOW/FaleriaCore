@@ -10,7 +10,7 @@
 	</info>
 	<files>
 		<!--Backgrounds-->
-		<file name="backgound-bloodson.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/backgrounds/background-bloodson.xml" />
+		<file name="background-bloodson.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/backgrounds/background-bloodson.xml" />
 		<!--Languages-->		
 		<file name="languages.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/languages.xml" />
 		<!--Weapons-->		
