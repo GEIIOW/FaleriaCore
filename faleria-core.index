@@ -5,7 +5,7 @@
 		<description>The content from the core rulebooks.</description>
 		<author url="http://dnd.wizards.com">Wizards of the Coast</author>
 		<update version="0.2.6">
-			<file name="faleria-core.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria-core.index" />
+			<file name="faleria-core.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/main/faleria-core.index" />
 		</update>
 	</info>
 	<files>
