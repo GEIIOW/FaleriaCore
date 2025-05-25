@@ -13,7 +13,7 @@
 		<file name="dungeon-masters-guide.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/core/dungeon-masters-guide.index" />
 		<file name="monster-manual.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/core/monster-manual.index" />
 		<file name="players-handbook.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/core/players-handbook.index" />
-  	
+  	<!--
 		<file name="acquisitions-incorporated.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/acquisitions-incorporated.index" />
  	 	<file name="mordenkainens-tome-of-foes.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/mordenkainens-tome-of-foes.index" />
   		<file name="tashas-cauldron-of-everything.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/tashas-cauldron-of-everything.index" />
@@ -23,6 +23,8 @@
  		<file name="strixhaven-a-curriculum-of-chaos.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/strixhaven-a-curriculum-of-chaos.index" />
   		<file name="eberron-rising-from-the-last-war.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/eberron-rising-from-the-last-war.index" />
   		<file name="guildmasters-guide-to-ravnica.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/guildmasters-guide-to-ravnica.index" />
+  -->
+  
   <!--
 		<file name="ranger-favored-enemies.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/ranger-favored-enemies.xml" />
 		<file name="lost-mines-phandelver.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/lost-mines-phandelver.index" />
