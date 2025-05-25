@@ -18,6 +18,9 @@
 			<set name="image">https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/FALERIA.png</set>
 			<set name="author" abbreviation="LC" url="http://dnd.wizards.com">Lucky Crown | Imported by Gellow</set>
 			<set name="release">20250525</set>
+			<set name="league">true</set>
+			<set name="official">true</set>
+			<set name="supplement">true</set>
 		</setters>
 	</element>
 </elements>
