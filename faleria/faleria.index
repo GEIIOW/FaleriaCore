@@ -9,7 +9,6 @@
 		</update>
 	</info>
 	<files>
-		
 		<file name="source.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/source.xml" />
 		
 		
