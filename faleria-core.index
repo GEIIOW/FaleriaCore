@@ -9,10 +9,10 @@
 		</update>
 	</info>
 	<files>
-		<file name="internal.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/elements/master/core/internal.xml" />
+		<file name="internal.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/core/internal.xml" />
 
-		<file name="dungeon-masters-guide.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/elements/master/core/dungeon-masters-guide.index" />
-		<file name="monster-manual.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/elements/master/core/monster-manual.index" />
-		<file name="players-handbook.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/elements/master/core/players-handbook.index" />
+		<file name="dungeon-masters-guide.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/core/dungeon-masters-guide.index" />
+		<file name="monster-manual.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/core/monster-manual.index" />
+		<file name="players-handbook.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/core/players-handbook.index" />
 	</files>
 </index>
