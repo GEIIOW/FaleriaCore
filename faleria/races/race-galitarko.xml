@@ -108,8 +108,8 @@
 			<description>You have a climbing speed equal to your walking speed.</description>
 		</sheet>
 		<rules>
-			<stat name="speed:climb" value="speed" bonus="base"/>
-		</rules>
+			<stat name="speed:climb" value="speed" bonus="base" />
+		</rules>		
 	</element>
 	<element name="Keen Smell" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_KEEN_SMELL">
 		<description>
