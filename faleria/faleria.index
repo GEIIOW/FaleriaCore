@@ -14,7 +14,7 @@
 		<!--Languages-->		
 		<file name="languages.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/languages.xml" />
 		<!--Rules-->		
-		<file name="languages.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/level0.xml" />
+		<file name="level0.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/level0.xml" />
 
 
 	</files>
