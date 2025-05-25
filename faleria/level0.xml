@@ -1,0 +1,21 @@
+<element>
+    <info>
+        <name>Level Expansion 0</name>
+        <description>Level 0</description>
+        <update version="1.00">
+            <file name="level0.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/level0.xml" />
+        </update>
+    </info>
+    
+    <element name="0" type="Level" source="Internal" id="ID_LEVEL_0">
+        <setters>
+            <set name="Level">0</set>
+            <set name="Experience">10</set>
+            <set name="ProficiencyBonus">+1</set> 
+        </setters>
+        <rules>
+            <stat name="proficiency" value="1" />
+        </rules>
+    </element>
+
+</element>

@@ -11,7 +11,11 @@
 	<files>
 		<!--Backgrounds-->
 		<file name="backgound-bloodson.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/backgrounds/background-bloodson.xml" />
+		<!--Languages-->		
 		<file name="languages.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/languages.xml" />
+		<!--Rules-->		
+		<file name="languages.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/level0.xml" />
+
 
 	</files>
 </index>
