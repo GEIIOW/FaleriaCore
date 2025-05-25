@@ -62,9 +62,10 @@
 		<file name="adventurers-league.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/adventurers-league.index" />
 		<file name="dnd-beyond.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/dnd-beyond.index" />
 		<file name="misc.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/misc.index" />
-			-->
-		<!-- events -->
+		
+		
 		<file name="extra-life.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/extra-life.index" />
+		-->
 		<!-- homebrew -->
 		<file name="faleria.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/faleria.index" />
 	
