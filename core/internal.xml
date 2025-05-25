@@ -1149,6 +1149,7 @@
 	<element name="Race Halfling" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_HALFLING" />
 	<element name="Race Human" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_HUMAN" />
 	<element name="Race Tiefling" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_TIEFLING" />
+	<element name="Race Galitarko" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_GALITARKO" />
 
 	<!--Misc-->
 	<element name="Armor Ignore Strength Requirement" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_ARMOR_IGNORE_STRENGTH_REQUIREMENT" />

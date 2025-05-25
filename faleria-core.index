@@ -23,6 +23,8 @@
  		<file name="strixhaven-a-curriculum-of-chaos.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/strixhaven-a-curriculum-of-chaos.index" />
   		<file name="eberron-rising-from-the-last-war.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/eberron-rising-from-the-last-war.index" />
   		<file name="guildmasters-guide-to-ravnica.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/guildmasters-guide-to-ravnica.index" />
+ 		<file name="extra-life.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/extra-life.index" />
+ 
   -->
   
   <!--
@@ -66,8 +68,6 @@
 		<file name="dnd-beyond.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/dnd-beyond.index" />
 		<file name="misc.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/misc.index" />
 		
-		
-		<file name="extra-life.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/extra-life.index" />
 		-->
 		<!-- homebrew -->
 

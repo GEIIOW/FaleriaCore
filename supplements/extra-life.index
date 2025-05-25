@@ -9,8 +9,8 @@
 	<files>
 		<file name="tortle-package.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/extra-life/tortle-package.xml" />
 		<file name="one-grung-above.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/extra-life/one-grung-above.xml" />
-		<file name="lost-laboratory-of-kwalish.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/extra-life/lost-laboratory-of-kwalish.xml" />
+		<!--<file name="lost-laboratory-of-kwalish.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/extra-life/lost-laboratory-of-kwalish.xml" />-->
 		<file name="locathah-rising.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/extra-life/locathah-rising.xml" />
-		<file name="adventure-with-muk.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/extra-life/adventure-with-muk.xml" />
+		<!--<file name="adventure-with-muk.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/extra-life/adventure-with-muk.xml" /-->
 	</files>
 </index>
