@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Faleria</name>
+		<description>Add something here. Dungeons &amp; Dragons creatures, including dragons, giants, mind flayers, and beholders—a monstrous feast for Dungeon Masters ready to challenge their players and populate their adventures.</description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/monster-manual">Lucky Crown | Imported by Gellow</author>
+		<update version="0.0.1">
+			<file name="faleria.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/faleria.index" />
+		</update>
+	</info>
+	<files>
+		<!--Backgrounds-->
+		<file name="backgound-bloodson.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/faleria/backgrounds/background-bloodson.xml" />
+
+	</files>
+</index>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Languages</name>
+		<update version="0.0.1">
+			<file name="languages.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/languages.xml" />
+		</update>
+	</info>
+	
+	<element name="Ixali" type="Language" source="Faleria" id="ID_LANGUAGE_IXALI">
+		<supports>Standard</supports>
+		<description>
+			<p>Common Tongue of Issadrem</p>
+		</description>
+		<setters>
+			<set name="Standard">true</set>
+			<set name="speakers">Aarakocra, Galitarko, Genasi, Human, Dragonborn, Tortle, Kobold</set>
+			<set name="script">Tulist</set>
+		</setters>
+	</element>
+		
+	<element name="Silvanian" type="Language" source="Faleria" id="ID_LANGUAGE_SILVANIAN">
+		<supports>Standard</supports>
+		<description>
+			<p>Common Tongue of Silvermace</p>
+		</description>
+		<setters>
+			<set name="Standard">true</set>
+			<set name="speakers">Human, Elf, Lenam, Aarakocra, Genasi, Centaur, Goliath</set>
+			<set name="script">Adelon</set>
+		</setters>
+	</element>
+		
+	<element name="Gnish" type="Language" source="Faleria" id="ID_LANGUAGE_GNISH">
+		<supports>Standard</supports>
+		<description>
+			<p>Common Tongue of Gnawland</p>
+		</description>
+		<setters>
+			<set name="Standard">true</set>
+			<set name="speakers">Gnoll, Minotaur, Aarakocra, Genasi, Galitarko, Orc, Goblin</set>
+			<set name="script">Askresh</set>
+		</setters>
+	</element>
+		
+	<element name="Smidian" type="Language" source="Faleria" id="ID_LANGUAGE_SMIDIAN">
+		<supports>Standard</supports>
+		<description>
+			<p>Common tongue of the continent of Nyjorsa</p>
+		</description>
+		<setters>
+			<set name="Standard">true</set>
+		</setters>
+	</element>
+	
+</elements>
+
