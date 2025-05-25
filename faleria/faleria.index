@@ -14,7 +14,7 @@
 		<!--Languages-->		
 		<file name="languages.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/languages.xml" />
 		<!--Weapons-->		
-		<file name="items-weapons.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/items/item-weapons.xml" />
+		<file name="faleria-weapons.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/items/faleria-weapons.xml" />
 
 	</files>
 </index>
