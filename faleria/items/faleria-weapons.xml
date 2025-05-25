@@ -10,7 +10,7 @@
 	</info>
 
 
-	<element name="Kwikwik" type="Weapon" source="Faleria" id="ID_WOTC_PHB_WEAPON_KWIKWIK">
+	<element name="Kwikwik" type="Weapon" source="Yozolin's Lost Tome" id="ID_WOTC_PHB_WEAPON_KWIKWIK">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SWORDS, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
 		<description>
 			<p></p>

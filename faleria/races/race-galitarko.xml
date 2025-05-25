@@ -7,7 +7,7 @@
 		</update>
 	</info>
 
-	<element name="Galitarko" type="Race" source="Faleria" id="ID_RACE_GALITARKO">
+	<element name="Galitarko" type="Race" source="Yozolin's Lost Tome" id="ID_RACE_GALITARKO">
 		<description>
 			<p class="flavor">Elves are a magical people of otherworldly grace, living in the world but not entirely part of it. They live in places of ethereal beauty, in the midst of ancient forests or in silvery spires glittering with faerie light, where soft music drifts through the air and gentle fragrances waft on the breeze. Elves love nature and magic, art and artistry, music and poetry, and the good things of the world.</p>
 			<h4>SLENDER AND GRACEFUL</h4>
