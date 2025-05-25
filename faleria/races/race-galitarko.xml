@@ -179,7 +179,7 @@
 			<description>If you are not wearing heavy armor, when enemies try to shove you into the prone condition you are pushed 5 feet away instead. Additionaly, standing up from prone only takes 5 feet of movement, if you are not wearing heavy armor.</description>
 		</sheet>
 	</element>
-		<element name="Language" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_LANGUAGES1">
+		<element name="Language" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_LANGUAGES_IXALI">
 		<description>
 			<p>You can speak, read and write three languages of your choice.</p>
 		</description>
