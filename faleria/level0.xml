@@ -3,7 +3,7 @@
         <name>Level Expansion 0</name>
         <description>Level 0</description>
         <update version="1.00">
-            <file name="level0.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/level0.xml" />
+            <file name="level0.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/faleria/level0.xml" />
         </update>
     </info>
     
