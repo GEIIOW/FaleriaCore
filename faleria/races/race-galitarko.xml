@@ -127,7 +127,7 @@
 			<description>It takes an additional creature for you to be flanked or affected by pack tactics, or similar features.</description>
 		</sheet>
 	</element>
-	<element name="Extra Language" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_EXTRA_LANGUAGE">
+	<element name="Extra Language" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_LANGUAGES">
 		<description>
 			<p>You can speak, read and write three languages of your choice.</p>
 		</description>
