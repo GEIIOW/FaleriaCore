@@ -13,6 +13,16 @@
 		<file name="dungeon-masters-guide.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/core/dungeon-masters-guide.index" />
 		<file name="monster-manual.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/core/monster-manual.index" />
 		<file name="players-handbook.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/core/players-handbook.index" />
+  	
+		<file name="acquisitions-incorporated.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/acquisitions-incorporated.index" />
+ 	 	<file name="mordenkainens-tome-of-foes.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/mordenkainens-tome-of-foes.index" />
+  		<file name="tashas-cauldron-of-everything.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/tashas-cauldron-of-everything.index" />
+		<file name="xanathars-guide-to-everything.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/xanathars-guide-to-everything.index" />
+  		<file name="mythic-odysseys-of-theros.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/mythic-odysseys-of-theros.index" />
+ 		<file name="fizbans-treasury-of-dragons.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/fizbans-treasury-of-dragons.index" /> 
+ 		<file name="strixhaven-a-curriculum-of-chaos.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/strixhaven-a-curriculum-of-chaos.index" />
+  		<file name="eberron-rising-from-the-last-war.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/eberron-rising-from-the-last-war.index" />
+  		<file name="guildmasters-guide-to-ravnica.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/guildmasters-guide-to-ravnica.index" />
   <!--
 		<file name="ranger-favored-enemies.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/ranger-favored-enemies.xml" />
 		<file name="lost-mines-phandelver.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/lost-mines-phandelver.index" />
@@ -26,24 +36,15 @@
 		<file name="volos-guide-to-monsters.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/volos-guide-to-monsters.index" />
 		<file name="tales-from-the-yawning-portal.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/tales-from-the-yawning-portal.index" />
 		<file name="tomb-of-annihilation.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/tomb-of-annihilation.index" />
-		<file name="xanathars-guide-to-everything.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/xanathars-guide-to-everything.index" />
-		<file name="mordenkainens-tome-of-foes.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/mordenkainens-tome-of-foes.index" />
 		<file name="waterdeep-dragon-heist.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/waterdeep-dragon-heist.index" />
 		<file name="waterdeep-dungeon-of-the-mad-mage.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/waterdeep-dungeon-of-the-mad-mage.index" />
-		<file name="guildmasters-guide-to-ravnica.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/guildmasters-guide-to-ravnica.index" />
 		<file name="ghosts-of-saltmarsh.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/ghosts-of-saltmarsh.index" />
-		<file name="acquisitions-incorporated.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/acquisitions-incorporated.index" />
 		<file name="descent-into-avernus.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/descent-into-avernus.index" />
-		<file name="eberron-rising-from-the-last-war.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/eberron-rising-from-the-last-war.index" />
 		<file name="explorers-guide-to-wildemount.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/explorers-guide-to-wildemount.index" />
-		<file name="mythic-odysseys-of-theros.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/mythic-odysseys-of-theros.index" />
 		<file name="rime-of-the-frostmaiden.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/rime-of-the-frostmaiden.index" />
-		<file name="tashas-cauldron-of-everything.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/tashas-cauldron-of-everything.index" />
 		<file name="candlekeep-mysteries.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/candlekeep-mysteries.index" />
 		<file name="van-richtens-guide-to-ravenloft.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/van-richtens-guide-to-ravenloft.index" />
 		<file name="wild-beyond-the-witchlight.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/wild-beyond-the-witchlight.index" />
-		<file name="fizbans-treasury-of-dragons.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/fizbans-treasury-of-dragons.index" />
-		<file name="strixhaven-a-curriculum-of-chaos.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/strixhaven-a-curriculum-of-chaos.index" />
 		<file name="critical-role-call-of-the-netherdeep.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/critical-role-call-of-the-netherdeep.index" />
 		<file name="monsters-of-the-multiverse.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/monsters-of-the-multiverse.index" />
 		<file name="journeys-through-the-radiant-citadel.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/journeys-through-the-radiant-citadel.index" />
