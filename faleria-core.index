@@ -14,7 +14,6 @@
 		<file name="monster-manual.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/core/monster-manual.index" />
 		<file name="players-handbook.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/core/players-handbook.index" />
 
-		<!--
 		<file name="ranger-favored-enemies.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/ranger-favored-enemies.xml" />
 		<file name="lost-mines-phandelver.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/lost-mines-phandelver.index" />
 		<file name="hoard-of-the-dragon-queen.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/hoard-of-the-dragon-queen.index" />
@@ -66,7 +65,7 @@
 		
 		
 		<file name="extra-life.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/extra-life.index" />
-		-->
+
 		<!-- homebrew -->
 
 		<file name="faleria.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/faleria.index" />

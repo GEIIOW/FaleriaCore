@@ -7,7 +7,7 @@
 		</update>
 	</info>
 	
-	<element name="Ixali" type="Language" source="Faleria" id="ID_LANGUAGE_IXALI">
+	<element name="Ixali" type="Language" source="Yozolin's Lost Tome" id="ID_LANGUAGE_IXALI">
 		<supports>Standard</supports>
 		<description>
 			<p>Common Tongue of Issadrem</p>
