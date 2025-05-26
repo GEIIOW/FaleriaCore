@@ -108,42 +108,52 @@
 			<p>As an arcana genasi, you have the following traits.</p>
 			<p class="indent"><strong><em>Ability Score Improvement.</em></strong> Your Intelligence score increases by 1.</p>
 			<p class="indent"><strong><em>Arcane eye.</em></strong> You have advantage on Wisdom (Perception) rolls made to see through magical illusions.</p>
-			<p class="indent"><strong><em>Magic Resistance.</em></strong>  You have advantadge on saving throws against spells.</p>
-			<p class="indent"><strong><em>Moonsoon.</em></strong> You know the gust cantrip. Starting at 3rd level, you can cast the feather fall spell with this trait, without material components. Starting at 7th level, you can also cast the fly spell with this trait, without requiring a material component. Once you cast feather fall or fly with this trait, you can’t cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
-			<p class="indent"><strong><em>Languages.</em></strong> You can speak Galish.</p>
+			<p class="indent"><strong><em>Magic Resistance.</em></strong> You have advantadge on saving throws against spells.</p>
+			<p class="indent"><strong><em>Magic Flow.</em></strong> You know the prestidigitation cantrip. Starting at 3rd level, you can cast the identify spell with this trait without material components. Starting at 7th level, you can also cast the dispel magic spell with this trait. Once you cast identify or dispel magic with this trait, you can’t cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak Arcanian.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
 			<stat name="dexterity" value="1" />
 			<grant type="Language" id="ID_LANGUAGE_GALISH" />
-			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_THUNDER" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_MOONSOON" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_UNENDING_BREATH" />
+			<grant type="Condition" id="ID_RACIAL_TRAIT_RESISTANCE_MAGIC" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_MAGIC_FLOW" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ARCANE_EYE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ARCANIAN" />
 		</rules>
 	</element>
 
-	<element name="Unending Breath" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_UNENDING_BREATH">
+	<element name="Magic Resistance." type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_RESISTANCE_MAGIC">
 		<description>
-			<p>You can hold your breath indefinitely while you're not incapacitated.</p>
+			<p>You have advantadge on saving throws against spells.</p>
 		</description>
 		<sheet>
-			<description>You can hold your breath indefinitely while you're not incapacitated.</description>
+			<description>You have advantadge on saving throws against spells.</description>
 		</sheet>
 	</element>
 
-	<element name="Moonsoon" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_MOONSOON">
+	<element name="Unending Breath" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_ARCANE_EYE">
 		<description>
-			<p>You know the <strong>gust</strong> cantrip. Starting at 3rd level, you can cast the <strong>feather fall</strong> spell with this trait, without requiring a material component. Starting at 7th level, you can also cast the <strong>fly</strong> spell with this trait, without requiring a material component. Once you cast <strong>feather fall</strong> or <strong>fly</strong> with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
+			<p>You have advantage on Wisdom (Perception) rolls made to see through magical illusions</p>
+		</description>
+		<sheet>
+			<description>You have advantage on Wisdom (Perception) rolls made to see through magical illusions</description>
+		</sheet>
+	</element>
+
+	<element name="Magic Flow" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_MAGIC_FLOW">
+		<description>
+			<p>You know the <strong>prestidigitation</strong> cantrip. Starting at 3rd level, you can cast <strong>identify</strong> spell with this trait. Starting at 7th level, you can also cast the <strong>dispel magic</strong>  spell with this trait, without requiring a material component. Once you cast <strong>identify</strong> or <strong>dispel magic</strong> with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
 		</description>
 		<sheet usage="1/Long Rest">
 			<description>
-				You know the <strong>gust</strong> cantrip. Starting at 3rd level, you can cast <strong>feather fall</strong> spell with this trait. Starting at 7th level, you can also cast the <strong>fly</strong> spell with this trait. Once you cast <strong>feather fall</strong> or <strong>fly</strong> with this trait, you can’t cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.
+				You know the <strong>prestidigitation</strong> cantrip. Starting at 3rd level, you can cast <strong>identify</strong> spell with this trait. Starting at 7th level, you can also cast the <strong>dispel magic</strong> spell with this trait. Once you cast <strong>identify</strong> or <strong>dispel magic</strong> with this trait, you can’t cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.
 			</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_XGTE_SPELL_GUST" />
-			<grant type="Spell" id="ID_PHB_SPELL_FEATHER_FALL" level="3" />
-			<grant type="Spell" id="ID_PHB_SPELL_FLY" level="7" />
+			<grant type="Spell" id="ID_PHB_SPELL_PRESTIDIGITATION" />
+			<grant type="Spell" id="ID_PHB_SPELL_IDENTIFY" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_DISPEL_MAGIC" level="7" />
 		</rules>
 	</element>
 
@@ -165,7 +175,7 @@
 		<sheet display="false" />
 		<rules>
 			<stat name="strength" value="1" />
-			<grant type="Language" id="ID_LANGUAGE_SODDISH" />
+			<grant type="Language" id="ID_LANGUAGE_FLYSODDISH" />
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_EARTH_WALK" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_TECTONIC_PLATING" />
