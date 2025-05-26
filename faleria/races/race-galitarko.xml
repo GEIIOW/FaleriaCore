@@ -251,5 +251,4 @@
 			<select type="Language" name="Language (Galitark)" supports="Standard" restrict="-Smidian" />
 		</rules>
 	</element>
-
 </elements>
