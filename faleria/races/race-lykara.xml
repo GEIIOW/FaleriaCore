@@ -104,6 +104,10 @@
 		<sheet>
 			<description>Lykaras have sharp teeth and claws. Your teeth and claws are natural weapons with which you are proficient. You may add your Wisdom modifier (+ {{wisdom:modifier}} ) instead of your Strength modifier (+ {{strength:modifier}} ), to the attack and damage rolls when you attack with your bite or claws. Your bite deals 1d6 piercing damage on a hit and your claws deal 1d4 slashing damage on a hit.</description>
 		</sheet>
+	
+	
+	
+	
 	</element>
 
 	<element name="Language" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_LANGUAGES_WOLFEN">
@@ -115,18 +119,5 @@
 			<select type="Language" name="Language (Lykara)" supports="Standard" restrict="-Wolfen" />
 		</rules>
 	</element>
-
-	<element name="Language" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_LANGUAGES_WOLFEN">
-		<description>
-			<p>You can speak, read and write Wolfen and one other language of your choice.</p>
-		</description>
-		<sheet display="false" />
-		<compendium display="false" />
-		<rules>
-			<select type="Language" name="Language (Lykara)" supports="Standard" restrict="-Wolfen" />
-		</rules>
-	</element>
-
-
 
 </elements>

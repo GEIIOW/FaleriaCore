@@ -52,7 +52,12 @@
 		</description>
 		<sheet>	
 			<description>Your claws are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d6 + {{strength:modifier}} (STR), instead of the bludgeoning damage normal for an unarmed strike.</description>
+			&#x2022; Claws: Melee Weapon Attack, 1d6 + {{galitarko weapon:modifier}} slashing damage.
 		</sheet>
+		<rules>
+			<stat name="galitarko weapon:modifier" value="strength:modifier" bonus="Galitarko strength" />
+			<stat name="galitarko weapon:modifier" value="3" bonus="Galitarko strength" />
+		</rules>
 	</element>
 	<element name="Mauling Strike" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_MAULINGSTRIKE">
 		<description>
