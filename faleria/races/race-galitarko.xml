@@ -138,6 +138,7 @@
 			<p>You can speak, read and write three languages of your choice.</p>
 		</description>
 		<sheet display="false" />
+		<compendium display="false" />
 		<rules>
 			<select type="Language" name="Language (Galitark)" supports="Standard" />
 			<select type="Language" name="Language (Galitark)" supports="Standard" />
@@ -191,6 +192,7 @@
 			<p>You can speak, read and write Ixali and one other language of your choice.</p>
 		</description>
 		<sheet display="false" />
+		<compendium display="false" />
 		<rules>
 			<select type="Language" name="Language (Galitark)" supports="Standard" restrict="-Ixali" />
 		</rules>
@@ -255,6 +257,7 @@
 			<p>You can speak, read and write Smidian and one other language of your choice.</p>
 		</description>
 		<sheet display="false" />
+		<compendium display="false" />
 		<rules>
 			<select type="Language" name="Language (Galitark)" supports="Standard" restrict="-Smidian" />
 		</rules>

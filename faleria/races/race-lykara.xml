@@ -14,7 +14,7 @@
 			<p>A silhouette with dark fur lit by moonlight jumps from tiled roof to tiled roof, causing a tile to fall and shatter on the cobblestone floor. The tune of steps on the tiles aligns with your racing heartbeat, until it stops. For months or years you go from town to town sinking your sharp teeth into whatever flesh you can find, until one day you wake up, sound of mind but still in this beastial body.</p>
 
 			<h4>PLAYING A LYKARA</h4>
-			<p class="indent"><strong>Most Lykara are mindless beasts who live to feast and pass Elignia’s curse on to other. On very rare occasions, a Lykara may regain their former mind. It is advised that the Lykara you play be sentient.</strong></p>
+			<p>Most Lykara are mindless beasts who live to feast and pass Elignia’s curse on to other. On very rare occasions, a Lykara may regain their former mind. It is advised that the Lykara you play be sentient.</p>
 
 			<h4>The Curse of Elignia</h4>
 			<p>It’s said that long ago there was a girl named Elignia who loved dogs very much. She was a shy, gentle and naive child who had trouble with getting along with the  other children of her town. One day, the other kids found a wolf den and decided to play a prank on Elignia.</p>
@@ -115,5 +115,18 @@
 			<select type="Language" name="Language (Lykara)" supports="Standard" restrict="-Wolfen" />
 		</rules>
 	</element>
+
+	<element name="Language" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_LANGUAGES_WOLFEN">
+		<description>
+			<p>You can speak, read and write Wolfen and one other language of your choice.</p>
+		</description>
+		<sheet display="false" />
+		<compendium display="false" />
+		<rules>
+			<select type="Language" name="Language (Lykara)" supports="Standard" restrict="-Wolfen" />
+		</rules>
+	</element>
+
+
 
 </elements>

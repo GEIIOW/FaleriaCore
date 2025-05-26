@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Feats</name>
+		<description>Feats from Yozolin's Lost Tome.</description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Lucky Crown</author>
+		<update version="0.0.1">
+			<file name="feats.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/FaleriaCore/faleria/feats.xml" />
+		</update>
+	</info>
+
+	<element name="Blood Frenzy" type="Feat" source="Yozolin's Lost Tome" id="ID_FALERIA_FEAT_BLOOD_FRENZY">
+		<prerequisite>Lykara</prerequisite>	
+		<requirements>ID_RACE_LYKARA</requirements>
+		<description>
+			<p><i>Prerequisite: Lykara</i></p>
+			<p>As a bonus action you can enter a blood frenzy that lasts for 1 minute, reverting to your curse’s wild roots and getting down on all fours, dropping anything you are holding. While in this stance you gain 10 feet of movement and your running leap counts your strength score as triple, instead of double, for the purposes of performing a long jump. When performing your running leap for at least 20 feet, you may choose to target a creature you can see to perform one of the following attacks:</p>
+			<ul>
+				<li>Wolf’s Mark - Make a claw attack which will always be a critical on a hit, after this attack successfully hits you lose your stance.</li>
+				<li>Hunter’s Takedown - The creature must make a Strength (Athletics) check against your Strength (Athletics), Dexterity (Acrobatics) or Wisdom (Survival) check or go prone. After the creature fails you lose your stance.</li>
+			</ul>
+			<p>You can enter this stance a number of times equal to your proficiency bonus, and regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet action="Bonus Action" usage="{{proficiency}}/Long Rest">
+			<description>As a bonus action you can enter a blood frenzy that lasts for 1 minute, reverting to your curse’s wild roots and getting down on all fours, dropping anything you are holding. While in this stance you gain 10 feet of movement and your running leap counts your strength score as triple, instead of double, for the purposes of performing a long jump. When performing your running leap for at least 20 feet, you may choose to target a creature you can see to perform one of the following attacks:
+				<ul>
+					<li>Wolf’s Mark - Make a claw attack which will always be a critical on a hit, after this attack successfully hits you lose your stance.</li>
+					<li>Hunter’s Takedown - The creature must make a Strength (Athletics) check against your Strength (Athletics), Dexterity (Acrobatics) or Wisdom (Survival) check or go prone. After the creature fails you lose your stance.</li>
+				</ul>
+			You can enter this stance a number of times equal to your proficiency bonus, and regain all expended uses when you finish a long rest.
+			</description>
+		</sheet>
+	</element>
+</elements>
