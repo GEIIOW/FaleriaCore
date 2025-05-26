@@ -2,7 +2,8 @@
 <elements>
 	<info>
 		<name>Galitarko</name>
-		<update version="0.2.3">
+		<author url="https://homebrewery.naturalcrit.com/share/BhQMXxI4c88-">Lucky Crown</author>
+		<update version="0.0.1">
 			<file name="race-galitarko.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/core/faleria/races/race-galitarko.xml" />
 		</update>
 	</info>
