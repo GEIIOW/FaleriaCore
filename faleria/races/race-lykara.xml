@@ -109,8 +109,7 @@
 			</description>
 		</sheet>
 		<rules>
-			<stat name="lykara weapon:modifier" value="strength:modifier" bonus="Lykara strength" />
-			<stat name="lykara weapon:modifier" value="3" bonus="Lykara strength" />
+			<stat name="lykara weapon:modifier" value="wisdom:modifier" bonus="Lykara strength" />
 		</rules>	
 	</element>
 

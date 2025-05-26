@@ -58,7 +58,6 @@
 		</sheet>
 		<rules>
 			<stat name="galitarko weapon:modifier" value="strength:modifier" bonus="Galitarko strength" />
-			<stat name="galitarko weapon:modifier" value="3" bonus="Galitarko strength" />
 		</rules>
 	</element>
 	<element name="Mauling Strike" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_MAULINGSTRIKE">
