@@ -17,6 +17,7 @@
 		<!--Base-->		
 		<file name="languages.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/languages.xml" />
 		<file name="feats.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/feats.xml" />
+		<file name="level-elements-0-1.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/level-elements-0-1.xml" />
 		<!--Weapons-->		
 		<file name="faleria-weapons.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/items/faleria-weapons.xml" />
 		<!--Race-->		
