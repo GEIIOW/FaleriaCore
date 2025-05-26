@@ -23,6 +23,7 @@
 		<file name="race-galitarko.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/races/race-galitarko.xml" />
 		<file name="race-lykara.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/races/race-lykara.xml" />
 		<file name="race-derenesan.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/races/race-derenesan.xml" />
+		<file name="race-genasi.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/races/race-genasi.xml" />
 	
 	</files>
 </index>

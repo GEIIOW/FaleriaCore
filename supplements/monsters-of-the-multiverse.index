@@ -16,7 +16,8 @@
 		<file name="race-eladrin.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/monsters-of-the-multiverse/race-eladrin.xml" />
 		<file name="race-fairy.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/monsters-of-the-multiverse/race-fairy.xml" />
 		<file name="race-firbolg.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/monsters-of-the-multiverse/race-firbolg.xml" />
-		<file name="race-genasi.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/monsters-of-the-multiverse/race-genasi.xml" />
+		<!--A usar a versão Faleria -->
+		<!--<file name="race-genasi.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/monsters-of-the-multiverse/race-genasi.xml" /> -->
 		<file name="race-githyanki.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/monsters-of-the-multiverse/race-githyanki.xml" />
 		<file name="race-githzerai.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/monsters-of-the-multiverse/race-githzerai.xml" />
 		<file name="race-goblin.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/monsters-of-the-multiverse/race-goblin.xml" />
