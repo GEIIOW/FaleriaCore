@@ -131,7 +131,7 @@
 		</sheet>
 	</element>
 
-	<element name="Unending Breath" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_ARCANE_EYE">
+	<element name="Arcane Eye" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_ARCANE_EYE">
 		<description>
 			<p>You have advantage on Wisdom (Perception) rolls made to see through magical illusions</p>
 		</description>
