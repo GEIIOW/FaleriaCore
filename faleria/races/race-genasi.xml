@@ -97,6 +97,59 @@
 		</rules>
 	</element>
 
+	<!--Arcana Genasi-->
+	<element name="Arcana Genasi" type="Sub Race" source="Yozolin's Lost Tome" id="ID_SUB_RACE_ARCANA_GENASI">
+		<supports>Genasi</supports>
+		<description>
+			<p>Arcana genasi descend from the elemental plane of arcana, Períaptos, specifically from the Alamite. They tend to be chaotic people, like the wildest of magic. Wherever they go, a trail of arcane weave always follows, like ethereal silk that is connected to their bodies.</p>
+			<p>Arcana genasi typically have purple skin, white or purple hair, and purple or dark blue eyes.</p>
+	
+			<h4>ARCANA GENASI TRAITS</h4>
+			<p>As an arcana genasi, you have the following traits.</p>
+			<p class="indent"><strong><em>Ability Score Improvement.</em></strong> Your Intelligence score increases by 1.</p>
+			<p class="indent"><strong><em>Arcane eye.</em></strong> You have advantage on Wisdom (Perception) rolls made to see through magical illusions.</p>
+			<p class="indent"><strong><em>Magic Resistance.</em></strong>  You have advantadge on saving throws against spells.</p>
+			<p class="indent"><strong><em>Moonsoon.</em></strong> You know the gust cantrip. Starting at 3rd level, you can cast the feather fall spell with this trait, without material components. Starting at 7th level, you can also cast the fly spell with this trait, without requiring a material component. Once you cast feather fall or fly with this trait, you can’t cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak Galish.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="1" />
+			<grant type="Language" id="ID_LANGUAGE_GALISH" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_THUNDER" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_MOONSOON" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_UNENDING_BREATH" />
+		</rules>
+	</element>
+
+	<element name="Unending Breath" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_UNENDING_BREATH">
+		<description>
+			<p>You can hold your breath indefinitely while you're not incapacitated.</p>
+		</description>
+		<sheet>
+			<description>You can hold your breath indefinitely while you're not incapacitated.</description>
+		</sheet>
+	</element>
+
+	<element name="Moonsoon" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_MOONSOON">
+		<description>
+			<p>You know the <strong>gust</strong> cantrip. Starting at 3rd level, you can cast the <strong>feather fall</strong> spell with this trait, without requiring a material component. Starting at 7th level, you can also cast the <strong>fly</strong> spell with this trait, without requiring a material component. Once you cast <strong>feather fall</strong> or <strong>fly</strong> with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>
+				You know the <strong>gust</strong> cantrip. Starting at 3rd level, you can cast <strong>feather fall</strong> spell with this trait. Starting at 7th level, you can also cast the <strong>fly</strong> spell with this trait. Once you cast <strong>feather fall</strong> or <strong>fly</strong> with this trait, you can’t cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.
+			</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_XGTE_SPELL_GUST" />
+			<grant type="Spell" id="ID_PHB_SPELL_FEATHER_FALL" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_FLY" level="7" />
+		</rules>
+	</element>
+
+
+
+
 	<!--Earth Genasi-->
 	<element name="Earth Genasi" type="Sub Race" source="Yozolin's Lost Tome" id="ID_SUB_RACE_EARTH_GENASI">
 		<supports>Genasi</supports>
