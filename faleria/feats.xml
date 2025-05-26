@@ -24,9 +24,9 @@
 		<sheet action="Bonus Action" usage="{{proficiency}}/Long Rest">
 			<description>
 			As a bonus action you can enter a blood frenzy that lasts for 1 minute, reverting to your curse’s wild roots and getting down on all fours, dropping anything you are holding. While in this stance you gain 10 feet of movement and your running leap counts your strength score as triple, instead of double, for the purposes of performing a long jump. When performing your running leap for at least 20 feet, you may choose to target a creature you can see to perform one of the following attacks:
-				&#10;&#x2022; Wolf’s Mark - Make a claw attack which will always be a critical on a hit, after this attack successfully hits you lose your stance.
-				&#10;&#x2022; Hunter’s Takedown - The creature must make a Strength (Athletics) check against your Strength (Athletics), Dexterity (Acrobatics) or Wisdom (Survival) check or go prone. After the creature fails you lose your stance.
-				&#10; You can enter this stance a number of times equal to your proficiency bonus, and regain all expended uses when you finish a long rest.
+				<p>&#x2022; Wolf’s Mark - Make a claw attack which will always be a critical on a hit, after this attack successfully hits you lose your stance.</p>
+				<p>&#x2022; Hunter’s Takedown - The creature must make a Strength (Athletics) check against your Strength (Athletics), Dexterity (Acrobatics) or Wisdom (Survival) check or go prone. After the creature fails you lose your stance.</p>
+				<p>You can enter this stance a number of times equal to your proficiency bonus, and regain all expended uses when you finish a long rest.</p>
 			</description>
 		</sheet>
 	</element>
