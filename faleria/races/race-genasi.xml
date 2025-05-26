@@ -115,11 +115,10 @@
 		<sheet display="false" />
 		<rules>
 			<stat name="intelligence" value="1" />
-			<grant type="Language" id="ID_LANGUAGE_GALISH" />
+			<grant type="Language" id="ID_LANGUAGE_ARCANIAN" />
 			<grant type="Condition" id="ID_RACIAL_TRAIT_RESISTANCE_MAGIC" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_MAGIC_FLOW" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ARCANE_EYE" />
-			<grant type="Racial Trait" id="ID_LANGUAGE_ARCANIAN" />
 		</rules>
 	</element>
 
