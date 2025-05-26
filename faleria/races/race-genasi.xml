@@ -130,7 +130,7 @@
 		</sheet>
 	</element>
 
-	<element name="Tectonic Plating" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_TeCTONIC_PLATING">
+	<element name="Tectonic Plating" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_TECTONIC_PLATING">
 		<description>
 			<p>You know the <strong>mold earth</strong> cantrip. Starting at 3rd level, you can cast the <strong>earth tremor</strong> spell with this trait, without requiring a material component. Starting at 7th level, you can also cast the <strong>erupting earth</strong> spell with this trait, without requiring a material component. Once you cast <strong>earth tremor</strong> or <strong>erupting earth</strong> with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
 		</description>
