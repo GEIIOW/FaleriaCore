@@ -53,10 +53,20 @@
 		</setters>
 	</element>
 
-		<element name="Wolfen" type="Language" source="Yozolin's Lost Tome" id="ID_LANGUAGE_WOLFEN">
+	<element name="Wolfen" type="Language" source="Yozolin's Lost Tome" id="ID_LANGUAGE_WOLFEN">
 		<supports>Standard</supports>
 		<description>
 			<p>Common Tongue of wolfes</p>
+		</description>
+		<setters>
+			<set name="Standard">true</set>
+		</setters>
+	</element>
+
+	<element name="Dalsh" type="Language" source="Yozolin's Lost Tome" id="ID_LANGUAGE_DALSH">
+		<supports>Standard</supports>
+		<description>
+			<p>Common Tongue from the hells. ( to fix )</p>
 		</description>
 		<setters>
 			<set name="Standard">true</set>

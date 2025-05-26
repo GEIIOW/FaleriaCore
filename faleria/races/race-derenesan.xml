@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Derenesan</name>
+		<update version="0.0.1">
+			<file name="race-derenesan.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/core/faleria/races/race-derenesan.xml" />
+		</update>
+	</info>
+
+	<element name="Derenesan" type="Race" source="Yozolin's Lost Tome" id="ID_RACE_DERENESAN">
+		<description>
+			<p class="flavor">“There are beasts even I cannot start to comprehend. On my voyage to Manyhal, whislt staying overnight on a small village, the howling commenced, then the screams. My guards and I rushed to the streets to see what was happening, but as we opened our doors we heard others lock. In a flash of darkness, one by one my men started to be whisked away in agony. I did try to help them, but they were too quick, even for me. As the slaughter ended, I managed to injure one of the creature’s legs. For my remaining time in the village, I studied it and found them not be lycanthropes nor intelligent. The towns folk call them Lykaras and speak of a cursed woman. I found it all fascinating, but unimportant to my current research. One day I may try to find a cure to these beasts.”</p>
+			<p>- Y. Mageshell, Manyhals of Death.</p>
+			<p>A silhouette with dark fur lit by moonlight jumps from tiled roof to tiled roof, causing a tile to fall and shatter on the cobblestone floor. The tune of steps on the tiles aligns with your racing heartbeat, until it stops. For months or years you go from town to town sinking your sharp teeth into whatever flesh you can find, until one day you wake up, sound of mind but still in this beastial body.</p>
+
+			<h4>Master Salvgar's Myth</h4>
+			<p>Não da copy paste.</p>
+
+			<h4>The Curse of Elignia</h4>
+			<p>It’s said that long ago there was a girl named Elignia who loved dogs very much. She was a shy, gentle and naive child who had trouble with getting along with the  other children of her town. One day, the other kids found a wolf den and decided to play a prank on Elignia.</p>
+			<p>They guided her to the den, with the promise of introducing her to a cuddliest dog on that side of the realm. Once at the den they pushed her inside, exclaiming that, if she loved dogs as much as she said, she should live with them. Her fall spooked the wolves who were fast asleep inside their home and so, they ripped her to shreds. Elignia cried for help, but none of the children came to her aid. Only Nezorous, aspect of vengeance, came. She skinned the beasts alive and placed their fur where Elignia’s injuries where. She molded her into a living wolf and encouraged the girl to go take vengeance on the ones who betrayed her.</p>
+			
+			<h4>Children of Umandália</h4>
+			<p>The Derenesans may have been infused with a mortal soul but they have no link to the life that soul had pursued. They were born to serve and protect their home, tough not all are as pure as it may appear at first. Before the end of the Penury, not all souls taken to Derenes Dal were good, unlike now, so derenesans can come in all types of personality.</p>
+			<p>As a handmade people, derenesans all have differences in appearence, tough some are more noticeable than others, but all follow the basic principle of having bluish to lavender skin, deep blue hair and a single golden horn on their forehead.</p>
+
+			<h4>Derenesan Names</h4>
+			<p>Derenesans have no naming conventions they are compelled to follow and will choose their own names, some choosing to not even have one.</p>
+
+			<h4>Derenesan traits</h4>
+			<p>Derenesans seem to be made with an assortment of natural abilities.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 2. In addition, one other ability score of your choice increases by 1.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Derenesans are created as adults. The maximum lifespan of a Derenesan is yet unknown as they show no sign of aging. You are immune to magical aging effects.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Derenesans stand between 5 and 7 feet tall and average about 150 pounds. Your size is Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> Accustomed to hunting at night, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can’t discern colors in that darkness only as shades of red.</p>
+			<p class="indent"><strong><em>Blue Tinted Clay and Spring Water. </em></strong> The magical materials used to create you carried divine properties into your being. The blue tinted clay that makes up your body is resilient to divine energy and the spring water that courses through your veins doesn’t allow you to be ill. You are immune to disease and have resistance to radiant damage.</p>
+			<p class="indent"><strong><em>Defender of Derenes Dal. </em></strong> YoYou have proficiency with weapons with the versatile property. While wielding a weapon you are proficient with you treat it as if it had the finesse property, if it didn’t already.</p>
+			<p class="indent"><strong><em>Umandalia’s Soul. </em></strong> You know the shillelagh cantrip. Starting at 3rd level, you can cast heroism spell with this trait. Starting at 5th level, you can also cast the branding smite spell with this trait. Once you cast heroism or branding smite with this trait, you can’t cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
+			<p class="indent"><strong><em>Language. </em></strong> You can speak, read and write Dalsh and one extra language of your choice.</p>
+			
+			<h4>MORE INFORMATION</h4>	
+			<p>For more details and updates, visit: https://homebrewery.naturalcrit.com/share/xZZE3P-AcWdS</p>
+
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Adran, Aelar, Aramil, Arannis, Aust, Beiro, Berrian, Carric, Enialis, Erdan, Erevan, Galinndan, Hadarai, Heian, Himo, Immeral, Ivellios, Laucian, Mindartis, Paelias, Peren, Quarion, Riardon, Rolen, Soveliss, Thamior, Tharivol, Theren, Varis</set>
+			<set name="names" type="female">Adrie, Althaea, Anastrianna, Andraste, Antinua, Bethrynna, Birel, Caelynn, Drusilia, Enna, Felosial, Ielenia, Jelenneth, Keyleth, Leshanna, Lia, Meriele, Mialee, Naivara, Quelenna, Quillathe, Sariel, Shanairra, Shava, Silaqui, Theirastra, Thia, Vadania, Valanthe, Xanaphia</set>
+			<set name="names" type="family">Amakiir, Amastacia, Galanodel, Holimion, Ilphelkiir, Liadon, Meliamne, Nai'lo, Siannodel, Xiloscient</set>
+			<set name="names-format">{{name}} {{family}}</set>
+		</setters>
+		<rules>
+			<stat name="dexterity" value="2" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Derenesan)" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_WISDOM|ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_CONSTITUTION|ID_PHB_FEAT_ASI_CHARISMA" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_LANGUAGE_DALSH" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BTCSW" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DEFENDEROFDERENESDAL" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_UMANDALIAS_SOUL" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_LANGUAGE_DALSH" />
+		</rules>
+	</element>
+
+	<element name="Blue Tinted Clay and Spring Water" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_BTCSW">
+		<description>
+			<p>The magical materials used to create you carried divine properties into your being. The blue tinted clay that makes up your body is resilient to divine energy and the spring water that courses through your veins doesn’t allow you to be ill.</p>
+			<p>You are immune to disease and have resistance to radiant damage.</p>
+		<sheet>
+			<description>
+				The magical materials used to create you carried divine properties into your being. The blue tinted clay that makes up your body is resilient to divine energy and the spring water that courses through your veins doesn’t allow you to be ill.
+				&#10;You are immune to disease and have resistance to radiant damage.
+			</description>
+		</sheet>
+		<rules>
+		<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" />
+		</rules>
+	</element>
+	<element name="Defender of Derenes Dal" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_DEFENDEROFDERENESDAL">
+		<description>
+			<p>You have proficiency with weapons with the versatile property. While wielding a weapon you are proficient with you treat it as if it had the finesse property, if it didn’t already.</p>
+		</description>
+		<sheet>
+			<description>You have proficiency with weapons with the versatile property. While wielding a weapon you are proficient with you treat it as if it had the finesse property, if it didn’t already.</description>
+		</sheet>
+	</element>
+	<element name="Umandalia's Soul" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_UMANDALIAS_SOUL">
+		<description>
+			<p>You know the <strong>shillelagh</strong> cantrip. Starting at 3rd level, you can cast <strong>heroism</strong> spell with this trait. Starting at 5th level, you can also cast the <strong>branding smite</strong> spell with this trait. Once you cast <strong>heroism</strong> or <strong>branding smite</strong> with this trait, you can’t cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
+		</description>
+		<sheet action="Bonus Action" usage="1/Long Rest">
+			<description>
+				You know the <strong>shillelagh</strong> cantrip. Starting at 3rd level, you can cast <strong>heroism</strong> spell with this trait. Starting at 5th level, you can also cast the <strong>branding smite</strong> spell with this trait. Once you cast <strong>heroism</strong> or <strong>branding smite</strong> with this trait, you can’t cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.
+			</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_SHILLELAGH" />
+			<grant type="Spell" id="ID_PHB_SPELL_HEROISM" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_BRANDING_SMITE" level="5"/>
+		</rules>
+	</element>
+
+	<element name="Language" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_LANGUAGE_DALSH">
+		<description>
+			<p>You can speak, read and write Dalsh and one extra language of your choice.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Language" name="Language (Derenesan)" supports="Standard" restrict="-Dalsh" />
+		</rules>
+	</element>
+
+</elements>
