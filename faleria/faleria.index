@@ -20,6 +20,7 @@
 		<file name="faleria-weapons.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/items/faleria-weapons.xml" />
 		<!--Race-->		
 		<file name="race-galitarko.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/races/race-galitarko.xml" />
+		<file name="race-lykara.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/races/race-lykara.xml" />
 
 	</files>
 </index>

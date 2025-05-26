@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Lykara</name>
+		<update version="0.0.1">
+			<file name="race-lykara.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/core/faleria/races/race-lykara.xml" />
+		</update>
+	</info>
+
+	<element name="Lykara" type="Race" source="Yozolin's Lost Tome" id="ID_RACE_LYKARA">
+		<description>
+			<p class="flavor">“There are beasts even I cannot start to comprehend. On my voyage to Manyhal, whislt staying overnight on a small village, the howling commenced, then the screams. My guards and I rushed to the streets to see what was happening, but as we opened our doors we heard others lock. In a flash of darkness, one by one my men started to be whisked away in agony. I did try to help them, but they were too quick, even for me. As the slaughter ended, I managed to injure one of the creature’s legs. For my remaining time in the village, I studied it and found them not be lycanthropes nor intelligent. The towns folk call them Lykaras and speak of a cursed woman. I found it all fascinating, but unimportant to my current research. One day I may try to find a cure to these beasts.”</p>
+			<p>- Y. Mageshell, Manyhals of Death.</p>
+			<p>A silhouette with dark fur lit by moonlight jumps from tiled roof to tiled roof, causing a tile to fall and shatter on the cobblestone floor. The tune of steps on the tiles aligns with your racing heartbeat, until it stops. For months or years you go from town to town sinking your sharp teeth into whatever flesh you can find, until one day you wake up, sound of mind but still in this beastial body.</p>
+
+			<h4>PLAYING A LYKARA</h4>
+			<p class="indent"><strong>Most Lykara are mindless beasts who live to feast and pass Elignia’s curse on to other. On very rare occasions, a Lykara may regain their former mind. It is advised that the Lykara you play be sentient.</strong></p>
+
+			<h4>The Curse of Elignia</h4>
+			<p class="indent"><strong>It’s said that long ago there was a girl named Elignia who loved dogs very much. She was a shy, gentle and naive child who had trouble with getting along with the  other children of her town. One day, the other kids found a wolf den and decided to play a prank on Elignia.</strong></p>
+			<p>They guided her to the den, with the promise of introducing her to a cuddliest dog on that side of the realm. Once at the den they pushed her inside, exclaiming that, if she loved dogs as much as she said, she should live with them. Her fall spooked the wolves who were fast asleep inside their home and so, they ripped her to shreds. Elignia cried for help, but none of the children came to her aid. Only Nezorous, aspect of vengeance, came. She skinned the beasts alive and placed their fur where Elignia’s injuries where. She molded her into a living wolf and encouraged the girl to go take vengeance on the ones who betrayed her.</p>
+			
+			<h4>Lykara Kin</h4>
+			<p class="indent"><strong>Once cursed, a creature’s nature fundamentally changes both physically and mentally. Altough now cured from the mental curse, some old habits remain. Lykara’s seek companionship from others to help deal with the trauma of their curse. Lykara’s affected by the curse don’t typically attack not cursed Lykaras unless provoked and could even be friendly towards them. A pack of Lykaras will be led by the strongest Lykara.</strong></p>
+			<p>Once transformed, some Lykaras retain traits from their previous mortal type such as fins, longer tusks and small horns. In general Lykaras retain their eye colour when cursed and their fur varies from gray, brown, white and black.</p>
+
+			<h4>Lykara Names</h4>
+			<p class="indent"><strong>Lykaras don’t really have naming conventions as they are essentially mindless. Once the curse is removed a Lykara may choose to keep their old name or a new one that fits their new identity.</strong></p>
+
+			<h4>Lykara traits</h4>
+			<p>Lykaras seem to gain abilities when inflicted with the curse.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 2. In addition, one other ability score of your choice increases by 1.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Lykaras aren’t born but turned by their. They seem to age at the same rate as dwarves but their maximum lifespan remains a mystery.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Lykaras stand between 5 and 8 feet tall and average about 200 pounds.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 40 feet, and you have a climbing speed equal to your walking speed.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> Accustomed to hunting at night, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can’t discern colors in that darkness only as shades of red.</p>
+			<p class="indent"><strong><em>Beastial Hunter. </em></strong> You are proficient with two skills of your choosing: Athletics, Acrobatics, Nature, Survival or Stealth.</p>
+			<p class="indent"><strong><em>Hunter's Sense. </em></strong> You have advantage on Wisdom (Perception) checks made to hear or smell.</p>
+			<p class="indent"><strong><em>Running Leap. </em></strong> You count your strength score as double for the purposes of performing a long or high jump.</p>
+			<p class="indent"><strong><em>Rip and Tear. </em></strong> Lykaras have sharp teeth and claws. Your teeth and claws are natural weapons with which you are proficient. You may add your Wisdom modifier instead of your Strength modifier, to the attack and damage rolls when you attack with your bite or claws. Your bite deals 1d6 piercing damage on a hit and your claws deal 1d4 slashing damage on a hit.</p>
+			<p class="indent"><strong><em>Languages. </em></strong> You can speak, read and write Wolfen and one other language of your choice.</p>
+			
+			<h4>MORE INFORMATION</h4>	
+			<p class="indent"><strong>For more details and updates, visit:</strong> https://homebrewery.naturalcrit.com/share/4cIcJ3bCTaU0</p>
+
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Adran, Aelar, Aramil, Arannis, Aust, Beiro, Berrian, Carric, Enialis, Erdan, Erevan, Galinndan, Hadarai, Heian, Himo, Immeral, Ivellios, Laucian, Mindartis, Paelias, Peren, Quarion, Riardon, Rolen, Soveliss, Thamior, Tharivol, Theren, Varis</set>
+			<set name="names" type="female">Adrie, Althaea, Anastrianna, Andraste, Antinua, Bethrynna, Birel, Caelynn, Drusilia, Enna, Felosial, Ielenia, Jelenneth, Keyleth, Leshanna, Lia, Meriele, Mialee, Naivara, Quelenna, Quillathe, Sariel, Shanairra, Shava, Silaqui, Theirastra, Thia, Vadania, Valanthe, Xanaphia</set>
+			<set name="names" type="family">Amakiir, Amastacia, Galanodel, Holimion, Ilphelkiir, Liadon, Meliamne, Nai'lo, Siannodel, Xiloscient</set>
+			<set name="names-format">{{name}} {{family}}</set>
+		</setters>
+		<rules>
+			<stat name="wisdom" value="2" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Lykara)" supports="Custom Ability Score Increase 1" />
+			<stat name="innate speed" value="40" bonus="base" />
+			<stat name="speed:climb" value="speed" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_LANGUAGE_WOLFEN" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BEASTIAL_HUNTER" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HUNTERS_SENSE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_RUNNING_LEAP" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_RIP_AND_TEAR" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_LANGUAGES_WOLFEN" />
+		</rules>
+	</element>
+
+	<element name="Bestial Hunter" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_BEASTIAL_HUNTER">
+		<description>
+			<p>You have proficiency in the Perception skill.</p>
+		</description>
+		<sheet display="false">
+			<description>You are proficient with two skills of your choosing: Athletics, Acrobatics, Nature, Survival or Stealth.</description>
+		</sheet>
+		<rules>
+			<select type="Proficiency" name="Bestial Hunter" supports="ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_STEALTH" number="2" />
+			<select type="Proficiency" name="Customized Skill Proficiency (Bestial Hunter)" supports="Skill" number="2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+	<element name="Hunter's Sense" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_HUNTERS_SENSE">
+		<description>
+			<p>You have advantage on Wisdom (Perception) checks made to hear or smell.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on Wisdom (Perception) checks made to hear or smell.</description>
+		</sheet>
+	</element>
+	
+	<element name="Running Leap" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_RUNNING_LEAP">
+		<description>
+			<p>You count your Strength score as double for the purposes of performing a long or high jump.</p>
+		</description>
+		<sheet>
+			<description>You count your Strength score as double for the purposes of performing a long or high jump.</description>
+		</sheet>
+	</element>
+
+	<element name="Rip and Tear" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_RIP_AND_TEAR">
+		<description>
+			<p>Lykaras have sharp teeth and claws. Your teeth and claws are natural weapons with which you are proficient. You may add your Wisdom modifier instead of your Strength modifier, to the attack and damage rolls when you attack with your bite or claws. Your bite deals 1d6 piercing damage on a hit and your claws deal 1d4 slashing damage on a hit.</p>
+		</description>
+		<sheet>
+			<description>Lykaras have sharp teeth and claws. Your teeth and claws are natural weapons with which you are proficient. You may add your Wisdom modifier (+ {{modifier:wisdom}} ) instead of your Strength modifier (+ {{modifier:strength}} ), to the attack and damage rolls when you attack with your bite or claws. Your bite deals 1d6 piercing damage on a hit and your claws deal 1d4 slashing damage on a hit.</description>
+		</sheet>
+	</element>
+
+	<element name="Language" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_LANGUAGES_WOLFEN">
+		<description>
+			<p>You can speak, read and write Wolfen and one other language of your choice.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Language" name="Language (Lykara)" supports="Standard" restrict="-Wolfen" />
+		</rules>
+	</element>
+
+</elements>
