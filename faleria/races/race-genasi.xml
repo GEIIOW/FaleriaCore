@@ -119,7 +119,7 @@
 			<grant type="Condition" id="ID_RACIAL_TRAIT_RESISTANCE_MAGIC" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_MAGIC_FLOW" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ARCANE_EYE" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ARCANIAN" />
+			<grant type="Racial Trait" id="ID_LANGUAGE_ARCANIAN" />
 		</rules>
 	</element>
 
