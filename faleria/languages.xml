@@ -83,6 +83,15 @@
 		</setters>
 	</element>
 
+	<element name="Soddish" type="Language" source="Yozolin's Lost Tome" id="ID_LANGUAGE_SODDISH">
+		<supports>Standard</supports>
+		<description>
+			<p>Common Tongue from the hells. ( to fix )</p>
+		</description>
+		<setters>
+			<set name="Standard">true</set>
+		</setters>
+	</element>
 
 </elements>
 
