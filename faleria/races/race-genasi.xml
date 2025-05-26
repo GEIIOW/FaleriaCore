@@ -147,9 +147,6 @@
 		</rules>
 	</element>
 
-
-
-
 	<!--Earth Genasi-->
 	<element name="Earth Genasi" type="Sub Race" source="Yozolin's Lost Tome" id="ID_SUB_RACE_EARTH_GENASI">
 		<supports>Genasi</supports>
@@ -165,6 +162,7 @@
 			<p class="indent"><strong><em>Tectonic Plating.</em></strong> You know the mold earth cantrip. Starting at 3rd level, you can cast the earth tremor spell with this trait. Starting at 7th level, you can also cast the erupting earth spell with this trait, without requiring a material component. Once you cast earth tremor or erupting earth with this trait, you can’t cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
 			<p class="indent"><strong><em>Languages.</em></strong> You can speak Soddish.</p>
 		</description>	
+		<sheet display="false" />
 		<rules>
 			<stat name="strength" value="1" />
 			<grant type="Language" id="ID_LANGUAGE_SODDISH" />
