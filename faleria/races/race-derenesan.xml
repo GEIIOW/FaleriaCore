@@ -107,6 +107,7 @@
 		<description>
 			<p>You can speak, read and write Dalsh and one extra language of your choice.</p>
 		</description>
+		<compendium display="false" />
 		<sheet display="false" />
 		<rules>
 			<select type="Language" name="Language (Derenesan)" supports="Standard" restrict="-Dalsh" />

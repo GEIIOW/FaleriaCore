@@ -117,6 +117,7 @@
 		<description>
 			<p>You can speak, read and write Wolfen and one other language of your choice.</p>
 		</description>
+		<compendium display="false" />		
 		<sheet display="false" />
 		<rules>
 			<select type="Language" name="Language (Lykara)" supports="Standard" restrict="-Wolfen" />
