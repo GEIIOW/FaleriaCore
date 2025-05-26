@@ -17,15 +17,15 @@
 			<p class="indent"><strong>Most Lykara are mindless beasts who live to feast and pass Elignia’s curse on to other. On very rare occasions, a Lykara may regain their former mind. It is advised that the Lykara you play be sentient.</strong></p>
 
 			<h4>The Curse of Elignia</h4>
-			<p class="indent"><strong>It’s said that long ago there was a girl named Elignia who loved dogs very much. She was a shy, gentle and naive child who had trouble with getting along with the  other children of her town. One day, the other kids found a wolf den and decided to play a prank on Elignia.</strong></p>
+			<p>It’s said that long ago there was a girl named Elignia who loved dogs very much. She was a shy, gentle and naive child who had trouble with getting along with the  other children of her town. One day, the other kids found a wolf den and decided to play a prank on Elignia.</p>
 			<p>They guided her to the den, with the promise of introducing her to a cuddliest dog on that side of the realm. Once at the den they pushed her inside, exclaiming that, if she loved dogs as much as she said, she should live with them. Her fall spooked the wolves who were fast asleep inside their home and so, they ripped her to shreds. Elignia cried for help, but none of the children came to her aid. Only Nezorous, aspect of vengeance, came. She skinned the beasts alive and placed their fur where Elignia’s injuries where. She molded her into a living wolf and encouraged the girl to go take vengeance on the ones who betrayed her.</p>
 			
 			<h4>Lykara Kin</h4>
-			<p class="indent"><strong>Once cursed, a creature’s nature fundamentally changes both physically and mentally. Altough now cured from the mental curse, some old habits remain. Lykara’s seek companionship from others to help deal with the trauma of their curse. Lykara’s affected by the curse don’t typically attack not cursed Lykaras unless provoked and could even be friendly towards them. A pack of Lykaras will be led by the strongest Lykara.</strong></p>
+			<p>Once cursed, a creature’s nature fundamentally changes both physically and mentally. Altough now cured from the mental curse, some old habits remain. Lykara’s seek companionship from others to help deal with the trauma of their curse. Lykara’s affected by the curse don’t typically attack not cursed Lykaras unless provoked and could even be friendly towards them. A pack of Lykaras will be led by the strongest Lykara.</p>
 			<p>Once transformed, some Lykaras retain traits from their previous mortal type such as fins, longer tusks and small horns. In general Lykaras retain their eye colour when cursed and their fur varies from gray, brown, white and black.</p>
 
 			<h4>Lykara Names</h4>
-			<p class="indent"><strong>Lykaras don’t really have naming conventions as they are essentially mindless. Once the curse is removed a Lykara may choose to keep their old name or a new one that fits their new identity.</strong></p>
+			<p>Lykaras don’t really have naming conventions as they are essentially mindless. Once the curse is removed a Lykara may choose to keep their old name or a new one that fits their new identity.</p>
 
 			<h4>Lykara traits</h4>
 			<p>Lykaras seem to gain abilities when inflicted with the curse.</p>
@@ -53,7 +53,7 @@
 		</setters>
 		<rules>
 			<stat name="wisdom" value="2" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Lykara)" supports="Custom Ability Score Increase 1" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Lykara)" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_CONSTITUTION|ID_PHB_FEAT_ASI_CHARISMA" />
 			<stat name="innate speed" value="40" bonus="base" />
 			<stat name="speed:climb" value="speed" bonus="base" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
@@ -102,7 +102,7 @@
 			<p>Lykaras have sharp teeth and claws. Your teeth and claws are natural weapons with which you are proficient. You may add your Wisdom modifier instead of your Strength modifier, to the attack and damage rolls when you attack with your bite or claws. Your bite deals 1d6 piercing damage on a hit and your claws deal 1d4 slashing damage on a hit.</p>
 		</description>
 		<sheet>
-			<description>Lykaras have sharp teeth and claws. Your teeth and claws are natural weapons with which you are proficient. You may add your Wisdom modifier (+ {{modifier:wisdom}} ) instead of your Strength modifier (+ {{modifier:strength}} ), to the attack and damage rolls when you attack with your bite or claws. Your bite deals 1d6 piercing damage on a hit and your claws deal 1d4 slashing damage on a hit.</description>
+			<description>Lykaras have sharp teeth and claws. Your teeth and claws are natural weapons with which you are proficient. You may add your Wisdom modifier (+ {{wisdom:modifier}} ) instead of your Strength modifier (+ {{strength:modifier}} ), to the attack and damage rolls when you attack with your bite or claws. Your bite deals 1d6 piercing damage on a hit and your claws deal 1d4 slashing damage on a hit.</description>
 		</sheet>
 	</element>
 
