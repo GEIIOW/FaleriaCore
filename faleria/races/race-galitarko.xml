@@ -70,6 +70,7 @@
 			<p>Three main subtypes of galitarko populate Faleria: Grizzly, Panda and Polar Galitarko. Choose one of these subtypes.</p>
 		</description>
 		<sheet display="false" />
+		<compendium display="false" />
 		<rules>
 			<select type="Sub Race" name="Galitarko Subrace" supports="Galitarko" />
 		</rules>
@@ -157,6 +158,7 @@
 		</setters>
 		<rules>
 			<stat name="charisma" value="1" />
+			<grant type="Language" id="ID_LANGUAGE_IXALI" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HIGH_CLIMBER" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BEARFRIEND" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ROLLUP" />
@@ -193,7 +195,7 @@
 	<element name="Polar Galitarko" type="Sub Race" source="Yozolin's Lost Tome" id="ID_SUB_RACE_POLAR_GALITARKO">
 		<supports>Galitarko</supports>
 		<description>
-			<p class="indent">The polar galitarko wear a resemblance to polar bears. Natural to Nyjörsa, these mortals are followers of the Stengul philosophy, that teaches you to first take care of yourself and your closest allies and only then think of others. Due to this, these galitarko tend to stay in small packs or even all alone and have nomadic tendencies.</p> -->
+			<p class="indent">The polar galitarko wear a resemblance to polar bears. Natural to Nyjörsa, these mortals are followers of the Stengul philosophy, that teaches you to first take care of yourself and your closest allies and only then think of others. Due to this, these galitarko tend to stay in small packs or even all alone and have nomadic tendencies.</p> 
 			<p>Polar galitarko names have a lot of vowels, particularly ones that necessitate the rounding of the lips such as Oulow, Gaupo, Urrobon and Abapaoa.</p>
 			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 1.</p>
 			<p class="indent"><strong><em>Freezing Waters.</em></strong> You have a swim speed equal to your walking speed.</p>
@@ -208,6 +210,7 @@
 		</setters>
 		<rules>
 			<stat name="constitution" value="1" />
+			<grant type="Language" id="ID_LANGUAGE_SMIDIAN" />
 			<grant type="Raciaol Trait" id="ID_RACIAL_TRAIT_WATER_SPEED" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_KEENSIGHT" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BEARLYREADY" />
