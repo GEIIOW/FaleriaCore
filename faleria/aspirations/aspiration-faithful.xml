@@ -7,7 +7,7 @@
 		</update>
 	</info>
 
-	<element name="Faithful" type="Class" source="Player’s Handbook" id="ID_ASPIRATION_FAITHFUL">
+	<element name="Faithful" type="Class" source="Yozolin's Lost Tome" id="ID_ASPIRATION_FAITHFUL" requirements = "ID_OPTION_LEVEL_0">
 		<description>
 			<p>The faithful are aspiring to serve a higher entity or power.</p>
 
