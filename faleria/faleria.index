@@ -15,6 +15,7 @@
 		<!--Backgrounds-->
 		<file name="background-bloodson.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/backgrounds/background-bloodson.xml" />
 		<!--Base-->		
+		<file name="options.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/options.xml" />
 		<file name="languages.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/languages.xml" />
 		<file name="feats.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/feats.xml" />
 		<!--Weapons-->		

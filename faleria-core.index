@@ -14,7 +14,8 @@
 		<file name="monster-manual.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/core/monster-manual.index" />
 		<file name="players-handbook.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/core/players-handbook.index" />
 		<file name="xanathars-guide-to-everything.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/xanathars-guide-to-everything.index" />
-  	<!--
+
+	<!--
 		<file name="acquisitions-incorporated.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/acquisitions-incorporated.index" />
  	 	<file name="mordenkainens-tome-of-foes.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/mordenkainens-tome-of-foes.index" />
   		<file name="tashas-cauldron-of-everything.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/tashas-cauldron-of-everything.index" />
