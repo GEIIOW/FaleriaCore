@@ -208,7 +208,7 @@
 				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
 				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
 				<select type="Proficiency" name="Warrior" supports="ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_ACROBATICS" />
-				<select type="Proficiency" name="Warrior" supports="ID_PROFICIENCY_SAVINGTHROW_STRENGHT|ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" />
+				<select type="Proficiency" name="Warrior" supports="ID_PROFICIENCY_SAVINGTHROW_STRENGTH|ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" />
 				<stat name="hp" value="7" />
 		</rules>
 	</element>
