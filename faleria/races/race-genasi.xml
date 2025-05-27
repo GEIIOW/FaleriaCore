@@ -231,6 +231,9 @@
 		</rules>
 	</element>
 	<element name="Combustion" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_COMBUSTION">
+		<description>
+				You know the <strong>control flames</strong> cantrip. Starting at 3rd level, you can cast the <strong>burning hands</strong> spell with this trait, without requiring a material component. Starting at 7th level, you can also cast the <strong>fireball</strong> spell with this trait, without requiring a material component. Once you cast <strong>control flames</strong> or <strong>fire ball</strong> with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.
+		</description>
 		<sheet usage="1/Long Rest">
 			<description>
 				You know the <strong>control flames</strong> cantrip. Starting at 3rd level, you can cast the <strong>burning hands</strong> spell with this trait, without requiring a material component. Starting at 7th level, you can also cast the <strong>fireball</strong> spell with this trait, without requiring a material component. Once you cast <strong>control flames</strong> or <strong>fire ball</strong> with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.
@@ -253,7 +256,7 @@
 			<h4>WATER GENASI TRAITS</h4>
 			<p>As an water genasi, you have the following traits.</p>
 			<p class="indent"><strong><em>Ability Score Improvement.</em></strong> Your Wisdom score increases by 1.</p>
-			<p class="indent"><strong><em>Amphibious.</em></strong> You breath air and water.</p>
+			<p class="indent"><strong><em>Amphibious.</em></strong> You breathe air and water and have a swimming speed equal to your walking speed.</p>
 			<p class="indent"><strong><em>Cold Resistance.</em></strong> You have resistance to cold damage.</p>
 			<p class="indent"><strong><em>Beyond the shore.</em></strong> You know the shape water cantrip. Starting at 3rd level, you can cast the create or destroy water spell with this trait, without requiring a material component. Starting at 7th level, you can also cast the sleet storm spell with this trait, without requiring a material component. Once you cast create or destroy water or sleet storm with this trait, you can’t cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
 			<p class="indent"><strong><em>Languages.</em></strong> You can speak Hydralese.</p>
@@ -261,21 +264,27 @@
 		<sheet display="false" />
 		<rules>
 			<stat name="wisdom" value="1" />				
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_AMPHIBIOUS" />			
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_WATER_ADEPT" />			
 			<grant type="Racial Trait" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BEYOND_THE_SHORE" />
 			<grant type="Language" id="ID_LANGUAGE_HYDRALESE" />
 		</rules>
 	</element>
-	<element name="Amphibious" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_AMPHIBIOUS">
+	<element name="Water adept" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_AMPHIBIOUS">
 		<description>
-			<p>You can breath air and water.</p>
+			<p>You breathe air and water and have a swimming speed equal to your walking speed.</p>
 		</description>
 		<sheet>
-			<description>You can breath air and water.</description>
+			<description>You breathe air and water and have a swimming speed equal to your walking speed.</description>
 		</sheet>
+		<rules>
+			<stat name="speed:swim" value="speed" bonus="base" />
+		</rules>		
 	</element>
 	<element name="Beyond the shore" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_BEYOND_THE_SHORE">
+		<description>
+			You know the <strong>shape water</strong> cantrip. Starting at 3rd level, you can cast the <strong>create or destroy water</strong> spell with this trait, without requiring a material component. Starting at 7th level, you can also cast the <strong>sleet storm</strong> spell with this trait, without requiring a material component. Once you cast <strong>create or destroy water</strong> or <strong>sleet storm</strong> with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.
+		</description>		
 		<sheet usage="1/Long Rest">
 			<description>
 				You know the <strong>shape water</strong> cantrip. Starting at 3rd level, you can cast the <strong>create or destroy water</strong> spell with this trait, without requiring a material component. Starting at 7th level, you can also cast the <strong>sleet storm</strong> spell with this trait, without requiring a material component. Once you cast <strong>create or destroy water</strong> or <strong>sleet storm</strong> with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.
@@ -288,5 +297,56 @@
 		</rules>
 	</element>
 
+	<!--Lightning Genasi-->
+	<element name="Lightning Genasi" type="Sub Race" source="Yozolin's Lost Tome" id="ID_SUB_RACE_LIGHTNING_GENASI">
+		<supports>Genasi</supports>
+		<description>
+			<p>Lightning genasi descend from the elemental plane of lightning, Kelôngros, specifically from Ztyvil. They are surprising, flashy and loud, letting everyone know they have entered every room they enter, much like lighting confiscating the sky to itself during a storm. When they move, small sparks emmanate from their bodies.</p>
+			<p>Lighting genasi typically have blueish yellow skin, hair and eyes.</p>
+			
+			<h4>LIGHTNING GENASI TRAITS</h4>
+			<p>As an lightning genasi, you have the following traits.</p>
+			<p class="indent"><strong><em>Ability Score Improvement.</em></strong> Your Dexterity score increases by 1.</p>
+			<p class="indent"><strong><em>Light Speed.</em></strong> You have a movement of 35 feet. Additionally, you can take the Dash or Disengage action as a bonus action.</p>
+			<p class="indent"><strong><em>Lightning Resistance.</em></strong> You have resistance to lightning damage.</p>
+			<p class="indent"><strong><em>Eye of the Storm. </em></strong> You know the shape water cantrip. Starting at 3rd level, you can cast the create or destroy water spell with this trait, without requiring a material component. Starting at 7th level, you can also cast the sleet storm spell with this trait, without requiring a material component. Once you cast create or destroy water or sleet storm with this trait, you can’t cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak Laitvian.</p>
+		</description>	
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="1" />				
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_LIGHT_SPEED" />			
+			<grant type="Racial Trait" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_EYE_OF_THE_STORM" />
+			<grant type="Language" id="ID_LANGUAGE_LAITVIAN" />
+		</rules>
+	</element>
+	<element name="Light Speed" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_LIGHT_SPEED">
+		<description>
+			<p>You have a movement of 35 feet. Additionally, you can take the Dash or Disengage action as a bonus action.</p>
+		</description>
+		<sheet action="Bonus action">
+			<description>You have a movement of 35 feet. Additionally, you can take the Dash or Disengage action as a bonus action.</description>
+		</sheet>
+		<rules>
+			<stat name="speed" value="35" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Eye of the Storm" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_EYE_OF_THE_STORM">
+		<description>
+				You know the <strong>lightning lure</strong> cantrip. Starting at 3rd level, you can cast the <strong>longstrider</strong> spell with this trait, without requiring a material component. Starting at 7th level, you can also cast the <strong>haste</strong> spell with this trait, without requiring a material component. Once you cast <strong>longstrider</strong> or <strong>haste</strong> with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.
+		</description>		
+		<sheet usage="1/Long Rest">
+			<description>
+				You know the <strong>lightning lure</strong> cantrip. Starting at 3rd level, you can cast the <strong>longstrider</strong> spell with this trait, without requiring a material component. Starting at 7th level, you can also cast the <strong>haste</strong> spell with this trait, without requiring a material component. Once you cast <strong>longstrider</strong> or <strong>haste</strong> with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.
+			</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_WOTC_TCOE_SPELL_LIGHTNING_LURE" />
+			<grant type="Spell" id="ID_PHB_SPELL_LONGSTRIDER" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_HASTE" level="7" />
+		</rules>
+	</element>
 
 </elements>
