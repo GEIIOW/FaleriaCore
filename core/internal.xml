@@ -1134,6 +1134,18 @@
 		</rules>
 	</element>
 
+	<element name="Smokescreen" type="Vision" source="Yozolin's Lost Tome" id="ID_VISION_SMOKESCREEN">
+		<description>
+			<p>You can see in lightly obscured areas within {{smokescreen:range}} of you as if it wasn’t obscured and in heavily obscured areas as if it were lightly obscured.</p>
+		</description>
+		<sheet>
+			<description>You can see in lightly obscured areas within {{smokescreen:range}} of you as if it wasn’t obscured and in heavily obscured areas as if it were lightly obscured.</description>
+		</sheet>
+		<rules>
+			<stat name="smokescreen:range" value="30" />
+		</rules>
+	</element>
+
 
 	<!--Race/Subrace Grants for Feats, Items, Exc-->
 	<element name="Race Dragonborn" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_DRAGONBORN" />

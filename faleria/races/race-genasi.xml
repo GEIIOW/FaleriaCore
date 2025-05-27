@@ -199,7 +199,7 @@
 				You know the <strong>mold earth</strong> cantrip. Starting at 3rd level, you can cast the <strong>earth tremor</strong> spell with this trait, without requiring a material component. Starting at 7th level, you can also cast the <strong>erupting earth</strong> spell with this trait, without requiring a material component. Once you cast <strong>earth tremor</strong> or <strong>erupting earth</strong> with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.
 			</description>
 		</sheet>
-		<rules>
+		<rules>	
 			<grant type="Spell" id="ID_XGTE_SPELL_MOLD_EARTH" />
 			<grant type="Spell" id="ID_XGTE_SPELL_EARTH_TREMOR" level="3" />
 			<grant type="Spell" id="ID_XGTE_SPELL_ERUPTING_EARTH" level="7" />
@@ -207,97 +207,40 @@
 	</element>
 
 	<!--Fire Genasi-->
-	<element name="Fire Genasi" type="Sub Race" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_SUBRACE_FIRE_GENASI">
-		<supports>MOTM Genasi</supports>
+	<element name="Fire Genasi" type="Sub Race" source="Yozolin's Lost Tome" id="ID_SUB_RACE_FIRE_GENASI">
+		<supports>Genasi</supports>
 		<description>
-			<p>Descended from efreet, the genies of the Elemental Plane of Fire, fire genasi channel the flamboyant and often destructive nature of flame. They show their heritage in their skin tones, which can range from deep charcoal to shades of red and orange. Some bear skin tones common to humanity but with fiery marks, such as slowly swirling lights under their skin that resemble embers or glowing red lines tracing over their bodies like cracks. Fire genasi hair can resemble threads of fire or sooty smoke.</p>
+			<p>Fire genasi descend from the elemental plane of fire, Pyragrós, specifically from the Efreet. Their mood is energetic and lively, with no time to waste on the downsides of lives, relentless and quick like a forest fire. Where they are, cinders can be seen fluttering out of their skin and hair into the air that surrounds them, slightly projecting more body heat.</p>
+			<p>Fire genasi typically have fire red or ash grey skin, with yellow, orange or red hair and eyes.</p>
+			
 			<h4>FIRE GENASI TRAITS</h4>
-			<p>As a fire genasi, you have the following traits.</p>
-			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
-			<p class="indent"><strong><em>Size.</em></strong> You are Medium or Small. You choose the size when you select this race.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
-			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
-			<p class="indent"><strong><em>Fire Resistance.</em></strong> You have resistance to fire damage.</p>
-			<p class="indent"><strong><em>Reach to the Blaze.</em></strong> You know the <i>produce flame</i> cantrip. Starting at 3rd level, you can cast the <i>burning hands</i> spell with this trait. Starting at 5th level, you can also cast the <i>flame blade</i> spell with this trait, without requiring a material component. Once you cast <i>burning hands</i> or <i>flame blade</i> with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
-			<p class="indent">Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>
-		</description>
+			<p>As an fire genasi, you have the following traits.</p>
+			<p class="indent"><strong><em>Ability Score Improvement.</em></strong> Your Intelligence score increases by 1.</p>
+			<p class="indent"><strong><em>Smokescreen. </em></strong> You can see in lightly obscured areas within 30 feet of you as if it wasn’t obscured and in heavily obscured areas as if it were lightly obscured.</p>
+			<p class="indent"><strong><em>Fire Resistance. </em></strong> You have resistance to fire damage.</p>
+			<p class="indent"><strong><em>Combustion.</em></strong> You know the control flames cantrip. Starting at 3rd level, you can cast the burning hands spell with this trait. Starting at 7th level, you can also cast the fireball spell with this trait, without requiring a material component. Once you cast burning hands or fireball with this trait, you can’t cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak Blazanese.</p>
+		</description>	
 		<sheet display="false" />
 		<rules>
-			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_FIRE_GENASI_FIRE_RESISTANCE" />
-			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_FIRE_GENASI_REACH_TO_THE_BLAZE" />
+			<stat name="intelligence" value="1" />				
+			<grant type="Vision" id="ID_VISION_SMOKESCREEN" />			
+			<grant type="Racial Trait" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_COMBUSTION" />
+			<grant type="Language" id="ID_LANGUAGE_BLAZANESE" />
 		</rules>
 	</element>
 
-	<element name="Fire Resistance" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_FIRE_GENASI_FIRE_RESISTANCE">
-		<description>
-			<p>You have resistance to fire damage.</p>
-		</description>
-		<sheet display="false" />
+	<element name="Combustion" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_COMBUSTION">
+		<sheet usage="1/Long Rest">
+			<description>
+				You know the <strong>control flames</strong> cantrip. Starting at 3rd level, you can cast the <strong>burning hands</strong> spell with this trait, without requiring a material component. Starting at 7th level, you can also cast the <strong>fireball</strong> spell with this trait, without requiring a material component. Once you cast <strong>control flames</strong> or <strong>fire ball</strong> with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.
+			</description>
 		<rules>
-			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
-		</rules>
-	</element>
-
-	<element name="Reach to the Blaze" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_FIRE_GENASI_REACH_TO_THE_BLAZE">
-		<description>
-			<p>You know the <i>produce flame</i> cantrip. Starting at 3rd level, you can cast the <i>burning hands</i> spell with this trait. Starting at 5th level, you can also cast the <i>flame blade</i> spell with this trait, without requiring a material component. Once you cast <i>burning hands</i> or <i>flame blade</i> with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
-			<p class="indent">Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>
-		</description>
-		<sheet display="false" />
-		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_PRODUCE_FLAME" />
+			<grant type="Spell" id="ID_XGTE_SPELL_CONTROL_FLAMES" />
 			<grant type="Spell" id="ID_PHB_SPELL_BURNING_HANDS" level="3" />
-			<grant type="Spell" id="ID_PHB_SPELL_FLAME_BLADE" level="5" />
-			<select type="Racial Trait" name="Spellcasting Ability (Reach to the Blaze)" supports="ID_WOTC_MOTM_RACIAL_TRAIT_FIRE_GENASI_REACH_TO_THE_BLAZE_INTELLIGENCE|ID_WOTC_MOTM_RACIAL_TRAIT_FIRE_GENASI_REACH_TO_THE_BLAZE_WISDOM|ID_WOTC_MOTM_RACIAL_TRAIT_FIRE_GENASI_REACH_TO_THE_BLAZE_CHARISMA" />
+			<grant type="Spell" id="ID_PHB_SPELL_FIREBALL" level="7" />
 		</rules>
-	</element>
-	<element name="Intelligence" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_FIRE_GENASI_REACH_TO_THE_BLAZE_INTELLIGENCE">
-		<compendium display="false" />
-		<description>
-			<p>Your spellcasting ability for these spells is Intelligence.</p>
-		</description>
-		<sheet alt="Reach to the Blaze">
-			<description>You know the produce flame cantrip. &#13;
-			Your spellcasting ability for this spell is Intelligence.</description>
-			<description level="3">You know the produce flame cantrip. &#13;
-			You can cast the burning hands spell with this trait once per long rest. You can also cast these spells using any spell slots you have of the appropriate level. &#13;
-			Your spellcasting ability for these spells is Intelligence.</description>
-			<description level="5">You know the produce flame cantrip. &#13;
-			You can cast burning hands and flame blade spells with this trait component once each per long rest, without requiring a material. You can also cast these spells using any spell slots you have of the appropriate level. &#13;
-			Your spellcasting ability for these spells is Intelligence.</description>
-		</sheet>
-	</element>
-	<element name="Wisdom" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_FIRE_GENASI_REACH_TO_THE_BLAZE_WISDOM">
-		<compendium display="false" />
-		<description>
-			<p>Your spellcasting ability for these spells is Wisdom.</p>
-		</description>
-		<sheet alt="Reach to the Blaze">
-			<description>You know the produce flame cantrip. &#13;
-			Your spellcasting ability for this spell is Wisdom.</description>
-			<description level="3">You know the produce flame cantrip. &#13;
-			You can cast the burning hands spell with this trait once per long rest. You can also cast these spells using any spell slots you have of the appropriate level. &#13;
-			Your spellcasting ability for these spells is Wisdom.</description>
-			<description level="5">You know the produce flame cantrip. &#13;
-			You can cast burning hands and flame blade spells with this trait component once each per long rest, without requiring a material. You can also cast these spells using any spell slots you have of the appropriate level. &#13;
-			Your spellcasting ability for these spells is Wisdom.</description>
-		</sheet>
-	</element>
-	<element name="Charisma" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_FIRE_GENASI_REACH_TO_THE_BLAZE_CHARISMA">
-		<compendium display="false" />
-		<description>
-			<p>Your spellcasting ability for these spells is Charisma.</p>
-		</description>
-		<sheet alt="Reach to the Blaze">
-			<description>You know the produce flame cantrip. &#13;
-			Your spellcasting ability for this spell is Charisma.</description>
-			<description level="3">You know the produce flame cantrip. &#13;
-			You can cast the burning hands spell with this trait once per long rest. You can also cast these spells using any spell slots you have of the appropriate level. &#13;
-			Your spellcasting ability for these spells is Charisma.</description>
-			<description level="5">You know the produce flame cantrip. &#13;
-			You can cast burning hands and flame blade spells with this trait component once each per long rest, without requiring a material. You can also cast these spells using any spell slots you have of the appropriate level. &#13;
-			Your spellcasting ability for these spells is Charisma.</description>
-		</sheet>
 	</element>
 
 	<!--Water Genasi-->
