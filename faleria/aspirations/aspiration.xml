@@ -72,7 +72,6 @@
 		</sheet>
 		<setters>
 			<set name="short">The faithful are aspiring to serve a higher entity or power.</set>
-			<set name="hd">d6</set>
 		</setters>
 		<rules>
 				<stat name="proficiency" value="-1" />
