@@ -11,8 +11,6 @@
 	<files>
 		<file name="source.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/source.xml" />
 		
-		<!--Options-->		
-		<file name="options.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/options.xml" />
 		<!--Backgrounds-->
 		<file name="background-bloodson.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/backgrounds/background-bloodson.xml" />
 		<!--Base-->		
@@ -27,7 +25,7 @@
 		<file name="race-genasi.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/races/race-genasi.xml" />
 
 		<!--Aspirations-->		
-		<file name="aspiration-faithful.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/aspirations/aspiration-faithful.xml" />
+		<file name="aspiration.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/aspirations/aspiration.xml" />
 	
 	</files>
 </index>
