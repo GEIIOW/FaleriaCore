@@ -47,11 +47,18 @@
 			</ul>
 		</description>
 		<sheet display="false">
-			<description>A master of martial combat, skilled with a variety of weapons and armor.</description>
+			<description>The faithful are aspiring to serve a higher entity or power.</description>
 		</sheet>
 		<setters>
-			<set name="short">A master of martial combat, skilled with a variety of weapons and armor.</set>
+			<set name="short">The faithful are aspiring to serve a higher entity or power.</set>
 			<set name="hd">d6</set>
 		</setters>
+			<rules>
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+				<stat name="ac:misc" value="1" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_RELIGION" />
+				<select type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" />
+				<select type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
+			</rules>
 	</element>
 </elements>
