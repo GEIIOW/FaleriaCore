@@ -236,6 +236,7 @@
 			<description>
 				You know the <strong>control flames</strong> cantrip. Starting at 3rd level, you can cast the <strong>burning hands</strong> spell with this trait, without requiring a material component. Starting at 7th level, you can also cast the <strong>fireball</strong> spell with this trait, without requiring a material component. Once you cast <strong>control flames</strong> or <strong>fire ball</strong> with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.
 			</description>
+		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_XGTE_SPELL_CONTROL_FLAMES" />
 			<grant type="Spell" id="ID_PHB_SPELL_BURNING_HANDS" level="3" />
