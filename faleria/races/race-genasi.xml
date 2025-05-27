@@ -244,109 +244,50 @@
 	</element>
 
 	<!--Water Genasi-->
-	<element name="Water Genasi" type="Sub Race" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_SUBRACE_WATER_GENASI">
-		<supports>MOTM Genasi</supports>
+	<element name="Water Genasi" type="Sub Race" source="Yozolin's Lost Tome" id="ID_SUB_RACE_WATER_GENASI">
+		<supports>Genasi</supports>
 		<description>
-			<p>Water genasi descend from marids, aquatic genies from the Elemental Plane of Water. Water genasi are perfectly suited to life underwater and carry the power of the waves inside themselves.</p>
-			<p class="indent">Their skin is often shades of blue or green, sometimes a blend of the two. If they have a human skin tone, there is a glistening texture that catches the light, like water droplets or nearly invisible fish scales. Their hair can resemble seaweed, waving as if in a current, or it can even be like water itself.</p>
+			<p>Water genasi descend from the elemental plane of water, Ýdoros, specifically from the Marid. Water genasi tend to be fluctuate between calm, collected and a go with the current attitude and a stressed and overthinking attitude, pulling every thought to them like a whirlpool. They always look and feel as if they have just got out of the water, occasionally dripping water onto the floor.</p>
+			<p>Water genasi typically have blue or green skin, hair and eyes.</p>
+			
 			<h4>WATER GENASI TRAITS</h4>
-			<p>As a water genasi, you have the following traits.</p>
-			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
-			<p class="indent"><strong><em>Size.</em></strong> You are Medium or Small. You choose the size when you select this race.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.</p>
-			<p class="indent"><strong><em>Acid Resistance.</em></strong> You have resistance to acid damage.</p>
-			<p class="indent"><strong><em>Amphibious.</em></strong> You can breathe air and water.</p>
-			<p class="indent"><strong><em>Call to the Wave.</em></strong> You know the <i>acid splash</i> cantrip. Starting at 3rd level, you can cast the <i>create or destroy water</i> spell with this trait. Starting at 5th level, you can also cast the <i>water walk</i> spell with this trait, without requiring a material component. Once you cast <i>create or destroy water</i> or <i>water walk</i> with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
-			<p class="indent">Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>
-			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
-		</description>
+			<p>As an water genasi, you have the following traits.</p>
+			<p class="indent"><strong><em>Ability Score Improvement.</em></strong> Your Wisdom score increases by 1.</p>
+			<p class="indent"><strong><em>Amphibious.</em></strong> You breath air and water.</p>
+			<p class="indent"><strong><em>Cold Resistance.</em></strong> You have resistance to cold damage.</p>
+			<p class="indent"><strong><em>Beyond the shore.</em></strong> You know the shape water cantrip. Starting at 3rd level, you can cast the create or destroy water spell with this trait, without requiring a material component. Starting at 7th level, you can also cast the sleet storm spell with this trait, without requiring a material component. Once you cast create or destroy water or sleet storm with this trait, you can’t cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak Hydralese.</p>
+		</description>	
 		<sheet display="false" />
 		<rules>
-			<stat name="innate speed:swim" value="innate speed" bonus="base" />
-			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_WATER_GENASI_ACID_RESISTANCE" />
-			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_WATER_GENASI_AMPHIBIOUS" />
-			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_WATER_GENASI_CALL_TO_THE_WAVE" />
+			<stat name="wisdom" value="1" />				
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_AMPHIBIOUS" />			
+			<grant type="Racial Trait" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BEYOND_THE_SHORE" />
+			<grant type="Language" id="ID_LANGUAGE_HYDRALESE" />
 		</rules>
 	</element>
-
-	<element name="Acid Resistance" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_WATER_GENASI_ACID_RESISTANCE">
+	<element name="Amphibious" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_AMPHIBIOUS">
 		<description>
-			<p>You have resistance to acid damage.</p>
-		</description>
-		<sheet display="false" />
-		<rules>
-			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" />
-		</rules>
-	</element>
-
-	<element name="Amphibious" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_WATER_GENASI_AMPHIBIOUS">
-		<description>
-			<p>You can breathe air and water.</p>
+			<p>You can breath air and water.</p>
 		</description>
 		<sheet>
-			<description>You can breathe air and water.</description>
+			<description>You can breath air and water.</description>
 		</sheet>
 	</element>
 
-	<element name="Call to the Wave" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_WATER_GENASI_CALL_TO_THE_WAVE">
-		<description>
-			<p>You know the <i>acid splash</i> cantrip. Starting at 3rd level, you can cast the <i>create or destroy water</i> spell with this trait. Starting at 5th level, you can also cast the <i>water walk</i> spell with this trait, without requiring a material component. Once you cast <i>create or destroy water</i> or <i>water walk</i> with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
-			<p class="indent">Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>
-		</description>
-		<sheet display="false" />
+	<element name="Beyond the shore" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_BEYOND_THE_SHORE">
+		<sheet usage="1/Long Rest">
+			<description>
+				You know the <strong>shape water</strong> cantrip. Starting at 3rd level, you can cast the <strong>create or destroy water</strong> spell with this trait, without requiring a material component. Starting at 7th level, you can also cast the <strong>sleet storm</strong> spell with this trait, without requiring a material component. Once you cast <strong>create or destroy water</strong> or <strong>sleet storm</strong> with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.
+			</description>
+		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_ACID_SPLASH" />
+			<grant type="Spell" id="ID_XGTE_SPELL_SHAPE_WATER" />
 			<grant type="Spell" id="ID_PHB_SPELL_CREATE_OR_DESTROY_WATER" level="3" />
-			<grant type="Spell" id="ID_PHB_SPELL_WATER_WALK" level="5" />
-			<select type="Racial Trait" name="Spellcasting Ability (Call to the Wave)" supports="ID_WOTC_MOTM_RACIAL_TRAIT_WATER_GENASI_CALL_TO_THE_WAVE_INTELLIGENCE|ID_WOTC_MOTM_RACIAL_TRAIT_WATER_GENASI_CALL_TO_THE_WAVE_WISDOM|ID_WOTC_MOTM_RACIAL_TRAIT_WATER_GENASI_CALL_TO_THE_WAVE_CHARISMA" />
+			<grant type="Spell" id="ID_PHB_SPELL_SLEET_STORM" level="7" />
 		</rules>
 	</element>
-	<element name="Intelligence" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_WATER_GENASI_CALL_TO_THE_WAVE_INTELLIGENCE">
-		<compendium display="false" />
-		<description>
-			<p>Your spellcasting ability for these spells is Intelligence.</p>
-		</description>
-		<sheet alt="Call to the Wave">
-			<description>You know the acid splash cantrip. &#13;
-			Your spellcasting ability for this spell is Intelligence.</description>
-			<description level="3">You know the acid splash cantrip. &#13;
-			You can cast the create or destroy water spell with this trait, once per long rest. You can also cast these spells using any spell slots you have of the appropriate level. &#13;
-			Your spellcasting ability for these spells is Intelligence.</description>
-			<description level="5">You know the acid splash cantrip. &#13;
-			You can also cast create or destroy water spell and the water walk spell with this trait once each per long rest, without requiring a material component. You can also cast these spells using any spell slots you have of the appropriate level. &#13;
-			Your spellcasting ability for these spells is Intelligence.</description>
-		</sheet>
-	</element>
-	<element name="Wisdom" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_WATER_GENASI_CALL_TO_THE_WAVE_WISDOM">
-		<compendium display="false" />
-		<description>
-			<p>Your spellcasting ability for these spells is Wisdom.</p>
-		</description>
-		<sheet alt="Call to the Wave">
-			<description>You know the acid splash cantrip. &#13;
-			Your spellcasting ability for this spell is Wisdom.</description>
-			<description level="3">You know the acid splash cantrip. &#13;
-			You can cast the create or destroy water spell with this trait, once per long rest.  You can also cast these spells using any spell slots you have of the appropriate level. &#13;
-			Your spellcasting ability for these spells is Wisdom.</description>
-			<description level="5">You know the acid splash cantrip. &#13;
-			You can also cast create or destroy water spell and the water walk spell with this trait once each per long rest, without requiring a material component. You can also cast these spells using any spell slots you have of the appropriate level. &#13;
-			Your spellcasting ability for these spells is Wisdom.</description>
-		</sheet>
-	</element>
-	<element name="Charisma" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_WATER_GENASI_CALL_TO_THE_WAVE_CHARISMA">
-		<compendium display="false" />
-		<description>
-			<p>Your spellcasting ability for these spells is Charisma.</p>
-		</description>
-		<sheet alt="Call to the Wave">
-			<description>You know the acid splash cantrip. &#13;
-			Your spellcasting ability for this spell is Charisma.</description>
-			<description level="3">You know the acid splash cantrip. &#13;
-			You can cast the create or destroy water spell with this trait, once per long rest.  You can also cast these spells using any spell slots you have of the appropriate level. &#13;
-			Your spellcasting ability for these spells is Charisma.</description>
-			<description level="5">You know the acid splash cantrip. &#13;
-			You can also cast create or destroy water spell and the water walk spell with this trait once each per long rest, without requiring a material component. You can also cast these spells using any spell slots you have of the appropriate level. &#13;
-			Your spellcasting ability for these spells is Charisma.</description>
-		</sheet>
-	</element>
+
+
 </elements>
