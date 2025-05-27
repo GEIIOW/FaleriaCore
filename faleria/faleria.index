@@ -25,6 +25,9 @@
 		<file name="race-lykara.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/races/race-lykara.xml" />
 		<file name="race-derenesan.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/races/race-derenesan.xml" />
 		<file name="race-genasi.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/races/race-genasi.xml" />
+
+		<!--Aspirations-->		
+		<file name="aspiration-faithful.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/aspirations/aspiration-faithful.xml" />
 	
 	</files>
 </index>
