@@ -80,6 +80,7 @@
 				<stat name="ac:misc" value="1" />
 				<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_RELIGION" />
 				<select type="Proficiency" supports="ID_PROFICIENCY_SAVINGTHROW_CHARISMA|ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
+				<stat name="hp" value="7" />
 		</rules>
 	</element>
 	
