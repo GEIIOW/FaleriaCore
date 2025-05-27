@@ -270,7 +270,7 @@
 			<grant type="Language" id="ID_LANGUAGE_HYDRALESE" />
 		</rules>
 	</element>
-	<element name="Water adept" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_AMPHIBIOUS">
+	<element name="Water adept" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_WATER_ADEPT">
 		<description>
 			<p>You breathe air and water and have a swimming speed equal to your walking speed.</p>
 		</description>
