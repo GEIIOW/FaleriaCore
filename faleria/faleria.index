@@ -11,7 +11,8 @@
 	<files>
 		<file name="source.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/source.xml" />
 		
-		
+		<!--Options-->		
+		<file name="options.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/options.xml" />
 		<!--Backgrounds-->
 		<file name="background-bloodson.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/backgrounds/background-bloodson.xml" />
 		<!--Base-->		

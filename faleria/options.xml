@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Options</name>
+		<description>Options from Yozolin's Lost Tome</description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Yozolin's Lost Tome</author>
+		<update version="0.0.4">
+			<file name="options.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/faleria/options.xml" />
+		</update>
+	</info>
+
+	<element name="Level 0" type="Option" source="Yozolin's Lost Tome" id="ID_OPTION_LEVEL_0">
+		<description>
+			<p>Level 0 is a new option for characters that allows them to start at level 0, with no class features, 1d6 hit points, and +1 proficiency bonus. This option is intended for campaigns that want to focus on character development and growth from the very beginning.</p>
+			<p class="indent">When you create a level 0 character, you can choose between the following options:</p>
+			<ul>
+				<li>Choose a background and gain the associated proficiencies.</li>
+				<li>Start with 1d6 hit points and no class features.</li>
+				<li>Choose and aspiration:</li>
+			</ul>
+			<p class="indent">Once you know how your early life has been like, if you’re starting at level 0, choose what you are presently aspiring to be by choosing an aspiration. Additionaly, you may think of your characters future class and purpose:</p>
+			<ul>
+				<li>Faithful.</li>
+				<li>Mage.</li>
+				<li>Warrior</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="short">Level 0 is a new option for characters that allows them to start at level 0, with no class features, 1d6 hit points, and +1 proficiency bonus.</set>
+		</setters>
+	</element>
+</elements>
