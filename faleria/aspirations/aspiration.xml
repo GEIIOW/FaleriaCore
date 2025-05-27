@@ -12,7 +12,8 @@
 	<element name="Aspiration" type="Item" source="Yozolin's Lost Tome" id="ID_ASPIRATION">
 		<description>
 			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
-			<p>One of the most ancient and feared of all curses, lycanthropy can transform the most civilized humanoid into a ravening beast. In its natural humanoid form, a creature cursed by lycanthropy appears as its normal self. Over time, however, many lycanthropes acquire , features suggestive of their animal form. In that animal form, a lycanthrope resembles a powerful version of a normal animal. On close inspection, its eyes show a faint spark of unnatural intelligence and might glow red in the dark. </p>
+			<p>Once you know how your early life has been like, if you’re starting at level 0, choose what you are presently aspiring to be by choosing an aspiration. Additionaly, you may think of your characters future class and purpose.
+</p>
 		</description>
 		<setters>
 			<set name="category">Additional Feature</set>
@@ -20,13 +21,13 @@
 			<set name="inventory-hidden">true</set>
 		</setters>
 		<rules>
-			<select type="Class" name="Aspiration:" supports="Aspiration" optional="true" />
+			<select type="Class Feature" name="Aspiration:" supports="Aspiration" optional="true" />
 		</rules>
 	</element>
 
 	<!-- Faithful -->
 
-	<element name="Faithful" type="Class" source="Yozolin's Lost Tome" id="ID_ASPIRATION_FAITHFUL">
+	<element name="Faithful" type="Class Feature" source="Yozolin's Lost Tome" id="ID_ASPIRATION_FAITHFUL">
 		<supports>Aspiration</supports>
 		<description>
 			<p>The faithful are aspiring to serve a higher entity or power.</p>
@@ -78,10 +79,13 @@
 				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
 				<stat name="ac:misc" value="1" />
 				<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_RELIGION" />
-				<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" />
-				<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
+				<select type="Proficiency" supports="ID_PROFICIENCY_SAVINGTHROW_CHARISMA|ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
 		</rules>
 	</element>
+	
+	
+	
+	
 	<!-- Wereboar -->
 
 	<element name="Wereboar" type="Racial Trait" source="Monster Manual" id="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR">
