@@ -83,137 +83,83 @@
 		</rules>
 	</element>
 	
-	
-	
-	
-	<!-- Wereboar -->
+	<!-- Mage -->
 
-	<element name="Wereboar" type="Racial Trait" source="Monster Manual" id="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR">
-		<supports>Lycanthropy</supports>
+	<element name="Mage" type="Class Feature" source="Yozolin's Lost Tome" id="ID_ASPIRATION_MAGE">
+		<supports>Aspiration</supports>
 		<description>
-			<p>Wereboars are ill-tempered and vulgar brutes. As humanoids, they are stocky and muscular, with short, stiff hair. In their humanoid and hybrid forms, they use heavy weapons, while in hybrid or animal form, they gain a devastating goring attack through which their curse is spread. A wereboar infects other creatures indiscriminately, relishing the fact that the more its victims resist the curse, the more savage and bestial they become. </p>
-			<div element="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_SHAPESHIFTER" />
-			<div element="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_SPEED" />
-			<div element="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_STRENGTH" />
-			<div element="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_RESISTANCE" />
-			<div element="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_ARMOR" />
-			<div element="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_CHARGE" />
-            <div element="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_RELENTLESS" />
-			<div element="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_WEAPON" />
-			<div element="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_MULTIATTACK" />
-		</description>
-		<sheet display ="false">
-			<description />
-		</sheet>
-		<rules>
-			<grant type="Racial Trait" id="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_SHAPESHIFTER" />
-			<grant type="Racial Trait" id="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_SPEED" />
-			<grant type="Racial Trait" id="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_STRENGTH" />
-			<grant type="Racial Trait" id="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_RESISTANCE" />
-			<grant type="Racial Trait" id="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_ARMOR" />
-			<grant type="Racial Trait" id="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_CHARGE" />
-            <grant type="Racial Trait" id="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_RELENTLESS" />
-			<grant type="Racial Trait" id="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_WEAPON" />
-			<grant type="Racial Trait" id="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_MULTIATTACK" />
-		</rules>
-	</element>
+			<p>Mages are starting to tap into the power of the arcane.</p>
 
-	<element name="Shapeshifter" type="Racial Trait" source="Monster Manual" id="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_SHAPESHIFTER">
-		<description>
-			<p>You can use its action to polymorph into a Large boar-humanoid hybrid or into a boar, or back into your true form, which is humanoid. Your statistics, other than size and AC, are the same in each form. Any equipment you are wearing or carrying isn't transformed. You reverts to its true form if it dies. </p>
-		</description>
-		<sheet action="Action">
-			<description>You can transform into a boar or your hybrid form. End the transformation if you die.</description>
-		</sheet>
-	</element>
+			<h4>Untapped Power</h4>
+			<p>Only at level 0, you gain access to two cantrips, one of which musn’t deal damage, of one of the following spell lists: artificer, bard, druid, sorcerer or wizard.</p>
 
-	<element name="Wereboar Speed" type="Racial Trait" source="Monster Manual" id="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_SPEED">
-		<description>
-			<p>You have a walking speed of 40 ft.</p>
-		</description>
-		<sheet usage="Boar or Hybrid Form">
-			<description>You have a walking speed of 40 ft.</description>
-		</sheet>
-	</element>
+			<h4>SUGGESTED CLASSES AT LEVEL 1</h4>
+			<ul>		  
+			    <li><strong>Artificer</strong></li>
+                <li><strong>Bard</strong></li>
+                <li><strong>Druid</strong></li>
+				<li><strong>Sorcerer</strong></li>			                
+				<li><strong>Warlock</strong></li>			
+			</ul>
 
-	<element name="Wereboar Strength" type="Racial Trait" source="Monster Manual" id="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_STRENGTH">
-		<description>
-			<p>Your Strength score minimum is 17 while in boar or hybrid form.</p>
-		</description>
-		<sheet usage="Boar or Hybrid Form">
-			<description>Your minimum Strength is 17.</description>
-		</sheet>
-	</element>
-
-	<element name="Wereboar Resistance" type="Racial Trait" source="Monster Manual" id="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_RESISTANCE">
-		<description>
-			<p>You are immune to bludgeoning, piercing, and slashing damage from non magical weapons that aren't silvered in boar or hybrid form.</p>
-		</description>
-		<sheet usage="Boar or Hybrid Form">
-			<description>You are immune to bludgeoning, piercing, and slashing damage from non magical weapons that aren't silvered.</description>
-		</sheet>
-	</element>
-
-	<element name="Wereboar Armor" type="Racial Trait" source="Monster Manual" id="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_ARMOR">
-		<description>
-			<p>You gain a +1 bonus to AC while in boar or hybrid form.</p>
-		</description>
-		<sheet usage="Boar or Hybrid Form">
-			<description>You gain a +1 bonus to AC.</description>
-		</sheet>
-	</element>
-
-	<element name="Charge" type="Racial Trait" source="Monster Manual" id="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_CHARGE">
-		<description>
-			<p>if you move at least 15 feet straight toward a target and then hits it with your tusks on the same turn, the target takes an extra 2d6 slashing damage. If the target is a creature, it must succeed on a DC (8 + Proficiency + Strength Modifier) Strength saving throw or be knocked prone.</p>
-		</description>
-		<sheet>
-			<description>if you move at least 15 feet straight toward a target and then hits it with your tusks on the same turn, the target takes an extra 2d6 slashing damage. If the target is a creature, it must succeed on a DC {{wereboar charge:dc}} Strength saving throw or be knocked prone.</description>
-		</sheet>
-        <rules>
-            <stat name="wereboar charge:dc" value="3" bonus="wereboar strength" />
-            <stat name="wereboar charge:dc" value="strength:modifier" bonus="wereboar strength" />
-            <stat name="wereboar charge:dc" value="8" />
-            <stat name="wereboar charge:dc" value="proficiency" />
-        </rules>
-	</element>
-
-    <element name="Relentless" type="Racial Trait" source="Monster Manual" id="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_RELENTLESS">
-        <description>
-            <p>If you take 14 damage or less that would reduce you to 0 hit points, you are reduced to 1 hit point instead. This can be done once per short or long rest. </p>
-        </description>
-        <sheet  usage="1/Long or Short Rest">
-            <description>If you take 14 damage or less that would reduce you to 0 hit points, you are reduced to 1 hit point instead.</description>
-        </sheet>
-    </element>
-
-	<element name="Natural Weapon" type="Racial Trait" source="Monster Manual" id="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_WEAPON">
-		<description>
-			<p>In your boar or hybrid form you gain a natural weapon which you are considered proficienct with:</p>
+			<h3>ASPIRATION FEATURES</h3>
+			<p>Mages are starting to tap into the power of the arcane.</p>
+            <h5>HIT POINTS</h5>
+            <ul class="unstyled">
+                <li><strong>Hit Dice:</strong> 1d6 </li>
+            </ul>
+            <h5>PROFICIENCIES</h5>
+            <ul class="unstyled mb">
+                <li><strong>Armor:</strong> None</li>
+                <li><strong>Weapons:</strong> None</li>
+                <li><strong>Tools:</strong> None</li>
+            </ul>
+            <ul class="unstyled">
+                <li><strong>Saving Throws:</strong> Intelligence, Charisma or Wisdom (Only at level 0 )</li>
+                <li><strong>Skills:</strong> Arcana (Only at level 0 )</li>
+            </ul>
+			<h5>EQUIPMENT</h5>
+			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
 			<ul>
-			<li>Tusks: Melee Weapon Attack, 2d6 + Strength piercing damage.</li>
+				<li>Common clothes, 2 rations, waterskin</li>
+				<li>5 GP</li>
 			</ul>
 		</description>
-		<sheet usage="Boar or Hybrid Form">
-			<description>
-			You gain the following natural weapons:
-			&#x2022; Tusks: Melee Weapon Attack, 2d6 + {{Wereboar weapon:modifier}} piercing damage.
-			</description>
+		<sheet>
+			<description>Mages are starting to tap into the power of the arcane.</description>
 		</sheet>
+		<setters>
+			<set name="short">Mages are starting to tap into the power of the arcane.</set>
+		</setters>
 		<rules>
-			<stat name="Wereboar weapon:modifier" value="strength:modifier" bonus="Wereboar strength" />
-			<stat name="Wereboar weapon:modifier" value="3" bonus="Wereboar strength" />
+				<stat name="proficiency" value="-1" />
+				<stat name="ac:misc" value="1" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
+				<select type="Proficiency" supports="ID_PROFICIENCY_SAVINGTHROW_CHARISMA|ID_PROFICIENCY_SAVINGTHROW_WISDOM|ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" />
+				<stat name="hp" value="6" />
+				<grant type="Class Feature" id="ID_ASPIRATION_MAGE_UNTAPPED_POWER" />
 		</rules>
 	</element>
-
-	<element name="Multiattack" type="Racial Trait" source="Monster Manual" id="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_MULTIATTACK">
+	
+	<element name="Untapped Power" type="Class Feature" source="Yozolin's Lost Tome" id="ID_ASPIRATION_MAGE_UNTAPPED_POWER">
 		<description>
-			<p>You make two attacks, only one of which can be with its tusks. </p>
+		
+		<h5>UNTAPPED POWER</h5>
+		<p>Only at level 0, you gain access to two cantrips, one of which musn’t deal damage, of one of the following spell lists: artificer, bard, druid, sorcerer or wizard.</p>
+		<center>
+				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + modifier of score chosen for saving throw proficiency</p>
+				<p><strong>Spell attack modifier</strong> = your proficiency bonus + modifier of score chosen for saving throw proficiency</p>
+		</center>
 		</description>
-		<sheet action="Action" usage="Humanoid or Hybrid Form">
-			<description>You make two attacks, only one of which can be with its tusks.</description>
+		<sheet>
+			<description>You gain acces to two cantrips. </description>
 		</sheet>
+		<spellcasting name="Mage" ability="Charisma" allowReplace="true">
+			<list>Mage</list>
+			<select type="Spell" name="Cantrip (Mage)" supports="$(spellcasting:list),0" level="1" number="2" spellcasting="Sorcerer||Artificer||Bard||Druid||Wizard" />
+		</spellcasting>
 	</element>
+
 
 
 	<!-- Wererat -->
