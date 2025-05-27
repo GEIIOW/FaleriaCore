@@ -4,7 +4,7 @@
 		<name>Options</name>
 		<description>Options from Yozolin's Lost Tome</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Yozolin's Lost Tome</author>
-		<update version="0.0.4">
+		<update version="0.0.1">
 			<file name="options.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/faleria/options.xml" />
 		</update>
 	</info>
