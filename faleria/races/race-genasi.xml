@@ -230,7 +230,6 @@
 			<grant type="Language" id="ID_LANGUAGE_BLAZANESE" />
 		</rules>
 	</element>
-
 	<element name="Combustion" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_COMBUSTION">
 		<sheet usage="1/Long Rest">
 			<description>
