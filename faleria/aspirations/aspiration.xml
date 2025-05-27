@@ -21,7 +21,7 @@
 			<set name="inventory-hidden">true</set>
 		</setters>
 		<rules>
-			<select type="Class Feature" name="Aspiration:" supports="Aspiration" optional="true" />
+			<select type="Class Feature" name="Aspiration" supports="Aspiration" optional="true" />
 		</rules>
 	</element>
 
