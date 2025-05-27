@@ -20,7 +20,7 @@
 			<set name="inventory-hidden">true</set>
 		</setters>
 		<rules>
-			<select type="Racial Trait" name="Aspiration:" supports="Aspiration" optional="true" />
+			<select type="Class" name="Aspiration:" supports="Aspiration" optional="true" />
 		</rules>
 	</element>
 
