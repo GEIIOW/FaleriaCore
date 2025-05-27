@@ -332,7 +332,6 @@
 			<stat name="speed" value="35" bonus="base" />
 		</rules>
 	</element>
-
 	<element name="Eye of the Storm" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_EYE_OF_THE_STORM">
 		<description>
 				You know the <strong>lightning lure</strong> cantrip. Starting at 3rd level, you can cast the <strong>longstrider</strong> spell with this trait, without requiring a material component. Starting at 7th level, you can also cast the <strong>haste</strong> spell with this trait, without requiring a material component. Once you cast <strong>longstrider</strong> or <strong>haste</strong> with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.
