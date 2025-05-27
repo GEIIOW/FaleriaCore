@@ -275,7 +275,6 @@
 			<description>You can breath air and water.</description>
 		</sheet>
 	</element>
-
 	<element name="Beyond the shore" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_BEYOND_THE_SHORE">
 		<sheet usage="1/Long Rest">
 			<description>
