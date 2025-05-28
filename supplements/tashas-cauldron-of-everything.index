@@ -16,7 +16,7 @@
 		<file name="source.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/tashas-cauldron-of-everything/source.xml" />
 		<file name="spells.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/tashas-cauldron-of-everything/spells.xml" />
 		<file name="artificer-infusions.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/tashas-cauldron-of-everything/artificer-infusions.xml" />
-		<file name="race-custom-lineage.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/tashas-cauldron-of-everything/race-custom-lineage.xml" />
+		<!--<file name="race-custom-lineage.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/tashas-cauldron-of-everything/race-custom-lineage.xml" />-->
 		<file name="class-artificer.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/tashas-cauldron-of-everything/class-artificer.xml" />
 
 		<!-- Archetypes -->
