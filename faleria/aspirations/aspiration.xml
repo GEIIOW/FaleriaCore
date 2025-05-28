@@ -167,16 +167,15 @@
 	<sheet display="false">
 		<description>You gain access to the Mage spellcasting list. You can cast spells from this list using the spellcasting ability chosen for Untapped Power. </description>
 	</sheet>
-	<spellcasting name="Bard" ability="untapped power:ability" prepare="false" allowReplace="true">
+	<spellcasting name="Mage" ability="untapped power:ability" prepare="false">
 		<list>Mage</list>
 	</spellcasting>
 	<rules>
 		<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
-		<grant type="Grants" id="ID_INTERNAL_RITUAL_CASTING" />
 
-		<stat name="bard:spellcasting:slots:1" value="2" level="1" />
+		<stat name="mage:spellcasting:slots:1" value="2" level="1" />
 
-		<select type="Spell" name="Cantrip (Mage)" supports="$(spellcasting:list), 0" level="1" number="2" spellcasting="Bard" />
+		<select type="Spell" name="Cantrip (Mage)" supports="$(spellcasting:list), 0" level="1" number="2" spellcasting="Mage" />
 	</rules>
 	</element>
 	
