@@ -68,16 +68,18 @@
 		<description>
 			<p>Whenever you gain an Ability Score Improvement you can increase one ability score by 1, regardless of your choice of ability score improvement type.</p>
 		</description>
-		<sheet display="false" />
-		<compendium display="false" />
+		<sheet>
+		<p>Whenever you gain an Ability Score Improvement you can increase one ability score by 1, regardless of your choice of ability score improvement type.</p>
+		</sheet>	
 	</element>
 
 	<element name="Malleable" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_MALLEABLE">
 		<description>
 			<p>You gain half proficiency in a skill of your choosing. This half proficiency may be changed after finishing a long rest.</p>
 		</description>
-		<sheet display="false" />
-		<compendium display="false" />
+		<sheet usage="Long Rest">
+		<p>You gain half proficiency in a skill of your choosing. This half proficiency may be changed after finishing a long rest.</p>
+		</sheet>
 	</element>
 
 </elements>
