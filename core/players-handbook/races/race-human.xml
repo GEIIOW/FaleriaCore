@@ -132,7 +132,6 @@
 	</append>
 	<!--/temp-fix-->
 
-
 	<!--Human Variant Ability Score Increase-->
 	<element name="Ability Score Increase (Strength)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_HUMAN_VARIANT_STRENGTH">
 		<compendium display="false" />
