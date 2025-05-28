@@ -7,7 +7,7 @@
 		</update>
 	</info>
 
-	<element name="Minotaur" type="Race" source="Yozolin's Lost Tome" id="ID_RACE_LYKARA">
+	<element name="Minotaur" type="Race" source="Yozolin's Lost Tome" id="ID_RACE_MINOTAUR">
 		<description>
 			<p class="flavor">“Manyhalian monarchs say they’re descendants from gods, and most have the power to back-up those claims and if the myths are true so should the minotaurs, yet they don’t. They are phenomenal in a variety of ways, but none that equate the gods of Choronnea. It’s my theory that their souls have been diluted by their time in this world. I’ll autopsy some until I find out the awnser.”</p>
 			<p>- Y. Mageshell, Manyhals of Death.</p>

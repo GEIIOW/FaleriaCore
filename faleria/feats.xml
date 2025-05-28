@@ -30,4 +30,20 @@
 			</description>
 		</sheet>
 	</element>
+
+	<element name="Stomping ground" type="Feat" source="Yozolin's Lost Tome" id="ID_FALERIA_FEAT_STOMPING_GROUND">
+		<prerequisite>Level 4, Minotaur or Centaur</prerequisite>	
+		<requirements>([level:4]),(ID_RACE_MINOTAUR)</requirements>
+		<description>
+			<p><i>Prerequisite:Level 4, Minotaur or Centaur</i></p>
+			<p>As a bonus action, you may stomp your hoof into the ground causing all enemies on the ground within 5 feet of you to roll a Dexterity saving throw (DC = your Strength modifier + 10) or be dazed until the end of your next turn. You can perform this stomp a number of times equal to your proficiency bonus per long rest.</p>
+		</description>
+		<sheet action="Bonus Action" usage="{{proficiency}}/Long Rest">
+			<description>
+				<p>As a bonus action, you may stomp your hoof into the ground causing all enemies on the ground within 5 feet of you to roll a Dexterity saving throw (DC = your {{strength:modifier}} + 10) or be dazed until the end of your next turn. You can perform this stomp a number of times equal to your proficiency bonus per long rest.</p>
+			</description>
+		</sheet>
+	</element>
+
+
 </elements>
