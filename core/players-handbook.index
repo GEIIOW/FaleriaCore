@@ -20,6 +20,7 @@
 		<file name="race-halfling.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/core/players-handbook/races/race-halfling.xml" />
 		<file name="race-halforc.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/core/players-handbook/races/race-halforc.xml" />
 		<file name="race-tiefling.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/core/players-handbook/races/race-tiefling.xml" />
+		<file name="race-human.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/core/players-handbook/races/race-human.xml" />
 
 		<!-- classes -->
 		<file name="class-barbarian.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/core/players-handbook/classes/class-barbarian.xml" />
