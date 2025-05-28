@@ -143,17 +143,17 @@
 		<description>
 		<h5>Untapped power</h5>
 		<p>Only at level 0, you gain access to two cantrips, one of which musn’t deal damage, of one of the following spell lists: artificer, bard, druid, sorcerer or wizard.</p>
-				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + modifier of score chosen for saving throw proficiency</p>
-				<p><strong>Spell attack modifier</strong> = your proficiency bonus + modifier of score chosen for saving throw proficiency</p>
+				<p>Your spellcasting ability for the chosen cantrips is Intelligence. Your DC for these spells is {{untapped power:dc}} and your spell attack bonus is +{{untapped power:ability}}.</p>
 		</description>
 		<sheet>
-			<description>You gain acces to two cantrips. </description>
+			<description>You gain acces to two cantrips. Your spellcasting ability for the chosen cantrips is Intelligence. Your DC for these spells is {{untapped power:dc}} and your spell attack bonus is +{{untapped power:ability}}. </description>
 		</sheet>
 		<rules>
   			<stat name="untapped power:dc" value="10" bonus="base" />
   			<stat name="untapped power:dc" value="proficiency" bonus="proficiency" />
   			<stat name="untapped power:dc" value="untapped power:ability" bonus="ability" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" />
+			<stat name="untapped power:ability" value="[intelligence]:modifier" bonus="base" />
 		</rules>
 		</element>
 
@@ -161,17 +161,17 @@
 		<description>
 		<h5>Untapped power</h5>
 		<p>Only at level 0, you gain access to two cantrips, one of which musn’t deal damage, of one of the following spell lists: artificer, bard, druid, sorcerer or wizard.</p>
-				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + modifier of score chosen for saving throw proficiency</p>
-				<p><strong>Spell attack modifier</strong> = your proficiency bonus + modifier of score chosen for saving throw proficiency</p>
+				<p>Your spellcasting ability for the chosen cantrips is Wisdom. Your DC for these spells is {{untapped power:dc}} and your spell attack bonus is +{{untapped power:ability}}.</p>
 		</description>
 		<sheet>
-			<description>You gain acces to two cantrips. </description>
+			<description>You gain acces to two cantrips. Your spellcasting ability for the chosen cantrips is Wisdom. Your DC for these spells is {{untapped power:dc}} and your spell attack bonus is +{{untapped power:ability}}. </description>
 		</sheet>
 		<rules>
   			<stat name="untapped power:dc" value="10" bonus="base" />
   			<stat name="untapped power:dc" value="proficiency" bonus="proficiency" />
   			<stat name="untapped power:dc" value="untapped power:ability" bonus="ability" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
+			<stat name="untapped power:ability" value="[wisdom]:modifier" bonus="base" />
 		</rules>
 	</element>
 
@@ -179,17 +179,17 @@
 		<description>
 		<h5>Untapped power</h5>
 		<p>Only at level 0, you gain access to two cantrips, one of which musn’t deal damage, of one of the following spell lists: artificer, bard, druid, sorcerer or wizard.</p>
-				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + modifier of score chosen for saving throw proficiency</p>
-				<p><strong>Spell attack modifier</strong> = your proficiency bonus + modifier of score chosen for saving throw proficiency</p>
+				<p>Your spellcasting ability for the chosen cantrips is Charisma. Your DC for these spells is {{untapped power:dc}} and your spell attack bonus is +{{untapped power:ability}}.</p>
 		</description>
 		<sheet>
-			<description>You gain acces to two cantrips. </description>
+			<description>You gain acces to two cantrips. Your spellcasting ability for the chosen cantrips is Charisma. Your DC for these spells is {{untapped power:dc}} and your spell attack bonus is +{{untapped power:ability}}. </description>
 		</sheet>
 		<rules>
   			<stat name="untapped power:dc" value="10" bonus="base" />
   			<stat name="untapped power:dc" value="proficiency" bonus="proficiency" />
   			<stat name="untapped power:dc" value="untapped power:ability" bonus="ability" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" />
+			<stat name="untapped power:ability" value="[charisma]:modifier" bonus="base" />
 		</rules>
 	</element>
 
