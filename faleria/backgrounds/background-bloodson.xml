@@ -24,14 +24,24 @@
 			<p>Acolytes are shaped by their experience in temples or other religious communities. Their study of the history and tenets of their faith and their relationships to temples, shrines, or hierarchies affect their mannerisms and ideals. Their flaws might be some hidden hypocrisy or heretical idea, or an ideal or bond taken to an extreme.</p>
 		</description>
 		<setters>
-			<set name="short">Insight, Religion, 2 Languages</set>
+			<set name="short">Insight, Persuasion, 2 Languages</set>
 		</setters>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_RELIGION" />
-			<select type="Language" name="Language (Acolyte)" number="2" supports="Standard||Exotic" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+			<grant type="Language" id="ID_LANGUAGE_IXALI" />
 			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_SHELTER_OF_THE_FAITHFUL" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
 			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+			<select type="List" name="Speciality">
+				<item id="1">Officer.</item>
+				<item id="2">Scout.</item>
+				<item id="3">Infantry.</item>
+				<item id="4">Cavalary.</item>
+				<item id="5">Healer.</item>
+				<item id="6">Quartermaster.</item>
+				<item id="7">Standard-bearer.</item>
+				<item id="8">Support staff (cook, blacksmith, or the like).</item>
+			</select>
 			<select type="List" name="Personality Trait" number="2">
 				<item id="1">I idolize a particular hero of my faith, and constantly refer to that person’s deeds and example.</item>
 				<item id="2">I can find common ground between the fiercest enemies, empathizing with them and always working toward peace.</item>
