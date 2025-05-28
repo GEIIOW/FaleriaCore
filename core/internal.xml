@@ -928,13 +928,13 @@
 			<p>Many creatures in the worlds of D&amp;D, especially those that dwell underground, have darkvision. Within a specified range, a creature with darkvision can see in darkness as if the darkness were dim light, so areas of darkness are only lightly obscured as far as that creature is concerned. However, the creature can’t discern color in darkness, only shades of gray.</p>
 		</description>
 		<sheet>
-			<description>You can see in dim light within {{darkvision:range}} feet of you as if it were bright light, and in darkness as if it were dim light.</description>
+			<description>You can see in dim light within {{darkvision:range}} feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness as shades of crimson.</description>
 		</sheet>
 		<rules>
 			<stat name="darkvision:range" value="60" bonus="base" />
 		</rules>
 	</element>
-
+	
 	<element name="Darkvision" type="Vision" source="Player’s Handbook" id="ID_VISION_LESSER_DARKVISION">
 		<requirements>!(ID_VISION_SUPERIORDARKVISION || ID_VISION_DARKVISION)</requirements>
 		<compendium display="false" />
