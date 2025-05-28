@@ -61,7 +61,7 @@
 		</rules>
 	</element>
 
-	<element name="Ability Score Improvement +1 +2" type="Ability Score Improvement" source="Yozolin's Lost Tome" id="ID_ASI_RACE_HUMAN1">
+	<element name="Increase an ability score by 2 and one other ability score by one" type="Ability Score Improvement" source="Yozolin's Lost Tome" id="ID_ASI_RACE_HUMAN1">
 		<description>
 			<p>You may choose to increase an ability score by 2 and one other ability score by one or increase three different ability scores by 1.</p>
 		</description>
@@ -73,7 +73,7 @@
 		</rules>
 	</element>
 	
-	<element name="Ability Score Improvement +1 +1 +1" type="Ability Score Improvement" source="Yozolin's Lost Tome" id="ID_ASI_RACE_HUMAN2">
+	<element name="Increase three different ability scores by 1" type="Ability Score Improvement" source="Yozolin's Lost Tome" id="ID_ASI_RACE_HUMAN2">
 		<description>
 			<p>You may choose to increase an ability score by 2 and one other ability score by one or increase three different ability scores by 1.</p>
 		</description>
