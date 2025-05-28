@@ -142,7 +142,6 @@
 	
 	<element name="Untapped Power" type="Class Feature" source="Yozolin's Lost Tome" id="ID_ASPIRATION_MAGE_UNTAPPED_POWER">
 		<description>
-		
 		<h5>Untapped power</h5>
 		<p>Only at level 0, you gain access to two cantrips, one of which musn’t deal damage, of one of the following spell lists: artificer, bard, druid, sorcerer or wizard.</p>
 		<center>
