@@ -155,6 +155,8 @@
 			<stat name="untapped power:dc" value="8" bonus="base" />
   			<stat name="untapped power:dc" value="proficiency" bonus="proficiency" />
   			<stat name="untapped power:dc" value="untapped power:ability" bonus="ability" />
+			<stat name="untapped power:attack" value="untapped power:ability" bonus="ability" />
+			<stat name="untapped power:attack" value="proficiency" bonus="proficiency" />
 		</rules>
 		</element>
 
@@ -176,26 +178,25 @@
 	</rules>
 	</element>
 	
-	<element name="Untapped Power: Intelligence" type="Class Feature" source="Yozolin's Lost Tome" id="ID_ASPIRATION_MAGE_UNTAPPED_POWER_INTELLIGENCE">
+	<element name="Intelligence" type="Class Feature" source="Yozolin's Lost Tome" id="ID_ASPIRATION_MAGE_UNTAPPED_POWER_INTELLIGENCE">
 		<description>
 		<h5>Untapped power</h5>
                 <p><strong>Spell save DC</strong> = 8 + your proficiency bonus + modifier of score chosen for saving throw proficiency</p>
                 <p><strong>Spell attack modifier</strong> = your proficiency bonus + modifier of score chosen for saving throw proficiency</p>	
 		</description>
-		<sheet>
+		<sheet alt="Untapped Power">
 			<description>You gain acces to two cantrips. Your spellcasting ability for the chosen cantrips is Intelligence. Your DC for these spells is {{untapped power:dc}} and your spell attack bonus is + {{untapped power:attack}} . </description>
 		</sheet>
-	<spellcasting name="Mage" ability="Intelligence" prepare="false">
-		<list>Mage</list>
-	</spellcasting>	
+		<spellcasting name="Mage" ability="Intelligence" prepare="false">
+			<list>Mage</list>
+		</spellcasting>	
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" />
 			<stat name="untapped power:ability" value="intelligence:modifier" bonus="base" />
-			<stat name="untapped power:attack" value="untapped power:ability" bonus="ability" />
 		</rules>
-		</element>
+	</element>
 
-	<element name="Untapped Power: Wisdom" type="Class Feature" source="Yozolin's Lost Tome" id="ID_ASPIRATION_MAGE_UNTAPPED_POWER_WISDOM">
+	<element name="Wisdom" type="Class Feature" source="Yozolin's Lost Tome" id="ID_ASPIRATION_MAGE_UNTAPPED_POWER_WISDOM">
 		<description>
 		<h5>Untapped power</h5>
                 <p><strong>Spell save DC</strong> = 8 + your proficiency bonus + modifier of score chosen for saving throw proficiency</p>
@@ -204,17 +205,16 @@
 		<spellcasting name="Mage" ability="Wisdom" prepare="false">
 			<list>Mage</list>
 		</spellcasting>		
-		<sheet>
+		<sheet alt="Untapped Power">
 			<description>You gain acces to two cantrips. Your spellcasting ability for the chosen cantrips is Wisdom. Your DC for these spells is {{untapped power:dc}} and your spell attack bonus is + {{untapped power:attack}} . </description>
 		</sheet>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
 			<stat name="untapped power:ability" value="wisdom:modifier" bonus="base" />
-			<stat name="untapped power:attack" value="untapped power:ability" bonus="ability" />
 		</rules>
 	</element>
 
-	<element name="Untapped Power: Charisma" type="Class Feature" source="Yozolin's Lost Tome" id="ID_ASPIRATION_MAGE_UNTAPPED_POWER_CHARISMA">
+	<element name="Charisma" type="Class Feature" source="Yozolin's Lost Tome" id="ID_ASPIRATION_MAGE_UNTAPPED_POWER_CHARISMA">
 		<description>
 		<h5>Untapped power</h5>
                 <p><strong>Spell save DC</strong> = 8 + your proficiency bonus + modifier of score chosen for saving throw proficiency</p>
@@ -222,14 +222,13 @@
 		</description>
 		<sheet>
 			<description>You gain acces to two cantrips. Your spellcasting ability for the chosen cantrips is Charisma. Your DC for these spells is {{untapped power:dc}} and your spell attack bonus is + {{untapped power:attack}} . </description>
-		</sheet>
+		</sheet alt="Untapped Power">
 		<spellcasting name="Mage" ability="Charisma" prepare="false">
 			<list>Mage</list>
 		</spellcasting>		
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" />
 			<stat name="untapped power:ability" value="charisma:modifier" bonus="base" />
-			<stat name="untapped power:attack" value="untapped power:ability" bonus="ability" />
 		</rules>
 	</element>
 
