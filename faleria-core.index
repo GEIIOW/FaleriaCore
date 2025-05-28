@@ -16,9 +16,9 @@
 		<file name="xanathars-guide-to-everything.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/xanathars-guide-to-everything.index" />
 		<file name="tashas-cauldron-of-everything.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/tashas-cauldron-of-everything.index" />
 		<file name="monsters-of-the-multiverse.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/monsters-of-the-multiverse.index" />
-	<!--
 		<file name="acquisitions-incorporated.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/acquisitions-incorporated.index" />
- 	 	<file name="mordenkainens-tome-of-foes.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/mordenkainens-tome-of-foes.index" />	
+ 	<!--	
+	 	<file name="mordenkainens-tome-of-foes.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/mordenkainens-tome-of-foes.index" />	
   		<file name="mythic-odysseys-of-theros.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/mythic-odysseys-of-theros.index" />
  		<file name="fizbans-treasury-of-dragons.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/fizbans-treasury-of-dragons.index" /> 
  		<file name="strixhaven-a-curriculum-of-chaos.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/strixhaven-a-curriculum-of-chaos.index" />
