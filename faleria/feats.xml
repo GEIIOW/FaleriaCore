@@ -45,5 +45,48 @@
 		</sheet>
 	</element>
 
+	<element name="One Last Drink" type="Feat" source="Yozolin's Lost Tome" id="ID_FALERIA_FEAT_ONELASTDRINK">
+		<prerequisite>Level 8, Saphir</prerequisite>	
+		<requirements>([level:8]),(ID_RACE_SAPHIR)</requirements>
+		<description>
+			<p><i>Prerequisite: Level 8, Saphir</i></p>
+			<p>Some saphirs have such control over their powers that when their life seems to be about to end their will transforms them into a blood thirsty mist. Once per long rest, when you reach 0 hit points you transform into a vampiric mist instead until the end of your next turn. If while in this form you use it’s life drain attack to regain health, the resulting healing is given to your saphir form instead. While in vampiric mist form you cannot be healed by any other means other than by your life drain. If at the end of your turn you haven’t regained health, roll a death saving throw.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>
+				<p>Some saphirs have such control over their powers that when their life seems to be about to end their will transforms them into a blood thirsty mist. Once per long rest, when you reach 0 hit points you transform into a vampiric mist instead until the end of your next turn. If while in this form you use it’s life drain attack to regain health, the resulting healing is given to your saphir form instead. While in vampiric mist form you cannot be healed by any other means other than by your life drain. If at the end of your turn you haven’t regained health, roll a death saving throw.</p>
+			</description>
+		</sheet>
+	</element>
+
+	<element name="Vampiric Form" type="Feat" source="Yozolin's Lost Tome" id="ID_FALERIA_FEAT_VAMPIRIC_FORM">
+		<prerequisite>Level 4, Saphir</prerequisite>	
+		<requirements>([level:4]),(ID_RACE_SAPHIR)</requirements>
+		<description>
+			<p><i>Prerequisite: Level 4, Saphir</i></p>
+			<p>The blood you feast upon grants you power. Once per long rest, once you use the goredrinker feature, instead of regaining hit points with that feature, you can choose to transform into a werebat for 1 minute, until that form reaches 0 hp or you choose to end the transformation.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>
+				<p>The blood you feast upon grants you power. Once per long rest, once you use the goredrinker feature, instead of regaining hit points with that feature, you can choose to transform into a werebat for 1 minute, until that form reaches 0 hp or you choose to end the transformation.</p>
+			</description>
+		</sheet>
+	</element>
+
+	<element name="Undead Bite" type="Feat" source="Yozolin's Lost Tome" id="ID_FALERIA_FEAT_UNDEAD_BITE">
+		<prerequisite>Level 4, Saphir or Zailm</prerequisite>	
+		<requirements>([level:4]),(ID_RACE_SAPHIR)</requirements> <!--Meter o Zailm quando estiver pronto-->
+		<description>
+			<p><i>Prerequisite: Level 4, Saphir or Zailm</i></p>
+			<p>Your teeth become sharpened turning into a simple weapon with which you are proficient. You may add your Constituiton modifier instead of your Strength modifier, to the attack and damage rolls made with your teeth. On a hit, your bite deals 1d4 piercing damage and the target becomes infected for 1 minute. You have advantage on any Wisdom (Perception) or Wisdom (Survival) check to find the infected creature.</p>
+			<p>If a creature dies whilst infected, and you are within 30 feet and can see them, you can use your reaction to reanimate them as a ghoul, which they will do at the start of your next turn. You may command these ghouls as if they were under the animate dead spell but with them dying after 1d4 rounds.</p>
+		</description>
+		<sheet action="Reaction" >
+			<description>
+				<p>The blood you feast upon grants you power. Once per long rest, once you use the goredrinker feature, instead of regaining hit points with that feature, you can choose to transform into a werebat for 1 minute, until that form reaches 0 hp or you choose to end the transformation.</p>
+				<p>If a creature dies whilst infected, and you are within 30 feet and can see them, you can use your reaction to reanimate them as a ghoul, which they will do at the start of your next turn. You may command these ghouls as if they were under the animate dead spell but with them dying after 1d4 rounds.</p>
+			</description>
+		</sheet>
+	</element>
 
 </elements>

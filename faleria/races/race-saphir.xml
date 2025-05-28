@@ -100,7 +100,7 @@
 		</description>
 		<sheet usage="{{proficiency}}/Long Rest">
 			<description>
-				<p>When you hit a creature, that isn’t an undead or construct, with a melee weapon attack you may drink the blood resulting from that wound. After doing so you regain {{goredrinker:hp}} hit point equal. If you have been hit with radiant damage or are under direct sunlight you cannot use this feature until the start of your next turn. You can use this trait a number of times equal to your proficiency bonus and regain all expended uses when you finish a long rest.</p>
+				<p>When you hit a creature, that isn’t an undead or construct, with a melee weapon attack you may drink the blood resulting from that wound. After doing so you regain {{goredrinker:hp}} hit points. If you have been hit with radiant damage or are under direct sunlight you cannot use this feature until the start of your next turn. You can use this trait a number of times equal to your proficiency bonus and regain all expended uses when you finish a long rest.</p>
 			</description>
 		</sheet>
 		<rules>
@@ -118,6 +118,5 @@
 			<description>Once per short rest you may transform into a tiny bat. While in this form you maintain your cognitive abilities, but aren’t able to speak. Anything you are wearing transforms with you, but nothing you are carrying does. You revert back to your true form if you die.</description>
 		</sheet>
 	</element>
-
 
 </elements>
