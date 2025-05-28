@@ -166,16 +166,13 @@
 	<sheet display="false">
 		<description>You gain access to the Mage spellcasting list. You can cast spells from this list using the spellcasting ability chosen for Untapped Power. </description>
 	</sheet>
-	<spellcasting name="Mage" ability="untapped power:ability" prepare="false">
-		<list>Mage</list>
-	</spellcasting>
 	<rules>
 		<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
 
 		<stat name="mage:spellcasting:slots:1" value="2" level="1" />
 
-		<select type="Spell" name="Cantrip (Mage)" spellcasting="Mage" />
-		<select type="Spell" name="Cantrip (Mage-musn’t deal damage)" spellcasting="Mage" />
+		<select type="Spell" name="Cantrip (Mage)" supports="0,(Artificer||Bard||Druid||Sorcerer||Wizard)" spellcasting="Mage" />
+		<select type="Spell" name="Cantrip (Mage-musn’t deal damage)" supports="0,(Artificer||Bard||Druid||Sorcerer||Wizard)" spellcasting="Mage" />
 	</rules>
 	</element>
 	
@@ -188,6 +185,9 @@
 		<sheet>
 			<description>You gain acces to two cantrips. Your spellcasting ability for the chosen cantrips is Intelligence. Your DC for these spells is {{untapped power:dc}} and your spell attack bonus is + {{untapped power:attack}} . </description>
 		</sheet>
+	<spellcasting name="Mage" ability="Intelligence" prepare="false">
+		<list>Mage</list>
+	</spellcasting>	
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" />
 			<stat name="untapped power:ability" value="intelligence:modifier" bonus="base" />
@@ -201,6 +201,9 @@
                 <p><strong>Spell save DC</strong> = 8 + your proficiency bonus + modifier of score chosen for saving throw proficiency</p>
                 <p><strong>Spell attack modifier</strong> = your proficiency bonus + modifier of score chosen for saving throw proficiency</p>			
 		</description>
+		<spellcasting name="Mage" ability="Wisdom" prepare="false">
+			<list>Mage</list>
+		</spellcasting>		
 		<sheet>
 			<description>You gain acces to two cantrips. Your spellcasting ability for the chosen cantrips is Wisdom. Your DC for these spells is {{untapped power:dc}} and your spell attack bonus is + {{untapped power:attack}} . </description>
 		</sheet>
@@ -220,6 +223,9 @@
 		<sheet>
 			<description>You gain acces to two cantrips. Your spellcasting ability for the chosen cantrips is Charisma. Your DC for these spells is {{untapped power:dc}} and your spell attack bonus is + {{untapped power:attack}} . </description>
 		</sheet>
+		<spellcasting name="Mage" ability="Charisma" prepare="false">
+			<list>Mage</list>
+		</spellcasting>		
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" />
 			<stat name="untapped power:ability" value="charisma:modifier" bonus="base" />
