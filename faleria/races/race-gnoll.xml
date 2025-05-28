@@ -47,7 +47,7 @@
 			<stat name="innate speed" value="35" bonus="base" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<grant type="Language" id="ID_LANGUAGE_ZAELSC" />
-			<select type="Racial Trait" id="ID_RACIAL_TRAIT_LANGUAGE_ZAELSC" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_LANGUAGE_ZAELSC" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SANGUINE" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_RELENTLESS_STRIKER" />	
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BLOOD_FRENZY" />
