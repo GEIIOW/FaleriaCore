@@ -168,14 +168,14 @@
 	<sheet display="false">
 		<description>You gain access to the Mage spellcasting list. You can cast spells from this list using the spellcasting ability chosen for Untapped Power. </description>
 	</sheet>
-	<rules>
+		<rules>
 		<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
 
 		<stat name="mage:spellcasting:slots:1" value="2" level="1" />
 
 		<select type="Spell" name="Cantrip (Mage)" supports="0,(Artificer||Bard||Druid||Sorcerer||Wizard)" spellcasting="Mage" />
 		<select type="Spell" name="Cantrip (Mage-musn’t deal damage)" supports="0,(Artificer||Bard||Druid||Sorcerer||Wizard)" spellcasting="Mage" />
-	</rules>
+		</rules>
 	</element>
 	
 	<element name="Intelligence" type="Class Feature" source="Yozolin's Lost Tome" id="ID_ASPIRATION_MAGE_UNTAPPED_POWER_INTELLIGENCE">
