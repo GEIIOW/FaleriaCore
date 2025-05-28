@@ -44,7 +44,7 @@
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_LANGUAGES_HUMAN" />
 
-			<stat name="strenght" value="2" />
+			<stat name="strenght" value="1" />
 			<stat name="wisdom" value="1" />
 	
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_QUICK_LEARNER" />
