@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Minotaur</name>
+		<update version="0.0.1">
+			<file name="race-minotaur.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/core/faleria/races/race-minotaur.xml" />
+		</update>
+	</info>
+
+	<element name="Minotaur" type="Race" source="Yozolin's Lost Tome" id="ID_RACE_LYKARA">
+		<description>
+			<p class="flavor">“Manyhalian monarchs say they’re descendants from gods, and most have the power to back-up those claims and if the myths are true so should the minotaurs, yet they don’t. They are phenomenal in a variety of ways, but none that equate the gods of Choronnea. It’s my theory that their souls have been diluted by their time in this world. I’ll autopsy some until I find out the awnser.”</p>
+			<p>- Y. Mageshell, Manyhals of Death.</p>
+			<p>Long ago, Kajeus, god of beasts and archery, decided to play a prank on Ymara, goddess of love and desire, by sneaking a snake, which she’s repulsed by, into her bed and pretending to be her lover. Her screams were heard all throughout Choronnea that night as she looked for who was responsible for the terrible joke. All the gods laughed at her disgruntled state, but Kajeus laughed the hardest, outing himself as the perpetrator. Ymara cursed at him and, as revenge, she placed a spell on the beast god so that he would be uncontrolably attracted to mortal women, but as a result of their coupling only beastly children would emerge. This is how the first minotaur, Tyfero, was born.</p>
+
+			<h4>Tauros</h4>
+			<p>Minotaur are big horned creatures with hooves and three fingered hands. Their fur colour varies from brown, grey, white and black. They possess longer fur from the top of their head to the start of their back.</p>
+
+			<h4>Minotaur Names</h4>
+			<p>Minotaur follow the naming conventions of their respective nation, but tend to drift towards using a lot of T’s, Y’s, R’s and S’s such as Tyros, Tyfero, Gorus and Yrtos.</p>
+
+			<h4>Minotaur traits</h4>
+			<p>Minotaur’s physicality and instincts have given them a number of abilities.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 2 and your Constitution score by 1.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Minotaur mature and age at about the same rate as humans.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Minotaurs average over 6’5 feet in height, and they have stocky builds. Your size is Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 35 feet.</p>
+			<p class="indent"><strong><em>Horns.</em></strong> Your horns are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+			<p class="indent"><strong><em>Goring Rush. </em></strong> Immediately after you move at least 20 feet, you can make one melee attack with your horns as a bonus action.</p>
+			<p class="indent"><strong><em>Hammering Horns. </em></strong> Immediately after you hit a creature with a melee attack, you can use a reaction to attempt to shove that target with your horns. That target must be no more than one size larger than you and within 5 feet of you. Unless it succeeds on a Strength saving throw against a DC equal to 8 + your proficiency bonus + your Strength modifier, you push it up to 10 feet away from you or knock it prone.</p>
+			<p class="indent"><strong><em>Labyrinthine Presence. </em></strong> You always know which direction is north, and you have proficiency in one two of the following skills of your choice: Intimidation, Perception, Persuasion or Survival.</p>
+			<p class="indent"><strong><em>Languages. </em></strong> You can speak, read, and write two languages of your choice.</p>
+			
+			<h4>MORE INFORMATION</h4>	
+			<p class="indent"><strong>For more details and updates, visit:</strong> https://homebrewery.naturalcrit.com/share/xU1F7WjGEoQC</p>
+
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Adran, Aelar, Aramil, Arannis, Aust, Beiro, Berrian, Carric, Enialis, Erdan, Erevan, Galinndan, Hadarai, Heian, Himo, Immeral, Ivellios, Laucian, Mindartis, Paelias, Peren, Quarion, Riardon, Rolen, Soveliss, Thamior, Tharivol, Theren, Varis</set>
+			<set name="names" type="female">Adrie, Althaea, Anastrianna, Andraste, Antinua, Bethrynna, Birel, Caelynn, Drusilia, Enna, Felosial, Ielenia, Jelenneth, Keyleth, Leshanna, Lia, Meriele, Mialee, Naivara, Quelenna, Quillathe, Sariel, Shanairra, Shava, Silaqui, Theirastra, Thia, Vadania, Valanthe, Xanaphia</set>
+			<set name="names" type="family">Amakiir, Amastacia, Galanodel, Holimion, Ilphelkiir, Liadon, Meliamne, Nai'lo, Siannodel, Xiloscient</set>
+			<set name="names-format">{{name}} {{family}}</set>
+		</setters>
+		<rules>
+			<stat name="strength" value="2" />
+			<stat name="constitution" value="1" />
+			<stat name="innate speed" value="35" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<select type="Language" name="Language (Minotaur)" supports="Standard" number="2" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HORNS" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_GORING_RUSH" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HAMMERING_HORNS" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_LABYRINTHINE_PRESENCE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_LANGUAGES_WOLFEN" />
+		</rules>
+	</element>
+
+	<element name="Horns" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_HORNS">
+		<description>
+			<p>Your horns are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+		</description>
+		<sheet >
+			<description>
+			<p>Your horns are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to 1d6 + ({{strength:modifier}}), instead of the bludgeoning damage normal for an unarmed strike.</p>
+			<p>&#x2022; Horns: Melee Weapon Attack, 1d6 + {{minotaur weapon:modifier}} piercing damage.</p>
+			</description>
+		</sheet>
+		<rules>
+			<stat name="minotaur weapon:modifier" value="strength:modifier" bonus="Minotaur strength" />
+		</rules>
+	</element>
+
+
+	<element name="Hammering Horns" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_HAMMERING_HORNS">
+		<description>
+			<p>You have advantage on Wisdom (Perception) checks made to hear or smell.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on Wisdom (Perception) checks made to hear or smell.</description>
+		</sheet>
+	</element>
+	
+
+	<element name="Hammering Horns" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_HAMMERING_HORNS">
+		<description>
+			<p>You have advantage on Wisdom (Perception) checks made to hear or smell.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on Wisdom (Perception) checks made to hear or smell.</description>
+		</sheet>
+	</element>
+	
+	<element name="Goring Rush" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_GORING_RUSH">
+		<description>
+			<p>Immediately after you move at least 20 feet, you can make one melee attack with your horns as a bonus action.</p>
+		</description>
+		<sheet>
+			<description>Immediately after you move at least 20 feet, you can make one melee attack with your horns as a bonus action.</description>
+		</sheet>
+	</element>
+
+	<element name="Labyrinthine Presence" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_LABYRINTHINE_PRESENCE">
+		<description>
+			<p>You always know which direction is north, and you have proficiency in one two of the following skills of your choice: Intimidation, Perception, Persuasion or Survival.</p>
+		</description>
+		<sheet>
+			<description>You always know which direction is north, and you have proficiency in one two of the following skills of your choice: Intimidation, Perception, Persuasion or Survival.</description>
+		</sheet>
+	</element>
+
+</elements>

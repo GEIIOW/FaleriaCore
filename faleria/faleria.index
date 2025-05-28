@@ -25,6 +25,7 @@
 		<file name="race-genasi.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/races/race-genasi.xml" />
 		<file name="race-gnoll.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/races/race-gnoll.xml" />
 		<file name="race-human.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/races/race-human.xml" />
+		<file name="race-minotaur.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/races/race-minotaur.xml" />
 
 		<!--Classes-->		
 		<file name="blood-hunter.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/classes/class-bloodhunter.xml" />
