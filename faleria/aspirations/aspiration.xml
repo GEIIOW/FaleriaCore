@@ -220,9 +220,9 @@
                 <p><strong>Spell save DC</strong> = 8 + your proficiency bonus + modifier of score chosen for saving throw proficiency</p>
                 <p><strong>Spell attack modifier</strong> = your proficiency bonus + modifier of score chosen for saving throw proficiency</p>			
 		</description>
-		<sheet>
+		<sheet alt="Untapped Power">
 			<description>You gain acces to two cantrips. Your spellcasting ability for the chosen cantrips is Charisma. Your DC for these spells is {{untapped power:dc}} and your spell attack bonus is + {{untapped power:attack}} . </description>
-		</sheet alt="Untapped Power">
+		</sheet>
 		<spellcasting name="Mage" ability="Charisma" prepare="false">
 			<list>Mage</list>
 		</spellcasting>		
