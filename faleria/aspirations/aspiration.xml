@@ -179,6 +179,7 @@
 	</element>
 	
 	<element name="Intelligence" type="Class Feature" source="Yozolin's Lost Tome" id="ID_ASPIRATION_MAGE_UNTAPPED_POWER_INTELLIGENCE">
+		<compendium display="false" />
 		<description>
 		<h5>Untapped power</h5>
                 <p><strong>Spell save DC</strong> = 8 + your proficiency bonus + modifier of score chosen for saving throw proficiency</p>
@@ -197,6 +198,7 @@
 	</element>
 
 	<element name="Wisdom" type="Class Feature" source="Yozolin's Lost Tome" id="ID_ASPIRATION_MAGE_UNTAPPED_POWER_WISDOM">
+		<compendium display="false" />
 		<description>
 		<h5>Untapped power</h5>
                 <p><strong>Spell save DC</strong> = 8 + your proficiency bonus + modifier of score chosen for saving throw proficiency</p>
@@ -215,6 +217,7 @@
 	</element>
 
 	<element name="Charisma" type="Class Feature" source="Yozolin's Lost Tome" id="ID_ASPIRATION_MAGE_UNTAPPED_POWER_CHARISMA">
+		<compendium display="false" />	
 		<description>
 		<h5>Untapped power</h5>
                 <p><strong>Spell save DC</strong> = 8 + your proficiency bonus + modifier of score chosen for saving throw proficiency</p>
