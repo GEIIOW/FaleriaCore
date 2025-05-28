@@ -18,9 +18,19 @@
 			<set name="image">https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/FALERIA.png</set>
 			<set name="author" abbreviation="LC" url="http://dnd.wizards.com">Lucky Crown | Imported by Gellow</set>
 			<set name="release">20250525</set>
-			<set name="league">true</set>
-			<set name="official">true</set>
-			<set name="supplement">true</set>
+			<set name="third-party">true</set>
+		</setters>
+	</element>
+	
+	<element name="Critical Role" type="Source" source="Core" id="ID_CRIT_SOURCE_CRITICAL_ROLE">
+		<description>
+			<![CDATA[<p>Critical Role is a weekly livestreamed Dungeons & Dragons game set in Exandria, which is the world created by veteran voice actor and Dungeon Master, Matthew Mercer. Each week, Matthew leads his friends (also fellow voice actors!) on epic adventures.</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">CRIT</set>
+			<set name="url">https://critrole.com/</set>
+			<set name="author" abbreviation="MM" url="https://geekandsundry.com/shows/critical-role/">Matthew Mercer</set>
+			<set name="third-party">true</set>
 		</setters>
 	</element>
 </elements>
