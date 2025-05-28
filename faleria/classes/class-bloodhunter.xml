@@ -718,7 +718,7 @@
 			<description>Your patron is a mysterious entity whose nature is utterly foreign to the fabric of reality.</description>
 		</sheet>
 	</element>
-	<element name="The Undying" type="Archetype Feature" source="Sword Coast Adventurer’s Guide" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_UNDYING">
+	<element name="The Undying" type="Archetype Feature" source="Player’s Handbook" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_UNDYING">
 		<compendium display="false" />
 		<supports>Profane Soul Otherworldly Patron</supports>
 		<description>
