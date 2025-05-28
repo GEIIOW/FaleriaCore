@@ -160,10 +160,10 @@
 		</element>
 
 	<element name="Spellcasting" type="Class Feature" source="Yozolin's Lost Tome" id="ID_ASPIRATION_MAGE_SPELLCASTING">	
+	<compendium display="false" />
 	<description>
 		<p>Spellcasting ability is determined by the score chosen for saving throw proficiency.</p>
 	</description>
-	<compendium display="false">
 	<sheet display="false">
 		<description>You gain access to the Mage spellcasting list. You can cast spells from this list using the spellcasting ability chosen for Untapped Power. </description>
 	</sheet>
