@@ -109,6 +109,7 @@
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_KEEN_SMELL" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BEARWARE" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_LANGUAGES" />
+			<select type="Language" name="Language (Galitark)" supports="Standard" number="3"/>
 		</rules>
 	</element> 	
 
@@ -138,18 +139,6 @@
 		<sheet>
 			<description>It takes an additional creature for you to be flanked or affected by pack tactics, or similar features.</description>
 		</sheet>
-	</element>
-	<element name="Languages" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_LANGUAGES">
-		<description>
-			<p>You can speak, read and write three languages of your choice.</p>
-		</description>
-		<sheet display="false" />
-		<compendium display="false" />
-		<rules>
-			<select type="Language" name="Language (Galitark)" supports="Standard" />
-			<select type="Language" name="Language (Galitark)" supports="Standard" />
-			<select type="Language" name="Language (Galitark)" supports="Standard" />
-		</rules>
 	</element>
 
 	<element name="Panda Galitarko" type="Sub Race" source="Yozolin's Lost Tome" id="ID_SUB_RACE_PANDA_GALITARKO">
