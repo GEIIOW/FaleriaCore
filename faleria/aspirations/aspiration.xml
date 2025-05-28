@@ -178,8 +178,8 @@
 
 		<select type="Spell" name="Cantrip (Mage)" supports="$(spellcasting:list), 0" level="1" number="2" spellcasting="Bard" />
 	</rules>
-
 	</element>
+	
 	<element name="Untapped Power: Intelligence" type="Class Feature" source="Yozolin's Lost Tome" id="ID_ASPIRATION_MAGE_UNTAPPED_POWER_INTELLIGENCE">
 		<description>
 		<h5>Untapped power</h5>
