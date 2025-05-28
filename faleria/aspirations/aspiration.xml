@@ -134,12 +134,12 @@
 		<rules>
 				<stat name="proficiency" value="-1" />
 				<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
-				<select type="Proficiency" name="Mage Modifier" supports="ID_ASPIRATION_MAGE_UNTAPPED_POWER_INTELLIGENCE|ID_ASPIRATION_MAGE_UNTAPPED_POWER_WISDOM|ID_ASPIRATION_MAGE_UNTAPPED_POWER_CHARISMA" />
+				<select type="Class Feature" name="Mage Modifier" supports="ID_ASPIRATION_MAGE_UNTAPPED_POWER_INTELLIGENCE|ID_ASPIRATION_MAGE_UNTAPPED_POWER_WISDOM|ID_ASPIRATION_MAGE_UNTAPPED_POWER_CHARISMA" />
 				<stat name="hp" value="6" />
 		</rules>
 	</element>
 	
-	<element name="Intelligence" type="Proficiency" source="Yozolin's Lost Tome" id="ID_ASPIRATION_MAGE_UNTAPPED_POWER_INTELLIGENCE">
+	<element name="Intelligence" type="Class Feature" source="Yozolin's Lost Tome" id="ID_ASPIRATION_MAGE_UNTAPPED_POWER_INTELLIGENCE">
 		<description>
 		<h5>Untapped power</h5>
 		<p>Only at level 0, you gain access to two cantrips, one of which musn’t deal damage, of one of the following spell lists: artificer, bard, druid, sorcerer or wizard.</p>
@@ -157,7 +157,7 @@
 		</rules>
 		</element>
 
-	<element name="Wisdom" type="Proficiency" source="Yozolin's Lost Tome" id="ID_ASPIRATION_MAGE_UNTAPPED_POWER_WISDOM">
+	<element name="Wisdom" type="Class Feature" source="Yozolin's Lost Tome" id="ID_ASPIRATION_MAGE_UNTAPPED_POWER_WISDOM">
 		<description>
 		<h5>Untapped power</h5>
 		<p>Only at level 0, you gain access to two cantrips, one of which musn’t deal damage, of one of the following spell lists: artificer, bard, druid, sorcerer or wizard.</p>
@@ -175,7 +175,7 @@
 		</rules>
 	</element>
 
-	<element name="Charisma" type="Proficiency" source="Yozolin's Lost Tome" id="ID_ASPIRATION_MAGE_UNTAPPED_POWER_CHARISMA">
+	<element name="Charisma" type="Class Feature" source="Yozolin's Lost Tome" id="ID_ASPIRATION_MAGE_UNTAPPED_POWER_CHARISMA">
 		<description>
 		<h5>Untapped power</h5>
 		<p>Only at level 0, you gain access to two cantrips, one of which musn’t deal damage, of one of the following spell lists: artificer, bard, druid, sorcerer or wizard.</p>
