@@ -108,7 +108,6 @@
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HIGH_CLIMBER" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_KEEN_SMELL" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BEARWARE" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_LANGUAGES" />
 			<select type="Language" name="Language (Galitark)" supports="Standard" number="3"/>
 		</rules>
 	</element> 	
