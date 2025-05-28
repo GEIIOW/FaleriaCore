@@ -49,6 +49,7 @@
 	
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_QUICK_LEARNER" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_MALLEABLE" />
+			<select type="Feat" name="Feat (Human)" />
 		</rules>
 	</element>
 
@@ -78,6 +79,5 @@
 		<sheet display="false" />
 		<compendium display="false" />
 	</element>
-
 
 </elements>
