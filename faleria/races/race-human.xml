@@ -7,7 +7,7 @@
 		</update>
 	</info>
 
-	<element name="Human (Faleria)" type="Race Variant" source="Yozolin's Lost Tome" id="ID_FALERIA_RACE_HUMAN">
+	<element name="Human (Faleria)" type="Race" source="Yozolin's Lost Tome" id="ID_FALERIA_RACE_HUMAN">
 	<supports>Human</supports>
 		<description>
 			<p class="flavor">“They are a plague upon this world. These little pests can not only survive anywhere in this world but also thrive wherever they settle. Their kind has given great contributions to my field of study though, I’ll give them that. Much like goblins, humans are born as dumb as rocks. Gross little balls of pure potential, but, unlike goblins, they live long enough to actually make a difference. I met a brilliant human once. He was kind hearted and dedicated. Achieved what took me 90 years in just 10. They can be great. It still saddens me that he didn’t approve of my methods.”</p>
@@ -41,6 +41,8 @@
 			<set name="names-format">{{name}} {{family}}</set>
 		</setters>
 		<rules>
+			<grant type="Size" id="ID_SIZE_MEDIUM"/>
+			<stat name="innate speed" value="30" bonus="base"/>	
 			<select type="Language" name="Language (Human)" supports="Standard" number="3" />
 			<select type="Ability Score Improvement" name="Ability Score Improvement (Human)" supports="ID_ASI_RACE_HUMAN1|ID_ASI_RACE_HUMAN2" />		
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_QUICK_LEARNER" />
