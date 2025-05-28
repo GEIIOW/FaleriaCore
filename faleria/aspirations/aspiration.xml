@@ -134,15 +134,32 @@
 		<rules>
 				<stat name="proficiency" value="-1" />
 				<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
-				<select type="Class Feature" name="Mage Saving Throw" supports="ID_ASPIRATION_MAGE_UNTAPPED_POWER_INTELLIGENCE|ID_ASPIRATION_MAGE_UNTAPPED_POWER_WISDOM|ID_ASPIRATION_MAGE_UNTAPPED_POWER_CHARISMA" />
+				<grant type="Class Feature" id="ID_ASPIRATION_MAGE_UNTAPPED_POWER" />
 				<stat name="hp" value="6" />
 		</rules>
 	</element>
 	
-	<element name="Intelligence" type="Class Feature" source="Yozolin's Lost Tome" id="ID_ASPIRATION_MAGE_UNTAPPED_POWER_INTELLIGENCE">
+	<element name="Untapped Power" type="Class Feature" source="Yozolin's Lost Tome" id="ID_ASPIRATION_MAGE_UNTAPPED_POWER">
 		<description>
 		<h5>Untapped power</h5>
 		<p>Only at level 0, you gain access to two cantrips, one of which musn’t deal damage, of one of the following spell lists: artificer, bard, druid, sorcerer or wizard.</p>
+        <center>
+                <p><strong>Spell save DC</strong> = 8 + your proficiency bonus + modifier of score chosen for saving throw proficiency</p>
+                <p><strong>Spell attack modifier</strong> = your proficiency bonus + modifier of score chosen for saving throw proficiency</p>
+        </center>		
+		</description>
+		<rules>
+			<select type="Class Feature" name="Mage Saving Throw" supports="ID_ASPIRATION_MAGE_UNTAPPED_POWER_INTELLIGENCE|ID_ASPIRATION_MAGE_UNTAPPED_POWER_WISDOM|ID_ASPIRATION_MAGE_UNTAPPED_POWER_CHARISMA" />	
+			<stat name="untapped power:dc" value="8" bonus="base" />
+  			<stat name="untapped power:dc" value="proficiency" bonus="proficiency" />
+  			<stat name="untapped power:dc" value="untapped power:ability" bonus="ability" />
+		</rules>
+		</element>
+
+
+	<element name="Intelligence" type="Class Feature" source="Yozolin's Lost Tome" id="ID_ASPIRATION_MAGE_UNTAPPED_POWER_INTELLIGENCE">
+		<description>
+		<h5>Untapped power</h5>
         <center>
                 <p><strong>Spell save DC</strong> = 8 + your proficiency bonus + modifier of score chosen for saving throw proficiency</p>
                 <p><strong>Spell attack modifier</strong> = your proficiency bonus + modifier of score chosen for saving throw proficiency</p>
@@ -152,9 +169,6 @@
 			<description>You gain acces to two cantrips. Your spellcasting ability for the chosen cantrips is Intelligence. Your DC for these spells is {{untapped power:dc}} and your spell attack bonus is + {{untapped power:ability}} . </description>
 		</sheet>
 		<rules>
-  			<stat name="untapped power:dc" value="8" bonus="base" />
-  			<stat name="untapped power:dc" value="proficiency" bonus="proficiency" />
-  			<stat name="untapped power:dc" value="untapped power:ability" bonus="ability" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" />
 			<stat name="untapped power:ability" value="intelligence:modifier" bonus="base" />
 		</rules>
@@ -163,7 +177,6 @@
 	<element name="Wisdom" type="Class Feature" source="Yozolin's Lost Tome" id="ID_ASPIRATION_MAGE_UNTAPPED_POWER_WISDOM">
 		<description>
 		<h5>Untapped power</h5>
-		<p>Only at level 0, you gain access to two cantrips, one of which musn’t deal damage, of one of the following spell lists: artificer, bard, druid, sorcerer or wizard.</p>
         <center>
                 <p><strong>Spell save DC</strong> = 8 + your proficiency bonus + modifier of score chosen for saving throw proficiency</p>
                 <p><strong>Spell attack modifier</strong> = your proficiency bonus + modifier of score chosen for saving throw proficiency</p>
@@ -173,9 +186,6 @@
 			<description>You gain acces to two cantrips. Your spellcasting ability for the chosen cantrips is Wisdom. Your DC for these spells is {{untapped power:dc}} and your spell attack bonus is + {{untapped power:ability}} . </description>
 		</sheet>
 		<rules>
-  			<stat name="untapped power:dc" value="8" bonus="base" />
-  			<stat name="untapped power:dc" value="proficiency" bonus="proficiency" />
-  			<stat name="untapped power:dc" value="untapped power:ability" bonus="ability" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
 			<stat name="untapped power:ability" value="wisdom:modifier" bonus="base" />
 		</rules>
@@ -184,7 +194,6 @@
 	<element name="Charisma" type="Class Feature" source="Yozolin's Lost Tome" id="ID_ASPIRATION_MAGE_UNTAPPED_POWER_CHARISMA">
 		<description>
 		<h5>Untapped power</h5>
-		<p>Only at level 0, you gain access to two cantrips, one of which musn’t deal damage, of one of the following spell lists: artificer, bard, druid, sorcerer or wizard.</p>
         <center>
                 <p><strong>Spell save DC</strong> = 8 + your proficiency bonus + modifier of score chosen for saving throw proficiency</p>
                 <p><strong>Spell attack modifier</strong> = your proficiency bonus + modifier of score chosen for saving throw proficiency</p>
@@ -194,9 +203,6 @@
 			<description>You gain acces to two cantrips. Your spellcasting ability for the chosen cantrips is Charisma. Your DC for these spells is {{untapped power:dc}} and your spell attack bonus is + {{untapped power:ability}} . </description>
 		</sheet>
 		<rules>
-  			<stat name="untapped power:dc" value="8" bonus="base" />
-  			<stat name="untapped power:dc" value="proficiency" bonus="proficiency" />
-  			<stat name="untapped power:dc" value="untapped power:ability" bonus="ability" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" />
 			<stat name="untapped power:ability" value="charisma:modifier" bonus="base" />
 		</rules>
