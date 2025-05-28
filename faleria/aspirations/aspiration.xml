@@ -134,7 +134,8 @@
 		<rules>
 				<stat name="proficiency" value="-1" />
 				<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
-				<grant type="Class Feature" id="ID_ASPIRATION_MAGE_UNTAPPED_POWER" level ="1" />
+				<grant type="Class Feature" id="ID_ASPIRATION_MAGE_UNTAPPED_POWER"/>
+				<grant type="Class feature" id="ID_ASPIRATION_MAGE_SPELLCASTING" level ="1" />
 				<stat name="hp" value="6" />
 		</rules>
 	</element>
@@ -149,18 +150,7 @@
 		<sheet display="false">
 			<description>You gain acces to two cantrips. Your spellcasting ability for the chosen cantrips is {{untapped power:ability}}. Your DC for these spells is {{untapped power:dc}} and your spell attack bonus is + {{untapped power:ability}} . </description>	
 		</sheet>
-		<spellcasting name="Mage" ability="untapped power:ability" prepare="false" allowReplace="true">
-			<list>Mage</list>
-		</spellcasting>
 		<rules>
-			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
-			<grant type="Grants" id="ID_INTERNAL_RITUAL_CASTING" />
-
-			<stat name="mage:spellcasting:slots:1" value="2" level="1" />
-
-			<select type="Spell" name="Cantrip (Mage)" supports="$(spellcasting:list), 0" level="1" number="2" spellcasting="Mage" />
-			<select type="Spell" name="Cantrip (Mage)" supports="$(spellcasting:list), 0" level="4" number="1" spellcasting="Mage" />
-
 			<select type="Class Feature" name="Mage Saving Throw" supports="ID_ASPIRATION_MAGE_UNTAPPED_POWER_INTELLIGENCE|ID_ASPIRATION_MAGE_UNTAPPED_POWER_WISDOM|ID_ASPIRATION_MAGE_UNTAPPED_POWER_CHARISMA" />	
 			<stat name="untapped power:dc" value="8" bonus="base" />
   			<stat name="untapped power:dc" value="proficiency" bonus="proficiency" />
@@ -168,6 +158,27 @@
 		</rules>
 		</element>
 
+	<element name="Spellcasting" type="Class Feature" source="Yozolin's Lost Tome" id="ID_ASPIRATION_MAGE_SPELLCASTING">
+		
+	<description>
+		<p>Spellcasting ability is determined by the score chosen for saving throw proficiency.</p>
+	</description>
+	<sheet display="false">
+		<description>You gain access to the Mage spellcasting list. You can cast spells from this list using the spellcasting ability chosen for Untapped Power. </description>
+	</sheet>
+	<spellcasting name="Mage" ability="untapped power:ability" prepare="false" allowReplace="true">
+		<list>Mage</list>
+	</spellcasting>
+	<rules>
+		<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
+		<grant type="Grants" id="ID_INTERNAL_RITUAL_CASTING" />
+
+		<stat name="mage:spellcasting:slots:1" value="2" level="1" />
+
+		<select type="Spell" name="Cantrip (Mage)" supports="$(spellcasting:list), 0" level="1" number="2" spellcasting="Mage" />
+	</rules>
+
+	</element>
 	<element name="Intelligence" type="Class Feature" source="Yozolin's Lost Tome" id="ID_ASPIRATION_MAGE_UNTAPPED_POWER_INTELLIGENCE">
 		<description>
 		<h5>Untapped power</h5>
