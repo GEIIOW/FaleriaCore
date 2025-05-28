@@ -42,7 +42,7 @@
 				<item id="7">Standard-bearer.</item>
 				<item id="8">Support staff (cook, blacksmith, or the like).</item>
 			</select>
-			<select type="List" name="Personality Trait" number="2">
+			<select type="List" name="Personality Trait">
 				<item id="1">I idolize a particular hero of my faith, and constantly refer to that person’s deeds and example.</item>
 				<item id="2">I can find common ground between the fiercest enemies, empathizing with them and always working toward peace.</item>
 				<item id="3">I see omens in every event and action. The gods try to speak to us, we just need to listen</item>
