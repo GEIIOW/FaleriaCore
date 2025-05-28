@@ -155,7 +155,6 @@
 			<stat name="mage:spellcasting:slots:1" value="2" level="1" />
 			<select type="Spell" name="Cantrip (Mage)" supports="$(spellcasting:list), 0" level="1" number="2" spellcasting="Bard" />
 			<select type="Spell" name="Cantrip (Mage)" supports="$(spellcasting:list), 0" level="4" number="1" spellcasting="Bard" />
-			<select type="Spell" name="Cantrip (Bard)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="Bard" />
 			<select type="Class Feature" name="Mage Saving Throw" supports="ID_ASPIRATION_MAGE_UNTAPPED_POWER_INTELLIGENCE|ID_ASPIRATION_MAGE_UNTAPPED_POWER_WISDOM|ID_ASPIRATION_MAGE_UNTAPPED_POWER_CHARISMA" />	
 			<stat name="untapped power:dc" value="8" bonus="base" />
   			<stat name="untapped power:dc" value="proficiency" bonus="proficiency" />
