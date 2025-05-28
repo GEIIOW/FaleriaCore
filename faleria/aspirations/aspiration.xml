@@ -232,7 +232,6 @@
 		</rules>
 	</element>
 
-	
 	<!-- Warrior -->
 	<element name="Warrior" type="Class Feature" source="Yozolin's Lost Tome" id="ID_ASPIRATION_WARRIOR">
 		<supports>Aspiration</supports>
