@@ -156,7 +156,7 @@
   			<stat name="untapped power:dc" value="proficiency" bonus="proficiency" />
   			<stat name="untapped power:dc" value="untapped power:ability" bonus="ability" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" />
-			<stat name="untapped power:ability" value="[intelligence]:modifier" bonus="base" />
+			<stat name="untapped power:ability" value="intelligence:modifier" bonus="base" />
 		</rules>
 		</element>
 
@@ -177,7 +177,7 @@
   			<stat name="untapped power:dc" value="proficiency" bonus="proficiency" />
   			<stat name="untapped power:dc" value="untapped power:ability" bonus="ability" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
-			<stat name="untapped power:ability" value="[wisdom]:modifier" bonus="base" />
+			<stat name="untapped power:ability" value="wisdom:modifier" bonus="base" />
 		</rules>
 	</element>
 
@@ -198,7 +198,7 @@
   			<stat name="untapped power:dc" value="proficiency" bonus="proficiency" />
   			<stat name="untapped power:dc" value="untapped power:ability" bonus="ability" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" />
-			<stat name="untapped power:ability" value="[charisma]:modifier" bonus="base" />
+			<stat name="untapped power:ability" value="charisma:modifier" bonus="base" />
 		</rules>
 	</element>
 
