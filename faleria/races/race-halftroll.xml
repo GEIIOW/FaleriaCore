@@ -50,10 +50,8 @@
 			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<grant type="Vision" id="ID_VISION_DARKVISION_HALFTROLL" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_CLAWS" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HALFTROLL_REGENRATION" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BEARABLE" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_GALITARKO_SUBRACE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HALFTROLL_SUBRACE" />
 		</rules>
 	</element>
 	
@@ -62,7 +60,7 @@
 		<description>
 			<p>Due to your ancestry you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it was dim light. However, you can’t discern color in darkness, only shades of green.</p>
 		</description>
-		<sheet>
+		<sheet alt="Darkvision">
 			<description>You can see in dim light within {{darkvision:range}} feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of green..</description>
 		</sheet>
 		<rules>
@@ -86,26 +84,9 @@
 		</rules>
 	</element>
 
-	
-	<element name="Mauling Strike" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_MAULINGSTRIKE">
+	<element name="Half-Troll Subtype" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_HALFTROLL_SUBRACE">
 		<description>
-			<p>Immediately after you move at least 20 feet, you can make one melee attack with your claws as a bonus action.</p>
-		</description>
-		<sheet>
-			<description>Immediately after you move at least 20 feet, you can make one melee attack with your claws as a bonus action.</description>
-		</sheet>
-	</element>
-	<element name="Bearable" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_BEARABLE">
-		<description>
-			<p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
-		</description>
-		<sheet>
-			<description>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</description>
-		</sheet>
-	</element>
-	<element name="Galitarko Subrace" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_GALITARKO_SUBRACE">
-		<description>
-			<p>Three main subtypes of galitarko populate Faleria: Grizzly, Panda and Polar Galitarko. Choose one of these subtypes.</p>
+			<p>Four main ancestries of troll show themselves in half-trolls: Ice, Sand, Tropical and War Half-Trolls. Choose one of these subtypes.</p>
 		</description>
 		<sheet display="false" />
 		<compendium display="false" />
