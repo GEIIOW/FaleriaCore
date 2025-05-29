@@ -52,6 +52,8 @@
 			<grant type="Vision" id="ID_VISION_DARKVISION_HALFTROLL" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HALFTROLL_REGENRATION" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HALFTROLL_SUBRACE" />
+			<select type="Language" name="Language (Half-Troll)" supports="Standard" number="2" />
+
 		</rules>
 	</element>
 	
@@ -91,63 +93,63 @@
 		<sheet display="false" />
 		<compendium display="false" />
 		<rules>
-			<select type="Sub Race" name="Galitarko Subrace" supports="Galitarko" />
+			<select type="Sub Race" name="Half-Troll Subtype" supports="Half-Troll" />
 		</rules>
 	</element>
 
-	<element name="Grizzly Galitarko" type="Sub Race" source="Yozolin's Lost Tome" id="ID_SUB_RACE_GRIZZLY_GALITARKO">
-		<supports>Galitarko</supports>
+	<element name="Ice Half-Troll" type="Sub Race" source="Yozolin's Lost Tome" id="ID_SUB_RACE_GRIZZLY_GALITARKO">
+		<supports>Half-Troll</supports>
 		<description>
-			<p>The grizzly galitarko wear a resemblance to either black, brown or grey bears. Natural of Manyhal and western Zeiloryn, these huge mortals can produce a fierce roar, unlike any other. Though they might seem brutish, many carry the philosophy of Lendo, that teaches you to always try to work for the greater good. In the case of the galitarko on the western side of Zeiloryn, that meant joining the empire and it’s conquest.</p>
-			<p>Grizzly galitarko often have only one name derived from an adjective given while they were young, such as Fasten, Hungrial, Madden and Swiffy.</p>
-			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 1.</p>
-			<p class="indent"><strong><em>High Climber.</em></strong> You have a climbing speed equal to your walking speed.</p>
-			<p class="indent"><strong><em>Keen Smell.</em></strong> You have advantage on Wisdom (Perception) checks that rely on smell.</p>
-			<p class="indent"><strong><em>Bearware.</em></strong> It takes an additional creature for you to be flanked or affected by pack tactics, or similar features.</p>
-			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read and write three languages of your choice.</p>
+			<p>As a descendant of ice trolls, low temperatures do not affect you, as your light blue or white skin is impervious to it. You have purple or pink eyes and black, blue, pink, purple or brown hair and, as all half-trolls, you have two big tusks that come in a variety of shapes and sizes.</p>
+			<p>Descendant to the troll Gaelea, the shipmaster, you have grown accustomed to fishing boats and javelin fishing and generally feel comfortable living close to the water.</p>
+			<p class="indent"><strong><em>Nÿjorsan training.</em></strong> You are proficient with medium armor, javelins and war picks.</p>
+			<p class="indent"><strong><em>Cold Shores.</em></strong> You are proficient with water vehicles. Additionally, choose two from Athletics, Acrobatics, Investigation, Perception or Survival.</p>
+			<p class="indent"><strong><em>Re-icing.</em></strong> When using your half-troll regeneration, instead of choosing to recuperate hit points you may choose to heal yourself of one disease, poisonous effect or short-term curse.</p>
 		</description>
 		<sheet display="false" />
-		<setters>
-			<set name="height" modifier="2d10">4'6"</set>
-			<set name="weight" modifier="1d4">90 lb.</set>
-		</setters>
 		<rules>
-			<stat name="wisdom" value="1" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HIGH_CLIMBER" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_KEEN_SMELL" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BEARWARE" />
-			<select type="Language" name="Language (Galitark)" supports="Standard" number="3"/>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_NYJORSAN_TRAINING" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_COLD_SHORES" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HALFTROLL-REICING" />
 		</rules>
 	</element> 	
 
-	<element name="High Climber" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_HIGH_CLIMBER">
+	<element name="Nÿjorsan training" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_NYJORSAN_TRAINING">
 		<description>
-			<p>You have a climbing speed equal to your walking speed.</p>
+			<p>You are proficient with medium armor, javelins and war picks.</p>
 		</description>
 		<sheet display="false">
-			<description>You have a climbing speed equal to your walking speed.</description>
+			<description>You are proficient with medium armor, javelins and war picks.</description>
 		</sheet>
 		<rules>
-			<stat name="speed:climb" value="speed" bonus="base" />
-		</rules>		
-	</element>
-	<element name="Keen Smell" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_KEEN_SMELL">
-		<description>
-			<p>You have advantage on Wisdom (Perception) checks that rely on smell.</p>
-		</description>
-		<sheet>
-			<description>You have advantage on Wisdom (Perception) checks that rely on smell.</description>
-		</sheet>
-	</element>
-	<element name="Bearware" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_BEARWARE">
-		<description>
-			<p>It takes an additional creature for you to be flanked or affected by pack tactics, or similar features.</p>
-		</description>
-		<sheet>
-			<description>It takes an additional creature for you to be flanked or affected by pack tactics, or similar features.</description>
-		</sheet>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_JAVELIN" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WAR_PICK" />
+		</rules>
 	</element>
 
+	<element name="Cold Shores" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_COLD_SHORES">
+		<description>
+			<p>You are proficient with water vehicles. Additionally, choose two from Athletics, Acrobatics, Investigation, Perception or Survival.</p>
+		</description>
+		<sheet display="false">
+			<description>You are proficient with water vehicles. Additionally, choose two from Athletics, Acrobatics, Investigation, Perception or Survival.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_WATER" />
+			<select type="Proficiency" name="Cold Shores" supports="ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_SURVIVAL" number="2" />
+		</rules>
+	</element>
+
+	<element name="Re-icing" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_HALFTROLL-REICING">
+		<description>
+			<p>When using your half-troll regeneration, instead of choosing to recuperate hit points you may choose to heal yourself of one disease, poisonous effect or short-term curse.</p>
+		</description>
+		<sheet>
+			<description>When using your half-troll regeneration, instead of choosing to recuperate hit points you may choose to heal yourself of one disease, poisonous effect or short-term curse.</description>
+		</sheet>
+	</element>	
+	
 	<element name="Panda Galitarko" type="Sub Race" source="Yozolin's Lost Tome" id="ID_SUB_RACE_PANDA_GALITARKO">
 		<supports>Galitarko</supports>
 		<description>
