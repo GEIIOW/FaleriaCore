@@ -25,6 +25,7 @@
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_KWIKWIK</set>
 		</setters>
 	</element>	
+ 	
 
 	<!--Meter isto bem asap-->
 	<element name="Heavy Sling" type="Weapon" source="Yozolin's Lost Tome" id="ID_FALERIA_WEAPON_HEAVYSLING">
@@ -43,6 +44,11 @@
 		</setters>
 	</element>	
 
-
+	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_KWIKWIK" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HEAVYSLING" />
+        </rules>
+    </append>
 
 </elements>
