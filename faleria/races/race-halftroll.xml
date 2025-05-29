@@ -224,7 +224,6 @@
 			<set name="weight" modifier="1d6">75 lb.</set>
 		</setters>
 		<rules>
-			<stat name="constitution" value="1" />
 			<grant type="Language" id="ID_LANGUAGE_SMIDIAN" />
 			<grant type="Raciaol Trait" id="ID_RACIAL_TRAIT_WATER_SPEED" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_KEENSIGHT" />
