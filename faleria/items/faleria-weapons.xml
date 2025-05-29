@@ -31,6 +31,9 @@
 		</append>	
 	</element>	
  	
+    <element name="Weapon Proficiency (Kwikwik)" type="Proficiency" source="Yozolin's Lost Tome" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_KWIKWIK">
+        <supports>Simple, Melee, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING,ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
+    </element>
 
 	<!--Meter isto bem asap-->
 	<element name="Heavy Sling" type="Weapon" source="Yozolin's Lost Tome" id="ID_FALERIA_WEAPON_HEAVYSLING">
@@ -47,13 +50,17 @@
 			<set name="versatile">1d8</set>
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_HEAVYSLING</set>
 		</setters>
-		<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
-        <rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HEAVYSLING" />
-        </rules>
-    	</append>
 	</element>	
 
+    <element name="Weapon Proficiency (Heavy Sling)" type="Proficiency" source="Yozolin's Lost Tome" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HEAVYSLING">
+        <supports>Simple, Melee, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING,ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
+    </element>
 
+	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_KWIKWIK" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HEAVYSLING" />
+        </rules>
+    </append>
 
 </elements>
