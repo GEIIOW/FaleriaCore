@@ -194,8 +194,8 @@
 		</rules>
 	</element>
 
-
 	<element name="Sandstrum" type="Vision" source="Yozolin's Lost Tome" id="ID_VISION_SANDSTRUM">
+		<requirements>!ID_VISION_SUPERIORDARKVISION</requirements>
 		<description>
 			<p>You can see in lightly obscured areas within 30 feet of you as if it wasn’t obscured and in heavily obscured areas as if it were lightly obscured.</p>
 		</description>
@@ -203,10 +203,10 @@
 			<description>You can see in lightly obscured areas within {{sandstrom:range}} feet of you as if it wasn’t obscured and in heavily obscured areas as if it were lightly obscured.</description>
 		</sheet>
 		<rules>
-			<stat name="sandstorm:range" value="30" bonus="base" />
+			<stat name="sandstorm:range" value="60" bonus="base" />
 		</rules>
 	</element>
-
+	
 	<element name="Polar Galitarko" type="Sub Race" source="Yozolin's Lost Tome" id="ID_SUB_RACE_POLAR_GALITARKO">
 		<supports>Galitarko</supports>
 		<description>
