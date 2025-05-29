@@ -203,7 +203,7 @@
 			<description>You can see in lightly obscured areas within {{sandstrum:range}} feet of you as if it wasn’t obscured and in heavily obscured areas as if it were lightly obscured.</description>
 		</sheet>
 		<rules>
-			<stat name="sandstrum:range" value="60" bonus="base" />
+			<stat name="sandstrum:range" value="30" bonus="base" />
 		</rules>
 	</element>
 	
