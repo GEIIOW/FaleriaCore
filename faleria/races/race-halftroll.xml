@@ -57,7 +57,7 @@
 		</rules>
 	</element>
 	
-	<element name="Darkvision: Half-Troll" type="Vision" source="Yozolin's Lost Tome" id="ID_VISION_DARKVISION_HALFTROLL">
+	<element name="Darkvision: Half-Troll" alt="Darkvision" type="Vision" source="Yozolin's Lost Tome" id="ID_VISION_DARKVISION_HALFTROLL">
 		<requirements>!ID_VISION_SUPERIORDARKVISION</requirements>
 		<description>
 			<p>Due to your ancestry you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it was dim light. However, you can’t discern color in darkness, only shades of green.</p>
@@ -200,7 +200,7 @@
 			<p>You can see in lightly obscured areas within 30 feet of you as if it wasn’t obscured and in heavily obscured areas as if it were lightly obscured.</p>
 		</description>
 		<sheet>
-			<description>You can see in lightly obscured areas within {{sandstrom:range}} feet of you as if it wasn’t obscured and in heavily obscured areas as if it were lightly obscured.</description>
+			<description>You can see in lightly obscured areas within {{sandstrum:range}} feet of you as if it wasn’t obscured and in heavily obscured areas as if it were lightly obscured.</description>
 		</sheet>
 		<rules>
 			<stat name="sandstorm:range" value="60" bonus="base" />
