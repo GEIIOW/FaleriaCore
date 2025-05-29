@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Zailm</name>
+		<update version="0.0.1">
+			<file name="race-zailm.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/core/faleria/races/race-zailm.xml" />
+		</update>
+	</info>
+
+	<element name="Zailm" type="Race" source="Yozolin's Lost Tome" id="ID_RACE_ZAILM">
+		<description>
+			<p class="flavor">“My work may not yet be complete, but these creatures show just how grandiose my purpose is. After years of work, I’ve finally made substancial progress when it comes to using the power of souls. The men and women that were part of my latest test, of trying to power a dead body with only the power of a soul, have been reanimated as something more than they were before. While they still don’t seem to have memories of their previous life, they have become stronger, some have become faster and more resilient. Nothing less than a complete success.”</p>
+			<p>- Y. Mageshell, Manyhals of Death.</p>
+			<p>The Zailm are reborn warriors who can’t get a grasp of their past. Originating from Zeiloryn, these once mortal humanoids scattered throughout Faleria in seach of themselves. While their past may be lost to them, their future is full of potencial due to their mind being null of previous abilities and their new enhanced physiology.</p>
+
+			<h4>Keepers of time</h4>
+			<p>It’s unknown when the first saphirs emerged into this world, but it was during ancient times. Throughout history some have been slain by knights, mages and divine followers, but some of the originals and their “offspring” survive to the present day. They have witnessed countless days and ages, have seen the rise and fall of empires, cultures and philosophies. They have been given the gift of agelessness, but their mind is still as fragile as it always was. Most of the first saphir went mad with the weigth of their own memories, while others found ways to combat their impending insanity by various means such as magic and exile. They have seen almost all of mortal history, but most of it has been lost to their minds so they can keep themselves sane and functional. Now the only way that history is not completly lost is if at least one chose to pass their knowledge to something truly immortal, like a journal or a book.</p>
+
+			<h4>Pale fangs</h4>
+			<p>To become a saphir, one must be drained of all of their blood and that blood must be offered to Hemaplousis by another saphir or the god itself. This lack of blood grants saphir a distinctly pale and emaciated skin. They don’t bleed when wounded, instead spilling sand from their veins. The older the saphir is the whiter their hair and iris becomes, along with the rest of their eyes becoming red. Sharp fangs cover their mouth to enable their consumption of blood. Although most of the blood they consume comes from humanoids, as it’s the most powerful, hunting for beasts and dragons is not unheard of.</p>
+
+			<h4>Saphir names</h4>
+			<p>Most Saphir are ancient beings with ancient names. Those who have been more recently transform either keep their birth name or adopt a new one once they accept their new nature. Normally, saphir names end with “crad” as it was the ancient word for blood and are preceded by any combination of two syllables, such as Alucrad, Fericrad and some don’t follow this norm, such as Baranor, Volomir and Zariu.</p>
+
+			<h4>Saphir traits</h4>
+			<p>Saphir seem to have been blessed with an assortment of new abilities when turned.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> You may choose to increase an ability score by 2 and one other ability score by one or increase three different ability scores by 1.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Once turned into a Saphir you cease aging. It is unknown for how long a Saphir can truly live.</p>
+			<p class="indent"><strong><em>Creature Type.</em></strong> You are an Undead.</p>
+			<p class="indent"><strong><em>Size.</em></strong> The size of Saphir is dependent on their previous life and there doesn’t seem to be any effect on neither height nor weight when transformed. Your size is either Small or Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 35 feet.</p>
+			<p class="indent"><strong><em>Sunlight Sensitivity.</em></strong> The dark arts that made you into a Saphir have made it so direct sunlight is toxic towards you. You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> Accustomed to dark dungeons and dim temples, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness as shades of crimson.</p>
+			<p class="indent"><strong><em>Goredrinker.</em></strong> When you hit a creature, that isn’t an undead or construct, with a melee weapon attack you may drink the blood resulting from that wound. After doing so you regain hit point equal to double your level plus your constituition modifier. If you have been hit with radiant damage or are under direct sunlight you cannot use this feature until the start of your next turn. You can use this trait a number of times equal to your proficiency bonus and regain all expended uses when you finish a long rest.</p>
+			<p class="indent"><strong><em>Shapechanger.</em></strong> Once per short rest you may transform into a tiny bat. While in this form you maintain your cognitive abilities, but aren’t able to speak. Anything you are wearing transforms with you, but nothing you are carrying does. You revert back to your true form if you die.</p>
+			<p class="indent"><strong><em>Languages. </em></strong> You can speak, read and write two languages of your choice.</p>
+			
+			<h4>MORE INFORMATION</h4>	
+			<p class="indent"><strong>For more details and updates, visit:</strong> https://homebrewery.naturalcrit.com/share/d7R6ynajmmqm</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Adran, Aelar, Aramil, Arannis, Aust, Beiro, Berrian, Carric, Enialis, Erdan, Erevan, Galinndan, Hadarai, Heian, Himo, Immeral, Ivellios, Laucian, Mindartis, Paelias, Peren, Quarion, Riardon, Rolen, Soveliss, Thamior, Tharivol, Theren, Varis</set>
+			<set name="names" type="female">Adrie, Althaea, Anastrianna, Andraste, Antinua, Bethrynna, Birel, Caelynn, Drusilia, Enna, Felosial, Ielenia, Jelenneth, Keyleth, Leshanna, Lia, Meriele, Mialee, Naivara, Quelenna, Quillathe, Sariel, Shanairra, Shava, Silaqui, Theirastra, Thia, Vadania, Valanthe, Xanaphia</set>
+			<set name="names" type="family">Amakiir, Amastacia, Galanodel, Holimion, Ilphelkiir, Liadon, Meliamne, Nai'lo, Siannodel, Xiloscient</set>
+			<set name="names-format">{{name}} {{family}}</set>
+		</setters>
+		<rules>
+			<grant type="Racial Trait" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_UNDEAD" />	
+			<select type="Ability Score Improvement" name="Ability Score Improvement (Saphir)" supports="ID_ASI_RACE_SAPHIR1|ID_ASI_RACE_SAPHIR2" />
+			<stat name="innate speed" value="35" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<select type="Language" name="Language (Saphir)" supports="Standard" number="2" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SUNLIGHT_SENSITIVITY" />
+			<grant type="Vision" id="ID_VISION_DARKVISION_SAPHIR" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_GOREDRINKER" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SHAPECHANGER" />
+		</rules>
+	</element>
+
+	<element name="Increase an ability score by 2 and one other ability score by one" type="Ability Score Improvement" source="Yozolin's Lost Tome" id="ID_ASI_RACE_SAPHIR1">
+		<description>
+			<p>You may choose to increase an ability score by 2 and one other ability score by one or increase three different ability scores by 1.</p>
+		</description>
+		<sheet display="false" />
+		<compendium display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Saphir)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Saphir)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+		</rules>
+	</element>
+	
+	<element name="Increase three different ability scores by 1" type="Ability Score Improvement" source="Yozolin's Lost Tome" id="ID_ASI_RACE_SAPHIR2">
+		<description>
+			<p>You may choose to increase an ability score by 2 and one other ability score by one or increase three different ability scores by 1.</p>
+		</description>
+		<sheet display="false" />
+		<compendium display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Saphir)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" number="3"/>
+		</rules>
+	</element>
+
+	<element name="Darkvision: Saphir" type="Vision" source="Yozolin's Lost Tome" id="ID_VISION_DARKVISION_SAPHIR">
+		<requirements>!ID_VISION_SUPERIORDARKVISION</requirements>
+		<description>
+			<p>Many creatures in the worlds of D&amp;D, especially those that dwell underground, have darkvision. Within a specified range, a creature with darkvision can see in darkness as if the darkness were dim light, so areas of darkness are only lightly obscured as far as that creature is concerned. However, you discern colors in that darkness as shades of crimson.</p>
+		</description>
+		<sheet>
+			<description>You can see in dim light within {{darkvision:range}} feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness as shades of crimson.</description>
+		</sheet>
+		<rules>
+			<stat name="darkvision:range" value="60" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Goredrinker" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_GOREDRINKER">
+		<description>
+			<p>When you hit a creature, that isn’t an undead or construct, with a melee weapon attack you may drink the blood resulting from that wound. After doing so you regain hit point equal to double your level plus your constituition modifier. If you have been hit with radiant damage or are under direct sunlight you cannot use this feature until the start of your next turn. You can use this trait a number of times equal to your proficiency bonus and regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet usage="{{proficiency}}/Long Rest">
+			<description>
+				<p>When you hit a creature, that isn’t an undead or construct, with a melee weapon attack you may drink the blood resulting from that wound. After doing so you regain {{goredrinker:hp}} hit points. If you have been hit with radiant damage or are under direct sunlight you cannot use this feature until the start of your next turn. You can use this trait a number of times equal to your proficiency bonus and regain all expended uses when you finish a long rest.</p>
+			</description>
+		</sheet>
+		<rules>
+			<stat name="goredrinker:hp" value="level" />
+			<stat name="goredrinker:hp" value="level" />
+			<stat name="goredrinker:hp" value="constitution:modifier" />
+		</rules>
+	</element>
+
+	<element name="Shapechanger" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_SHAPECHANGER">
+		<description>
+			<p>Once per short rest you may transform into a tiny bat. While in this form you maintain your cognitive abilities, but aren’t able to speak. Anything you are wearing transforms with you, but nothing you are carrying does. You revert back to your true form if you die.</p>
+		</description>
+		<sheet action="1/Short Rest">
+			<description>Once per short rest you may transform into a tiny bat. While in this form you maintain your cognitive abilities, but aren’t able to speak. Anything you are wearing transforms with you, but nothing you are carrying does. You revert back to your true form if you die.</description>
+		</sheet>
+	</element>
+</elements>
