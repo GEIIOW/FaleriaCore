@@ -75,7 +75,7 @@
 
 	<element name="Undead Bite" type="Feat" source="Yozolin's Lost Tome" id="ID_FALERIA_FEAT_UNDEAD_BITE">
 		<prerequisite>Level 4, Saphir or Zailm</prerequisite>	
-		<requirements>([level:4]),(ID_RACE_SAPHIR)</requirements> <!--Meter o Zailm quando estiver pronto-->
+		<requirements>([level:4]),(ID_RACE_SAPHIR||ID_RACE_ZAILM)</requirements>
 		<description>
 			<p><i>Prerequisite: Level 4, Saphir or Zailm</i></p>
 			<p>Your teeth become sharpened turning into a simple weapon with which you are proficient. You may add your Constituiton modifier instead of your Strength modifier, to the attack and damage rolls made with your teeth. On a hit, your bite deals 1d4 piercing damage and the target becomes infected for 1 minute. You have advantage on any Wisdom (Perception) or Wisdom (Survival) check to find the infected creature.</p>
