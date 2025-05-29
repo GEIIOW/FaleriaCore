@@ -162,7 +162,7 @@
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HIGH_CLIMBER" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BEARFRIEND" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ROLLUP" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_LANGUAGES_IXALI" />
+			<select type="Language" name="Language (Galitark)" supports="Standard" restrict="-Ixali" />
 		</rules>
 	</element>
 	<element name="Bearfriend" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_BEARFRIEND">
@@ -180,16 +180,6 @@
 		<sheet>
 			<description>If you are not wearing heavy armor, when enemies try to shove you into the prone condition you are pushed 5 feet away instead. Additionaly, standing up from prone only takes 5 feet of movement, if you are not wearing heavy armor.</description>
 		</sheet>
-	</element>
-		<element name="Language" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_LANGUAGES_IXALI">
-		<description>
-			<p>You can speak, read and write Ixali and one other language of your choice.</p>
-		</description>
-		<sheet display="false" />
-		<compendium display="false" />
-		<rules>
-			<select type="Language" name="Language (Galitark)" supports="Standard" restrict="-Ixali" />
-		</rules>
 	</element>
 
 
@@ -215,7 +205,7 @@
 			<grant type="Raciaol Trait" id="ID_RACIAL_TRAIT_WATER_SPEED" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_KEENSIGHT" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BEARLYREADY" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_LANGUAGES_SMIDIAN" />
+			<select type="Language" name="Language (Galitark)" supports="Standard" restrict="-Smidian" />
 		</rules>
 	</element>
 	<element name="Freezing Waters" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_WATER_SPEED">
@@ -246,14 +236,4 @@
 		</sheet>
 	</element>
 	
-	<element name="Language" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_LANGUAGES_SMIDIAN">
-		<description>
-			<p>You can speak, read and write Smidian and one other language of your choice.</p>
-		</description>
-		<sheet display="false" />
-		<compendium display="false" />
-		<rules>
-			<select type="Language" name="Language (Galitark)" supports="Standard" restrict="-Smidian" />
-		</rules>
-	</element>
 </elements>
