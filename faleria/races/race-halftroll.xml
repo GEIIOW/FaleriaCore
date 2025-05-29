@@ -4,7 +4,7 @@
 		<name>Half-Troll</name>
 		<author url="https://homebrewery.naturalcrit.com/share/BhQMXxI4c88-">Lucky Crown</author>
 		<update version="0.0.1">
-			<file name="race-half-troll.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/core/faleria/races/race-half-troll.xml" />
+			<file name="race-halftroll.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/core/faleria/races/race-halftroll.xml" />
 		</update>
 	</info>
 
