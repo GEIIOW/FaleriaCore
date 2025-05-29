@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Half-Troll</name>
+		<author url="https://homebrewery.naturalcrit.com/share/BhQMXxI4c88-">Lucky Crown</author>
+		<update version="0.0.1">
+			<file name="race-half-troll.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/core/faleria/races/race-half-troll.xml" />
+		</update>
+	</info>
+
+	<element name="Half-Troll" type="Race" source="Yozolin's Lost Tome" id="ID_RACE_HALFTROLL">
+		<description>
+			<p class="flavor">“It is one of life’s greatest mysteries who would be stupid enough to procreate with a troll, but it did happen. Somehow… Nevertheless, half-trolls were born, abominable little things that they are. Their parentage got them one less finger and tusks that must make eating quite unpleasent. I thank the Gods that our empire houses so few, even if they are quite capable warriors. They did get me thining though: they can regenerate injuries and even limbs, so if I cut them just in the right placem will I be able to see a live soul?”</p>
+			<p>- Y. Mageshell, Manyhals of Death.</p>
+			<p>Half-trolls are one of the newest mortals to join Faleria, only coming into existence at around 567 p.p. As such, they haven’t been able to create their own nation or lead their own armies, in fact only on the Bysse Isles can there be found any half-troll settlement. Unlike Lenams or Ronams, half-trolls have not even gotten a true name. Altough new, they have scattered around the world like wildfire, descending from various types of trolls. Due to being so few, relatively to other mortals, they have a great sense of companionship towards one another, especially when they share ancestry or an ideal.</p>
+
+			<h4>The All-father</h4>
+			<p>In the year 566 a young dwarven explorer, by the name of Oren Thunderock, set sail from his Silvanian home in hopes of discovering new lands in the middle of the Unexplored Sea. During his voyage he insulted the whale Babenga, who promptly sunk his ship. He washed ashore on a deserted island, only inhabited by the troll Shima. At first, she tied him to a stake and covered him in sald so she could eat him. He somehow charmed her into not only sparing him, but also laying with him. She began expecting and was worried he’d leave before their children were born, so for three months she stayed awake watching him. Being that trolls are huge compared to dwarves, Shima gave birth to a litter of the first half-trolls. She was exhausted after the fact, finally falling asleep, an opportunity Oren couldn’t ignore, so he set sail and left.</p>
+			<p>For years Oren sailed and for years Oren sunk. From Shima’s Isle he sailed west to Scanduri, where he got trapped in a sand worm’s cave, only to be saved by a sand troll, that he coupled with. When leaving the Scandurian ports, a giant storm sunk his ship and crew, leading him to Manyhal. There, he got mixed in the middle of a raging war by aiding trolls who were fleeing their burning homes. One got very friendly as a thank you. After another year, he left the warring continent and headed east but got boarded by pires and kidnapped. Forced to work for them until he burnt their ship in order to escpae onto a nearby Njörsan fishing village. Turns out the village was deserted. He wandered the snow covered fields for days until an ice troll with a boat. He quickly got access to that boat.</p>
+			<p>When he finally found his shining home on the Silvermace Empire, he almost immediatly left. There are no trolls in Zeiloryn.</p>
+
+			<h4>Half-troll Names</h4>
+			<p>Due to their sizeable tusks, half-trolls cannot produce the sound of the letter l, producing a different type of r instead. Their names hold immense significance, inheriting their mother’s name’s last two letters as their first syllable, such as Gallanda, Damulis, Isterin, Inocuscia and Iamanda.</p>
+		
+			<h4>HALF-TROLL TRAITS</h4>
+			<p>Their troll blood still holds some advantageous properties.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 2. In addition, one other ability score of your choice increases by 1.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Half-Trolls reach adulthood at around 15 and live for about a century.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Half-Trolls stand at between 6’5 and 7’5 feet tall and average about 175 pounds. Your size is Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> Due to your ancestry you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it was dim light. You can’t discern color in darkness, only shades of green.</p>
+			<p class="indent"><strong><em>Half-Troll Regeneration.</em></strong> The blood that courses through your veins stems from creatures with an incredible healing ability. As a bonus action, you can regenerate some of your wounds, regaining hit points equal to your level + your Constitution modifier. If you have been hit with acid or fire damage you cannot use this feature until the start of your next turn. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. You can use this feature to recuperate limbs or heal injuries instead of gaining hit points. You cannot regenerate your head.</p>
+			<p class="indent"><strong><em>Language.</em></strong> You can speak, read and write two languages of your choice.</p>
+			<p class="indent"><strong><em>Mortal subtypes.</em></strong> Four main ancestries of troll show themselves in half-trolls: Ice, Sand, Tropical and War Half-Trolls. Choose one of these subtypes.</p>
+			
+			<h4>MORE INFORMATION</h4>	
+			<p class="indent"><strong>For more details and updates, visit:</strong> https://homebrewery.naturalcrit.com/share/XxRtcH01z5I5</p>
+
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Adran, Aelar, Aramil, Arannis, Aust, Beiro, Berrian, Carric, Enialis, Erdan, Erevan, Galinndan, Hadarai, Heian, Himo, Immeral, Ivellios, Laucian, Mindartis, Paelias, Peren, Quarion, Riardon, Rolen, Soveliss, Thamior, Tharivol, Theren, Varis</set>
+			<set name="names" type="female">Adrie, Althaea, Anastrianna, Andraste, Antinua, Bethrynna, Birel, Caelynn, Drusilia, Enna, Felosial, Ielenia, Jelenneth, Keyleth, Leshanna, Lia, Meriele, Mialee, Naivara, Quelenna, Quillathe, Sariel, Shanairra, Shava, Silaqui, Theirastra, Thia, Vadania, Valanthe, Xanaphia</set>
+			<set name="names" type="family">Amakiir, Amastacia, Galanodel, Holimion, Ilphelkiir, Liadon, Meliamne, Nai'lo, Siannodel, Xiloscient</set>
+			<set name="names-format">{{name}} {{family}}</set>
+		</setters>
+		<rules>
+			<stat name="constitution" value="2" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Half-Troll)" supports="Custom Ability Score Increase 1"/>
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_CLAWS" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_MAULINGSTRIKE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BEARABLE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_GALITARKO_SUBRACE" />
+		</rules>
+	</element>
+	<element name="Claws" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_CLAWS">
+		<description>
+			<p>Your claws are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+		</description>
+		<sheet>	
+			<description>
+			Your claws are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d6 + {{strength:modifier}} (STR), instead of the bludgeoning damage normal for an unarmed strike.
+			<p>&#x2022; Claws: Melee Weapon Attack, 1d6 + {{galitarko weapon:modifier}} slashing damage.</p>
+			</description>
+		</sheet>
+		<rules>
+			<stat name="galitarko weapon:modifier" value="strength:modifier" bonus="Galitarko strength" />
+		</rules>
+	</element>
+	<element name="Mauling Strike" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_MAULINGSTRIKE">
+		<description>
+			<p>Immediately after you move at least 20 feet, you can make one melee attack with your claws as a bonus action.</p>
+		</description>
+		<sheet>
+			<description>Immediately after you move at least 20 feet, you can make one melee attack with your claws as a bonus action.</description>
+		</sheet>
+	</element>
+	<element name="Bearable" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_BEARABLE">
+		<description>
+			<p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+		</description>
+		<sheet>
+			<description>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</description>
+		</sheet>
+	</element>
+	<element name="Galitarko Subrace" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_GALITARKO_SUBRACE">
+		<description>
+			<p>Three main subtypes of galitarko populate Faleria: Grizzly, Panda and Polar Galitarko. Choose one of these subtypes.</p>
+		</description>
+		<sheet display="false" />
+		<compendium display="false" />
+		<rules>
+			<select type="Sub Race" name="Galitarko Subrace" supports="Galitarko" />
+		</rules>
+	</element>
+
+	<element name="Grizzly Galitarko" type="Sub Race" source="Yozolin's Lost Tome" id="ID_SUB_RACE_GRIZZLY_GALITARKO">
+		<supports>Galitarko</supports>
+		<description>
+			<p>The grizzly galitarko wear a resemblance to either black, brown or grey bears. Natural of Manyhal and western Zeiloryn, these huge mortals can produce a fierce roar, unlike any other. Though they might seem brutish, many carry the philosophy of Lendo, that teaches you to always try to work for the greater good. In the case of the galitarko on the western side of Zeiloryn, that meant joining the empire and it’s conquest.</p>
+			<p>Grizzly galitarko often have only one name derived from an adjective given while they were young, such as Fasten, Hungrial, Madden and Swiffy.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 1.</p>
+			<p class="indent"><strong><em>High Climber.</em></strong> You have a climbing speed equal to your walking speed.</p>
+			<p class="indent"><strong><em>Keen Smell.</em></strong> You have advantage on Wisdom (Perception) checks that rely on smell.</p>
+			<p class="indent"><strong><em>Bearware.</em></strong> It takes an additional creature for you to be flanked or affected by pack tactics, or similar features.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read and write three languages of your choice.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d10">4'6"</set>
+			<set name="weight" modifier="1d4">90 lb.</set>
+		</setters>
+		<rules>
+			<stat name="wisdom" value="1" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HIGH_CLIMBER" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_KEEN_SMELL" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BEARWARE" />
+			<select type="Language" name="Language (Galitark)" supports="Standard" number="3"/>
+		</rules>
+	</element> 	
+
+	<element name="High Climber" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_HIGH_CLIMBER">
+		<description>
+			<p>You have a climbing speed equal to your walking speed.</p>
+		</description>
+		<sheet display="false">
+			<description>You have a climbing speed equal to your walking speed.</description>
+		</sheet>
+		<rules>
+			<stat name="speed:climb" value="speed" bonus="base" />
+		</rules>		
+	</element>
+	<element name="Keen Smell" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_KEEN_SMELL">
+		<description>
+			<p>You have advantage on Wisdom (Perception) checks that rely on smell.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on Wisdom (Perception) checks that rely on smell.</description>
+		</sheet>
+	</element>
+	<element name="Bearware" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_BEARWARE">
+		<description>
+			<p>It takes an additional creature for you to be flanked or affected by pack tactics, or similar features.</p>
+		</description>
+		<sheet>
+			<description>It takes an additional creature for you to be flanked or affected by pack tactics, or similar features.</description>
+		</sheet>
+	</element>
+
+	<element name="Panda Galitarko" type="Sub Race" source="Yozolin's Lost Tome" id="ID_SUB_RACE_PANDA_GALITARKO">
+		<supports>Galitarko</supports>
+		<description>
+			<p>The panda galitarko wear a resemblance to either giant, qinling or red pandas. Natural of Issadrem, these spot furred mortals are known for their selflessness. Followers of the Iendu philosophy, that teaches you to follow the path to self improvement and communal harmony. They protect their lands and those of others even if that means taking up arms.</p>
+			<p>Panda galitarko follow the naming convention that’s prevalent in Issadrem, with two different parts separated by an apostrophe. The first part functions as a one syllable family name and the second as a name for each person. Examples of this naming convention are ones such as Sur’Tzen, Gar’Meren, Pol’Jalgoren and Gra’Cious.</p>	
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Charisma score increases by 1.</p>
+			<p class="indent"><strong><em>High Climber.</em></strong> You have a climbing speed equal to your walking speed.</p>
+			<p class="indent"><strong><em>Bearfriend.</em></strong> You have advantage on Charisma (Persuasion) checks.</p>
+			<p class="indent"><strong><em>Roll-up.</em></strong>  If you are not wearing heavy armor, when enemies try to shove you into the prone condition you are pushed 5 feet away instead. Additionaly, standing up from prone only takes 5 feet of movement, if you are not wearing heavy armor.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read and write Ixali and one other language of your choice.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d10">4'6"</set>
+			<set name="weight" modifier="1d4">100 lb.</set>
+		</setters>
+		<rules>
+			<stat name="charisma" value="1" />
+			<grant type="Language" id="ID_LANGUAGE_IXALI" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HIGH_CLIMBER" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BEARFRIEND" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ROLLUP" />
+			<select type="Language" name="Language (Galitark)" supports="Standard" restrict="-Ixali" />
+		</rules>
+	</element>
+	<element name="Bearfriend" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_BEARFRIEND">
+		<description>
+			<p>You have advantage on Charisma (Persuasion) checks.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on Charisma (Persuasion) checks.</description>
+		</sheet>
+	</element>
+		<element name="Roll-up" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_ROLLUP">
+		<description>
+			<p>If you are not wearing heavy armor, when enemies try to shove you into the prone condition you are pushed 5 feet away instead. Additionaly, standing up from prone only takes 5 feet of movement, if you are not wearing heavy armor.</p>
+		</description>
+		<sheet>
+			<description>If you are not wearing heavy armor, when enemies try to shove you into the prone condition you are pushed 5 feet away instead. Additionaly, standing up from prone only takes 5 feet of movement, if you are not wearing heavy armor.</description>
+		</sheet>
+	</element>
+
+
+	<element name="Polar Galitarko" type="Sub Race" source="Yozolin's Lost Tome" id="ID_SUB_RACE_POLAR_GALITARKO">
+		<supports>Galitarko</supports>
+		<description>
+			<p class="indent">The polar galitarko wear a resemblance to polar bears. Natural to Nyjörsa, these mortals are followers of the Stengul philosophy, that teaches you to first take care of yourself and your closest allies and only then think of others. Due to this, these galitarko tend to stay in small packs or even all alone and have nomadic tendencies.</p> 
+			<p>Polar galitarko names have a lot of vowels, particularly ones that necessitate the rounding of the lips such as Oulow, Gaupo, Urrobon and Abapaoa.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 1.</p>
+			<p class="indent"><strong><em>Freezing Waters.</em></strong> You have a swim speed equal to your walking speed.</p>
+			<p class="indent"><strong><em>Keen Sight.</em></strong> You have advantage on Wisdom (Perception) checks that rely on sight.</p>
+			<p class="indent"><strong><em>Bearly Ready.</em></strong> When you roll initiative you can grant advantage to an ally within 30 ft. while granting disadvantage on yourself.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read and write Smidian and one other language of your choice.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d6">4'5"</set>
+			<set name="weight" modifier="1d6">75 lb.</set>
+		</setters>
+		<rules>
+			<stat name="constitution" value="1" />
+			<grant type="Language" id="ID_LANGUAGE_SMIDIAN" />
+			<grant type="Raciaol Trait" id="ID_RACIAL_TRAIT_WATER_SPEED" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_KEENSIGHT" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BEARLYREADY" />
+			<select type="Language" name="Language (Galitark)" supports="Standard" restrict="-Smidian" />
+		</rules>
+	</element>
+	<element name="Freezing Waters" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_WATER_SPEED">
+		<description>
+			<p>You have a swim speed equal to your walking speed.</p>
+		</description>
+		<sheet display="false">
+			<description>You have a swim speed equal to your walking speed.</description>
+		</sheet>
+		<rules>
+			<stat name="speed:swim" value="speed" bonus="base" />
+		</rules>		
+	</element>
+	<element name="Keen Sight" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_KEENSIGHT">
+		<description>
+			<p>You have advantage on Wisdom (Perception) checks that rely on sight.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on Wisdom (Perception) checks that rely on sight.</description>
+		</sheet>
+	</element>
+	<element name="Bearly Ready" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_BEARLYREADY">
+		<description>
+			<p>When you roll initiative you can grant advantage to an ally within 30 ft. while granting disadvantage on yourself.</p>
+		</description>
+		<sheet>
+			<description>When you roll initiative you can grant advantage to an ally within 30 ft. while granting disadvantage on yourself.</description>
+		</sheet>
+	</element>
+	
+</elements>
