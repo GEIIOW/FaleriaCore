@@ -27,6 +27,8 @@
 		<file name="race-human.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/races/race-human.xml" />
 		<file name="race-minotaur.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/races/race-minotaur.xml" />
 		<file name="race-saphir.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/races/race-saphir.xml" />
+		<file name="race-zailm.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/races/race-zailm.xml" />
+
 		<!--Classes-->		
 		<file name="blood-hunter.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/classes/class-bloodhunter.xml" />
 		<!--Aspirations-->		
