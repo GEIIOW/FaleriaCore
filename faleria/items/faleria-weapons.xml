@@ -24,6 +24,11 @@
 			<set name="versatile">1d8</set>
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_KWIKWIK</set>
 		</setters>
+		<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
+      	  <rules>
+            	<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_KWIKWIK" />
+		 </rules>
+		</append>	
 	</element>	
  	
 
@@ -42,13 +47,13 @@
 			<set name="versatile">1d8</set>
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_HEAVYSLING</set>
 		</setters>
-	</element>	
-
-	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
+		<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
         <rules>
-            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_KWIKWIK" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HEAVYSLING" />
         </rules>
-    </append>
+    	</append>
+	</element>	
+
+
 
 </elements>
