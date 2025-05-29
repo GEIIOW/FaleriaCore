@@ -97,7 +97,7 @@
 		</rules>
 	</element>
 
-	<element name="Ice Half-Troll" type="Sub Race" source="Yozolin's Lost Tome" id="ID_SUB_RACE_GRIZZLY_GALITARKO">
+	<element name="Ice Half-Troll" type="Sub Race" source="Yozolin's Lost Tome" id="ID_SUB_RACE_HALFTROLL_ICE">
 		<supports>Half-Troll</supports>
 		<description>
 			<p>As a descendant of ice trolls, low temperatures do not affect you, as your light blue or white skin is impervious to it. You have purple or pink eyes and black, blue, pink, purple or brown hair and, as all half-trolls, you have two big tusks that come in a variety of shapes and sizes.</p>
@@ -123,8 +123,8 @@
 		</sheet>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_JAVELIN" requirements="!ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WAR_PICK" requirements="!ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_JAVELIN" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WAR_PICK" />
 		</rules>
 	</element>
 
@@ -150,48 +150,62 @@
 		</sheet>
 	</element>	
 	
-	<element name="Panda Galitarko" type="Sub Race" source="Yozolin's Lost Tome" id="ID_SUB_RACE_PANDA_GALITARKO">
-		<supports>Galitarko</supports>
+	<element name="Sand Half-Troll" type="Sub Race" source="Yozolin's Lost Tome" id="ID_SUB_RACE_HALFTROLL_SAND">
+		<supports>Half-Troll</supports>
 		<description>
-			<p>The panda galitarko wear a resemblance to either giant, qinling or red pandas. Natural of Issadrem, these spot furred mortals are known for their selflessness. Followers of the Iendu philosophy, that teaches you to follow the path to self improvement and communal harmony. They protect their lands and those of others even if that means taking up arms.</p>
-			<p>Panda galitarko follow the naming convention that’s prevalent in Issadrem, with two different parts separated by an apostrophe. The first part functions as a one syllable family name and the second as a name for each person. Examples of this naming convention are ones such as Sur’Tzen, Gar’Meren, Pol’Jalgoren and Gra’Cious.</p>	
-			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Charisma score increases by 1.</p>
-			<p class="indent"><strong><em>High Climber.</em></strong> You have a climbing speed equal to your walking speed.</p>
-			<p class="indent"><strong><em>Bearfriend.</em></strong> You have advantage on Charisma (Persuasion) checks.</p>
-			<p class="indent"><strong><em>Roll-up.</em></strong>  If you are not wearing heavy armor, when enemies try to shove you into the prone condition you are pushed 5 feet away instead. Additionaly, standing up from prone only takes 5 feet of movement, if you are not wearing heavy armor.</p>
-			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read and write Ixali and one other language of your choice.</p>
+			<p>As a descendant of sand trolls, high temperatures do not affect you, as your red, orange, yellow or sand coloured skin is impervious to it. You have black or orange eyes and white, yellow, brown, green or cyan hair and, as all half-trolls, you have two big tusks that come in a variety of shapes and sizes.</p>
+			<p>Descendant to the troll Fejuin, wormeater, you have have grown accustomed to sand storms and dealing with the dangers of the desert and generally feel comfortable with dry food.</p>	
+			<p class="indent"><strong><em>Scandurian training.</em></strong> You are proficient with light armor, heavy slings and kwikwiks.</p>
+			<p class="indent"><strong><em>Desert Traveller.</em></strong> You are proficient with land vehicles. Additionally, choose two from Athletics, Acrobatics, Animal handling, Insight or Survival.</p>
+			<p class="indent"><strong><em>Sandstrum.</em></strong> You can see in lightly obscured areas within 30 feet of you as if it wasn’t obscured and in heavily obscured areas as if it were lightly obscured.</p>
 		</description>
 		<sheet display="false" />
-		<setters>
-			<set name="height" modifier="2d10">4'6"</set>
-			<set name="weight" modifier="1d4">100 lb.</set>
-		</setters>
 		<rules>
-			<stat name="charisma" value="1" />
-			<grant type="Language" id="ID_LANGUAGE_IXALI" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HIGH_CLIMBER" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BEARFRIEND" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ROLLUP" />
-			<select type="Language" name="Language (Galitark)" supports="Standard" restrict="-Ixali" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SCANDURIAN_TRAINING" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DESERT_TRAVELLER" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SANDSTRUM" />
 		</rules>
 	</element>
-	<element name="Bearfriend" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_BEARFRIEND">
+
+	<element name="Scandurian Training" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_SCANDURIAN_TRAINING">
 		<description>
-			<p>You have advantage on Charisma (Persuasion) checks.</p>
+			<p>You are proficient with light armor, heavy slings and kwikwiks.</p>
 		</description>
-		<sheet>
-			<description>You have advantage on Charisma (Persuasion) checks.</description>
+		<sheet display="false">
+			<description>You are proficient with light armor, heavy slings and kwikwiks.</description>
 		</sheet>
-	</element>
-		<element name="Roll-up" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_ROLLUP">
-		<description>
-			<p>If you are not wearing heavy armor, when enemies try to shove you into the prone condition you are pushed 5 feet away instead. Additionaly, standing up from prone only takes 5 feet of movement, if you are not wearing heavy armor.</p>
-		</description>
-		<sheet>
-			<description>If you are not wearing heavy armor, when enemies try to shove you into the prone condition you are pushed 5 feet away instead. Additionaly, standing up from prone only takes 5 feet of movement, if you are not wearing heavy armor.</description>
-		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_KWIKWIK" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HEAVYSLIG" />
+		</rules>
 	</element>
 
+	<element name="Desert Traveller" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_DESERT_TRAVELLER">
+		<description>
+			<p>You are proficient with land vehicles. Additionally, choose two from Athletics, Acrobatics, Animal handling, Insight or Survival.</p>
+		</description>
+		<sheet display="false">
+			<description>You are proficient with land vehicles. Additionally, choose two from Athletics, Acrobatics, Animal handling, Insight or Survival.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_LAND" />
+			<select type="Proficiency" name="Desert Traveller" supports="ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_SURVIVAL|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_ANIMALHANDLING" number="2" />
+		</rules>
+	</element>
+
+
+	<element name="Sandstrum" type="Vision" source="Yozolin's Lost Tome" id="ID_VISION_SANDSTRUM">
+		<description>
+			<p>You can see in lightly obscured areas within 30 feet of you as if it wasn’t obscured and in heavily obscured areas as if it were lightly obscured.</p>
+		</description>
+		<sheet>
+			<description>You can see in lightly obscured areas within {{sandstrom:range}} feet of you as if it wasn’t obscured and in heavily obscured areas as if it were lightly obscured.</description>
+		</sheet>
+		<rules>
+			<stat name="sandstorm:range" value="30" bonus="base" />
+		</rules>
+	</element>
 
 	<element name="Polar Galitarko" type="Sub Race" source="Yozolin's Lost Tome" id="ID_SUB_RACE_POLAR_GALITARKO">
 		<supports>Galitarko</supports>
