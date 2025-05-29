@@ -203,7 +203,7 @@
 			<description>You can see in lightly obscured areas within {{sandstrum:range}} feet of you as if it wasn’t obscured and in heavily obscured areas as if it were lightly obscured.</description>
 		</sheet>
 		<rules>
-			<stat name="sandstorm:range" value="60" bonus="base" />
+			<stat name="sandstrum:range" value="60" bonus="base" />
 		</rules>
 	</element>
 	
@@ -258,6 +258,59 @@
 			<description>You are uneffected by nonmagical difficult terrain.</description>
 		</sheet>
 	</element>
-
 	
+	<element name="War Half-Troll" type="Sub Race" source="Yozolin's Lost Tome" id="ID_SUB_RACE_HALFTROLL_WAR">
+		<supports>Half-Troll</supports>
+		<description>
+			<p>As a descendant of war trolls, you are used to the heat of battle, as your red or brown skin is impervious to it. You have red, brown or black eyes and black, brown, red or white hair and, as all half-trolls, you have two big tusks that come in a variety of shapes and sizes.</p>
+			<p>Descendant to the troll Grom, the warlord, you have grown accustomed to fighting and generally feel comfortable with being in the middle of a fight.</p>
+			<p class="indent"><strong><em>Manyhalian training.</em></strong> You are proficient with heavy armor, greatswords and glaives.</p>
+			<p class="indent"><strong><em>Battle-hardened.</em></strong> You are proficient with land vehicles. Additionally, choose two from Athletics, Acrobatics, Intimidation, Perception or Survival.</p>
+			<p class="indent"><strong><em>Warrior’s Spirit.</em></strong> You have advantage on saving throws against being frightened.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_MANYHALIAN_TRAINING" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BATTLE_HARDENED" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_WARRIORS_SPIRIT" />
+		</rules>
+	</element>
+	<element name="Manyhalian Training" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_MANYHALIAN_TRAINING">
+		<description>
+			<p>You are proficient with heavy armor, greatswords and glaives.</p>
+		</description>
+		<sheet display="false">
+			<description>You are proficient with heavy armor, greatswords and glaives.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATSWORD" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GLAIVE" />
+		</rules>
+	</element>
+	
+	<element name="Battle-hardened" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_BATTLE_HARDENED">
+		<description>
+			<p>You are proficient with land vehicles. Additionally, choose two from Athletics, Acrobatics, Intimidation, Perception or Survival.</p>
+		</description>
+		<sheet display="false">
+			<description>You are proficient with land vehicles. Additionally, choose two from Athletics, Acrobatics, Intimidation, Perception or Survival.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_LAND" />
+			<select type="Proficiency" name="Battle-hardened" supports="ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_SURVIVAL" number="2" />
+		</rules>
+	</element>
+	
+	<element name="Warrior’s Spirit" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_WARRIORS_SPIRIT">
+		<description>
+			<p>You have advantage on saving throws against being frightened.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on saving throws against being frightened.</description>
+		</sheet>
+	</element>
+	
+
+
 </elements>
