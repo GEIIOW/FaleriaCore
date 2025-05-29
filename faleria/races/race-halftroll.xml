@@ -163,7 +163,7 @@
 		<rules>
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SCANDURIAN_TRAINING" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DESERT_TRAVELLER" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SANDSTRUM" />
+			<grant type="vision" id="ID_VISION_SANDSTRUM" />
 		</rules>
 	</element>
 
@@ -177,7 +177,7 @@
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_KWIKWIK" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HEAVYSLIG" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HEAVYSLING" />
 		</rules>
 	</element>
 
