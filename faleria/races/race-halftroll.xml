@@ -207,56 +207,57 @@
 		</rules>
 	</element>
 	
-	<element name="Polar Galitarko" type="Sub Race" source="Yozolin's Lost Tome" id="ID_SUB_RACE_POLAR_GALITARKO">
-		<supports>Galitarko</supports>
+	<element name="Tropical Half-Troll" type="Sub Race" source="Yozolin's Lost Tome" id="ID_SUB_RACE_HALFTROLL_TROPICAL">
+		<supports>Half-Troll</supports>
 		<description>
-			<p class="indent">The polar galitarko wear a resemblance to polar bears. Natural to Nyjörsa, these mortals are followers of the Stengul philosophy, that teaches you to first take care of yourself and your closest allies and only then think of others. Due to this, these galitarko tend to stay in small packs or even all alone and have nomadic tendencies.</p> 
-			<p>Polar galitarko names have a lot of vowels, particularly ones that necessitate the rounding of the lips such as Oulow, Gaupo, Urrobon and Abapaoa.</p>
-			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 1.</p>
-			<p class="indent"><strong><em>Freezing Waters.</em></strong> You have a swim speed equal to your walking speed.</p>
-			<p class="indent"><strong><em>Keen Sight.</em></strong> You have advantage on Wisdom (Perception) checks that rely on sight.</p>
-			<p class="indent"><strong><em>Bearly Ready.</em></strong> When you roll initiative you can grant advantage to an ally within 30 ft. while granting disadvantage on yourself.</p>
-			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read and write Smidian and one other language of your choice.</p>
+			<p class="indent">As a descendant of swamp trolls, moist environments do not affect you, as your blue or green skin is impervious to it. You have green of blue, green or brown eyes and pink, green, white, black, brown or blue hair and, as all half-trolls, you have two big tusks that come in a variety of shapes and sizes.</p> 
+			<p>Descendant to the troll Shima, the trapped, you have grown exploring the Bysso Isles and are accustomed to the quiet of nature and the peace of sunny days and generally feel comfortable with sleeping in places with a lot of bugs.</p>
+			<p class="indent"><strong><em>Bysso-Islander training.</em></strong> You are proficient with shields, longbows and spears.</p>
+			<p class="indent"><strong><em>Island Explorer.</em></strong> You are proficient with water vehicles. Additionally, choose two from Athletics, Acrobatics, Medicine, Nature or Survival.</p>
+			<p class="indent"><strong><em>Swamp Spirit.</em></strong> Being used to swampy terrain made it so you are uneffected by nonmagical difficult terrain.</p>
 		</description>
 		<sheet display="false" />
-		<setters>
-			<set name="height" modifier="2d6">4'5"</set>
-			<set name="weight" modifier="1d6">75 lb.</set>
-		</setters>
 		<rules>
-			<grant type="Language" id="ID_LANGUAGE_SMIDIAN" />
-			<grant type="Raciaol Trait" id="ID_RACIAL_TRAIT_WATER_SPEED" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_KEENSIGHT" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BEARLYREADY" />
-			<select type="Language" name="Language (Galitark)" supports="Standard" restrict="-Smidian" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BYSSO_ISLANDER_TRAINING" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ISLAND_EXPLORER" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SWAMP_SPIRIT" />
 		</rules>
 	</element>
-	<element name="Freezing Waters" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_WATER_SPEED">
+
+	<element name="Bysso-Islander training" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_BYSSO_ISLANDER_TRAINING">
 		<description>
-			<p>You have a swim speed equal to your walking speed.</p>
+			<p>You are proficient with shields, longbows and spears.</p>
 		</description>
 		<sheet display="false">
-			<description>You have a swim speed equal to your walking speed.</description>
+			<description>You are proficient with shields, longbows and spears.</description>
 		</sheet>
 		<rules>
-			<stat name="speed:swim" value="speed" bonus="base" />
-		</rules>		
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR" />
+		</rules>	
 	</element>
-	<element name="Keen Sight" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_KEENSIGHT">
+	<element name="Island Explorer" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_ISLAND_EXPLORER">
 		<description>
-			<p>You have advantage on Wisdom (Perception) checks that rely on sight.</p>
+			<p>You are proficient with water vehicles. Additionally, choose two from Athletics, Acrobatics, Medicine, Nature or Survival.</p>
+		</description>
+		<sheet display="false">
+			<description>You are proficient with water vehicles. Additionally, choose two from Athletics, Acrobatics, Medicine, Nature or Survival.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_WATER" />
+			<select type="Proficiency" name="Island Explorer" supports="ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_SURVIVAL" number="2" />
+		</rules>
+	</element>
+
+	<element name="Swamp Spirit" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_SWAMP_SPIRIT">
+		<description>
+			<p>Being used to swampy terrain made it so you are uneffected by nonmagical difficult terrain.</p>
 		</description>
 		<sheet>
-			<description>You have advantage on Wisdom (Perception) checks that rely on sight.</description>
+			<description>You are uneffected by nonmagical difficult terrain.</description>
 		</sheet>
 	</element>
-	<element name="Bearly Ready" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_BEARLYREADY">
-		<description>
-			<p>When you roll initiative you can grant advantage to an ally within 30 ft. while granting disadvantage on yourself.</p>
-		</description>
-		<sheet>
-			<description>When you roll initiative you can grant advantage to an ally within 30 ft. while granting disadvantage on yourself.</description>
-		</sheet>
-	</element>
+
 	
 </elements>
