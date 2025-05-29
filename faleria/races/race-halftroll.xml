@@ -49,26 +49,44 @@
 			<select type="Ability Score Improvement" name="Ability Score Improvement +1 (Half-Troll)" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_WISDOM|ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_CHARISMA" />
 			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Vision" id="ID_VISION_DARKVISION_HALFTROLL" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_CLAWS" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_MAULINGSTRIKE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HALFTROLL_REGENRATION" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BEARABLE" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_GALITARKO_SUBRACE" />
 		</rules>
 	</element>
-	<element name="Claws" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_CLAWS">
+	
+	<element name="Darkvision: Half-Troll" type="Vision" source="Yozolin's Lost Tome" id="ID_VISION_DARKVISION_HALFTROLL">
+		<requirements>!ID_VISION_SUPERIORDARKVISION</requirements>
 		<description>
-			<p>Your claws are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+			<p>Due to your ancestry you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it was dim light. However, you can’t discern color in darkness, only shades of green.</p>
 		</description>
-		<sheet>	
+		<sheet>
+			<description>You can see in dim light within {{darkvision:range}} feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of green..</description>
+		</sheet>
+		<rules>
+			<stat name="darkvision:range" value="60" bonus="base" />
+		</rules>
+	</element>
+	
+	<element name="Half-Troll Regeneration" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_HALFTROLL_REGENRATION">
+		<description>
+			<p>The blood that courses through your veins stems from creatures with an incredible healing ability. As a bonus action, you can regenerate some of your wounds, regaining hit points equal to your level + your Constitution modifier. If you have been hit with acid or fire damage you cannot use this feature until the start of your next turn. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. You can use this feature to recuperate limbs or heal injuries instead of gaining hit points. You cannot regenerate your head.</p>
+		</description>
+		<sheet action="Bonus Action" usage="{{proficiency}}/Until the start of your next turn">
 			<description>
-			Your claws are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d6 + {{strength:modifier}} (STR), instead of the bludgeoning damage normal for an unarmed strike.
-			<p>&#x2022; Claws: Melee Weapon Attack, 1d6 + {{galitarko weapon:modifier}} slashing damage.</p>
+				As a bonus action, you can regenerate some of your wounds, regaining hit points equal to your level + {{constitution:modifier}} (CON). If you have been hit with acid or fire damage you cannot use this feature until the start of your next turn. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. You can use this feature to recuperate limbs or heal injuries instead of gaining hit points. You cannot regenerate your head.	
+				<p>&#x2022; Regeneration: Regain {{regeneration:hp}} hit points.</p>
 			</description>
 		</sheet>
 		<rules>
-			<stat name="galitarko weapon:modifier" value="strength:modifier" bonus="Galitarko strength" />
+			<stat name="regeneration:hp" value="level" />
+			<stat name="regeneration:hp" value="constitution:modifier" />
 		</rules>
 	</element>
+
+	
 	<element name="Mauling Strike" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_MAULINGSTRIKE">
 		<description>
 			<p>Immediately after you move at least 20 feet, you can make one melee attack with your claws as a bonus action.</p>
