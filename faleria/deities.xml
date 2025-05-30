@@ -8,9 +8,9 @@
 			<file name="deities.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/FaleriaCore/faleria/deities.xml" />
 		</update>
 	</info>
-	<element name="Garganel" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_GARGANEL">
+	<element name="Kajeus" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_KAJEUS">
 		<description>
-			<p class="flavor"> God of Might and Handsomeness</p>
+			<p class="flavor">God of Beasts and Archery</p>
 		</description>
 		<setters>
 			<set name="setting">Forgotten Realms</set>
@@ -20,7 +20,66 @@
 			<set name="gender">female</set>
 		</setters>
 		<sheet>
-			<description> God of Might and Handsomeness</description>
+			<description>God of Beasts and Archery</description>
 		</sheet>
+	</element>
+	<element name="Khoma" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_KHOMA">
+		<description>
+			<p class="flavor">God of Rest and Sleep</p>
+		</description>
+		<setters>
+			<set name="setting">Forgotten Realms</set>
+			<set name="alignment">NE</set>
+			<set name="domains">Nature, Tempest</set>
+			<set name="symbol">Six-pointed snowflake</set>
+			<set name="gender">female</set>
+		</setters>
+		<sheet>
+			<description>God of Rest and Sleep</description>
+		</sheet>
+	</element>
+	<element name="Karimel" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_KARIMEL">
+		<description>
+			<p class="flavor">Goddess of Pastries, Sweets and Baked Goods</p>
+		</description>
+		<setters>
+			<set name="setting">Forgotten Realms</set>
+			<set name="alignment">NE</set>
+			<set name="domains">Nature, Tempest</set>
+			<set name="symbol">Six-pointed snowflake</set>
+			<set name="gender">female</set>
+		</setters>
+		<sheet>
+			<description>Goddess of Pastries, Sweets and Baked Goods</description>
+		</sheet>
+	</element>
+	</element>
+	<element name="Targo" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_TARGO">
+		<description>
+			<p class="flavor">God of Resilience, Labor and the Common Folk</p>
+		</description>
+		<setters>
+			<set name="setting">Forgotten Realms</set>
+			<set name="alignment">NE</set>
+			<set name="domains">Nature, Tempest</set>
+			<set name="symbol">Six-pointed snowflake</set>
+			<set name="gender">female</set>
+		</setters>
+		<sheet>
+			<description>God of Resilience, Labor and the Common Folk</description>
+		</sheet>
+	</element>
+	<element name="Garganel" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_GARGANEL">
+		<description>
+			<p class="flavor">God of Might and Handsomeness</p>
+		</description>
+		<setters>
+			<set name="setting">Forgotten Realms</set>
+			<set name="alignment">NE</set>
+			<set name="domains">Nature, Tempest</set>
+			<set name="symbol">Six-pointed snowflake</set>
+			<set name="gender">female</set>
+		</setters>
+		<sheet>
 	</element>
 </elements>
