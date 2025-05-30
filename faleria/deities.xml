@@ -2,7 +2,6 @@
 <elements>
 	<info>
 		<name>Deities</name>
-		<description>Feats from Yozolin's Lost Tome.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Lucky Crown</author>
 		<update version="0.1">
 			<file name="deities.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/FaleriaCore/faleria/deities.xml" />
