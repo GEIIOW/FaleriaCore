@@ -187,14 +187,14 @@
 			</description>
 		</sheet>
 		<rules>
-			<stat name="soul beacon:ac" value="8" bonus="bonus"/>
-			<stat name="soul beacon:ac" value="[wisdom:modifier]" bonus="bonus" />
-			<stat name="soul beacon:ac" value="[proficiency]" bonus="bonus" />
-			<stat name="soul beacon:hp" value="[level:soul gatherer]" bonus="bonus" />
-			<stat name="soul beacon:hp" value="[level:soul gatherer]" bonus="bonus" />
-			<stat name="soul beacon:hp" value="[level:soul gatherer]" bonus="bonus" />
-			<stat name="soul beacon:hp" value="[level:soul gatherer]" bonus="bonus" />
-			<stat name="soul beacon:hp" value="[level:soul gatherer]" bonus="bonus" />
+			<stat name="soul beacon:ac" value="8"/>
+			<stat name="soul beacon:ac" value="[wisdom:modifier]" />
+			<stat name="soul beacon:ac" value="[proficiency]"  />
+			<stat name="soul beacon:hp" value="[level:soul gatherer]"  />
+			<stat name="soul beacon:hp" value="[level:soul gatherer]"  />
+			<stat name="soul beacon:hp" value="[level:soul gatherer]" />
+			<stat name="soul beacon:hp" value="[level:soul gatherer]"  />
+			<stat name="soul beacon:hp" value="[level:soul gatherer]"  />
 		</rules>
 	</element>	
 	
