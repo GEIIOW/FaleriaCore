@@ -41,7 +41,7 @@
 			<set name="cost" currency="gp">10</set>
 			<set name="weight" lb="2">2 lb.</set>
 			<set name="slot">twohand</set>
-			<set name="damage" type="bludgeoning">1d6</set>
+			<set name="damage" type="bludgeoning">1d8</set>
 			<set name="range">60/20</set>
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_HEAVYSLING</set>
 		</setters>
