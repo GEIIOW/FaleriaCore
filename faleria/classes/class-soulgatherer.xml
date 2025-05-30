@@ -130,8 +130,8 @@
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_INDOMITABLE" level="9"/>
 		</rules>
 		<multiclass id="ID_FALERIA_MULTICLASS_SOULGATHERER">
-			<prerequisite>Strength 13 or Dexterity 13</prerequisite> <!-- Multiclassing requirements -->
-			<requirements>([str:13]||[dex:13])</requirements> <!-- Multiclassing requirements precisam de ser definidos -->
+			<prerequisite>Strength 13 or Wisdom 13</prerequisite>
+			<requirements>([str:13]||[wis:13])</requirements>
 			<setters>
 				<set name="multiclass proficiencies">Light armor, medium armor, simple weapons, martial weapons, calligrapher’s supplies </set>
 			</setters>
