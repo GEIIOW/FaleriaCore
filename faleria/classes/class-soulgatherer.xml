@@ -23,39 +23,46 @@
 			<p>Every creature’s soul has power inside of it. Some souls are more powerful than others though, and these are gold mines for gatherers.</p>
 			<p class="indent">A creature only has usable soul power when it has 5 or more maximum hit points. Creatures, other than constructs and undead, have 1 soul power per 5 maximum hit points.</p>
 			
-			
 			<h4>CREATING A FIGHTER</h4>
-			<p>As you build your fighter, think about two related elements of your character’s background: Where did you get your combat training, and what set you apart from the mundane warriors around you? Were you particularly ruthless? Did you get extra help from a mentor, perhaps because of your exceptional dedication? What drove you to this training in the first place? A threat to your homeland, a thirst for revenge, or a need to prove yourself might all have been factors.</p>
-			<p class="indent">You might have enjoyed formal training in a noble’s army or in a local militia. Perhaps you trained in a war academy, learning strategy, tactics, and military history. Or you might be self-taught—unpolished but well tested. Did you take up the sword as a way to escape the limits of life on a farm, or are you following a proud family tradition? Where did you acquire your weapons and armor? They might have been military issue or family heirlooms, or perhaps you scrimped and saved for years to buy them. Your armaments are now among your most important possessions—the only things that stand between you and death’s embrace.</p>
+			<p>As you make your soul gatherer spend some time thinking about why they gather and spend soul power. Do they empower themselves to make mighty slashes with their longsword or do they hord it to be able to increase their own life? Think about the reason they joined the school as well as it is the whole reason they have their abilities.</p>
+			<p class="indent">Some relevant questions to awnser about your character might be: Why did you join the school? What’s your beacon? Does your beacon have any connection to your past? Do you enjoy seeing the soul leave the body?</p>
+			
 			<h5>QUICK BUILD</h5>
-			<p>You can make a fighter quickly by following these suggestions. First, make Strength or Dexterity your highest ability score, depending on whether you want to focus on melee weapons or on archery (or finesse weapons). Your next-highest score should be Constitution. Second, choose the soldier background.</p>
+			<p>You can quickly create a soul gatherer by following these suggestions. Firstly, choose Wisdom to be your highest ability score, followed by Strength. Secondly, choose the soldier background and grab a one-handed weapon, choose a beacon and some medium armor and you should be ready to go.</p>
+		
 			<h3>CLASS FEATURES</h3>
-			<p>As a fighter, you gain the following class features.</p>
+			<p>As a Soul Gatherer, you gain the following class features.</p>
             <h5>HIT POINTS</h5>
             <ul class="unstyled">
-                <li><strong>Hit Dice:</strong> 1d10 per fighter level</li>
-                <li><strong>Hit Points at 1st Level:</strong> 10 + your Constitution modifier</li>
-                <li><strong>Hit Points at Higher Levels:</strong> 1d10 (or 6) + your Constitution modifier per fighter level after 1st</li>
+                <li><strong>Hit Dice:</strong> 1d8 per Soul Ghaterer level</li>
+                <li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
+                <li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per Soul Ghaterer level after 1st</li>
             </ul>
             <h5>PROFICIENCIES</h5>
             <ul class="unstyled mb">
-                <li><strong>Armor:</strong> All armor, shields</li>
+                <li><strong>Armor:</strong> Light armor, medium armor</li>
                 <li><strong>Weapons:</strong> Simple weapons, martial weapons</li>
-                <li><strong>Tools:</strong> None</li>
+                <li><strong>Tools:</strong> Calligrapher’s supplies</li>
             </ul>
             <ul class="unstyled">
-                <li><strong>Saving Throws:</strong> Strength, Constitution</li>
-                <li><strong>Skills:</strong> Choose two skills from Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, and Survival</li>
+                <li><strong>Saving Throws:</strong> Wisdom, Strength</li>
+                <li><strong>Skills:</strong> Choose two from Arcana, Athletics, History, Insight, Perception, Stealth or Survival</li>
             </ul>
 			<h5>EQUIPMENT</h5>
 			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
 			<ul>
-				<li><i>(a)</i> chain mail or <i>(b)</i> leather armor, longbow, and 20 arrows</li>
-				<li><i>(a)</i> a martial weapon and a shield or <i>(b)</i> two martial weapons</li>
-				<li><i>(a)</i> a light crossbow and 20 bolts or <i>(b)</i> two handaxes</li>
-				<li><i>(a)</i> a dungeoneer’s pack or <i>(b)</i> an explorer’s pack</li>
+				<li><i>(a)</i> leather armor or <i>(b)</i> chain shirt</li>
+				<li><i>(a)</i> any simple weapon or <i>(b)</i> any martial weapon</li>
+				<li><i>(a)</i> any simple weapon or <i>(b)</i> five javelins</li>
+				<li>An explorer’s pack, caligrapher’s supplies and a soul beacon</li>
 			</ul>
-			<h5 class="caption">THE FIGHTER</h5>
+			
+			<h5>SOUL BOND</h5>
+			<p>At level 1 you gain your first soul bond. A soul bond is a connection created by a soul gatherer and the world around them. As an action, the gatherer may bind themself to an ally, an enemy or to their beacon. To bind yourself to a creature with gatherable soul power you must use their cr or levels worth of soul power. There is no cost to bind yourself to an object, such as a beacon, nor to a creature with no harvestable soul power. Creating a soul bond with a creature reveals how much soul power they possess, but only lasts 1 minute.</p>
+			<p>Bonds to creatures or objects can only be broken by the dispel magic or similar spells, by the death of the soul gatherer, by the death of the creature the bond is made with, via the destruction of the the bond was made with.</p>
+			<p>You gain additional bonds at levels 3, 7, 10 and 15.</p>
+			
+			<h5 class="caption">Soul Gatherer</h5>
 			<table class="class-features">
 				<thead>
 					<tr><td class="col-5">Level</td><td class="left">Features</td></tr>
