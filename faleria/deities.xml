@@ -80,6 +80,8 @@
 			<set name="gender">female</set>
 		</setters>
 		<sheet>
+			<description>God of Might and Handsomeness</description>
+		</sheet>
 	</element>
 
 </elements>
