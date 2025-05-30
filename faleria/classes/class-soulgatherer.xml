@@ -183,18 +183,18 @@
 			<description>
 				<p>At 1st level, you can turn a tiny or larger object into a soul beacon by establishing a soul bond with it. The beacon can store up to 20 times your Wisdom modifier plus your Strength modifier worth of soul power.</p>
 				<p class="indent">The beacon serves as your spellcasting focus and has four uses: it can be activated to collect unconscious out-of-body souls in a 30-foot radius, thrown as an improvised ranged weapon, and pulled back as a reaction when attacked.</p>
-				<p class="indent">Beacon stats: AC = {{soul beacon: ac}}; HP = {{soul beacon: hp}}; immune to poison and psychic damage; immune to various conditions; does not take damage from spells or area effects when held by you.</p>
+				<p class="indent">Beacon stats: AC = {{soul beacon:ac}}; HP = {{soul beacon:hp}}; immune to poison and psychic damage; immune to various conditions; does not take damage from spells or area effects when held by you.</p>
 			</description>
 		</sheet>
 		<rules>
-			<stat name="soul beacon: ac" value="8" bonus="base"/>
-			<stat name="soul beacon: ac" value="[wisdom:modifier]" bonus="bonus" />
-			<stat name="soul beacon: ac" value="[proficiency]" bonus="bonus" />
-			<stat name="soul beacon: hp" value="[level:soul gatherer]" bonus="base" />
-			<stat name="soul beacon: hp" value="[level:soul gatherer]" bonus="bonus" />
-			<stat name="soul beacon: hp" value="[level:soul gatherer]" bonus="bonus" />
-			<stat name="soul beacon: hp" value="[level:soul gatherer]" bonus="bonus" />
-			<stat name="soul beacon: hp" value="[level:soul gatherer]" bonus="bonus" />
+			<stat name="soul beacon:ac" value="8" bonus="base"/>
+			<stat name="soul beacon:ac" value="[wisdom:modifier]" bonus="bonus" />
+			<stat name="soul beacon:ac" value="[proficiency]" bonus="bonus" />
+			<stat name="soul beacon:hp" value="[level:soul gatherer]" bonus="base" />
+			<stat name="soul beacon:hp" value="[level:soul gatherer]" bonus="bonus" />
+			<stat name="soul beacon:hp" value="[level:soul gatherer]" bonus="bonus" />
+			<stat name="soul beacon:hp" value="[level:soul gatherer]" bonus="bonus" />
+			<stat name="soul beacon:hp" value="[level:soul gatherer]" bonus="bonus" />
 		</rules>
 	</element>	
 	
