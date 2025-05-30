@@ -89,4 +89,24 @@
 		</sheet>
 	</element>
 
+	<element name="Sling Expert" type="Feat" source="Yozolin's Lost Tome" id="ID_FALERIA_FEAT_SLING_EXPERT">
+		<description>
+			<p>Thanks to extensive practice with slings, you gain the following benefits:</p>
+			<ul>
+				<li>Increase your Dexterity score by 1, to a maximum of 20.</li>
+				<li>Being within 5 feet of a hostile creature doesn’t impose disadvantage on your ranged attack rolls.</li>
+				<li>When you score a critical hit with a sling to a creature, that creature is stunned until the start of their next turn.</li>
+			</ul>			
+		</description>
+		<sheet >
+			<description>
+				<p>Being within 5 feet of a hostile creature doesn’t impose disadvantage on your ranged attack rolls.</p>
+				<p>When you score a critical hit with a sling to a creature, that creature is stunned until the start of their next turn.</p>
+			</description>
+		</sheet>
+			<rules>
+			<stat name="dexterity" value="1" />
+			</rules>
+		</element>
+
 </elements>
