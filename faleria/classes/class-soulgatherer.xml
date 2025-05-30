@@ -152,7 +152,7 @@
 			<p class="indent">Bonds to creatures or objects can only be broken by the dispel magic or similar spells, by the death of the soul gatherer, by the death of the creature the bond is made with, via the destruction of the the bond was made with.</p>
 			<p class="indent">You gain additional bonds at levels 3, 7, 10 and 15.</p>
 		</description>
-		<sheet action="Action" usage="Soul Bound:{{sould bound:number}}" >
+		<sheet action="Action" usage="Soul Bound:{{soul bound:number}}" >
 			<description>
 				<p>Bind to an ally, enemy, or object (like your beacon) within 30 ft. Costs soul power equal to their CR/level (no cost for objects or creatures without soul power). Reveals target’s soul power; lasts 1 min. Ends if you die, target dies/destroyed, or dispel magic is used.</p>
 			</description>
@@ -190,11 +190,11 @@
 			<stat name="soul beacon: ac" value="8" bonus="base"/>
 			<stat name="soul beacon: ac" value="[wisdom:modifier]" bonus="bonus" />
 			<stat name="soul beacon: ac" value="[proficiency]" bonus="bonus" />
-			<stat name="soul beacon: hp" value="[level]" bonus="base" />
-			<stat name="soul beacon: hp" value="[level]" bonus="bonus" />
-			<stat name="soul beacon: hp" value="[level]" bonus="bonus" />
-			<stat name="soul beacon: hp" value="[level]" bonus="bonus" />
-			<stat name="soul beacon: hp" value="[level]" bonus="bonus" />
+			<stat name="soul beacon: hp" value="[level:soul gatherer]" bonus="base" />
+			<stat name="soul beacon: hp" value="[level:soul gatherer]" bonus="bonus" />
+			<stat name="soul beacon: hp" value="[level:soul gatherer]" bonus="bonus" />
+			<stat name="soul beacon: hp" value="[level:soul gatherer]" bonus="bonus" />
+			<stat name="soul beacon: hp" value="[level:soul gatherer]" bonus="bonus" />
 		</rules>
 	</element>	
 	
