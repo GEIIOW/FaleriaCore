@@ -204,7 +204,7 @@
 			<p>The first lesson soul gatherers go through is on how to manipulate soul power to their will. Starting at level 1, as a bonus action you can manually gather and store all the soul power from an unconscious out of body soul within 60 feet.</p>
 			<p class="indent">Additionaly, a sixth sense opens up in you. You gain spectral vision. Spectral vision allows you to see out of body souls, ghosts and similar creatures if they are naturally not visible.</p>
 		</description>
-		<sheet action="Bonus Action"/>
+		<sheet action="Bonus Action">
 			<description>
 				<p>You can manually gather and store all the soul power from an unconscious out of body soul within 60 feet.</p>
 			</description>
