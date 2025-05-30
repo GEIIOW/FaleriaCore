@@ -92,7 +92,8 @@
 			</table>
 			<div element="ID_FALERIA_CLASS_FEATURE_SOULBOUND" />
 			<div element="ID_FALERIA_CLASS_FEATURE_SOULBEACON" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_ACTIONSURGE" />
+			<div element="ID_FALERIA_CLASS_FEATURE_SOULCATCHER" />
+
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_MARTIALARCHETYPE" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_FIGHTER" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_EXTRAATTACK" />
@@ -194,19 +195,34 @@
 			<stat name="soul beacon:hp" value="[level]"/>
 			<stat name="soul beacon:hp" value="[level]"/>
 			<stat name="soul beacon:hp" value="[level]"/>
-			<stat name="soul beacon:hp" value="[level]"/>
+			<stat name="soul beacon:hp" value="[level]"/> <!-- tenho que ver como resolver isto -->
 		</rules>
 	</element>	
 	
 	<element name="Soul Catcher" type="Class Feature" source="Yozolin’s Lost Tome" id="ID_FALERIA_CLASS_FEATURE_SOULCATCHER">
 		<description>
-			<p>At 1st level, you gain the ability to gather soul power from creatures you defeat in combat. When a creature dies, you can use your beacon to collect its soul power, which is stored in the beacon until you use it.</p>
-			<p class="indent">You can gather soul power from any creature that has a soul, including humanoids, beasts, and monstrosities. Constructs and undead do not have souls and cannot be used to gather soul power.</p>
-			<p class="indent">The amount of soul power you can gather from a creature depends on its challenge rating or level. You can gather 1 soul power for every 5 maximum hit points the creature has.</p>
+			<p>The first lesson soul gatherers go through is on how to manipulate soul power to their will. Starting at level 1, as a bonus action you can manually gather and store all the soul power from an unconscious out of body soul within 60 feet.</p>
+			<p class="indent">Additionaly, a sixth sense opens up in you. You gain spectral vision. Spectral vision allows you to see out of body souls, ghosts and similar creatures if they are naturally not visible.</p>
 		</description>
-		<sheet display="false" />
+		<sheet action="Bonus Action"/>
+			<description>
+				<p>You can manually gather and store all the soul power from an unconscious out of body soul within 60 feet.</p>
+			</description>
+		</sheet>
+		<rules>
+			<grant type="Vision" id="ID_VISION_SPECTRAL"/>
+		</rules>
 	</element>	
-	
+
+	<element name="Spectral vision" type="Vision" source="Yozolin’s Lost Tome" id="ID_VISION_SPECTRAL">
+		<description>
+			<p>Spectral vision allows you to see out of body souls, ghosts and similar creatures if they are naturally not visible.</p>
+		</description>
+			<sheet>
+				<description>Spectral vision allows you to see out of body souls, ghosts and similar creatures if they are naturally not visible.</description>
+			</sheet>
+	</element>
+
 	<element name="Soul Magic" type="Class Feature" source="Yozolin’s Lost Tome" id="ID_FALERIA_CLASS_FEATURE_SOULMAGIC">
 		<description>
 			<p>At 2nd level, you gain the ability to cast spells using soul power. You can cast any spell you know or have prepared by spending soul power from your beacon.</p>
