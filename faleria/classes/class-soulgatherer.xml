@@ -56,12 +56,7 @@
 				<li><i>(a)</i> any simple weapon or <i>(b)</i> five javelins</li>
 				<li>An explorer’s pack, caligrapher’s supplies and a soul beacon</li>
 			</ul>
-			
-			<h5>SOUL BOND</h5>
-			<p>At level 1 you gain your first soul bond. A soul bond is a connection created by a soul gatherer and the world around them. As an action, the gatherer may bind themself to an ally, an enemy or to their beacon. To bind yourself to a creature with gatherable soul power you must use their cr or levels worth of soul power. There is no cost to bind yourself to an object, such as a beacon, nor to a creature with no harvestable soul power. Creating a soul bond with a creature reveals how much soul power they possess, but only lasts 1 minute.</p>
-			<p>Bonds to creatures or objects can only be broken by the dispel magic or similar spells, by the death of the soul gatherer, by the death of the creature the bond is made with, via the destruction of the the bond was made with.</p>
-			<p>You gain additional bonds at levels 3, 7, 10 and 15.</p>
-			
+
 		<h5 class="caption">Soul Gatherer</h5>
 			<table class="class-features">
     			<thead>
