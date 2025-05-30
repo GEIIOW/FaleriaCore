@@ -32,23 +32,23 @@
 
 	<!--Meter isto bem asap-->
 	<element name="Heavy Sling" type="Weapon" source="Yozolin's Lost Tome" id="ID_FALERIA_WEAPON_HEAVYSLING">
-		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SWORDS, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_HEAVY </supports>
 		<description>
-			<p></p>
+					<p></p>
 		</description>
 		<setters>
-			<set name="category">Weapons</set>
-			<set name="cost" currency="gp">5</set>
-			<set name="weight" lb="3">3 lb.</set>
-			<set name="slot">onehand</set>
-			<set name="damage" type="slashing">1d6</set>
-			<set name="versatile">1d8</set>
+			<set name="category">Weapons, Sling</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="damage" type="bludgeoning">1d6</set>
+			<set name="range">60/20</set>
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_HEAVYSLING</set>
 		</setters>
 	</element>	
 
     <element name="Weapon Proficiency (Heavy Sling)" type="Proficiency" source="Yozolin's Lost Tome" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HEAVYSLING">
-        <supports>Simple, Melee, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING,ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
+        <supports>Ranged, Martial, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_HEAVY</supports>
     </element>
 
 	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
