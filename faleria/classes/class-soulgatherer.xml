@@ -243,8 +243,6 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_FIGHTING_STYLE</requirements>
 		<description>
 			<p>You adopt a particular style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.</p>
-			<h5 class="caption">ARCHERY</h5>
-			<p>You gain a +2 bonus to attack rolls you make with ranged weapons.</p>
 			<h5 class="caption">DEFENSE</h5>
 			<p>While you are wearing armor, you gain a +1 bonus to AC.</p>
 			<h5 class="caption">DUELING</h5>
@@ -261,16 +259,6 @@
 		</rules>
 	</element>
 	
-	<element name="Second Wind" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_SECONDWIND">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_SECOND_WIND</requirements>
-		<description>
-			<p>You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level.</p>
-			<p class="indent">Once you use this feature, you must finish a short or long rest before you can use it again.</p>
-		</description>
-		<sheet action="Bonus Action" usage="1/Short Rest">
-			<description>You regain 1d10+{{level:fighter}} hp.</description>
-		</sheet>
-	</element>
 	<element name="Action Surge" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ACTIONSURGE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_ACTION_SURGE</requirements>
 		<description>
@@ -409,7 +397,6 @@
 
 	<!--Feature Replacement Grants-->
 	<element name="Fighting Style Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_FIGHTING_STYLE" />
-	<element name="Second Wind Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_SECOND_WIND" />
 	<element name="Action Surge Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_ACTION_SURGE" />
 	<element name="Martial Archetype Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_MARTIAL_ARCHETYPE" />
 	<element name="Ability Score Improvement Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_ABILITY_SCORE_IMPROVEMENT" />
