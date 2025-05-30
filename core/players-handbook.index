@@ -107,7 +107,6 @@
 		<file name="languages.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/core/players-handbook/languages.xml" />
 		<file name="feats.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/core/players-handbook/feats.xml" />
 		<file name="spells.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/core/players-handbook/spells.xml" />
-		<file name="deities.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/core/players-handbook/deities.xml" />
 		<file name="companions.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/core/players-handbook/companions.xml" />
 		<file name="eldritch-invocations.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/core/players-handbook/eldritch-invocations.xml" />
 	</files>
