@@ -32,7 +32,9 @@
 		<file name="race-half-troll.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/races/race-halftroll.xml" />
 
 		<!--Classes-->		
-		<file name="blood-hunter.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/classes/class-bloodhunter.xml" />
+		<file name="class-bloodhunter.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/classes/class-bloodhunter.xml" />
+		<file name="class-soulgatherer.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/classes/class-soulgatherer.xml" />
+		
 		<!--Aspirations-->		
 		<file name="aspiration.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/aspirations/aspiration.xml" />
 	
