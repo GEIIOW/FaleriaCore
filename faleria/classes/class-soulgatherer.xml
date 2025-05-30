@@ -7,7 +7,7 @@
 		</update>
 	</info>
 
-	<element name="Soul Gaterer" type="Class" source="Yozolin’s Lost Tome" id="ID_FALERIA_CLASS_SOULGATHERER">
+	<element name="Soul Gatherer" type="Class" source="Yozolin’s Lost Tome" id="ID_FALERIA_CLASS_SOULGATHERER">
 		<description>
 			<p>Through many years of intense research, the greatest and most unethical arcane scholars managed to tap into a previously unkown source of magical power called Soul Power. Since then, they have founded a secret school to research the side effects of using soul power, but also to slowly build an army of Soul Gatherers.</p>
 
@@ -34,9 +34,9 @@
 			<p>As a Soul Gatherer, you gain the following class features.</p>
             <h5>HIT POINTS</h5>
             <ul class="unstyled">
-                <li><strong>Hit Dice:</strong> 1d8 per Soul Gaterer level</li>
+                <li><strong>Hit Dice:</strong> 1d8 per Soul Gatherer level</li>
                 <li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
-                <li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per Soul Gaterer level after 1st</li>
+                <li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per Soul Gatherer level after 1st</li>
             </ul>
             <h5>PROFICIENCIES</h5>
             <ul class="unstyled mb">
@@ -158,11 +158,11 @@
 			</description>
 		</sheet>
 		<rules>
-			<stat name="soul bound: number" value="1" bonus="base" level="1" />
-			<stat name="soul bound: number" value="2" bonus="base" level="3" />
-			<stat name="soul bound: number" value="3" bonus="base" level="7" />
-			<stat name="soul bound: number" value="4" bonus="base" level="10" />
-			<stat name="soul bound: number" value="5" bonus="base" level="15" />	
+			<stat name="soul bound:number" value="1" bonus="base" level="1" />
+			<stat name="soul bound:number" value="2" bonus="base" level="3" />
+			<stat name="soul bound:number" value="3" bonus="base" level="7" />
+			<stat name="soul bound:number" value="4" bonus="base" level="10" />
+			<stat name="soul bound:number" value="5" bonus="base" level="15" />	
 		</rules>
 	</element>
 
@@ -188,13 +188,13 @@
 		</sheet>
 		<rules>
 			<stat name="soul beacon:ac" value="8"/>
-			<stat name="soul beacon:ac" value="[wisdom:modifier]" />
-			<stat name="soul beacon:ac" value="[proficiency]"  />
-			<stat name="soul beacon:hp" value="[level:soul gatherer]"  />
-			<stat name="soul beacon:hp" value="[level:soul gatherer]"  />
-			<stat name="soul beacon:hp" value="[level:soul gatherer]" />
-			<stat name="soul beacon:hp" value="[level:soul gatherer]"  />
-			<stat name="soul beacon:hp" value="[level:soul gatherer]"  />
+			<stat name="soul beacon:ac" value="[wisdom:modifier]"/>
+			<stat name="soul beacon:ac" value="[proficiency]"/>
+			<stat name="soul beacon:hp" value="[level]"/>
+			<stat name="soul beacon:hp" value="[level]"/>
+			<stat name="soul beacon:hp" value="[level]"/>
+			<stat name="soul beacon:hp" value="[level]"/>
+			<stat name="soul beacon:hp" value="[level]"/>
 		</rules>
 	</element>	
 	
