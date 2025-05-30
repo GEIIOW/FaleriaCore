@@ -143,6 +143,96 @@
 		</setters>
 	</element>
 
+	<element name="Levish" type="Language" source="Yozolin's Lost Tome" id="ID_LANGUAGE_LEVISH">
+		<supports>Standard</supports>
+		<description>
+			<p>Common Tongue from Lesdownia.</p>
+		</description>
+		<setters>
+			<set name="Standard">true</set>
+		</setters>
+	</element>
+
+	<element name="Venerian" type="Language" source="Yozolin's Lost Tome" id="ID_LANGUAGE_VENERIAN">
+		<supports>Standard</supports>
+		<description>
+			<p>Common Tongue from Lesdownia.</p>
+		</description>
+		<setters>
+			<set name="Standard">true</set>
+		</setters>
+	</element>
+
+	<element name="Venerian" type="Language" source="Yozolin's Lost Tome" id="ID_LANGUAGE_VENERIAN">
+		<supports>Standard</supports>
+		<description>
+			<p>Common Tongue from Lesdownia.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+		</setters>
+	</element>
+
+	<element name="Hudlinar" type="Language" source="Yozolin's Lost Tome" id="ID_LANGUAGE_HUDLINAR">
+		<supports>Standard</supports>
+		<description>
+			<p>Common Tongue from Lesdownia.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+		</setters>
+	</element>
+
+
+	<element name="Stanessi" type="Language" source="Yozolin's Lost Tome" id="ID_LANGUAGE_STANESSI">
+		<supports>Standard</supports>
+		<description>
+			<p>Common Tongue from Lesdownia.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+		</setters>
+	</element>
+
+	<element name="Yimish" type="Language" source="Yozolin's Lost Tome" id="ID_LANGUAGE_YIMISH">
+		<supports>Standard</supports>
+		<description>
+			<p>línguas de Ymaras</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+		</setters>
+	</element>
+
+	<element name="Pombrinil" type="Language" source="Yozolin's Lost Tome" id="ID_LANGUAGE_POMBRINIL">
+		<supports>Standard</supports>
+		<description>
+			<p>línguas de Ymaras</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+		</setters>
+	</element>
+
+	<element name="Pliorus" type="Language" source="Yozolin's Lost Tome" id="ID_LANGUAGE_PLIORUS">
+		<supports>Standard</supports>
+		<description>
+			<p>línguas de Ymaras</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+		</setters>
+	</element>
+
+	<element name="Gashfel" type="Language" source="Yozolin's Lost Tome" id="ID_LANGUAGE_GASHFEL">
+		<supports>Standard</supports>
+		<description>
+			<p>línguas de Ymaras</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+		</setters>
+	</element>
 
 
 </elements>
