@@ -7,7 +7,7 @@
 		</update>
 	</info>
 
-	<element name="Soul Ghaterer" type="Class" source="Yozolin’s Lost Tome" id="ID_FALERIA_CLASS_SOULGATHERER">
+	<element name="Soul Gaterer" type="Class" source="Yozolin’s Lost Tome" id="ID_FALERIA_CLASS_SOULGATHERER">
 		<description>
 			<p>Through many years of intense research, the greatest and most unethical arcane scholars managed to tap into a previously unkown source of magical power called Soul Power. Since then, they have founded a secret school to research the side effects of using soul power, but also to slowly build an army of Soul Gatherers.</p>
 
@@ -34,9 +34,9 @@
 			<p>As a Soul Gatherer, you gain the following class features.</p>
             <h5>HIT POINTS</h5>
             <ul class="unstyled">
-                <li><strong>Hit Dice:</strong> 1d8 per Soul Ghaterer level</li>
+                <li><strong>Hit Dice:</strong> 1d8 per Soul Gaterer level</li>
                 <li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
-                <li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per Soul Ghaterer level after 1st</li>
+                <li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per Soul Gaterer level after 1st</li>
             </ul>
             <h5>PROFICIENCIES</h5>
             <ul class="unstyled mb">
@@ -179,7 +179,23 @@
 				<li>Additionaly, when held or carried by its gatherer it does not take damage from neither spells nor area of effect magic;</li>
 			</ul>
 		</description>
-		<sheet display="false" />
+		<sheet action="Bonus Action" >
+			<description>
+				<p>At 1st level, you can turn a tiny or larger object into a soul beacon by establishing a soul bond with it. The beacon can store up to 20 times your Wisdom modifier plus your Strength modifier worth of soul power.</p>
+				<p class="indent">The beacon serves as your spellcasting focus and has four uses: it can be activated to collect unconscious out-of-body souls in a 30-foot radius, thrown as an improvised ranged weapon, and pulled back as a reaction when attacked.</p>
+				<p class="indent">Beacon stats: AC = {{soul beacon: ac}}; HP = {{soul beacon: hp}}; immune to poison and psychic damage; immune to various conditions; does not take damage from spells or area effects when held by you.</p>
+			</description>
+		</sheet>
+		<rules>
+			<stat name="soul beacon: ac" value="8" bonus="base"/>
+			<stat name="soul beacon: ac" value="[wisdom:modifier]" bonus="bonus" />
+			<stat name="soul beacon: ac" value="[proficiency]" bonus="bonus" />
+			<stat name="soul beacon: hp" value="[level]" bonus="base" />
+			<stat name="soul beacon: hp" value="[level]" bonus="bonus" />
+			<stat name="soul beacon: hp" value="[level]" bonus="bonus" />
+			<stat name="soul beacon: hp" value="[level]" bonus="bonus" />
+			<stat name="soul beacon: hp" value="[level]" bonus="bonus" />
+		</rules>
 	</element>	
 	
 	<element name="Soul Catcher" type="Class Feature" source="Yozolin’s Lost Tome" id="ID_FALERIA_CLASS_FEATURE_SOULCATCHER">
