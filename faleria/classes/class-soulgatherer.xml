@@ -168,9 +168,16 @@
 
 	<element name="Soul Beacon" type="Class Feature" source="Yozolin’s Lost Tome" id="ID_FALERIA_CLASS_FEATURE_SOULBEACON">
 		<description>
-			<p>At 1st level, you gain a soul beacon. A soul beacon is a magical object that allows you to gather and use soul power. It is usually a small object that glows with a faint light, but it can take any form you desire.</p>
-			<p class="indent">You can use your beacon to gather soul power from creatures you defeat in combat. When a creature dies, you can use your beacon to collect its soul power, which is stored in the beacon until you use it.</p>
-			<p class="indent">You can also use your beacon to cast spells and empower yourself or your allies. The spells you can cast and the effects you can create depend on the amount of soul power stored in your beacon.</p>
+			<p>Starting at level 1, when a soul gatherer establishes a soul bond with a tiny or larger object they may choose to turn it into a soul beacon. As long as this bond is active, this beacon will store up to twenty times your wisdom plus your strength modifiers worth of soul power.</p>
+			<p class="indent">To use the soul power stored inside the beacon must be held by it’s gatherer. In addition to storing power, the beacon has four uses. It is the gatherer’s spellcasting focus. As a bonus action the beacon can be activated if it is within touch range of the gatherer. While activated it starts to collect all unconscious out of body souls in a 30 foot radius. As an action it can be thrown up to 30 feet away, if this is for the purposes of an attack the beacon should be treated as an improvised ranged weapon. As a reaction, when the beacon is attacked the gatherer can pull it back towards themself, avoiding the attack.</p>
+			<p class="indent">The beacon has the following stats:</p>
+			<ul>
+				<li>Its armor class is equal to 8 + your wisdom modifier + your proficiency bonus;</li>
+				<li>Its health total is equal to 5 times your soul gatherer level;</li>
+				<li>It is immune to poison and psychic damage;</li>
+				<li>It is immune to the blinded, charmed, deafened, exhaustion, frightened, incapacitated, paralyzed, petrified, poisoned, stunned, unconscious and wither conditions;</li>
+				<li>Additionaly, when held or carried by its gatherer it does not take damage from neither spells nor area of effect magic;</li>
+			</ul>
 		</description>
 		<sheet display="false" />
 	</element>	
