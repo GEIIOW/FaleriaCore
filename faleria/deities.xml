@@ -53,7 +53,6 @@
 			<description>Goddess of Pastries, Sweets and Baked Goods</description>
 		</sheet>
 	</element>
-	</element>
 	<element name="Targo" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_TARGO">
 		<description>
 			<p class="flavor">God of Resilience, Labor and the Common Folk</p>
