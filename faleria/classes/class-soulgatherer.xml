@@ -90,7 +90,7 @@
    				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>5</td><td>11</td><td>4</td><td>5</td></tr>
    				<tr><td>20th</td><td class="left">Path of the Soul feature</td><td>5</td><td>12</td><td>4</td><td>5</td></tr>
 			</table>
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE" />
+			<div element="ID_FALERIA_CLASS_FEATURE_SOULDBOUND" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_SECONDWIND" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_ACTIONSURGE" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_MARTIALARCHETYPE" />
@@ -130,8 +130,8 @@
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_INDOMITABLE" level="9"/>
 		</rules>
 		<multiclass id="ID_FALERIA_MULTICLASS_SOULGATHERER">
-			<prerequisite>Strength 13 or Dexterity 13</prerequisite>
-			<requirements>([str:13]||[dex:13])</requirements>
+			<prerequisite>Strength 13 or Dexterity 13</prerequisite> <!-- Multiclassing requirements -->
+			<requirements>([str:13]||[dex:13])</requirements> <!-- Multiclassing requirements precisam de ser definidos -->
 			<setters>
 				<set name="multiclass proficiencies">Light armor, medium armor, simple weapons, martial weapons, calligrapher’s supplies </set>
 			</setters>
@@ -148,12 +148,24 @@
 	
 	<element name="Soul Bound" type="Class Feature" source="Yozolin’s Lost Tome" id="ID_FALERIA_CLASS_FEATURE_SOULBOUND">
 		<description>
-			<p>Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.</p>
+			<p>At level 1 you gain your first soul bond. A soul bond is a connection created by a soul gatherer and the world around them. As an action, the gatherer may bind themself to an ally, an enemy or to their beacon. To bind yourself to a creature with gatherable soul power you must use their cr or levels worth of soul power. There is no cost to bind yourself to an object, such as a beacon, nor to a creature with no harvestable soul power. Creating a soul bond with a creature reveals how much soul power they possess, but only lasts 1 minute.</p>
+			<p class="indent">Bonds to creatures or objects can only be broken by the dispel magic or similar spells, by the death of the soul gatherer, by the death of the creature the bond is made with, via the destruction of the the bond was made with.</p>
+			<p class="indent">You gain additional bonds at levels 3, 7, 10 and 15.</p>
 		</description>
-		<sheet usage="1/Short Rest">
-			<description>On your turn, you can take one additional action on top of your regular action.</description>
+		<sheet action="Action" usage="Soul Bound:{{sould bound:number}}" >
+			<description>
+				<p>Bind to an ally, enemy, or object (like your beacon) within 30 ft. Costs soul power equal to their CR/level (no cost for objects or creatures without soul power). Reveals target’s soul power; lasts 1 min. Ends if you die, target dies/destroyed, or dispel magic is used</p>
+			</description>
 		</sheet>
+		<rules>
+			<stat name="soul bound: number" value="1" bonus="base" level="1" />
+			<stat name="soul bound: number" value="2" bonus="base" level="3" />
+			<stat name="soul bound: number" value="3" bonus="base" level="7" />
+			<stat name="soul bound: number" value="4" bonus="base" level="10" />
+			<stat name="soul bound: number" value="5" bonus="base" level="15" />	
+		</rules>
 	</element>
+
 	
 	<element name="Soul Beacon" type="Class Feature" source="Yozolin’s Lost Tome" id="ID_FALERIA_CLASS_FEATURE_SOULBEACON">
 		<description>
@@ -211,6 +223,7 @@
 			<select type="Class Feature" name="Fighting Style" supports="Fighting Style, Fighter" level="1"/>
 		</rules>
 	</element>
+	
 	<element name="Second Wind" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_SECONDWIND">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_SECOND_WIND</requirements>
 		<description>
