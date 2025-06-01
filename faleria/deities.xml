@@ -8,13 +8,563 @@
 			<file name="deities.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/FaleriaCore/faleria/deities.xml" />
 		</update>
 	</info>
+
+
+	<!-- Primancy Gods -->
+	<element name="Prooímion" type="Deity" source="Yozolin's Lost Tome" id="ID_YOZOLIN_DEITY_PROOIMION">
+		<description>
+			<p class="flavor">the First</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="domains">Knowledge, Order</set>
+			<set name="symbol">Supernova engulfing a dark background</set>
+		</setters>
+		<sheet>
+			<description>the First</description>
+		</sheet>
+	</element>
+
+	<element name="Aírṑra" type="Deity" source="Yozolin's Lost Tome" id="ID_YOZOLIN_DEITY_AIRORA">
+		<description>
+			<p class="flavor">Goddess of Time</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="domains">Arcana, Order</set>
+			<set name="symbol">Hourglass</set>
+		</setters>
+		<sheet>
+			<description>Goddess of Time</description>
+		</sheet>
+	</element>
+
+	<element name="Agródémo" type="Deity" source="Yozolin's Lost Tome" id="ID_YOZOLIN_DEITY_AGRODEMO">
+		<description>
+			<p class="flavor">God of Creation</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="domains">Grave, Life</set>
+			<set name="symbol">A golden sphere</set>
+		</setters>
+		<sheet>
+			<description>God of Creation</description>
+		</sheet>
+	</element>
+
+	<element name="Katálēxis" type="Deity" source="Yozolin's Lost Tome" id="ID_YOZOLIN_DEITY_KATALEXIS">
+		<description>
+			<p class="flavor">God of Destruction</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="domains">Death, Grave</set>
+			<set name="symbol">A cracked silver sphere</set>
+		</setters>
+		<sheet>
+			<description>God of Destruction</description>
+		</sheet>
+	</element>
+
+	<element name="Kàuós" type="Deity" source="Yozolin's Lost Tome" id="ID_YOZOLIN_DEITY_KAUOS">
+		<description>
+			<p class="flavor">Goddess of Chaos and Luck</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="domains">Life, Trickery</set>
+			<set name="symbol">Rope tied in a square knot</set>
+		</setters>
+		<sheet>
+			<description>Goddess of Chaos and Luck</description>
+		</sheet>
+	</element>
+
+	<element name="Moîra" type="Deity" source="Yozolin's Lost Tome" id="ID_YOZOLIN_DEITY_MOIRA">
+		<description>
+			<p class="flavor">Goddess of Fate and Luck</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="domains">Life, Order</set>
+			<set name="symbol">A single rod pendant</set>
+		</setters>
+		<sheet>
+			<description>Goddess of Fate and Luck</description>
+		</sheet>
+	</element>
+
+	<element name="Aasagar" type="Deity" source="Yozolin's Lost Tome" id="ID_YOZOLIN_DEITY_AASAGAR">
+		<description>
+			<p class="flavor">the Primordial Water</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="domains">Light, Nature</set>
+			<set name="symbol">Three horizontal blue wavy lines</set>
+		</setters>
+		<sheet>
+			<description>the Primordial Water</description>
+		</sheet>
+	</element>
+
+	<element name="Atesh" type="Deity" source="Yozolin's Lost Tome" id="ID_YOZOLIN_DEITY_ATESH">
+		<description>
+			<p class="flavor">the Primordial Fire</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="domains">Forge, Nature</set>
+			<set name="symbol">A piece of coal carved to look like a flame</set>
+		</setters>
+		<sheet>
+			<description>the Primordial Fire</description>
+		</sheet>
+	</element>
+
+	<element name="Dharatt" type="Deity" source="Yozolin's Lost Tome" id="ID_YOZOLIN_DEITY_DHARATT">
+		<description>
+			<p class="flavor">the Primordial Earth</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="domains">Nature, Trickery</set>
+			<set name="symbol">A pebble carved to look like an eye</set>
+		</setters>
+		<sheet>
+			<description>the Primordial Earth</description>
+		</sheet>
+	</element>
+
+	<element name="Ootona" type="Deity" source="Yozolin's Lost Tome" id="ID_YOZOLIN_DEITY_OOTONA">
+		<description>
+			<p class="flavor">the Primordial Arcana</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="domains">Arcana, Nature</set>
+			<set name="symbol">A precious gem carved to look like a spiral</set>
+		</setters>
+		<sheet>
+			<description>the Primordial Arcana</description>
+		</sheet>
+	</element>
+
+	<element name="Vaayu" type="Deity" source="Yozolin's Lost Tome" id="ID_YOZOLIN_DEITY_VAAYU">
+		<description>
+			<p class="flavor">the Primordial Wind</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="domains">Nature, Peace</set>
+			<set name="symbol">Three vertical blue wavy lines</set>
+		</setters>
+		<sheet>
+			<description>the Primordial Wind</description>
+		</sheet>
+	</element>
+
+	<element name="Yïldirim" type="Deity" source="Yozolin's Lost Tome" id="ID_YOZOLIN_DEITY_YILDIRIM">
+		<description>
+			<p class="flavor">the Primordial Lightning</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="domains">Nature, Tempest</set>
+			<set name="symbol">Three diagonal blue wavy lines</set>
+		</setters>
+		<sheet>
+			<description>the Primordial Lightning</description>
+		</sheet>
+	</element>
+
+	<!-- Aivali Gods -->
+	<element name="Prooímion" type="Deity" source="Yozolin's Lost Tome" id="ID_YOZOLIN_DEITY_PROOIMION">
+		<description>
+			<p class="flavor">the First</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="domains">Knowledge, Order</set>
+			<set name="symbol">Supernova engulfing a dark background</set>
+		</setters>
+		<sheet>
+			<description>the First</description>
+		</sheet>
+	</element>
+
+	<element name="Aírṑra" type="Deity" source="Yozolin's Lost Tome" id="ID_YOZOLIN_DEITY_AIRORA">
+		<description>
+			<p class="flavor">Goddess of Time</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="domains">Arcana, Order</set>
+			<set name="symbol">Hourglass</set>
+		</setters>
+		<sheet>
+			<description>Goddess of Time</description>
+		</sheet>
+	</element>
+
+	<element name="Agródémo" type="Deity" source="Yozolin's Lost Tome" id="ID_YOZOLIN_DEITY_AGRODEMO">
+		<description>
+			<p class="flavor">God of Creation</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="domains">Grave, Life</set>
+			<set name="symbol">A golden sphere</set>
+		</setters>
+		<sheet>
+			<description>God of Creation</description>
+		</sheet>
+	</element>
+
+	<element name="Katálēxis" type="Deity" source="Yozolin's Lost Tome" id="ID_YOZOLIN_DEITY_KATALEXIS">
+		<description>
+			<p class="flavor">God of Destruction</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="domains">Death, Grave</set>
+			<set name="symbol">A cracked silver sphere</set>
+		</setters>
+		<sheet>
+			<description>God of Destruction</description>
+		</sheet>
+	</element>
+
+	<element name="Kàuós" type="Deity" source="Yozolin's Lost Tome" id="ID_YOZOLIN_DEITY_KAUOS">
+		<description>
+			<p class="flavor">Goddess of Chaos and Luck</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="domains">Life, Trickery</set>
+			<set name="symbol">Rope tied in a square knot</set>
+		</setters>
+		<sheet>
+			<description>Goddess of Chaos and Luck</description>
+		</sheet>
+	</element>
+
+	<element name="Moîra" type="Deity" source="Yozolin's Lost Tome" id="ID_YOZOLIN_DEITY_MOIRA">
+		<description>
+			<p class="flavor">Goddess of Fate and Luck</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="domains">Life, Order</set>
+			<set name="symbol">A single rod pendant</set>
+		</setters>
+		<sheet>
+			<description>Goddess of Fate and Luck</description>
+		</sheet>
+	</element>
+
+	<element name="Aasagar" type="Deity" source="Yozolin's Lost Tome" id="ID_YOZOLIN_DEITY_AASAGAR">
+		<description>
+			<p class="flavor">the Primordial Water</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="domains">Light, Nature</set>
+			<set name="symbol">Three horizontal blue wavy lines</set>
+		</setters>
+		<sheet>
+			<description>the Primordial Water</description>
+		</sheet>
+	</element>
+
+	<element name="Atesh" type="Deity" source="Yozolin's Lost Tome" id="ID_YOZOLIN_DEITY_ATESH">
+		<description>
+			<p class="flavor">the Primordial Fire</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="domains">Forge, Nature</set>
+			<set name="symbol">A piece of coal carved to look like a flame</set>
+		</setters>
+		<sheet>
+			<description>the Primordial Fire</description>
+		</sheet>
+	</element>
+
+	<element name="Dharatt" type="Deity" source="Yozolin's Lost Tome" id="ID_YOZOLIN_DEITY_DHARATT">
+		<description>
+			<p class="flavor">the Primordial Earth</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="domains">Nature, Trickery</set>
+			<set name="symbol">A pebble carved to look like an eye</set>
+		</setters>
+		<sheet>
+			<description>the Primordial Earth</description>
+		</sheet>
+	</element>
+
+	<element name="Ootona" type="Deity" source="Yozolin's Lost Tome" id="ID_YOZOLIN_DEITY_OOTONA">
+		<description>
+			<p class="flavor">the Primordial Arcana</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="domains">Arcana, Nature</set>
+			<set name="symbol">A precious gem carved to look like a spiral</set>
+		</setters>
+		<sheet>
+			<description>the Primordial Arcana</description>
+		</sheet>
+	</element>
+
+	<element name="Vaayu" type="Deity" source="Yozolin's Lost Tome" id="ID_YOZOLIN_DEITY_VAAYU">
+		<description>
+			<p class="flavor">the Primordial Wind</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="domains">Nature, Peace</set>
+			<set name="symbol">Three vertical blue wavy lines</set>
+		</setters>
+		<sheet>
+			<description>the Primordial Wind</description>
+		</sheet>
+	</element>
+
+	<element name="Yïldirim" type="Deity" source="Yozolin's Lost Tome" id="ID_YOZOLIN_DEITY_YILDIRIM">
+		<description>
+			<p class="flavor">the Primordial Lightning</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="domains">Nature, Tempest</set>
+			<set name="symbol">Three diagonal blue wavy lines</set>
+		</setters>
+		<sheet>
+			<description>the Primordial Lightning</description>
+		</sheet>
+	</element>
+
+	<element name="Thesaurýlax" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_THESAURYLAX">
+    <description>
+        <p class="flavor">Demon God of Basalos</p>
+    </description>
+    <setters>
+        <set name="setting">Yozolin's Lost Tome</set>
+        <set name="domains">Death, Peace</set>
+        <set name="symbol">Crown over a flame</set>
+    </setters>
+    <sheet>
+        <description>Demon God of Basalos</description>
+    </sheet>
+	</element>
+
+	<!-- Basali Gods-->
+	<element name="Umandália" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_UMANDALIA">
+		<description>
+			<p class="flavor">Demon Lady of Derenes Dal</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="domains">Grave, Light</set>
+			<set name="symbol">A bundle of reeds painted blue</set>
+		</setters>
+		<sheet>
+			<description>Demon Lady of Derenes Dal</description>
+		</sheet>
+	</element>
+
+	<element name="Pizix" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_PIZIX">
+		<description>
+			<p class="flavor">Demon Lord of Stygia</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="domains">Grave, War</set>
+			<set name="symbol">A broken blade</set>
+		</setters>
+		<sheet>
+			<description>Demon Lord of Stygia</description>
+		</sheet>
+	</element>
+
+	<element name="Varya" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_VARYA">
+		<description>
+			<p class="flavor">Demon Lady of Syndal</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="domains">Trickery</set>
+			<set name="symbol">A red silk bow</set>
+		</setters>
+		<sheet>
+			<description>Demon Lady of Syndal</description>
+		</sheet>
+	</element>
+
+	<element name="Idathonus" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_IDATHONUS">
+		<description>
+			<p class="flavor">Demon Lord of Sártauga</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="domains">Knowledge, Trickery</set>
+		</setters>
+		<sheet>
+			<description>Demon Lord of Sártauga</description>
+		</sheet>
+	</element>
+
+	<element name="Razojran" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_RAZOJRAN">
+		<description>
+			<p class="flavor">Demon Lord of Blodsyn</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="domains">War</set>
+		</setters>
+		<sheet>
+			<description>Demon Lord of Blodsyn</description>
+		</sheet>
+	</element>
+
+	<element name="Izwel" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_IZWEL">
+		<description>
+			<p class="flavor">Demon Lord of Drejura</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+		</setters>
+		<sheet>
+			<description>Demon Lord of Drejura</description>
+		</sheet>
+	</element>
+
+	<element name="Jurcilchit" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_JURCILCHIT">
+		<description>
+			<p class="flavor">Demon Lord of Apýthmenos</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+		</setters>
+		<sheet>
+			<description>Demon Lord of Apýthmenos</description>
+		</sheet>
+	</element>
+
+	<element name="Abyssa" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_ABYSSA">
+		<description>
+			<p class="flavor">Demon Lady of Abyss</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+		</setters>
+		<sheet>
+			<description>Demon Lady of Abyss</description>
+		</sheet>
+	</element>
+
+	<element name="Zygaran" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_ZYGARAN">
+		<description>
+			<p class="flavor">Demon Lady of Basal</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+		</setters>
+		<sheet>
+			<description>Demon Lady of Basal</description>
+		</sheet>
+	</element>
+
+
+	<!-- Laysori Gods -->
+
+	<element name="Junaktav" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_JUNAKTAV">
+		<description>
+			<p class="flavor">The Keeper</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+		</setters>
+		<sheet>
+			<description>The Keeper</description>
+		</sheet>
+	</element>
+
+	<element name="Lafler" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_LAFLER">
+		<description>
+			<p class="flavor">The Aberration Mother</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+		</setters>
+		<sheet>
+			<description>The Aberration Mother</description>
+		</sheet>
+	</element>
+
+	<element name="Ivernus" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_IVERNUS">
+		<description>
+			<p class="flavor">God of Darkness, Shadow and Winter</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="domains">Nature, Tempest</set>
+		</setters>
+		<sheet>
+			<description>God of Darkness, Shadow and Winter</description>
+		</sheet>
+	</element>
+
+	<element name="Unavira" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_UNAVIRA">
+		<description>
+			<p class="flavor">Goddess of Flowers, Breezy Wind and Spring</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="domains">Life, Nature</set>
+		</setters>
+		<sheet>
+			<description>Goddess of Flowers, Breezy Wind and Spring</description>
+		</sheet>
+	</element>
+
+	<element name="Utona" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_UTONA">
+		<description>
+			<p class="flavor">Goddess of Harvest, Homestead and Autumn</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="domains">Nature, Twilight</set>
+		</setters>
+		<sheet>
+			<description>Goddess of Harvest, Homestead and Autumn</description>
+		</sheet>
+	</element>
+
+	<element name="Verion" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_VERION">
+		<description>
+			<p class="flavor">God of Light, Sunlight and Summer</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="domains">Light, Nature</set>
+		</setters>
+		<sheet>
+			<description>God of Light, Sunlight and Summer</description>
+		</sheet>
+	</element>
+
+
 	<element name="Kajeus" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_KAJEUS">
 		<description>
 			<p class="flavor">God of Beasts and Archery</p>
 		</description>
 		<setters>
-			<set name="setting">Forgotten Realms</set>
-			<set name="alignment">NE</set>
+			<set name="setting">Yozolin's Lost Tome</set>
 			<set name="domains">Nature, Tempest</set>
 			<set name="symbol">Six-pointed snowflake</set>
 			<set name="gender">female</set>
@@ -23,13 +573,15 @@
 			<description>God of Beasts and Archery</description>
 		</sheet>
 	</element>
+	
+	
+	
 	<element name="Khoma" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_KHOMA">
 		<description>
 			<p class="flavor">God of Rest and Sleep</p>
 		</description>
 		<setters>
 			<set name="setting">Forgotten Realms</set>
-			<set name="alignment">NE</set>
 			<set name="domains">Nature, Tempest</set>
 			<set name="symbol">Six-pointed snowflake</set>
 			<set name="gender">female</set>
@@ -38,13 +590,13 @@
 			<description>God of Rest and Sleep</description>
 		</sheet>
 	</element>
+	
 	<element name="Karimel" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_KARIMEL">
 		<description>
 			<p class="flavor">Goddess of Pastries, Sweets and Baked Goods</p>
 		</description>
 		<setters>
 			<set name="setting">Forgotten Realms</set>
-			<set name="alignment">NE</set>
 			<set name="domains">Nature, Tempest</set>
 			<set name="symbol">Six-pointed snowflake</set>
 			<set name="gender">female</set>
@@ -53,13 +605,13 @@
 			<description>Goddess of Pastries, Sweets and Baked Goods</description>
 		</sheet>
 	</element>
+
 	<element name="Targo" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_TARGO">
 		<description>
 			<p class="flavor">God of Resilience, Labor and the Common Folk</p>
 		</description>
 		<setters>
 			<set name="setting">Forgotten Realms</set>
-			<set name="alignment">NE</set>
 			<set name="domains">Nature, Tempest</set>
 			<set name="symbol">Six-pointed snowflake</set>
 			<set name="gender">female</set>
@@ -68,13 +620,13 @@
 			<description>God of Resilience, Labor and the Common Folk</description>
 		</sheet>
 	</element>
+
 	<element name="Garganel" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_GARGANEL">
 		<description>
 			<p class="flavor">God of Might and Handsomeness</p>
 		</description>
 		<setters>
 			<set name="setting">Forgotten Realms</set>
-			<set name="alignment">NE</set>
 			<set name="domains">Nature, Tempest</set>
 			<set name="symbol">Six-pointed snowflake</set>
 			<set name="gender">female</set>
