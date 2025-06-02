@@ -7,7 +7,7 @@
 		</update>
 	</info>
 
-	<element name="Soul Gatherer" type="Class" source="Yozolin’s Lost Tome" id="ID_FALERIA_CLASS_SOULGATHERER">
+	<element name="Soul Gatherer" type="Class" source="Yozolin's Lost Tome" id="ID_FALERIA_CLASS_SOULGATHERER">
 		<description>
 			<p>Through many years of intense research, the greatest and most unethical arcane scholars managed to tap into a previously unkown source of magical power called Soul Power. Since then, they have founded a secret school to research the side effects of using soul power, but also to slowly build an army of Soul Gatherers.</p>
 
@@ -147,7 +147,7 @@
 		</multiclass>
 	</element>
 	
-	<element name="Soul Bound" type="Class Feature" source="Yozolin’s Lost Tome" id="ID_FALERIA_CLASS_FEATURE_SOULBOUND">
+	<element name="Soul Bound" type="Class Feature" source="Yozolin's Lost Tome" id="ID_FALERIA_CLASS_FEATURE_SOULBOUND">
 		<description>
 			<p>At level 1 you gain your first soul bond. A soul bond is a connection created by a soul gatherer and the world around them. As an action, the gatherer may bind themself to an ally, an enemy or to their beacon. To bind yourself to a creature with gatherable soul power you must use their cr or levels worth of soul power. There is no cost to bind yourself to an object, such as a beacon, nor to a creature with no harvestable soul power. Creating a soul bond with a creature reveals how much soul power they possess, but only lasts 1 minute.</p>
 			<p class="indent">Bonds to creatures or objects can only be broken by the dispel magic or similar spells, by the death of the soul gatherer, by the death of the creature the bond is made with, via the destruction of the the bond was made with.</p>
@@ -167,7 +167,7 @@
 		</rules>
 	</element>
 
-	<element name="Soul Beacon" type="Class Feature" source="Yozolin’s Lost Tome" id="ID_FALERIA_CLASS_FEATURE_SOULBEACON">
+	<element name="Soul Beacon" type="Class Feature" source="Yozolin's Lost Tome" id="ID_FALERIA_CLASS_FEATURE_SOULBEACON">
 		<description>
 			<p>Starting at level 1, when a soul gatherer establishes a soul bond with a tiny or larger object they may choose to turn it into a soul beacon. As long as this bond is active, this beacon will store up to twenty times your wisdom plus your strength modifiers worth of soul power.</p>
 			<p class="indent">To use the soul power stored inside the beacon must be held by it’s gatherer. In addition to storing power, the beacon has four uses. It is the gatherer’s spellcasting focus. As a bonus action the beacon can be activated if it is within touch range of the gatherer. While activated it starts to collect all unconscious out of body souls in a 30 foot radius. As an action it can be thrown up to 30 feet away, if this is for the purposes of an attack the beacon should be treated as an improvised ranged weapon. As a reaction, when the beacon is attacked the gatherer can pull it back towards themself, avoiding the attack.</p>
@@ -199,7 +199,7 @@
 		</rules>
 	</element>	
 	
-	<element name="Soul Catcher" type="Class Feature" source="Yozolin’s Lost Tome" id="ID_FALERIA_CLASS_FEATURE_SOULCATCHER">
+	<element name="Soul Catcher" type="Class Feature" source="Yozolin's Lost Tome" id="ID_FALERIA_CLASS_FEATURE_SOULCATCHER">
 		<description>
 			<p>The first lesson soul gatherers go through is on how to manipulate soul power to their will. Starting at level 1, as a bonus action you can manually gather and store all the soul power from an unconscious out of body soul within 60 feet.</p>
 			<p class="indent">Additionaly, a sixth sense opens up in you. You gain spectral vision. Spectral vision allows you to see out of body souls, ghosts and similar creatures if they are naturally not visible.</p>
@@ -214,7 +214,7 @@
 		</rules>
 	</element>	
 
-	<element name="Spectral vision" type="Vision" source="Yozolin’s Lost Tome" id="ID_VISION_SPECTRAL">
+	<element name="Spectral vision" type="Vision" source="Yozolin's Lost Tome" id="ID_VISION_SPECTRAL">
 		<description>
 			<p>Spectral vision allows you to see out of body souls, ghosts and similar creatures if they are naturally not visible.</p>
 		</description>
@@ -223,7 +223,7 @@
 			</sheet>
 	</element>
 
-	<element name="Soul Magic" type="Class Feature" source="Yozolin’s Lost Tome" id="ID_FALERIA_CLASS_FEATURE_SOULMAGIC">
+	<element name="Soul Magic" type="Class Feature" source="Yozolin's Lost Tome" id="ID_FALERIA_CLASS_FEATURE_SOULMAGIC">
 		<description>
 			<p>At 2nd level, you gain the ability to cast spells using soul power. You can cast any spell you know or have prepared by spending soul power from your beacon.</p>
 			<p class="indent">The amount of soul power required to cast a spell depends on the spell's level. You can cast a spell of 1st level for 1 soul power, a spell of 2nd level for 2 soul power, and so on.</p>
@@ -232,7 +232,7 @@
 		<sheet display="false" />
 	</element>
 
-	<element name="Soul Sense" type="Class Feature" source="Yozolin’s Lost Tome" id="ID_FALERIA_CLASS_FEATURE_SOULSENSE">
+	<element name="Soul Sense" type="Class Feature" source="Yozolin's Lost Tome" id="ID_FALERIA_CLASS_FEATURE_SOULSENSE">
 		<description>
 			<p>Your knowledge of soul power has permitted you to start using it for spells. Some rules from the PHB regarding spellcasting differ from soul magic spellcasting.</p>
 		</description>
