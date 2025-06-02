@@ -22,8 +22,8 @@
 		<!--Weapons-->		
 		<file name="faleria-weapons.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/items/faleria-weapons.xml" />
 		<!--Race-->		
-		<file name="race-galitarko.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/races/race-galitarko.xml" />
 		<!--<file name="race-elf.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/races/race-elf.xml" />--> 		<!--está estranha-->	
+		<file name="race-galitarko.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/races/race-galitarko.xml" />
 		<file name="race-lykara.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/races/race-lykara.xml" />
 		<file name="race-derenesan.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/races/race-derenesan.xml" />
 		<file name="race-genasi.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/races/race-genasi.xml" />
