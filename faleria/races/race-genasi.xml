@@ -44,7 +44,7 @@
 			<grant type="Size" id="ID_SIZE_MEDIUM" />		
 			<select type="Language" name="Language (Genasi)" supports="Standard" />
 			<select type="Sub Race" name="Genasi Subtype" supports="Genasi" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ELEMENTAL_WARD" />
+			<select type="Racial Trait" id="ID_RACIAL_TRAIT_ELEMENTAL_WARD_INTELLIGENCE|ID_RACIAL_TRAIT_ELEMENTAL_WARD_CHARISMA|ID_RACIAL_TRAIT_ELEMENTAL_WARD_WISDOM" />
 		</rules>
 	</element>
 
@@ -54,10 +54,6 @@
 			<p>Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell when you cast it with this trait (choose when you select this mortal type). Any subsequent spells gained through mortal type must be cast with the ability score you chose.</p>
 		</description>
 		<sheet display="false" />
-		<rules>
-			<select type="Racial Trait" id="ID_RACIAL_TRAIT_ELEMENTAL_WARD_INTELLIGENCE|ID_RACIAL_TRAIT_ELEMENTAL_WARD_CHARISMA|ID_RACIAL_TRAIT_ELEMENTAL_WARD_WISDOM" supports="Genasi" />
-			<grant type="Spell" id="ID_XGTE_SPELL_ABSORB_ELEMENTS" />
-		</rules>
 	</element>
 
 	
