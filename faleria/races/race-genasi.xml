@@ -53,10 +53,6 @@
 			<p>Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell when you cast it with this trait (choose when you select this mortal type). Any subsequent spells gained through mortal type must be cast with the ability score you chose.</p>
 		</description>
 		<sheet display="false">
-			<description>
-				Your spellcasting ability is {{elemental ward:ability}}. As a reaction, you can cast the absorb elements spell once per long rest.
-			</description>
-		</sheet>
 		<rules>
 			<select type="Racial Trait" id="ID_RACIAL_TRAIT_ELEMENTAL_WARD_INTELLIGENCE|ID_RACIAL_TRAIT_ELEMENTAL_WARD_CHARISMA|ID_RACIAL_TRAIT_ELEMENTAL_WARD_WISDOM" />
 			<grant type="Spell" id="ID_XGTE_SPELL_ABSORB_ELEMENTS" />
