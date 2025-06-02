@@ -224,9 +224,9 @@
 			<p>As a sea elf, you have the following racial traits.</p>
 			<p class="indent"><strong><em>Size.</em></strong> You are Medium.</p>
 			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.</p>
-			<p class="indent"><strong><em>Child of the Sea.</em></strong> You can breathe air and water, and you have resistance to cold damage.</p>
 			<p class="indent"><strong><em>Fey Ancestry.</em></strong> You have advantage on saving throws you make to avoid or end the charmed condition on yourself. </p>
 			<p class="indent"><strong><em>Friend of the Sea.</em></strong> Aquatic animals have an extraordinary affinity with your people. You can communicate simple ideas to any Beast that has a swimming speed. It can understand your words, though you have no special ability to understand it in return.</p>
+			<p class="indent"><strong><em>Child of the Sea.</em></strong> You have a swimming speed of 30 feet, and you can breathe air and water.</p>			
 			<p class="indent"><strong><em>Sea Elf Training.</em></strong> You have proficiency with the spear, trident, light crossbow, and net.</p>
 		</description>
 		<sheet display="false" />
@@ -234,8 +234,9 @@
 			<stat name="innate speed:swim" value="innate speed" bonus="base" />
 			<grant type="Grants" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_HUMANOID_ELF" />
 			<select type="Language" name="Language (Sea Elf)" supports="Standard" />
-			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_SEA_ELF_CHILD_OF_THE_SEA" />
 			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_SEA_ELF_FRIEND_OF_THE_SEA" />
+			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_SEA_ELF_SEA_ELF_TRAINING" />
+			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_SEA_ELF_CHILD_OF_THE_SEA" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_TRIDENT" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND" />
@@ -245,16 +246,20 @@
 
 	<element name="Child of the Sea" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_SEA_ELF_CHILD_OF_THE_SEA">
 		<description>
-			<p>You can breathe air and water, and you have resistance to cold damage.</p>
+			<p>You have a swimming speed of 30 feet, and you can breathe air and water.</p>
 		</description>
-		<sheet>
-			<description>You can breathe air and water.</description>
+		<sheet >
+			<description>You have a swimming speed of 30 feet, and you can breathe air and water.</description>
 		</sheet>
-		<rules>
-			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
-		</rules>
 	</element>
 
+	<element name="Sea Elf Training" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_SEA_ELF_SEA_ELF_TRAINING">
+		<description>
+			<p>You have proficiency with the spear, trident, light crossbow, and net.</p>
+		</description>
+		<sheet display="false" />
+	</element>
+	
 	<element name="Friend of the Sea" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_SEA_ELF_FRIEND_OF_THE_SEA">
 		<description>
 			<p>Aquatic animals have an extraordinary affinity with your people. You can communicate simple ideas to any Beast that has a swimming speed. It can understand your words, though you have no special ability to understand it in return.</p>
