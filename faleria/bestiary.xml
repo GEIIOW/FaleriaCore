@@ -13,7 +13,10 @@
 
 	<element name="Drake Companion" type="Bestiary" source="Fizban's Treasury of Dragons" id="ID_FALERIA_BESTIARY_DRAGON_COMPANION">
 		<description>
-			<p style="margin-bottom:-5px"><em>Small Dragon, Unaligned</em></p>
+			    <p style="text-align:center">
+                <img src="https://imgur.com/gallery/how-cute-he-brought-her-snacks-49LkbgO" alt="Drake Companion" width="200" />
+                </p>
+            <p style="margin-bottom:-5px"><em>Small Dragon, Unaligned</em></p>
 			<h4 style="margin-top:5px" />
 			<ul class="unstyled">
 				<li><strong>Armor Class</strong> 14 + PB (natural armor)</li>
@@ -44,7 +47,6 @@
 				<li><strong><em>Infused Strikes.</em></strong> When another creature within 30 feet of the drake that it can see hits a target with a weapon attack, the drake infuses the strike with its essence, causing the target to take an extra 1d6 damage of the type determined by its Draconic Essence.</li>
 			</ul>
 		</description>
-	
     </element>
 
 
