@@ -397,6 +397,7 @@
 	</element>
 
 	<!-- Basali Gods-->
+	
 	<element name="Umandália" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_UMANDALIA">
 		<description>
 			<p class="flavor">Demon Lady of Derenes Dal</p>
@@ -722,4 +723,421 @@
 			<description>God of Might and Handsomeness</description>
 		</sheet>
 	</element>
+
+	<element name="Kássia" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_KASSIA">
+		<description>
+			<p class="flavor">Ruler of Chorennea, Goddess Queen of Protection, Community, Wealth and Fertility</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="symbol">A golden clasp</set>
+			<set name="alignment"></set>
+			<set name="gender">Female</set>
+			<set name="domains">Life, Order</set>    
+		</setters>
+		<sheet>
+			<description>Ruler of Chorennea, Goddess Queen of Protection, Community, Wealth and Fertility</description>
+		</sheet>
+	</element>
+
+	<element name="Rakashía" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_RAKASHIA">
+		<description>
+			<p class="flavor">God King of Wisdom, Light, Precious Metals and Divination</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="symbol">A ruby candle</set>
+			<set name="alignment"></set>
+			<set name="gender">Male</set>
+			<set name="domains">Light, Forge</set>    
+		</setters>
+		<sheet>
+			<description>God King of Wisdom, Light, Precious Metals and Divination</description>
+		</sheet>
+	</element>
+
+	<element name="Thálassa" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_THALASSA">
+		<description>
+			<p class="flavor">Goddess of the Seas</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="symbol">A trident</set>
+			<set name="alignment"></set>
+			<set name="gender">Female</set>
+			<set name="domains">Nature, Tempest</set>    
+		</setters>
+		<sheet>
+			<description>Goddess of the Seas</description>
+		</sheet>
+	</element>
+
+	<element name="Cartágo" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_CARTAGO">
+		<description>
+			<p class="flavor">God of Letters, Literature and Playing Cards</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="symbol">A bottle of red wax</set>
+			<set name="alignment"></set>
+			<set name="gender">Male</set>
+			<set name="domains">Knowledge</set>    
+		</setters>
+		<sheet>
+			<description>God of Letters, Literature and Playing Cards</description>
+		</sheet>
+	</element>
+
+	<element name="Eviglara" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_EVIGLARA">
+		<description>
+			<p class="flavor">Goddess of Light, Harvest, Fertility and Motherhood</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="symbol">Tear shaped glass</set>
+			<set name="alignment"></set>
+			<set name="gender">Female</set>
+			<set name="domains">Life, Light</set>    
+		</setters>
+		<sheet>
+			<description>Goddess of Light, Harvest, Fertility and Motherhood</description>
+		</sheet>
+	</element>
+
+	<element name="Ashpal" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_ASHPAL">
+		<description>
+			<p class="flavor">God of Nature, Healing and Medicine</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="symbol">Dry linden leaf</set>
+			<set name="alignment"></set>
+			<set name="gender">Male</set>
+			<set name="domains">Life, Nature</set>    
+		</setters>
+		<sheet>
+			<description>God of Nature, Healing and Medicine</description>
+		</sheet>
+	</element>
+
+	<element name="Botrankus" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_BOTRANKUS">
+		<description>
+			<p class="flavor">God of Wine, Grapes, Parties, Festivals, Wealth and Ecstasy</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="symbol">Golden coin with a hole in the middle</set>
+			<set name="alignment"></set>
+			<set name="gender">Male</set>
+			<set name="domains">Life, Trickery</set>    
+		</setters>
+		<sheet>
+			<description>God of Wine, Grapes, Parties, Festivals, Wealth and Ecstasy</description>
+		</sheet>
+	</element>
+
+	<element name="Ditmira" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_DITMIRA">
+		<description>
+			<p class="flavor">Goddess of Ice and Protector of Nyjörsa</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="symbol">Shard of everice</set>
+			<set name="alignment"></set>
+			<set name="gender">Female</set>
+			<set name="domains">Order, Twilight</set>    
+		</setters>
+		<sheet>
+			<description>Goddess of Ice and Protector of Nyjörsa</description>
+		</sheet>
+	</element>
+
+	<element name="Echórius" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_ECHORIUS">
+		<description>
+			<p class="flavor">God of Music, Poetry and Language</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="symbol">A bottle of ink</set>
+			<set name="alignment"></set>
+			<set name="gender">Male</set>
+			<set name="domains">Knowledge, Order</set>    
+		</setters>
+		<sheet>
+			<description>God of Music, Poetry and Language</description>
+		</sheet>
+	</element>
+
+	<element name="Kavanna" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_KAVANNA">
+		<description>
+			<p class="flavor">Goddess of Sea Travel and Fishermen</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="symbol">Copper hook</set>
+			<set name="alignment"></set>
+			<set name="gender">Female</set>
+			<set name="domains">Nature, Peace</set>	
+		</setters>
+		<sheet>
+			<description>Goddess of Sea Travel and Fishermen</description>
+		</sheet>
+	</element>
+
+	<element name="Khoma" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_KHOMA">
+		<description>
+			<p class="flavor">God of Rest and Sleep</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="symbol">A bundle of hay</set>
+			<set name="alignment"></set>
+			<set name="gender">Male</set>
+			<set name="domains">Life, Twilight</set>	
+		</setters>
+		<sheet>
+			<description>God of Rest and Sleep</description>
+		</sheet>
+	</element>
+
+	<element name="Kizkulcan" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_KIZKULCAN">
+		<description>
+			<p class="flavor">God of Spiders and Plagues</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="symbol">Ten legged spider</set>
+			<set name="alignment"></set>
+			<set name="gender">Male</set>
+			<set name="domains">Death, Twilight</set>	
+		</setters>
+		<sheet>
+			<description>God of Spiders and Plagues</description>
+		</sheet>
+	</element>
+
+	<element name="Kuri" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_KURI">
+		<description>
+			<p class="flavor">God of Theatre and Illusion</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="symbol">Theatre mask both happy and sad</set>
+			<set name="alignment"></set>
+			<set name="gender">Male</set>
+			<set name="domains">Arcana, Trickery</set>	
+		</setters>
+		<sheet>
+			<description>God of Theatre and Illusion</description>
+		</sheet>
+	</element>
+
+	<element name="Merian" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_MERIAN">
+		<description>
+			<p class="flavor">God of War, Horses and Forests</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="symbol">Tungsten horseshoe</set>
+			<set name="alignment"></set>
+			<set name="gender">Male</set>
+			<set name="domains">Nature, War</set>	
+		</setters>
+		<sheet>
+			<description>God of War, Horses and Forests</description>
+		</sheet>
+	</element>
+
+	<element name="Myllad" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_MYLLAD">
+		<description>
+			<p class="flavor">God of Knowledge, Magic and Libraries</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="symbol">Book torn in half</set>
+			<set name="alignment"></set>
+			<set name="gender">Male</set>
+			<set name="domains">Arcana, Knowledge</set>	
+		</setters>
+		<sheet>
+			<description>God of Knowledge, Magic and Libraries</description>
+		</sheet>
+	</element>
+
+	<element name="Ourónalgo" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_OURONALGO">
+		<description>
+			<p class="flavor">God of Storms and Lightning</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="symbol">Copper lightning bolt</set>
+			<set name="alignment"></set>
+			<set name="gender">Male</set>
+			<set name="domains">Nature, Tempest</set>	
+		</setters>
+		<sheet>
+			<description>God of Storms and Lightning</description>
+		</sheet>
+	</element>
+
+	<element name="Quétlemyr" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_QUETLEMYR">
+		<description>
+			<p class="flavor">God of Fire, Metalworking and Earthquakes</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="symbol">Iron tongs</set>
+			<set name="alignment"></set>
+			<set name="gender">Male</set>
+			<set name="domains">Forge, Nature</set>	
+		</setters>
+		<sheet>
+			<description>God of Fire, Metalworking and Earthquakes</description>
+		</sheet>
+	</element>
+
+	<element name="Sélene" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_SELENE">
+		<description>
+			<p class="flavor">Goddess of Moonlight and Rejuvenation</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="symbol">A silver disk</set>
+			<set name="alignment"></set>
+			<set name="gender">Female</set>
+			<set name="domains">Peace, Twilight</set>	
+		</setters>
+		<sheet>
+			<description>Goddess of Moonlight and Rejuvenation</description>
+		</sheet>
+	</element>
+
+	<element name="Settia" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_SETTIA">
+		<description>
+			<p class="flavor">Goddess of Spring and Harvest</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="symbol">A blooming branch</set>
+			<set name="alignment"></set>
+			<set name="gender">Female</set>
+			<set name="domains">Life, Nature</set>	
+		</setters>
+		<sheet>
+			<description>Goddess of Spring and Harvest</description>
+		</sheet>
+	</element>
+
+	<element name="Thyall" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_THYALL">
+		<description>
+			<p class="flavor">God of Death, Time and Fate</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="symbol">An hourglass with black sand</set>
+			<set name="alignment"></set>
+			<set name="gender">Male</set>
+			<set name="domains">Death, Grave</set>	
+		</setters>
+		<sheet>
+			<description>God of Death, Time and Fate</description>
+		</sheet>
+	</element>
+
+	<element name="Ulloran" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_ULLORAN">
+		<description>
+			<p class="flavor">God of the Hunt and Beasts</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="symbol">A bear’s paw</set>
+			<set name="alignment"></set>
+			<set name="gender">Male</set>
+			<set name="domains">Nature, War</set>	
+		</setters>
+		<sheet>
+			<description>God of the Hunt and Beasts</description>
+		</sheet>
+	</element>
+
+	<element name="Valessia" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_VALESSIA">
+		<description>
+			<p class="flavor">Goddess of Love and Beauty</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="symbol">A golden heart</set>
+			<set name="alignment"></set>
+			<set name="gender">Female</set>
+			<set name="domains">Life, Trickery</set>	
+		</setters>
+		<sheet>
+			<description>Goddess of Love and Beauty</description>
+		</sheet>
+	</element>
+
+	<element name="Vhalmorr" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_VHALMORR">
+		<description>
+			<p class="flavor">God of Mountains and Endurance</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="symbol">A stone hammer</set>
+			<set name="alignment"></set>
+			<set name="gender">Male</set>
+			<set name="domains">Forge, Strength</set>	
+		</setters>
+		<sheet>
+			<description>God of Mountains and Endurance</description>
+		</sheet>
+	</element>
+
+	<element name="Weylar" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_WEYLAR">
+		<description>
+			<p class="flavor">God of Trickery and Shadows</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="symbol">A silver dagger</set>
+			<set name="alignment"></set>
+			<set name="gender">Male</set>
+			<set name="domains">Trickery, Twilight</set>	
+		</setters>
+		<sheet>
+			<description>God of Trickery and Shadows</description>
+		</sheet>
+	</element>
+
+	<element name="Xeroth" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_XEROTH">
+		<description>
+			<p class="flavor">God of Chaos and Destruction</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="symbol">A burning eye</set>
+			<set name="alignment"></set>
+			<set name="gender">Male</set>
+			<set name="domains">Tempest, War</set>	
+		</setters>
+		<sheet>
+			<description>God of Chaos and Destruction</description>
+		</sheet>
+	</element>
+
+	<element name="Zyphra" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_ZYPHRA">
+		<description>
+			<p class="flavor">Goddess of Wind and Travel</p>
+		</description>
+		<setters>
+			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="symbol">A silver feather</set>
+			<set name="alignment"></set>
+			<set name="gender">Female</set>
+			<set name="domains">Nature, Tempest</set>	
+		</setters>
+		<sheet>
+			<description>Goddess of Wind and Travel</description>
+		</sheet>
+	</element>
+
 </elements>
