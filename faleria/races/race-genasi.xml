@@ -44,7 +44,7 @@
 			<grant type="Size" id="ID_SIZE_MEDIUM" />		
 			<select type="Language" name="Language (Genasi)" supports="Standard" />
 			<select type="Sub Race" name="Genasi Subtype" supports="Genasi" />
-			<select type="Racial Trait" id="ID_RACIAL_TRAIT_ELEMENTAL_WARD_INTELLIGENCE|ID_RACIAL_TRAIT_ELEMENTAL_WARD_CHARISMA|ID_RACIAL_TRAIT_ELEMENTAL_WARD_WISDOM" />
+			<select type="Racial Trait" name="Elemental Ward (Racial Trait)" supports="ID_RACIAL_TRAIT_ELEMENTAL_WARD_INTELLIGENCE|ID_RACIAL_TRAIT_ELEMENTAL_WARD_CHARISMA|ID_RACIAL_TRAIT_ELEMENTAL_WARD_WISDOM" />
 		</rules>
 	</element>
 
