@@ -12,8 +12,8 @@
 
 
 	<element name="House Lesdow" type="House" source="Yozolin's Lost Tome" id="ID_FALERIA_HOUSE_LESDOW">
+		<supports>House Agent Tool Proficiency</supports>
 		<description>
-			<supports>House Agent Tool Proficiency</supports>
 			<h4>House Lesdow Of Kelleteas</h4>
 				<p style="text-align:center">
                 <img src="https://imgur.com/6sH14kN" width="200" />
