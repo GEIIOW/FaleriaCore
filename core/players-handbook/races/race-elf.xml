@@ -114,6 +114,7 @@
 	
 
 	<!--Subraces-->
+
 	<!--Sea Elf-->
 	<element name="Sea Elf" type="Sub Race" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACE_SEA_ELF">
 		<supports>Elf</supports>	
@@ -188,14 +189,15 @@
 	</element>
 
 	<element name="Blessing of the Raven Queen" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_SHADAR_KAI_BLESSING_RAVEN_QUEEN">
-		<description>
-			<p>As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a long rest.</p>
-			<p>Starting at 3rd level, you also gain resistance to all damage when you teleport using this trait. The resistance lasts until the start of your next turn. During that time, you appear ghostly and translucent.</p>
-		</description>
-		<sheet action="Bonus Action" usage="Long Rest" >
-			<description>As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a long rest.
+			<description>
+				<p>As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a long rest.</p>
 				<p>Starting at 3rd level, you also gain resistance to all damage when you teleport using this trait. The resistance lasts until the start of your next turn. During that time, you appear ghostly and translucent.</p>
-				</description>
+			</description>
+		<sheet action="Bonus Action" usage="Long Rest" >
+			<description>
+			As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a long rest.
+			<p>Starting at 3rd level, you also gain resistance to all damage when you teleport using this trait. The resistance lasts until the start of your next turn. During that time, you appear ghostly and translucent.</p>
+			</description>
 		</sheet>
 	</element>
 
