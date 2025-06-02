@@ -55,6 +55,8 @@
 			<set name="weight" modifier="1d4">90 lb.</set>
 		</setters>
 		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Improvement +2 (Elf)" supports="Custom Ability Score Increase 2" />
+			<select type="Ability Score Improvement" name="Ability Score Improvement +1 (Elf)" supports="Custom Ability Score Increase 1" />
 			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
