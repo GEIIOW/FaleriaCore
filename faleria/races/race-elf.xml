@@ -209,4 +209,25 @@
 		</rules>
 	</element>
 
+<element name="Imperial Elf" type="Sub Race" source="Yozolin's Lost Tome" id="ID_FALERIA_RACE_SUBRACE_IMPERIAL_ELF">
+		<supports>Elf (Faleria)</supports>
+		<description>
+			<p>Imperial elves are closely related to light elves, directly deriving from them in “recent” times. Over the centuries, they have been raised only to serve the emperor. These elves have blonde or light brown hair, blue or green eyes and fair skin. Their ears are the longest of any elf, their length being a symbol of virtue, being adorned elegantly to show power or achievements.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Charisma score increases by 1.</p>
+			<p class="indent"><strong><em>Shadowborn.</em></strong> You know the control flames cantrip. When you reach 3rd level, you can cast the ice knife spell with this trait,. Starting at 5th level, you can also cast the darkness spell with this trait, without requiring a material component. Once you cast ice knife or darkness with this trait, you can’t cast that spell again with it again until you finish a long rest.Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell when you cast it with this trait (choose when you select this mortal subtype).</p>
+			<p class="indent"><strong><em>Facing shadows.</em></strong> You have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of silver.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read and write Smidian and one extra language of your choice.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d10">4'6"</set>
+			<set name="weight" modifier="1d4">90 lb.</set>
+		</setters>
+		<rules>
+			<stat name="charisma" value="1"/>
+		</rules>
+	</element> 	
+
+
+
 </elements>
