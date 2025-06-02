@@ -55,7 +55,6 @@
 			<set name="weight" modifier="1d4">90 lb.</set>
 		</setters>
 		<rules>
-			<stat name="race:name" value="Elf" />
 			<select type="Ability Score Improvement" name="Ability Score Improvement (Elf)" supports="ID_ASI_RACE_GELLOW1|ID_ASI_RACE_GELLOW2" />
 			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
