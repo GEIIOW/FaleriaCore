@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Bestiary</name>
+		<description>Beasts from the Yozolin's Lost Tome.</description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Lucky Crown</author>
+		<update version="0.0.1">
+			<file name="bestiary.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/FaleriaCore/faleria/bestiary.xml" />
+		</update>
+	</info>
+
+
+
+	<element name="Drake Companion" type="Bestiary" source="Fizban's Treasury of Dragons" id="ID_FALERIA_BESTIARY_DRAGON_COMPANION">
+		<description>
+			<p style="margin-bottom:-5px"><em>Small Dragon, Unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 14 + PB (natural armor)</li>
+				<li><strong>Hit Points</strong> 5 + five times your ranger level (the drake has a number of hit dice [d10s] equal to your ranger level)</li>
+				<li><strong>Speed</strong> 40 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>16 (+3)</td><td>12 (+1)</td><td>15 (+2)</td><td>8 (-1)</td><td>14 (+2)</td><td>8 (-1)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> Dex +1 plus PB, Wis +2 plus PB</li>
+				<li><strong>Damage Immunities</strong> determined by the drake’s Draconic Essence trait</li>
+				<li><strong>Senses</strong> darkvision 60 ft., passive Perception 12</li>
+				<li><strong>Languages</strong> Draconic</li>
+				<li><strong>Challenge</strong> — <strong>Proficiency Bonus</strong> equals your bonus.</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Draconic Essence.</em></strong> When you summon the drake, choose a damage type: acid, cold, fire, lightning, or poison. The chosen type determines the drake’s damage immunity and the damage of its Infused Strikes trait.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><em><strong>Bite.</strong> Melee Weapon Attack:</em> +3 plus PB to hit, reach 5 ft., one target. <em>Hit:</em> 1d6 plus PB piercing damage.</li>
+			</ul>
+			<h4 style="margin-top:10px">Reactions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Infused Strikes.</em></strong> When another creature within 30 feet of the drake that it can see hits a target with a weapon attack, the drake infuses the strike with its essence, causing the target to take an extra 1d6 damage of the type determined by its Draconic Essence.</li>
+			</ul>
+		</description>
+	
+    </element>
+
+
+
+
+
+
+</elements>
