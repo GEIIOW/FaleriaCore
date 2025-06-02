@@ -1199,4 +1199,34 @@
 			<set name="sourceUrl">https://www.dndbeyond.com/equipment/boomerang</set>
 		</setters>
 	</element>
+
+	<!--ASI by Gellow-->
+	<element name="Increase an ability score by 2 and one other ability score by one" type="Ability Score Improvement" source="Yozolin's Lost Tome" id="ID_ASI_RACE_GELLOW1">
+		<description>
+			<p>You may choose to increase an ability score by 2 and one other ability score by one or increase three different ability scores by 1.</p>
+		</description>
+		<sheet display="false" />
+		<compendium display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 ({{race:name}})" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 ({{race:name}})" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+		</rules>
+	</element>
+	
+	<element name="Increase three different ability scores by 1" type="Ability Score Improvement" source="Yozolin's Lost Tome" id="ID_ASI_RACE_GELLOW2">
+		<description>
+			<p>You may choose to increase an ability score by 2 and one other ability score by one or increase three different ability scores by 1.</p>
+		</description>
+		<sheet display="false" />
+		<compendium display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 ({{race:name}})" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" number="3"/>
+		</rules>
+	</element>
+	
+
+
+
+
+
 </elements>
