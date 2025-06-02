@@ -163,7 +163,7 @@
 		</setters>
 	</element>
 
-	<element name="Venerian" type="Language" source="Yozolin's Lost Tome" id="ID_LANGUAGE_VENERIAN">
+	<element name="Flysoddish" type="Language" source="Yozolin's Lost Tome" id="ID_LANGUAGE_FLYSODDISH">
 		<supports>Standard</supports>
 		<description>
 			<p>Common Tongue from Lesdownia.</p>
