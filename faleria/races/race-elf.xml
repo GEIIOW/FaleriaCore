@@ -68,9 +68,6 @@
 		<sheet>
 			<description>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it was dim light. You can’t discern color in darkness, only shades of gold.</description>
 		</sheet>
-		<rules>
-			<grant type="Vision" id="ID_VISION_ELF_DARKVISION" />
-		</rules>
 	</element>
 
 	<element name="Keen Senses" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_KEEN_SENSES">
