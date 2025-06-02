@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Houses</name>
+		<description>House Coat of Arms of Yozolin's Lost Tome.</description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Lucky Crown</author>
+		<update version="0.0.1">
+			<file name="houses.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/FaleriaCore/faleria/houses.xml" />
+		</update>
+	</info>
+
+
+
+	<element name="House Lesdow" type="Houses" source="Yozolin's Lost Tome" id="ID_FALERIA_HOUSE_LESDOW">
+		<description>
+			<h4>House Lesdow Of Kelleteas</h4>
+				<p style="text-align:center">
+                <img src="https://media.discordapp.net/attachments/1245458740434567209/1245462248617545849/xART05X_d.png?ex=683ea75b&is=683d55db&hm=569920f8ccad2a0d071ac31dfde8a3a1c77a99763cf1306ff959e17f0bf44746&=&format=webp&quality=lossless" width="200" />
+                </p>
+            <p style="margin-bottom:-5px"><em>Salt of the Earth</em></p>
+			<h4 style="margin-top:5px" />
+			
+			<h4>Family Tree</h4>	
+			<ul class="unstyled">
+				<li><strong>Person 1</strong> Dex +1 plus PB, Wis +2 plus PB</li>
+				<li><strong>Person 2</strong> determined by the drake’s Draconic Essence trait</li>
+			</ul>
+		</description>
+    </element>
+
+
+
+</elements>
