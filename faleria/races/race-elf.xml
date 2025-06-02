@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Elf (Faleria)</name>
-		<update version="0.2.3">
+		<update version="0.0.1">
 			<file name="race-elf.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/FaleriaCore/faleria/races/race-elf.xml" />
 		</update>
 	</info>
@@ -201,12 +201,9 @@
 		<description>
 			<p>You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of silver.</p>	
 		</description>
-		<sheet>
+		<sheet alt="Superior Darkvision">
 			<description>You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of silver.</description>
 		</sheet>
-		<rules>
-			<grant type="Vision" id="ID_VISION_ELF_FACING_SHADOWS" />
-		</rules>
 	</element>
 
 <element name="Imperial Elf" type="Sub Race" source="Yozolin's Lost Tome" id="ID_FALERIA_RACE_SUBRACE_IMPERIAL_ELF">
