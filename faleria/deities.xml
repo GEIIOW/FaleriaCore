@@ -19,6 +19,8 @@
 			<set name="setting">Yozolin's Lost Tome</set>
 			<set name="domains">Knowledge, Order</set>
 			<set name="symbol">Supernova engulfing a dark background</set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
 		</setters>
 		<sheet>
 			<description>the First</description>
@@ -33,6 +35,8 @@
 			<set name="setting">Yozolin's Lost Tome</set>
 			<set name="domains">Arcana, Order</set>
 			<set name="symbol">Hourglass</set>
+						<set name="alignment"></set>
+			<set name="gender"></set>
 		</setters>
 		<sheet>
 			<description>Goddess of Time</description>
@@ -47,6 +51,8 @@
 			<set name="setting">Yozolin's Lost Tome</set>
 			<set name="domains">Grave, Life</set>
 			<set name="symbol">A golden sphere</set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
 		</setters>
 		<sheet>
 			<description>God of Creation</description>
@@ -61,6 +67,8 @@
 			<set name="setting">Yozolin's Lost Tome</set>
 			<set name="domains">Death, Grave</set>
 			<set name="symbol">A cracked silver sphere</set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
 		</setters>
 		<sheet>
 			<description>God of Destruction</description>
@@ -75,6 +83,8 @@
 			<set name="setting">Yozolin's Lost Tome</set>
 			<set name="domains">Life, Trickery</set>
 			<set name="symbol">Rope tied in a square knot</set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
 		</setters>
 		<sheet>
 			<description>Goddess of Chaos and Luck</description>
@@ -89,6 +99,8 @@
 			<set name="setting">Yozolin's Lost Tome</set>
 			<set name="domains">Life, Order</set>
 			<set name="symbol">A single rod pendant</set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
 		</setters>
 		<sheet>
 			<description>Goddess of Fate and Luck</description>
@@ -103,6 +115,8 @@
 			<set name="setting">Yozolin's Lost Tome</set>
 			<set name="domains">Light, Nature</set>
 			<set name="symbol">Three horizontal blue wavy lines</set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
 		</setters>
 		<sheet>
 			<description>the Primordial Water</description>
@@ -117,6 +131,8 @@
 			<set name="setting">Yozolin's Lost Tome</set>
 			<set name="domains">Forge, Nature</set>
 			<set name="symbol">A piece of coal carved to look like a flame</set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
 		</setters>
 		<sheet>
 			<description>the Primordial Fire</description>
@@ -131,6 +147,8 @@
 			<set name="setting">Yozolin's Lost Tome</set>
 			<set name="domains">Nature, Trickery</set>
 			<set name="symbol">A pebble carved to look like an eye</set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
 		</setters>
 		<sheet>
 			<description>the Primordial Earth</description>
@@ -145,6 +163,8 @@
 			<set name="setting">Yozolin's Lost Tome</set>
 			<set name="domains">Arcana, Nature</set>
 			<set name="symbol">A precious gem carved to look like a spiral</set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
 		</setters>
 		<sheet>
 			<description>the Primordial Arcana</description>
@@ -159,6 +179,8 @@
 			<set name="setting">Yozolin's Lost Tome</set>
 			<set name="domains">Nature, Peace</set>
 			<set name="symbol">Three vertical blue wavy lines</set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
 		</setters>
 		<sheet>
 			<description>the Primordial Wind</description>
@@ -173,6 +195,8 @@
 			<set name="setting">Yozolin's Lost Tome</set>
 			<set name="domains">Nature, Tempest</set>
 			<set name="symbol">Three diagonal blue wavy lines</set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
 		</setters>
 		<sheet>
 			<description>the Primordial Lightning</description>
@@ -188,6 +212,8 @@
 			<set name="setting">Yozolin's Lost Tome</set>
 			<set name="domains">Knowledge, Order</set>
 			<set name="symbol">Supernova engulfing a dark background</set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
 		</setters>
 		<sheet>
 			<description>the First</description>
@@ -202,6 +228,8 @@
 			<set name="setting">Yozolin's Lost Tome</set>
 			<set name="domains">Arcana, Order</set>
 			<set name="symbol">Hourglass</set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
 		</setters>
 		<sheet>
 			<description>Goddess of Time</description>
@@ -216,6 +244,8 @@
 			<set name="setting">Yozolin's Lost Tome</set>
 			<set name="domains">Grave, Life</set>
 			<set name="symbol">A golden sphere</set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
 		</setters>
 		<sheet>
 			<description>God of Creation</description>
@@ -230,6 +260,8 @@
 			<set name="setting">Yozolin's Lost Tome</set>
 			<set name="domains">Death, Grave</set>
 			<set name="symbol">A cracked silver sphere</set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
 		</setters>
 		<sheet>
 			<description>God of Destruction</description>
@@ -244,6 +276,8 @@
 			<set name="setting">Yozolin's Lost Tome</set>
 			<set name="domains">Life, Trickery</set>
 			<set name="symbol">Rope tied in a square knot</set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
 		</setters>
 		<sheet>
 			<description>Goddess of Chaos and Luck</description>
@@ -258,6 +292,8 @@
 			<set name="setting">Yozolin's Lost Tome</set>
 			<set name="domains">Life, Order</set>
 			<set name="symbol">A single rod pendant</set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
 		</setters>
 		<sheet>
 			<description>Goddess of Fate and Luck</description>
@@ -272,6 +308,8 @@
 			<set name="setting">Yozolin's Lost Tome</set>
 			<set name="domains">Light, Nature</set>
 			<set name="symbol">Three horizontal blue wavy lines</set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
 		</setters>
 		<sheet>
 			<description>the Primordial Water</description>
@@ -286,6 +324,8 @@
 			<set name="setting">Yozolin's Lost Tome</set>
 			<set name="domains">Forge, Nature</set>
 			<set name="symbol">A piece of coal carved to look like a flame</set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
 		</setters>
 		<sheet>
 			<description>the Primordial Fire</description>
@@ -300,6 +340,8 @@
 			<set name="setting">Yozolin's Lost Tome</set>
 			<set name="domains">Nature, Trickery</set>
 			<set name="symbol">A pebble carved to look like an eye</set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
 		</setters>
 		<sheet>
 			<description>the Primordial Earth</description>
@@ -314,6 +356,8 @@
 			<set name="setting">Yozolin's Lost Tome</set>
 			<set name="domains">Arcana, Nature</set>
 			<set name="symbol">A precious gem carved to look like a spiral</set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
 		</setters>
 		<sheet>
 			<description>the Primordial Arcana</description>
@@ -328,6 +372,8 @@
 			<set name="setting">Yozolin's Lost Tome</set>
 			<set name="domains">Nature, Peace</set>
 			<set name="symbol">Three vertical blue wavy lines</set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
 		</setters>
 		<sheet>
 			<description>the Primordial Wind</description>
@@ -356,7 +402,9 @@
         <set name="setting">Yozolin's Lost Tome</set>
         <set name="domains">Death, Peace</set>
         <set name="symbol">Crown over a flame</set>
-    </setters>
+    	<set name="alignment"></set>
+		<set name="gender"></set>
+	</setters>
     <sheet>
         <description>Demon God of Basalos</description>
     </sheet>
@@ -371,6 +419,8 @@
 			<set name="setting">Yozolin's Lost Tome</set>
 			<set name="domains">Grave, Light</set>
 			<set name="symbol">A bundle of reeds painted blue</set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
 		</setters>
 		<sheet>
 			<description>Demon Lady of Derenes Dal</description>
@@ -385,6 +435,8 @@
 			<set name="setting">Yozolin's Lost Tome</set>
 			<set name="domains">Grave, War</set>
 			<set name="symbol">A broken blade</set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
 		</setters>
 		<sheet>
 			<description>Demon Lord of Stygia</description>
@@ -399,6 +451,8 @@
 			<set name="setting">Yozolin's Lost Tome</set>
 			<set name="domains">Trickery</set>
 			<set name="symbol">A red silk bow</set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
 		</setters>
 		<sheet>
 			<description>Demon Lady of Syndal</description>
@@ -412,6 +466,9 @@
 		<setters>
 			<set name="setting">Yozolin's Lost Tome</set>
 			<set name="domains">Knowledge, Trickery</set>
+			<set name="symbol"></set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
 		</setters>
 		<sheet>
 			<description>Demon Lord of Sártauga</description>
@@ -425,6 +482,9 @@
 		<setters>
 			<set name="setting">Yozolin's Lost Tome</set>
 			<set name="domains">War</set>
+			<set name="symbol"></set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
 		</setters>
 		<sheet>
 			<description>Demon Lord of Blodsyn</description>
@@ -437,6 +497,10 @@
 		</description>
 		<setters>
 			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="symbol"></set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
+			<set name="domains"></set>	
 		</setters>
 		<sheet>
 			<description>Demon Lord of Drejura</description>
@@ -449,6 +513,10 @@
 		</description>
 		<setters>
 			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="symbol"></set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
+			<set name="domains"></set>	
 		</setters>
 		<sheet>
 			<description>Demon Lord of Apýthmenos</description>
@@ -461,6 +529,10 @@
 		</description>
 		<setters>
 			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="symbol"></set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
+			<set name="domains"></set>	
 		</setters>
 		<sheet>
 			<description>Demon Lady of Abyss</description>
@@ -473,6 +545,10 @@
 		</description>
 		<setters>
 			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="symbol"></set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
+			<set name="domains"></set>	
 		</setters>
 		<sheet>
 			<description>Demon Lady of Basal</description>
@@ -488,6 +564,10 @@
 		</description>
 		<setters>
 			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="symbol"></set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
+			<set name="domains"></set>	
 		</setters>
 		<sheet>
 			<description>The Keeper</description>
@@ -500,6 +580,10 @@
 		</description>
 		<setters>
 			<set name="setting">Yozolin's Lost Tome</set>
+			<set name="symbol"></set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
+			<set name="domains"></set>	
 		</setters>
 		<sheet>
 			<description>The Aberration Mother</description>
@@ -513,6 +597,9 @@
 		<setters>
 			<set name="setting">Yozolin's Lost Tome</set>
 			<set name="domains">Nature, Tempest</set>
+			<set name="symbol"></set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
 		</setters>
 		<sheet>
 			<description>God of Darkness, Shadow and Winter</description>
@@ -526,6 +613,9 @@
 		<setters>
 			<set name="setting">Yozolin's Lost Tome</set>
 			<set name="domains">Life, Nature</set>
+			<set name="symbol"></set>
+			<set name="alignment"></set>
+			<set name="gender"></set>		
 		</setters>
 		<sheet>
 			<description>Goddess of Flowers, Breezy Wind and Spring</description>
@@ -539,6 +629,9 @@
 		<setters>
 			<set name="setting">Yozolin's Lost Tome</set>
 			<set name="domains">Nature, Twilight</set>
+			<set name="symbol"></set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
 		</setters>
 		<sheet>
 			<description>Goddess of Harvest, Homestead and Autumn</description>
@@ -552,6 +645,9 @@
 		<setters>
 			<set name="setting">Yozolin's Lost Tome</set>
 			<set name="domains">Light, Nature</set>
+			<set name="symbol"></set>
+			<set name="alignment"></set>
+			<set name="gender"></set>
 		</setters>
 		<sheet>
 			<description>God of Light, Sunlight and Summer</description>
@@ -568,6 +664,7 @@
 			<set name="domains">Nature, Tempest</set>
 			<set name="symbol">Six-pointed snowflake</set>
 			<set name="gender">female</set>
+			<set name="alignment"></set>	
 		</setters>
 		<sheet>
 			<description>God of Beasts and Archery</description>
@@ -585,6 +682,7 @@
 			<set name="domains">Nature, Tempest</set>
 			<set name="symbol">Six-pointed snowflake</set>
 			<set name="gender">female</set>
+			<set name="alignment"></set>
 		</setters>
 		<sheet>
 			<description>God of Rest and Sleep</description>
@@ -600,6 +698,7 @@
 			<set name="domains">Nature, Tempest</set>
 			<set name="symbol">Six-pointed snowflake</set>
 			<set name="gender">female</set>
+			<set name="alignment"></set>
 		</setters>
 		<sheet>
 			<description>Goddess of Pastries, Sweets and Baked Goods</description>
@@ -615,6 +714,7 @@
 			<set name="domains">Nature, Tempest</set>
 			<set name="symbol">Six-pointed snowflake</set>
 			<set name="gender">female</set>
+			<set name="alignment"></set>
 		</setters>
 		<sheet>
 			<description>God of Resilience, Labor and the Common Folk</description>
@@ -630,6 +730,7 @@
 			<set name="domains">Nature, Tempest</set>
 			<set name="symbol">Six-pointed snowflake</set>
 			<set name="gender">female</set>
+			<set name="alignment"></set>
 		</setters>
 		<sheet>
 			<description>God of Might and Handsomeness</description>
