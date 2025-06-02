@@ -163,7 +163,7 @@
 				<list>Dark Elf</list>
 			</spellcasting>	
 			<rules>
-				<stat name="shadowborn::ability" value="intelligence:modifier" bonus="base" />
+				<stat name="shadowborn:ability" value="intelligence:modifier" bonus="base" />
 			</rules>
 		</element>
 
@@ -178,7 +178,7 @@
 				<list>Dark Elf</list>
 			</spellcasting>	
 			<rules>
-				<stat name="shadowborn::ability" value="wisdom:modifier" bonus="base" />
+				<stat name="shadowborn:ability" value="wisdom:modifier" bonus="base" />
 			</rules>
 		</element>
 
@@ -193,7 +193,7 @@
 				<list>Dark Elf</list>
 			</spellcasting>	
 			<rules>
-				<stat name="shadowborn::ability" value="charisma:modifier" bonus="base" />
+				<stat name="shadowborn:ability" value="charisma:modifier" bonus="base" />
 			</rules>
 		</element>
 
