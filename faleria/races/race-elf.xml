@@ -151,7 +151,6 @@
 			<stat name="shadowborn:attack" value="proficiency" bonus="proficiency" />
 		</rules>
 	</element>
-
 	
 		<element name="Intelligence" type="Class Feature" source="Yozolin's Lost Tome" id="ID_RACIAL_FALERIA_RACIAL_TRAIT_SHADOWBORN_INTELLIGENCE">
 			<compendium display="false" />
