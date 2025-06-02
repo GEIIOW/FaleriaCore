@@ -11,17 +11,24 @@
 
 
 
-	<element name="House Mallivan" type="House" source="Yozolin's Lost Tome" id="ID_FALERIA_HOUSE_MALLIVAN">
+	<element name="House Lesdow" type="House" source="Yozolin's Lost Tome" id="ID_FALERIA_HOUSE_LESDOW">
+		<supports>House Agent Tool Proficiency</supports>
 		<description>
+			<h4>House Lesdow Of Kelleteas</h4>
 				<p style="text-align:center">
                 <img src="https://imgur.com/6sH14kN" width="200" />
                 </p>
             <p style="margin-bottom:-5px"><em>Salt of the Earth</em></p>
 			<h4 style="margin-top:5px" />
 			
-			<p>When the partnership between Feldwin and Delfantis commenced the former left behind his family’s history in the continent of Zeiloryn to forge a new one in Manyhal. He successfully molded the Guild into what it is today and spent his life enriching his family’s coffers, setting up their place in the council for generations to come. Much like Delfantis’ death, the death of Feldwin Mallivan in 641 caused a week long mourning period in rememberance of one of the city’s great founders.</p>
-			<p>As of today, House Mallivan is still the richest family in Elirium, being the first to found a village, named Cartokalia on the city’s outskirts. In the year 719 AP the family is made up of it’s head, the 28 year old Count Sendro Mallivan and his husband Lord Jamenon Mallivan. Count Sendro also has three sisters: Lady Sarilia, Lady Dandália and Lady Sianna Mallivan, all of them as cunning as they are elegant and married to underwhelming and petty men.</p>
+			<h4>History</h4>	
+			<p>House Lesdow is one of the oldest houses in Kelleteas, with a history that stretches back to the founding of the city. The house has always been known for its strong ties to the land and its commitment to preserving the natural beauty of the region. The Lesdows have been instrumental in the development of sustainable farming practices and have played a key role in the city's agricultural success.</p>
 
+			<h4>Family Tree</h4>	
+			<ul class="unstyled">
+				<li><strong>Person 1</strong> Dex +1 plus PB, Wis +2 plus PB</li>
+				<li><strong>Person 2</strong> determined by the drake’s Draconic Essence trait</li>
+			</ul>
 		</description>
     </element>
 
