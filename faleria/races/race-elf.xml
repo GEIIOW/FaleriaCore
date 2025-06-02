@@ -134,44 +134,82 @@
 		<rules>
 			<stat name="dexterity" value="1"/>
 			<grant type="Racial Trait" id="ID_RACIAL_FALERIA_RACIAL_TRAIT_SHADOWBORN" />
-			<grant type="Racial Trait" id="ID_RACIAL_FALERIA_RACIAL_TRAIT_FACING_SHADOWS" />
+			<grant type="Vision" id="ID_VISION_ELF_FACING_SHADOWS" />
 			<grant type="Language" id="ID_LANGUAGE_SMIDIAN" />
 			<select type="Language" name="Language (Elf)" supports="Standard"/>
 		</rules>
 	</element> 	
 	
-	<element name="Shadowborn" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_FALERIA_RACIAL_TRAIT_SHADOWBORN">
+	<element name="Shadowborn" type="Racial Feature" source="Yozolin's Lost Tome" id="ID_RACIAL_FALERIA_RACIAL_TRAIT_SHADOWBORN">
 		<description>
-			<p>You know the control flames cantrip. When you reach 3rd level, you can cast the ice knife spell with this trait,. Starting at 5th level, you can also cast the darkness spell with this trait, without requiring a material component. Once you cast ice knife or darkness with this trait, you can’t cast that spell again with it again until you finish a long rest.</p>
-			<p>Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell when you cast it with this trait (choose when you select this mortal subtype).</p>
+		<p>You know the control flames cantrip. When you reach 3rd level, you can cast the ice knife spell with this trait,. Starting at 5th level, you can also cast the darkness spell with this trait, without requiring a material component. Once you cast ice knife or darkness with this trait, you can’t cast that spell again with it again until you finish a long rest.</p>
+        <p>Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell when you cast it with this trait (choose when you select this mortal subtype).</p>		
 		</description>
-		<sheet display="false">
-			<description>You have proficiency with the longsword, shortsword, shortbow, and longbow.</description>
+		<sheet usage="1/Long Rest">
+			<description> Your spellcasting ability for the race spells is {{shadowborn:ability}}. </description>	
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_XGTE_SPELL_CONTROL_FLAMES" />
-			<grant type="Spell" id="ID_XGTE_SPELL_ICE_KNIFE" level="3" />
-			<grant type="Spell" id="ID_PHB_SPELL_DARKNESS" level="5" />
+			<select type="Racial Feature" name="Mortal subtype spellcasting" supports="ID_RACIAL_FALERIA_RACIAL_TRAIT_SHADOWBORN_INTELLIGENCE|ID_RACIAL_FALERIA_RACIAL_TRAIT_SHADOWBORN_WISDOM|ID_RACIAL_FALERIA_RACIAL_TRAIT_SHADOWBORN_CHARISMA" />	
+			<stat name="shadowborn:attack" value="shadowborn:ability" bonus="ability" />
+			<stat name="shadowborn:attack" value="proficiency" bonus="proficiency" />
 		</rules>
-	</element>
-	<element name="Cantrip" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_CANTRIP">
+		</element>
+
+	
+		<element name="Intelligence" type="Class Feature" source="Yozolin's Lost Tome" id="ID_RACIAL_FALERIA_RACIAL_TRAIT_SHADOWBORN_INTELLIGENCE">
+			<compendium display="false" />
+			<description>
+			</description>
+			<sheet display="false" >
+				<description></description>
+			</sheet>
+			<spellcasting name="Dark Elf" ability="Intelligence" prepare="false">
+				<list>Dark Elf</list>
+			</spellcasting>	
+			<rules>
+				<stat name="shadowborn::ability" value="intelligence:modifier" bonus="base" />
+			</rules>
+		</element>
+
+		<element name="Wisdom" type="Class Feature" source="Yozolin's Lost Tome" id="ID_RACIAL_FALERIA_RACIAL_TRAIT_SHADOWBORN_WISDOM">
+			<compendium display="false" />
+			<description>
+			</description>
+			<sheet display="false" >
+				<description></description>
+			</sheet>
+			<spellcasting name="Dark Elf" ability="Wisdom" prepare="false">
+				<list>Dark Elf</list>
+			</spellcasting>	
+			<rules>
+				<stat name="shadowborn::ability" value="wisdom:modifier" bonus="base" />
+			</rules>
+		</element>
+
+		<element name="Charisma" type="Class Feature" source="Yozolin's Lost Tome" id="ID_RACIAL_FALERIA_RACIAL_TRAIT_SHADOWBORN_CHARISMA">
+			<compendium display="false" />
+			<description>
+			</description>
+			<sheet display="false" >
+				<description></description>
+			</sheet>
+			<spellcasting name="Dark Elf" ability="Charisma" prepare="false">
+				<list>Dark Elf</list>
+			</spellcasting>	
+			<rules>
+				<stat name="shadowborn::ability" value="charisma:modifier" bonus="base" />
+			</rules>
+		</element>
+
+	<element name="Facing Shadows: Elf" alt="Superior Darkvision" type="Vision" source="Yozolin's Lost Tome" id="ID_VISION_ELF_FACING_SHADOWS">
 		<description>
-			<p>You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.</p>
+			<p>You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of silver.</p>	
 		</description>
-		<sheet display="false">
-			<description>You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.</description>
+		<sheet>
+			<description>You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of silver.</description>
 		</sheet>
 		<rules>
-			<select type="Spell" name="Wizard Cantrip (High Elf)" supports="Wizard&amp;&amp;0" />
-		</rules>
-	</element>
-	<element name="Extra Language" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_EXTRA_LANGUAGE">
-		<description>
-			<p>You can speak, read, and write one extra language of your choice.</p>
-		</description>
-		<sheet display="false" />
-		<rules>
-			<select type="Language" name="Language (Elf)" supports="Standard||Exotic" />
+			<grant type="Vision" id="ID_VISION_ELF_FACING_SHADOWS" />
 		</rules>
 	</element>
 
