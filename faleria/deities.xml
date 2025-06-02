@@ -380,20 +380,6 @@
 		</sheet>
 	</element>
 
-	<element name="Yïldirim" type="Deity" source="Yozolin's Lost Tome" id="ID_YOZOLIN_DEITY_YILDIRIM">
-		<description>
-			<p class="flavor">the Primordial Lightning</p>
-		</description>
-		<setters>
-			<set name="setting">Yozolin's Lost Tome</set>
-			<set name="domains">Nature, Tempest</set>
-			<set name="symbol">Three diagonal blue wavy lines</set>
-		</setters>
-		<sheet>
-			<description>the Primordial Lightning</description>
-		</sheet>
-	</element>
-
 	<element name="Thesaurýlax" type="Deity" source="Yozolin's Lost Tome" id="ID_FALERIA_DEITY_THESAURYLAX">
     <description>
         <p class="flavor">Demon God of Basalos</p>
