@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Elf</name>
+		<name>Elf (Faleria)</name>
 		<update version="0.2.3">
 			<file name="race-elf.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/FaleriaCore/faleria/races/race-elf.xml" />
 		</update>
@@ -114,8 +114,8 @@
 
 	
 	
-	<element name="Dark Elf" type="Sub Race" source="Yozolin's Lost Tome" id="ID_SUB_RACE_HIGH_ELF">
-		<supports>Elf</supports>
+	<element name="Dark Elf" type="Sub Race" source="Yozolin's Lost Tome" id="ID_FALERIA_RACE_SUBRACE_DARK_ELF">
+		<supports>Elf (Faleria)</supports>
 		<description>
 			<p>Dark elves are natural to the frozen tundras of Nyjörsa. They are often mistaken for dwarves in literature due to both being described as ice-born in silvanian, but physically they are very different. Like most elves, these are a tall and slender people, but dark elves tend to be the bulkiest elves. They have a distinct charcoal or dark blue skin, purple or pink eyes and silver white hair.</p>
 			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 1.</p>
