@@ -111,8 +111,6 @@
 			<select type="Sub Race" name="Mortal subtype" supports="Elf (Faleria)" />
 		</rules>
 	</element>
-
-	
 	
 	<element name="Dark Elf" type="Sub Race" source="Yozolin's Lost Tome" id="ID_FALERIA_RACE_SUBRACE_DARK_ELF">
 		<supports>Elf (Faleria)</supports>
@@ -206,7 +204,7 @@
 		</sheet>
 	</element>
 
-<element name="Imperial Elf" type="Sub Race" source="Yozolin's Lost Tome" id="ID_FALERIA_RACE_SUBRACE_IMPERIAL_ELF">
+	<element name="Imperial Elf" type="Sub Race" source="Yozolin's Lost Tome" id="ID_FALERIA_RACE_SUBRACE_IMPERIAL_ELF">
 		<supports>Elf (Faleria)</supports>
 		<description>
 			<p>Imperial elves are closely related to light elves, directly deriving from them in “recent” times. Over the centuries, they have been raised only to serve the emperor. These elves have blonde or light brown hair, blue or green eyes and fair skin. Their ears are the longest of any elf, their length being a symbol of virtue, being adorned elegantly to show power or achievements.</p>
