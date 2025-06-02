@@ -55,7 +55,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Racial Trait" id="ID_RACIAL_TRAIT_ELEMENTAL_WARD_INTELLIGENCE|ID_RACIAL_TRAIT_ELEMENTAL_WARD_CHARISMA|ID_RACIAL_TRAIT_ELEMENTAL_WARD_WISDOM" />
+			<select type="Racial Trait" id="ID_RACIAL_TRAIT_ELEMENTAL_WARD_INTELLIGENCE|ID_RACIAL_TRAIT_ELEMENTAL_WARD_CHARISMA|ID_RACIAL_TRAIT_ELEMENTAL_WARD_WISDOM" supports="Genasi" />
 			<grant type="Spell" id="ID_XGTE_SPELL_ABSORB_ELEMENTS" />
 		</rules>
 	</element>
