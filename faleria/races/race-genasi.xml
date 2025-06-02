@@ -60,6 +60,7 @@
 		</rules>
 	</element>
 
+	
 	<element name="Intelligence" alt="Elemental Ward" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_ELEMENTAL_WARD_INTELLIGENCE">
 		<compendium display="false" />
 		<description>
