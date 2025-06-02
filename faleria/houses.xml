@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Houses</name>
+		<name>House</name>
 		<description>House Coat of Arms of Yozolin's Lost Tome.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Lucky Crown</author>
 		<update version="0.0.1">
@@ -11,7 +11,7 @@
 
 
 
-	<element name="House Lesdow" type="Houses" source="Yozolin's Lost Tome" id="ID_FALERIA_HOUSE_LESDOW">
+	<element name="House Lesdow" type="House" source="Yozolin's Lost Tome" id="ID_FALERIA_HOUSE_LESDOW">
 		<description>
 			<h4>House Lesdow Of Kelleteas</h4>
 				<p style="text-align:center">
@@ -29,6 +29,7 @@
 				<li><strong>Person 2</strong> determined by the drake’s Draconic Essence trait</li>
 			</ul>
 		</description>
+   
     </element>
 
 
