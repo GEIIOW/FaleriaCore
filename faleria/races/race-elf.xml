@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Elf</name>
+		<update version="0.2.3">
+			<file name="race-elf.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/core/players-handbook/races/race-elf.xml" />
+		</update>
+	</info>
+
+	<element name="Elf (Faleria)" alt="Elf" type="Race" source="Yozolin's Lost Tome" id="ID_FALERIA_RACE_ELF">
+		<description>
+			<p class="flavor">“Far greater is the admiration I harbor for the elves than for any other type of mortal in this world of ours. Only the Gods could stand in my way had I been gifted with an elven body at birth. I admit to be envious of their natural link with magic, even if some misuse it. My own dear friend, the late Emperor Talahil, showed me what his kind was capable of when he partook in a tourney some time before his tragic end. I regret having no part in the ceremonies following his death, and even more not having been able to place him back on his throne yet. Soon. If all my research bears fruit, that crown will fall back into its rightful head.”</p>
+			<p>- Y. Mageshell, Manyhals of Death.</p>
+			<p>The tall and slender elves were born into magic. Many are the elves that adore the finer things in life, such as silk, silver and adornments that connect them with the life around them. Due to their long life, they may come off as uncaring, stagnant or even lazy, when in reality they just see the world in a completly different way than any other mortal could hope to. They have the rare luxury of both time and patience. To an elf, twenty years are the equivalent to four human years. When the whole world is burning, why prevent it when it will be back in what seems like and instant? To others it might be years, an eternity, but for elves it’s just another decade.</p>
+			
+			<p style="text-align:center">
+        	<img src="https://i.imgur.com/bXKagCb.png" width="200" />
+            </p>
+			
+			<h4>Arcane Masters</h4>
+			<p>It’s said that of the three primary kassian races elves were the last to emerge in Faleria, being created alongside humans and dwarves by Yivor, Myllad and Kássia as servants in their godly works. Elves were created for Myllad, God of knowledge, magic and libraries, to serve in his vast library. Through the years, elves organized and catalogued his many scrolls and tomes and sometimes even conducted field research, alongside humans. Due to these many tasks, they slowly absorved the pages’ magic into their own bodies.</p>
+			
+			<h4>Broken People</h4>
+			<p>Elves had already settled in Faleria for many generations once the once the Great Penury broke out. The large elf population in Scanduri was heavily affected by the demonic hordes’ attacks. A local elf called Balágriel became a legendary figure during this period. Once the war ended, he rallied his fellow elves and some other allies into following him to conquer all of Faleria, starting with Zeiloryn. Frustrated by the seemingly worthless catastrophic losses they endured during the war, a huge number of elves followed him into his conquest, deeming all other elves who refused the call as traitors.</p>
+			<p>So the Silvermace Empire was founded, and quickly established itself as a military power that was impossible to ignore. As they gained more territory, they proclaimed themselves as the capital of the world. Scanduri was still in ruins due to the Penury, Manyhal had not yet been united under Halwin, Nyjörsa was at it is today, a frozen tundra, and neither Raydis nor the Bysso Isles had been discovered, leaving the elven nation as the most dangerous and most powerful nation in Faleria. As some elves tried to commune with nature and others tried to rebuild homes, the ancestors of the imperial elves razed fields and enlarged their new empire.</p>
+
+			<h4>Elf Names</h4>
+			<p>Elven names are full of voiced sounds, making it difficult to find and elf with an f, s, sh, p, t, c or k in their name. Furthermore, elven names tend to involve diphthongs, l’s and r’s. Examples of elven names are Hemcriel, Zavandriel and Emaria.</p>
+			
+			<h4>ELF TRAITS</h4>
+			<p>Elves seem to be born with an assortment of natural abilities.</p>
+			<p class="indent"><strong><em> Ability Score Increase.</em></strong> Your Intelligence score increases by 2.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Elves reach adulthood at the age of 108 but are considered young until the age of 150. On average, they live about 500 years.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Elves stand between 5’9 and 7 feet tall and average about 150 pounds. Your size is Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> The ancestral elves spent many nights in dark libraries studying and researching and thus developed better vision. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it was dim light. You can’t discern color in darkness, only shades of gold.</p>
+			<p class="indent"><strong><em>Keen Senses.</em></strong> You have proficiency in the Perception skill.</p>
+			<p class="indent"><strong><em>Researchers of Myllad.</em></strong> You have advantage on saving throws against exhaustion, and magic can’t put you to sleep.</p>
+			<p class="indent"><strong><em>Elvish Rest.</em></strong> When performing a long rest, elves don’t need to sleep. Instead, they can enter a meditative state for 4 hour a day. The clear state of mind gained by completing a long rest by meditating grants you 1d10 points of temporary hit points. An elf can choose to spend the normal 8 hours of long rest sleeping, which grants them an additional free use of their subtype’s level 1 spell on.</p>
+			<p class="indent"><strong><em>Mortal subtype.</em></strong> Four main subtypes of elf populate Faleria: Dark, Imperial, Light and Night. Choose one of these subtypes.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Adran, Aelar, Aramil, Arannis, Aust, Beiro, Berrian, Carric, Enialis, Erdan, Erevan, Galinndan, Hadarai, Heian, Himo, Immeral, Ivellios, Laucian, Mindartis, Paelias, Peren, Quarion, Riardon, Rolen, Soveliss, Thamior, Tharivol, Theren, Varis</set>
+			<set name="names" type="female">Adrie, Althaea, Anastrianna, Andraste, Antinua, Bethrynna, Birel, Caelynn, Drusilia, Enna, Felosial, Ielenia, Jelenneth, Keyleth, Leshanna, Lia, Meriele, Mialee, Naivara, Quelenna, Quillathe, Sariel, Shanairra, Shava, Silaqui, Theirastra, Thia, Vadania, Valanthe, Xanaphia</set>
+			<set name="names" type="child">Ara, Bryn, Del, Eryn, Faen, Innil. Lael, Mella, Naill, Naeris, Phann, Rael, Rinn, Sai, Syllin, Thia, Vall</set>
+			<set name="names" type="family">Amakiir, Amastacia, Galanodel, Holimion, Ilphelkiir, Liadon, Meliamne, Nai'lo, Siannodel, Xiloscient</set>
+			<set name="names-format">{{name}} {{family}}</set>
+			<set name="height" modifier="2d10">4'6"</set>
+			<set name="weight" modifier="1d4">90 lb.</set>
+		</setters>
+		<rules>
+			<stat name="intelligence" value="2" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Vision" id="ID_VISION_ELF_DARKVISION" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_KEEN_SENSES" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_RESEARCHERS_OF_MYLLAND" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ELVISH_REST" />
+			<grant type="Racial Trait" id="ID_RACIAL_FALERIA_ELF_MORTAL_SUBTYPE" />
+		</rules>
+	</element>
+
+	<element name="Darkvision: Elf" alt="Darkvision" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_VISION_ELF_DARKVISION">
+		<description>
+			<p>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it was dim light. You can’t discern color in darkness, only shades of gold.</p>	
+		</description>
+		<sheet>
+			<description>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it was dim light. You can’t discern color in darkness, only shades of gold.</description>
+		</sheet>
+		<rules>
+			<grant type="Vision" id="ID_VISION_ELF_DARKVISION" />
+		</rules>
+	</element>
+
+	<element name="Keen Senses" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_KEEN_SENSES">
+		<description>
+			<p>You have proficiency in the Perception skill.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency in the Perception skill.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+	
+	<element name="Researchers of Mylland" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_RESEARCHERS_OF_MYLLAND">
+		<description>
+			<p>You have advantage on saving throws against being charmed, and magic can’t put you to sleep.</p>
+		</description>
+		<sheet>
+			<description>Advantage on saving throws against being charmed, and magic can’t put you to sleep.</description>
+		</sheet>
+	</element>
+	
+	<element name="Elvish Rest" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_ELVISH_REST">
+		<description>
+			<p>When performing a long rest, elves don’t need to sleep. Instead, they can enter a meditative state for 4 hour a day. The clear state of mind gained by completing a long rest by meditating grants you 1d10 points of temporary hit points. An elf can choose to spend the normal 8 hours of long rest sleeping, which grants them an additional free use of their subtype’s level 1 spell on.</p>
+		</description>
+		<sheet>
+			<description>When performing a long rest, elves don’t need to sleep. Instead, they can enter a meditative state for 4 hour a day. The clear state of mind gained by completing a long rest by meditating grants you 1d10 points of temporary hit points. An elf can choose to spend the normal 8 hours of long rest sleeping, which grants them an additional free use of their subtype’s level 1 spell on.</description>
+		</sheet>
+	</element>
+	
+	<element name="Mortal Subtype" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_FALERIA_ELF_MORTAL_SUBTYPE">
+		<description>
+			<p>Four main subtypes of elf populate Faleria: Dark, Imperial, Light and Night. Choose one of these subtypes.</p>
+		</description>
+		<compendium display="false" />
+		<sheet display="false" />
+		<rules>
+			<select type="Sub Race" name="Mortal subtype" supports="Elf (Faleria)" />
+		</rules>
+	</element>
+
+	
+	
+	<element name="Dark Elf" type="Sub Race" source="Yozolin's Lost Tome" id="ID_SUB_RACE_HIGH_ELF">
+		<supports>Elf</supports>
+		<description>
+			<p>Dark elves are natural to the frozen tundras of Nyjörsa. They are often mistaken for dwarves in literature due to both being described as ice-born in silvanian, but physically they are very different. Like most elves, these are a tall and slender people, but dark elves tend to be the bulkiest elves. They have a distinct charcoal or dark blue skin, purple or pink eyes and silver white hair.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 1.</p>
+			<p class="indent"><strong><em>Shadowborn.</em></strong> You know the control flames cantrip. When you reach 3rd level, you can cast the ice knife spell with this trait,. Starting at 5th level, you can also cast the darkness spell with this trait, without requiring a material component. Once you cast ice knife or darkness with this trait, you can’t cast that spell again with it again until you finish a long rest.Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell when you cast it with this trait (choose when you select this mortal subtype).</p>
+			<p class="indent"><strong><em>Facing shadows.</em></strong> You have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of silver.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read and write Smidian and one extra language of your choice.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d10">4'6"</set>
+			<set name="weight" modifier="1d4">90 lb.</set>
+		</setters>
+		<rules>
+			<stat name="dexterity" value="1"/>
+			<grant type="Racial Trait" id="ID_RACIAL_FALERIA_RACIAL_TRAIT_SHADOWBORN" />
+			<grant type="Racial Trait" id="ID_RACIAL_FALERIA_RACIAL_TRAIT_FACING_SHADOWS" />
+			<grant type="Language" id="ID_LANGUAGE_SMIDIAN" />
+			<select type="Language" name="Language (Elf)" supports="Standard"/>
+		</rules>
+	</element> 	
+	
+	<element name="Shadowborn" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_FALERIA_RACIAL_TRAIT_SHADOWBORN">
+		<description>
+			<p>You know the control flames cantrip. When you reach 3rd level, you can cast the ice knife spell with this trait,. Starting at 5th level, you can also cast the darkness spell with this trait, without requiring a material component. Once you cast ice knife or darkness with this trait, you can’t cast that spell again with it again until you finish a long rest.</p>
+			<p>Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell when you cast it with this trait (choose when you select this mortal subtype).</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency with the longsword, shortsword, shortbow, and longbow.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_XGTE_SPELL_CONTROL_FLAMES" />
+			<grant type="Spell" id="ID_XGTE_SPELL_ICE_KNIFE" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_DARKNESS" level="5" />
+		</rules>
+	</element>
+	<element name="Cantrip" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_CANTRIP">
+		<description>
+			<p>You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.</p>
+		</description>
+		<sheet display="false">
+			<description>You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Wizard Cantrip (High Elf)" supports="Wizard&amp;&amp;0" />
+		</rules>
+	</element>
+	<element name="Extra Language" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_EXTRA_LANGUAGE">
+		<description>
+			<p>You can speak, read, and write one extra language of your choice.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Language" name="Language (Elf)" supports="Standard||Exotic" />
+		</rules>
+	</element>
+
+	<element name="Wood Elf" type="Sub Race" source="Player’s Handbook" id="ID_SUB_RACE_WOOD_ELF">
+		<supports>Elf</supports>
+		<description>
+			<p>As a wood elf, you have keen senses and intuition, and your fleet feet carry you quickly and stealthily through your native forests. This category includes the wild elves (grugach) of Greyhawk and the Kagonesti of Dragonlance, as well as the races called wood elves in Greyhawk and the Forgotten Realms. In Faerûn, wood elves (also called wild elves, green elves, or forest elves) are reclusive and distrusting of non-elves. Wood elves’ skin tends to be copperish in hue, sometimes with traces of green. Their hair tends toward browns and blacks, but it is occasionally blond or copper-colored. Their eyes are green, brown, or hazel.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 1.</p>
+			<p class="indent"><strong><em>Elf Weapon Training.</em></strong> You have proficiency with the longsword, shortsword, shortbow, and longbow.</p>
+			<p class="indent"><strong><em>Fleet of Foot.</em></strong> Your base walking speed increases to 35 feet.</p>
+			<p class="indent"><strong><em>Mask of the Wild.</em></strong> You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d10">4'6"</set>
+			<set name="weight" modifier="1d4">100 lb.</set>
+		</setters>
+		<rules>
+			<stat name="wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Wood Elf)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ELF_WEAPON_TRAINING" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_FLEET_OF_FOOT" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_MASK_OF_THE_WILD" />
+		</rules>
+	</element>
+	<element name="Fleet of Foot" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_FLEET_OF_FOOT">
+		<description>
+			<p>Your base walking speed increases to 35 feet.</p>
+		</description>
+		<sheet display="false">
+			<description>Your speed increases to 35 feet.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed" value="35" bonus="base" />
+		</rules>
+	</element>
+	<element name="Mask of the Wild" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_MASK_OF_THE_WILD">
+		<description>
+			<p>You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</p>
+		</description>
+		<sheet>
+			<description>You can attempt to hide even when you are only lightly obscured.</description>
+		</sheet>
+	</element>
+
+	<element name="Dark Elf" type="Sub Race" source="Player’s Handbook" id="ID_SUB_RACE_DARK_ELF">
+		<supports>Elf</supports>
+		<description>
+			<!-- (changed in Errata v3.0) -->
+			<!-- <p>Descended from an earlier subrace of dark-skinned elves, the drow were banished from the surface world for following the goddess Lolth down the path to evil and corruption. Now they have built their own civilization in the depths of the Underdark, patterned after the Way of Lolth. Also called dark elves, the drow have black skin that resembles polished obsidian and stark white or pale yellow hair. They commonly have very pale eyes (so pale as to be mistaken for white) in shades of lilac, silver, pink, red, and blue. They tend to be smaller and thinner than most elves.</p>
+			<p class="indent">Drow adventurers are rare, and the race does not exist in all worlds. Check with your Dungeon Master to see if you can play a drow character.</p> -->
+			<p>As a drow, you are infused with the magic of the Underdark, an underground realm of wonders and horrors rarely seen on the surface above. You are at home in shadows and, thanks to your innate magic, learn to conjure forth both light and darkness. Your kin tend to have stark white hair and grayish skin of many hues.</p>
+			<p class="indent">The cult of the god Lolth, Queen of Spiders, has corrupted some of the oldest drow cities, especially in the worlds of Oerth and Toril. Eberron, Krynn, and other realms have escaped the cult’s influence—for now. Wherever the cult lurks, drow heroes stand on the front lines in the war against it, seeking to sunder Lolth’s web.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Charisma score increases by 1.</p>
+			<p class="indent"><strong><em>Superior Darkvision.</em></strong> Your darkvision has a radius of 120 feet.</p>
+			<p class="indent"><strong><em>Sunlight Sensitivity.</em></strong> You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</p>
+			<p class="indent"><strong><em>Drow Magic.</em></strong> You know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell, you must finish a long rest to cast the spell again with the trait. When you reach 5th level, you can also cast the darkness spell, you must finish a long rest to cast the spell again with the trait. Charisma is your spellcasting ability for these spells.</p>
+			<p class="indent"><strong><em>Drow Weapon Training.</em></strong> You have proficiency with rapiers, shortswords, and hand crossbows.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d6">4'5"</set>
+			<set name="weight" modifier="1d6">75 lb.</set>
+		</setters>
+		<rules>
+			<stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Dark Elf)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Vision" id="ID_VISION_SUPERIORDARKVISION" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SUNLIGHT_SENSITIVITY" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DROW_MAGIC" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DROW_WEAPON_TRAINING" />
+		</rules>
+	</element>
+	<element name="Sunlight Sensitivity" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_SUNLIGHT_SENSITIVITY">
+		<description>
+			<p>You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</p>
+		</description>
+		<sheet>
+			<description>You have disadvantage on attack rolls and on Perception checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</description>
+		</sheet>
+	</element>
+	<element name="Drow Magic" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DROW_MAGIC">
+		<description>
+			<p>You know the <em>dancing lights</em> cantrip. When you reach 3rd level, you can cast the faerie fire spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can also cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
+		</description>
+		<sheet>
+			<description>You know the dancing lights cantrip. Charisma is your spellcasting ability for this spell.</description>
+			<description level="3">You know the dancing lights cantrip. You can cast faerie fire spell once per long rest. Charisma is your spellcasting ability for these spells.</description>
+			<description level="5">You know the dancing lights cantrip. You can cast faerie fire and darkness spells once per long rest. Charisma is your spellcasting ability for these spells.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_DANCING_LIGHTS" level="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_FAERIE_FIRE" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_DARKNESS" level="5" />
+		</rules>
+	</element>
+	<element name="Drow Weapon Training" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DROW_WEAPON_TRAINING">
+		<description>
+			<p>You have proficiency with rapiers, shortswords, and hand crossbows.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency with rapiers, shortswords, and hand crossbows.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Simple/Martial Weapon or Tool (Drow Weapon Training)" number="3" supports="Weapon||Tool" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+</elements>
