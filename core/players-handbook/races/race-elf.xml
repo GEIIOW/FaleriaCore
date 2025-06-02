@@ -114,6 +114,92 @@
 	
 
 	<!--Subraces-->
+	<!--Sea Elf-->
+	<element name="Sea Elf" type="Sub Race" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACE_SEA_ELF">
+		<supports>Elf</supports>	
+		<description>
+			<p>Sea elves fell in love with the wild beauty of the ocean in the earliest days of the multiverse. While other elves traveled from realm to realm, sea elves navigated the currents and explored the waters of many worlds. Today these elves can be found wherever oceans exist, as well as in the Elemental Plane of Water.</p>
+			<p class="indent">Like other elves, sea elves can live to be over 750 years old.</p>
+			<h4>SEA ELF TRAITS</h4>
+			<p>As a sea elf, you have the following racial traits.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.</p>
+			<p class="indent"><strong><em>Friend of the Sea.</em></strong> Aquatic animals have an extraordinary affinity with your people. You can communicate simple ideas to any Beast that has a swimming speed. It can understand your words, though you have no special ability to understand it in return.</p>
+			<p class="indent"><strong><em>Child of the Sea.</em></strong> You have a swimming speed of 30 feet, and you can breathe air and water.</p>			
+			<p class="indent"><strong><em>Sea Elf Training.</em></strong> You have proficiency with the spear, trident, light crossbow, and net.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="innate speed:swim" value="innate speed" bonus="base" />
+			<grant type="Grants" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_HUMANOID_ELF" />
+			<select type="Language" name="Language (Sea Elf)" supports="Standard" />
+			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_SEA_ELF_FRIEND_OF_THE_SEA" />
+			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_SEA_ELF_SEA_ELF_TRAINING" />
+			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_SEA_ELF_CHILD_OF_THE_SEA" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_TRIDENT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_NET" />
+		</rules>
+	</element>
+
+	<element name="Child of the Sea" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_SEA_ELF_CHILD_OF_THE_SEA">
+		<description>
+			<p>You have a swimming speed of 30 feet, and you can breathe air and water.</p>
+		</description>
+		<sheet >
+			<description>You have a swimming speed of 30 feet, and you can breathe air and water.</description>
+		</sheet>
+	</element>
+
+	<element name="Sea Elf Training" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_SEA_ELF_SEA_ELF_TRAINING">
+		<description>
+			<p>You have proficiency with the spear, trident, light crossbow, and net.</p>
+		</description>
+		<sheet display="false" />
+	</element>
+	
+	<element name="Friend of the Sea" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_SEA_ELF_FRIEND_OF_THE_SEA">
+		<description>
+			<p>Aquatic animals have an extraordinary affinity with your people. You can communicate simple ideas to any Beast that has a swimming speed. It can understand your words, though you have no special ability to understand it in return.</p>
+		</description>
+		<sheet>
+			<description>You can communicate simple ideas to any Beast that has a swimming speed. It can understand your words, though you have no special ability to understand it in return.</description>
+		</sheet>
+	</element>
+	
+	<!--Shadar-Kai-->
+
+	<element name="Shadar-Kai" type="Sub Race" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACE_SHADAR_KAI">
+		<supports>Elf</supports>	
+		<description>
+			<h4>SEA ELF TRAITS</h4>
+			<p>As a sea elf, you have the following racial traits.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.</p>
+			<p class="indent"><strong><em>Necrotic Resistance.</em></strong> You have resistance to necrotic damage.</p>
+			<p class="indent"><strong><em>Blessing of the Raven Queen.</em></strong> As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a long rest.</p>			
+			<p>Starting at 3rd level, you also gain resistance to all damage when you teleport using this trait. The resistance lasts until the start of your next turn. During that time, you appear ghostly and translucent.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_HUMANOID_ELF" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_SHADAR_KAI_BLESSING_RAVEN_QUEEN" />
+		</rules>
+	</element>
+
+	<element name="Blessing of the Raven Queen" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_SHADAR_KAI_BLESSING_RAVEN_QUEEN">
+		<description>
+			<p>As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a long rest.</p>
+			<p>Starting at 3rd level, you also gain resistance to all damage when you teleport using this trait. The resistance lasts until the start of your next turn. During that time, you appear ghostly and translucent.</p>
+		</description>
+		<sheet action="Bonus Action" usage="Long Rest" >
+			<description>As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a long rest.
+				<p>Starting at 3rd level, you also gain resistance to all damage when you teleport using this trait. The resistance lasts until the start of your next turn. During that time, you appear ghostly and translucent.</p>
+				</description>
+		</sheet>
+	</element>
+
+	<!--Sea Elf-->
 	<element name="High Elf" type="Sub Race" source="Player’s Handbook" id="ID_SUB_RACE_HIGH_ELF">
 		<supports>Elf</supports>
 		<description>
@@ -215,59 +301,6 @@
 		</sheet>
 	</element>
 
-	<element name="Sea Elf" type="Sub Race" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACE_SEA_ELF">
-		<supports>Elf</supports>	
-		<description>
-			<p>Sea elves fell in love with the wild beauty of the ocean in the earliest days of the multiverse. While other elves traveled from realm to realm, sea elves navigated the currents and explored the waters of many worlds. Today these elves can be found wherever oceans exist, as well as in the Elemental Plane of Water.</p>
-			<p class="indent">Like other elves, sea elves can live to be over 750 years old.</p>
-			<h4>SEA ELF TRAITS</h4>
-			<p>As a sea elf, you have the following racial traits.</p>
-			<p class="indent"><strong><em>Size.</em></strong> You are Medium.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.</p>
-			<p class="indent"><strong><em>Fey Ancestry.</em></strong> You have advantage on saving throws you make to avoid or end the charmed condition on yourself. </p>
-			<p class="indent"><strong><em>Friend of the Sea.</em></strong> Aquatic animals have an extraordinary affinity with your people. You can communicate simple ideas to any Beast that has a swimming speed. It can understand your words, though you have no special ability to understand it in return.</p>
-			<p class="indent"><strong><em>Child of the Sea.</em></strong> You have a swimming speed of 30 feet, and you can breathe air and water.</p>			
-			<p class="indent"><strong><em>Sea Elf Training.</em></strong> You have proficiency with the spear, trident, light crossbow, and net.</p>
-		</description>
-		<sheet display="false" />
-		<rules>
-			<stat name="innate speed:swim" value="innate speed" bonus="base" />
-			<grant type="Grants" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_HUMANOID_ELF" />
-			<select type="Language" name="Language (Sea Elf)" supports="Standard" />
-			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_SEA_ELF_FRIEND_OF_THE_SEA" />
-			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_SEA_ELF_SEA_ELF_TRAINING" />
-			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_SEA_ELF_CHILD_OF_THE_SEA" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_TRIDENT" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_NET" />
-		</rules>
-	</element>
-
-	<element name="Child of the Sea" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_SEA_ELF_CHILD_OF_THE_SEA">
-		<description>
-			<p>You have a swimming speed of 30 feet, and you can breathe air and water.</p>
-		</description>
-		<sheet >
-			<description>You have a swimming speed of 30 feet, and you can breathe air and water.</description>
-		</sheet>
-	</element>
-
-	<element name="Sea Elf Training" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_SEA_ELF_SEA_ELF_TRAINING">
-		<description>
-			<p>You have proficiency with the spear, trident, light crossbow, and net.</p>
-		</description>
-		<sheet display="false" />
-	</element>
-	
-	<element name="Friend of the Sea" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_SEA_ELF_FRIEND_OF_THE_SEA">
-		<description>
-			<p>Aquatic animals have an extraordinary affinity with your people. You can communicate simple ideas to any Beast that has a swimming speed. It can understand your words, though you have no special ability to understand it in return.</p>
-		</description>
-		<sheet>
-			<description>You can communicate simple ideas to any Beast that has a swimming speed. It can understand your words, though you have no special ability to understand it in return.</description>
-		</sheet>
-	</element>
 
 
 </elements>
