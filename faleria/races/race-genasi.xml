@@ -47,6 +47,67 @@
 		</rules>
 	</element>
 
+	<element name="Elemental Ward" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_ELEMENTAL_WARD">
+		<description>
+			<p>As a reaction, you can cast the absorb elements spell once per long rest.</p>
+			<p>Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell when you cast it with this trait (choose when you select this mortal type). Any subsequent spells gained through mortal type must be cast with the ability score you chose.</p>
+		</description>
+		<sheet display="false">
+			<description>
+				Your spellcasting ability is {{elemental ward:ability}}. As a reaction, you can cast the absorb elements spell once per long rest.
+			</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait" id="ID_RACIAL_TRAIT_ELEMENTAL_WARD_INTELLIGENCE|ID_RACIAL_TRAIT_ELEMENTAL_WARD_CHARISMA|ID_RACIAL_TRAIT_ELEMENTAL_WARD_WISDOM" />
+			<grant type="Spell" id="ID_XGTE_SPELL_ABSORB_ELEMENTS" />
+		</rules>
+	</element>
+	
+	<element name="Intelligence" alt="Elemental Ward" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_ELEMENTAL_WARD_INTELLIGENCE">
+		<compendium display="false" />
+		<description>
+			<p>As a reaction, you can cast the absorb elements spell once per long rest.</p>
+		</description>
+		<sheet alt="Elemental Ward" action="reaction" usage="1/Long Rest" />
+			<description>
+				Your spellcasting ability is Intelligence. As a reaction, you can cast the absorb elements spell once per long rest.
+			</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_XGTE_SPELL_ABSORB_ELEMENTS" />
+		</rules>
+	</element>
+	
+	<element name="Charisma" alt="Elemental Ward" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_ELEMENTAL_WARD_CHARISMA">
+		<compendium display="false" />
+		<description>
+			<p>As a reaction, you can cast the absorb elements spell once per long rest.</p>
+		</description>
+		<sheet alt="Elemental Ward" action="reaction" usage="1/Long Rest" />
+			<description>
+				Your spellcasting ability is Charisma. As a reaction, you can cast the absorb elements spell once per long rest.
+			</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_XGTE_SPELL_ABSORB_ELEMENTS" />
+		</rules>
+	</element>
+
+	<element name="Wisdom" alt="Elemental Ward" type="Racial Trait" source="Yozolin's Lost Tome" id="ID_RACIAL_TRAIT_ELEMENTAL_WARD_WISDOM">
+		<compendium display="false" />
+		<description>
+			<p>As a reaction, you can cast the absorb elements spell once per long rest.</p>
+		</description>
+		<sheet alt="Elemental Ward" action="reaction" usage="1/Long Rest" />
+			<description>
+				Your spellcasting ability is Wisdom. As a reaction, you can cast the absorb elements spell once per long rest.
+			</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_XGTE_SPELL_ABSORB_ELEMENTS" />
+		</rules>
+	</element>
+
 	<!--Air Genasi-->
 	<element name="Air Genasi" type="Sub Race" source="Yozolin's Lost Tome" id="ID_SUB_RACE_AIR_GENASI">
 		<supports>Genasi</supports>
