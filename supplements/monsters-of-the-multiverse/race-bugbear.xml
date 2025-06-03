@@ -22,17 +22,17 @@
 			<p class="indent"><strong><em>Powerful Build.</em></strong> You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
 			<p class="indent"><strong><em>Sneaky.</em></strong> You are proficient in the Stealth skill. In addition, without squeezing, you can move through and stop in a space large enough for a Small creature.</p>
 			<p class="indent"><strong><em>Surprise Attack.</em></strong> If you hit a creature with an attack roll, the creature takes an extra 2d6 damage if it hasn’t taken a turn yet in the current combat.</p>
+			<p class="indent"><strong><em>Languages.</em></strong>  You can speak, read, and write Levish and one other language that you and your DM agree is appropriate for your character.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Ability Score Improvement" name="Ability Score Improvement Option (Bugbear)" supports="Custom Ability Score Improvement Option" />
+			<select type="Ability Score Improvement" name="Ability Score Improvement (Bugbear)" supports="ID_ASI_RACE_GELLOW1|ID_ASI_RACE_GELLOW2" />		
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
 			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<grant type="Racial Trait" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_HUMANOID_GOBLINOID" />
 
-			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Customized Language (Bugbear)" supports="Custom Race Language"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_LANGUAGE_LEVISH" />
 			<select type="Language" name="Language (Bugbear)" supports="Standard||Exotic" />
 			
 			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_BUGBEAR_FEY_ANCESTRY" />
