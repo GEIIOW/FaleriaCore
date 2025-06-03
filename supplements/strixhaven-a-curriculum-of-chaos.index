@@ -6,12 +6,6 @@
 		</update>
 	</info>
 	<files>
-		<file name="background-lorehold-student.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/strixhaven-a-curriculum-of-chaos/backgrounds/background-lorehold-student.xml" />
-		<file name="background-prismari-student.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/strixhaven-a-curriculum-of-chaos/backgrounds/background-prismari-student.xml" />
-		<file name="background-quandrix-student.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/strixhaven-a-curriculum-of-chaos/backgrounds/background-quandrix-student.xml" />
-		<file name="background-silverquill-student.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/strixhaven-a-curriculum-of-chaos/backgrounds/background-silverquill-student.xml" />
-		<file name="background-witherbloom-student.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/strixhaven-a-curriculum-of-chaos/backgrounds/background-witherbloom-student.xml" />
-
 		<file name="source.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/strixhaven-a-curriculum-of-chaos/source.xml" />
 		<file name="feats.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/strixhaven-a-curriculum-of-chaos/feats.xml" />
 		<file name="items.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/strixhaven-a-curriculum-of-chaos/items.xml" />
