@@ -24,16 +24,16 @@
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Defiance.</strong> You have advantage on saving throws to avoid or end the frightened condition on yourself.</li>
 				<li style="margin-left:1em;text-indent:-1em;"><strong>Draconic Sorcery.</strong> You know one cantrip of your choice from the sorcerer spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for that cantrip (choose when you select this race).</li>
 			</ul>
-			<p class="indent"><strong><em>Language.</em></strong> You can speak, read, and write Levish and one other language that you and your DM agree is appropriate for your character.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Ability Score Improvement" name="Ability Score Improvement (Kenku)" supports="ID_ASI_RACE_GELLOW1|ID_ASI_RACE_GELLOW2" />		
+			<select type="Ability Score Improvement" name="Ability Score Improvement Option (Kobold)" supports="Custom Ability Score Improvement Option" />
 			<grant type="Size" id="ID_SIZE_SMALL" />
 			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
 
-			<grant type="Language" id="ID_LANGUAGE_LEVISH" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language (Kobold)" supports="Custom Race Language"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Language (Kobold)" supports="Standard||Exotic" />
 			
 			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_KOBOLD_DRACONIC_CRY" />
