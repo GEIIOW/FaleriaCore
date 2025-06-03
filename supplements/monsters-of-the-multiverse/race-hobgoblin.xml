@@ -28,17 +28,17 @@
 			</ul>
 			<br />
 			<p class="indent"><strong><em>Fortune from the Many.</em></strong> If you miss with an attack roll or fail an ability check or a saving throw, you can draw on your bonds of reciprocity to gain a bonus to the roll equal to the number of allies you can see within 30 feet of you (maximum bonus of +3). You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+			<p class="indent"><strong><em>Language.</em></strong> You can speak, read, and write Levish and one other language that you and your DM agree is appropriate for your character.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Ability Score Improvement" name="Ability Score Improvement Option (Hobgoblin)" supports="Custom Ability Score Improvement Option" />
+			<select type="Ability Score Improvement" name="Ability Score Improvement (Hobgoblin)" supports="ID_ASI_RACE_GELLOW1|ID_ASI_RACE_GELLOW2" />		
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
 			<grant type="Racial Trait" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_HUMANOID_GOBLINOID" />
 
-			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Customized Language (Hobgoblin)" supports="Custom Race Language"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_LANGUAGE_LEVISH" />
 			<select type="Language" name="Language (Hobgoblin)" supports="Standard||Exotic" />
 			
 			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_HOBGOBLIN_FEY_ANCESTRY" />
