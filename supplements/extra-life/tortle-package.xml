@@ -27,6 +27,11 @@
 	<element name="Tortle" type="Race" source="The Tortle Package" id="ID_WOTC_TOA_RACE_TORTLE">
 		<description>
 			<p>What many tortles consider a simple life, others might call a life of adventure. Tortles are born near sandy coastlines, but as soon as they're able to walk on two legs, they become nomad survivalists eager to explore the wilderness, experience its many wonders, put their skills to the test, and make new acquaintances.</p>        
+			
+			<p style="text-align:center">
+        	<img src="https://5e.tools/img/races/TTP/Tortle.webp" width="200" />
+            </p>	
+			
 			<h4>LIFE OF A TORTLE</h4>
 			<p>A tortle hatches from a thick-shelled egg and spends the first few weeks of its life crawling on all fours. Its parents, old and near death, spend what little time they have left telling stories to their offspring. Within a year, the young tortle becomes an orphan, though not before it learns to speak and to survive on its own.</p>
 			<p class="indent">A young tortle and its siblings inherit whatever tools, weapons, and gifts their parents left behind. Each young tortle is expected to fend for itself. It leaves the place of its birth and finds its own corner of the wilderness in which to hunt, catch fish, and get by. With each passing year, a tortle hones its survival skills. It forms friendships with its neighbors while also respecting their privacy. At some point, a tortle feels an almost overwhelming urge to venture far away from home and see more of the world. It gathers up its possessions and heads into the wilderness, returning months or years later with stories of its exploits and new skills.</p>
@@ -56,7 +61,7 @@
 			<p class="indent"><b><i>Natural Armor. </i></b>Due to your shell and the shape of your body, you are ill-suited to wearing armor. Your shell provides ample protection, however; it gives you a base AC of 17 (your Dexterity modifier doesn't affect this number). You gain no benefit from wearing armor, but if you are using a shield, you can apply the shield's bonus as normal.</p>
 			<p class="indent"><b><i>Shell Defense. </i></b>You can withdraw into your shell as an action. Until you emerge, you gain a +4 bonus to AC, and you have advantage on Strength and Constitution saving throws. While in your shell, you are prone, your speed is 0 and can't increase, you have disadvantage on Dexterity saving throws, you can't take reactions, and the only action you can take is a bonus action to emerge from your shell.</p>
 			<p class="indent"><b><i>Survival Instinct. </i></b>You gain proficiency in the Survival skill. Tortles have finely honed survival instincts.</p>
-			<p class="indent"><b><i>Languages. </i></b>You can speak, read, and write Common and Aquan.</p>
+			<p class="indent"><b><i>Languages. </i></b>You can speak, read, and write Levish and one other language at your choice.</p>
 		</description>        
 		<setters>
 			<set name="names" type="male">Baka, Damu, Gar, Gura, Ini, Jappa, Kinlek, Krull, Lim, Lop, Nortle, Nulka, Olo, Ploqwat, Quee, Queg, Quott, Sunny, Tibor, Ubo, Uhok, Wabu, Xelbuk, Xopa, Yog</set>
@@ -66,15 +71,12 @@
 		</setters>
 		<sheet display="false"/>
 		<rules>
-			<stat name="strength" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<stat name="wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Tortle)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Tortle)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="strength" value="2" />
+			<stat name="wisdom" value="1" />
 			<stat name="innate speed" value="30" bonus="base"/>
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
-			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<grant type="Language" id="ID_MM_LANGUAGE_AQUAN" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Customized Language" supports="Custom Race Language||Tortle Language" number="2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_LANGUAGE_LEVISH" />
+			<select type="Language" name="Language (Tortle)" supports="Standard" />
 			<grant type="Racial Trait" id="ID_WOTC_TOA_RACIAL_TRAIT_TORTLE_CLAWS" />
 			<grant type="Racial Trait" id="ID_WOTC_TOA_RACIAL_TRAIT_TORTLE_HOLD_BREATH" />
 			<grant type="Racial Trait" id="ID_WOTC_TOA_RACIAL_TRAIT_TORTLE_NATURAL_ARMOR" />
