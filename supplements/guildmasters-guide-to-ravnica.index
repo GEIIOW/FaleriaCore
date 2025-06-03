@@ -10,26 +10,13 @@
 	</info>
 	<files>
 		<file name="source.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/guildmasters-guide-to-ravnica/source.xml" />
-		<file name="centaur.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/guildmasters-guide-to-ravnica/races/centaur.xml" />
 		<file name="goblin.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/guildmasters-guide-to-ravnica/races/goblin.xml" />
 		<file name="loxodon.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/guildmasters-guide-to-ravnica/races/loxodon.xml" />
-		<file name="minotaur.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/guildmasters-guide-to-ravnica/races/minotaur.xml" />
 		<file name="simic-hybrid.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/guildmasters-guide-to-ravnica/races/simic-hybrid.xml" />
 		<file name="vedalken.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/guildmasters-guide-to-ravnica/races/vedalken.xml" />
 		
 		<file name="cleric-orderdomain.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/guildmasters-guide-to-ravnica/archetypes/cleric-orderdomain.xml" />
 		<file name="druid-circleofspores.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/guildmasters-guide-to-ravnica/archetypes/druid-circleofspores.xml" />
-
-		<file name="azorius-functionary.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/guildmasters-guide-to-ravnica/backgrounds/azorius-functionary.xml" />
-		<file name="boros-legionnaire.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/guildmasters-guide-to-ravnica/backgrounds/boros-legionnaire.xml" />
-		<file name="dimir-operative.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/guildmasters-guide-to-ravnica/backgrounds/dimir-operative.xml" />
-		<file name="golgari-agent.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/guildmasters-guide-to-ravnica/backgrounds/golgari-agent.xml" />
-		<file name="gruul-anarch.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/guildmasters-guide-to-ravnica/backgrounds/gruul-anarch.xml" />
-		<file name="izzet-engineer.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/guildmasters-guide-to-ravnica/backgrounds/izzet-engineer.xml" />
-		<file name="orzhov-representative.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/guildmasters-guide-to-ravnica/backgrounds/orzhov-representative.xml" />
-		<file name="rakdos-cultist.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/guildmasters-guide-to-ravnica/backgrounds/rakdos-cultist.xml" />
-		<file name="selesnya-initiate.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/guildmasters-guide-to-ravnica/backgrounds/selesnya-initiate.xml" />
-		<file name="simic-scientist.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/guildmasters-guide-to-ravnica/backgrounds/simic-scientist.xml" />
 
 		<file name="spells.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/guildmasters-guide-to-ravnica/spells.xml" />
 		

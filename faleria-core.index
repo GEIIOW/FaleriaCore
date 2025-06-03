@@ -21,12 +21,13 @@
  	  	<file name="mythic-odysseys-of-theros.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/mythic-odysseys-of-theros.index" />
 	 	<file name="extra-life.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/extra-life.index" />
  		<file name="strixhaven-a-curriculum-of-chaos.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/strixhaven-a-curriculum-of-chaos.index" />
-
-
-	<!--	
-	 	<file name="mordenkainens-tome-of-foes.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/mordenkainens-tome-of-foes.index" />	
- 		<file name="fizbans-treasury-of-dragons.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/fizbans-treasury-of-dragons.index" /> 
-  		<file name="guildmasters-guide-to-ravnica.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/guildmasters-guide-to-ravnica.index" />
+		<file name="fizbans-treasury-of-dragons.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/fizbans-treasury-of-dragons.index" /> 
+		<file name="mordenkainens-tome-of-foes.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/mordenkainens-tome-of-foes.index" />
+		<file name="guildmasters-guide-to-ravnica.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/guildmasters-guide-to-ravnica.index" />
+	
+	
+	<!--
+  		
   
 		<file name="ranger-favored-enemies.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/ranger-favored-enemies.xml" />
 		<file name="lost-mines-phandelver.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/lost-mines-phandelver.index" />
