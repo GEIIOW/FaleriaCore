@@ -9,6 +9,11 @@
 	<element name="Leonin" type="Race" source="Mythic Odysseys of Theros" id="ID_WOTC_MOOT_RACE_LEONIN">
 		<description>
 			<p>The leonin guard the shining lands of Oreskos, a golden plain where even the gods rarely trespass. Prides of these nomadic, lion-like humanoids rarely interact with other peoples, having all they need in their shimmering homeland and knowing the treachery of strangers. Still, some leonin wonder what lies beyond Oreskos’s border mountains and seek to test themselves in a wider world.</p>
+			
+			<p style="text-align:center">
+        	<img src="https://5e.tools/img/races/MOT/Leonin.webp" width="200" />
+            </p>
+			
 			<h4>NOBLE AND FIERCE</h4>
 			<p>Leonin tend to be tall compared to humans and move with a boldness that suggests their physical might. Tawny fur covers leonin bodies, and some grow thick manes ranging in shades from gold to black. While their hands prove as nimble as those of other humanoids, leonin have retractable feline claws, which they can extend instantly. This, along with their ability to produce bone-shaking roars, gives most leonin an air that readily shifts between regal and fearsome.</p>
 			<p class="indent">Leonin often act with confidence, which can come off as imperiousness. While this can reassure their allies, it can also suggest defiance in the face of what they perceive as imposed authority or unworthy experts.</p>
@@ -48,7 +53,7 @@
 			<p class="indent"><strong><em>Claws.</em></strong> Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
 			<p class="indent"><strong><em>Hunter’s Instincts.</em></strong> You have proficiency in one of the following skills of your choice: Athletics, Intimidation, Perception, or Survival.</p>
 			<p class="indent"><strong><em>Daunting Roar.</em></strong> As a bonus action, you can let out an especially menacing roar. Creatures of your choice within 10 feet of you that can hear you must succeed on a Wisdom saving throw or become frightened of you until the end of your next turn. The DC of the save equals 8 + your proficiency bonus + your Constitution modifier. Once you use this trait, you can’t use it again until you finish a short or long rest.</p>
-			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Leonin.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Levish and one other language at your choice.</p>
 		</description>
 		<setters>
 			<set name="names" type="male">Apto, Athoz, Baragon, Bryguz, Eremoz, Gorioz, Grexes, Oriz, Pyxathor, Teoz, Xemnon, Xior</set>
@@ -58,19 +63,16 @@
 		</setters>
 		<sheet display="false" />
 		<rules>
-			<stat name="constitution" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
-			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Leonin)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Leonin)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="constitution" value="2" />
+			<stat name="strength" value="1"/>
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<stat name="innate speed" value="35" bonus="base" />
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
 			<grant type="Racial Trait" id="ID_WOTC_MOOT_RACIAL_TRAIT_LEONIN_CLAWS" />
 			<grant type="Racial Trait" id="ID_WOTC_MOOT_RACIAL_TRAIT_LEONIN_HUNTERS_INSTINCTS" />
 			<grant type="Racial Trait" id="ID_WOTC_MOOT_RACIAL_TRAIT_LEONIN_DAUNTING_ROAR" />
-			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<grant type="Language" id="ID_WOTC_MOOT_LANGUAGE_LEONIN" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Customized Language" supports="Custom Race Language||Leonin Language" number="2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_LANGUAGE_LEVISH"/>
+			<select type="Language" name="Language (Leonin)"  supports="Standard" restrict="-Levish" />
 		</rules>
 	</element>
 	<element name="Claws" type="Racial Trait" source="Mythic Odysseys of Theros" id="ID_WOTC_MOOT_RACIAL_TRAIT_LEONIN_CLAWS">

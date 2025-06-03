@@ -8,7 +8,7 @@
 	</info>
 
 	<!-- standard -->
-	<element name="Common" type="Language" source="Player’s Handbook" id="ID_LANGUAGE_COMMON">
+	<element name="Common" type="Language" source="Player’s Handbook" id="ID_LANGUAGE_LEVISH">
 		<supports>Standard</supports>
 		<description>
 			<p>Typically spoken by humans.</p>

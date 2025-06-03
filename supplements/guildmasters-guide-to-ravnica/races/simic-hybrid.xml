@@ -25,7 +25,7 @@
 			<p class="indent"><strong><em>Size.</em></strong> Your size is Medium, within the normal range of your humanoid base race.</p>
 			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
 			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
-			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and your choice of Elvish or Vedalken.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Levish and one other language that you and your DM agree is appropriate for your character.</p>
 			<p class="indent"><strong><em>Animal Enhancement.</em></strong> Your body has been altered to incorporate certain animal characteristics. You choose one animal enhancement now and a second enhancement at 5th level.</p>
 			<p class="indent">At 1st level, choose one of the following options:</p>
 			<p><strong>Manta Glide.</strong> You have ray-like fins that you can use as wings to slow your fall or allow you to glide. When you fall and aren't incapacitated, you can subtract up to 100 feet from the fall when calculating falling damage, and you can move up to 2 feet horizontally for every 1 foot you descend.</p>
@@ -45,16 +45,13 @@
 		</setters>
 		<sheet display="false" />
 		<rules>
-			<stat name="constitution" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Ability Score Increase (Simic Hybrid)" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_WISDOM|ID_PHB_FEAT_ASI_CHARISMA" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Simic Hybrid)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Simic Hybrid)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="constitution" value="2" />
+			<select type="Ability Score Improvement" name="Ability Score Increase (Simic Hybrid)" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_WISDOM|ID_PHB_FEAT_ASI_CHARISMA" />
 			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
-			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Language (Simic Hybrid)" supports="ID_LANGUAGE_ELVISH|ID_GGTR_LANGUAGE_VEDALKEN" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Customized Language" supports="Custom Race Language||Simic Hybrid Language" number="2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_LANGUAGE_LEVISH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Language (Simic Hybrid)" supports="Standard" />
 			<grant type="Racial Trait" id="ID_WOTC_GGTR_RACIAL_TRAIT_SIMIC_HYBRID_ANIMAL_ENHANCEMENT" />
 		</rules>
 	</element>

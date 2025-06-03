@@ -9,7 +9,7 @@
 		</update>
 	</info>
 	
-	<element name="Dragonborn" type="Race" source="Player’s Handbook" id="ID_RACE_DRAGONBORN">
+	<element name="Dragonborn" type="grant" source="Player’s Handbook" id="ID_RACE_DRAGONBORN">
 		<description>
 			<p class="flavor">Born of dragons, as their name proclaims, the dragonborn walk proudly through a world that greets them with fearful incomprehension. Shaped by draconic gods or the dragons themselves, dragonborn originally hatched from dragon eggs as a unique race, combining the best attributes of dragons and humanoids. Some dragonborn are faithful servants to true dragons, others form the ranks of soldiers in great wars, and still others find themselves adrift, with no clear calling in life.</p>
 			<h4>PROUD DRAGONKIN</h4>
@@ -55,7 +55,7 @@
 			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Dragonborn)" supports="Custom Ability Score Increase 1" requirements="!ID_WOTC_EGTW_GRANTS_DRAGONBORN_VARIANT,ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
-			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_LANGUAGE_LEVISH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<grant type="Language" id="ID_LANGUAGE_DRACONIC" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Customized Language" supports="Custom Race Language" number="2"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />

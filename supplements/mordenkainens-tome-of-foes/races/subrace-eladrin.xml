@@ -10,7 +10,7 @@
 	</info>
 
     <element name="Eladrin" type="Sub Race" source="Mordenkainen’s Tome of Foes" id="ID_WOTC_MTOF_SUBRACE_ELADRIN">
-        <supports>Elf</supports>
+        <!--<supports>Elf</supports>-->
         <description>
 			<p>Eladrin are elves native to the Feywild, a realm of beauty, unpredictable emotion, and boundless magic. An eladrin is associated witb one of the four seasons and has coloration reminiscent of that season, which can also affect the eladrin’s mood:</p>
 			<p><b>Autumn</b> is the season of peace and goodwill, when summer’s harvest is shared with all.<br/>

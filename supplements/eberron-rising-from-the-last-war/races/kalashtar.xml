@@ -50,7 +50,7 @@
 			<p class="indent"><strong><em>Mind Link.</em></strong> You can speak telepathically to any creature you can see, provided the creature is within a number of feet of you equal to 10 times your level. You don’t need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language.</p>
 			<p class="indent">When you’re using this trait to speak telepathically to a creature, you can use your action to give that creature the ability to speak telepathically with you for 1 hour or until you end this effect as an action. To use this ability, the creature must be able to see you and must be within this trait’s range. You can give this ability to only one creature at a time; giving it to a creature takes it away from another creature who has it.</p>
 			<p class="indent"><strong><em>Severed from Dreams.</em></strong> Kalashtar sleep, but they don’t connect to the plane of dreams as other creatures do. Instead, their minds draw from the memories of their otherworldly spirit while they sleep. As such, you are immune to spells and other magical effects that require you to dream, like dream, but not to spells and other magical effects that put you to sleep, like sleep.</p>
-			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common, Quori, and one other language of your choice.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Levish and two other languages that you and your DM agree is appropriate for your character.</p>
 		</description>
 		<setters>
 			<set name="names" type="quori">Ashana, Ashtai, Ishara, Hareth, Khad, Kosh, Melk, Nari, Tana, Tari, Tash, Ulad, Vakri, Vash, </set>
@@ -59,20 +59,16 @@
 		</setters>
 		<sheet display="false" />
 		<rules>
-			<stat name="wisdom" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Kalashtar)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Kalashtar)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="wisdom" value="2" />
+			<stat name="charisma" value="1" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Racial Trait" id="ID_WOTC_ERLW_RACIAL_TRAIT_KALASHTAR_DUAL_MIND" />
 			<grant type="Racial Trait" id="ID_WOTC_ERLW_RACIAL_TRAIT_KALASHTAR_MENTAL_DISCIPLINE" />
 			<grant type="Racial Trait" id="ID_WOTC_ERLW_RACIAL_TRAIT_KALASHTAR_MIND_LINK" />
 			<grant type="Racial Trait" id="ID_WOTC_ERLW_RACIAL_TRAIT_KALASHTAR_SEVERED_FROM_DREAMS" />
-			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<grant type="Language" id="ID_WOTC_ERLW_LANGUAGE_QUORI" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Customized Language" supports="Custom Race Language||Kalashtar Language" number="2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Language, Kalashtar" supports="Standard||Exotic" />
+			<grant type="Language" id="ID_LANGUAGE_LEVISH" />
+			<select type="Language" name="Language (Kalashtar)" supports="Standard||Exotic" number="2" />
 		</rules>
 	</element>
 	<append id="ID_WOTC_ERLW_LANGUAGE_QUORI">

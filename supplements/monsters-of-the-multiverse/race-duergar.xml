@@ -21,18 +21,18 @@
 			<p class="indent">Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>
 			<p class="indent"><strong><em>Dwarven Resilience.</em></strong> You have advantage on saving throws you make to avoid or end the poisoned condition on yourself. You also have resistance to poison damage.</p>
 			<p class="indent"><strong><em>Psionic Fortitude.</em></strong> You have advantage on saving throws you make to avoid or end the charmed or stunned condition on yourself.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Levish and one other language that you and your DM agree is appropriate for your character.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Ability Score Improvement" name="Ability Score Improvement Option (Duergar)" supports="Custom Ability Score Improvement Option" />
+			<select type="Ability Score Improvement" name="Ability Score Improvement (Duergar)" supports="ID_ASI_RACE_GELLOW1|ID_ASI_RACE_GELLOW2" />		
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
 			<stat name="darkvision:range" value="120" bonus="base" />
 			<grant type="Grants" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_HUMANOID_DWARF" />
 
-			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Customized Language (Duergar)" supports="Custom Race Language"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_LANGUAGE_LEVISH" />
 			<select type="Language" name="Language (Duergar)" supports="Standard||Exotic" />
 			
 			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_DUERGAR_DUERGAR_MAGIC" level="3" />

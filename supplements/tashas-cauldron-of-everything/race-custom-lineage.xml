@@ -27,7 +27,7 @@
 			<select type="Ability Score Improvement" name="Ability Score Improvement +2 (Custom Lineage)" supports="Custom Ability Score Increase 2" />
 			<select type="Feat" name="Feat (Custom Lineage)" />
 			<select type="Racial Trait" name="Variable Trait" supports="Custom Lineage Variable Trait" />
-			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_LANGUAGE_LEVISH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Customized Language" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Language (Custom Lineage)" supports="Standard||Exotic" />
 		</rules>
