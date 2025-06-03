@@ -34,8 +34,8 @@
 		<!--<file name="race-shadarkai.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/monsters-of-the-multiverse/race-shadarkai.xml" />-->
 		<!--<file name="race-shifter.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/monsters-of-the-multiverse/race-shifter.xml" />-->
 		<file name="race-tabaxi.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/monsters-of-the-multiverse/race-tabaxi.xml" />
-		<!--<file name="race-tortle.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/monsters-of-the-multiverse/race-tortle.xml" />
-			<file name="race-triton.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/monsters-of-the-multiverse/race-triton.xml" /> -->
+		<!--<file name="race-tortle.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/monsters-of-the-multiverse/race-tortle.xml" />-->
+		<file name="race-triton.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/monsters-of-the-multiverse/race-triton.xml" /> 
 		<file name="race-yuanti.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/monsters-of-the-multiverse/race-yuanti.xml" />
 
 		<file name="source.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/monsters-of-the-multiverse/source.xml" />
