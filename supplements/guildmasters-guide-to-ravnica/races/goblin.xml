@@ -32,7 +32,7 @@
 			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
 			<p class="indent"><strong><em>Fury of the Small.</em></strong> When you damage a creature with an attack or a spell and the creature’s size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your level. Once you use this trait, you can’t use it again until you finish a short or long rest.</p>
 			<p class="indent"><strong><em>Nimble Escape.</em></strong> You can take the Disengage or Hide action as a bonus action on each of your turns.</p>
-			<p class="indent"><strong><em>Languages.</em></strong>  You can speak, read, and write Levish and one other language that you and your DM agree is appropriate for your character.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Levish and one other language that you and your DM agree is appropriate for your character.</p>
 		</description>
 		<setters>
 			<set name="names" type="name">Azzinax, Babolax, Blixanix, Crixizix, Dazzaz, Estrix, Finizix,Juzba, Kaluzax, Lyzaxa, Mizzix, Myznar, Nixispix, Paxizaz, Ravixiz, Stixil, Sunnix, Tozinox, Uxivozi, Vazozav, Wexiny, Zizzix</set>

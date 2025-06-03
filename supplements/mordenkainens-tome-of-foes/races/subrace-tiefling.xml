@@ -14,12 +14,14 @@
 		<supports>Tiefling</supports>
 		<description>
 			<p>The tieflings connected to Nessus command the power of fire and darkness, guided by a keener than normal intellect, as befits those linked to Asmodeus himself. Such tieflings use the Ability Score Increase and Infernal Legacy traits in the Player’s Handbook.</p>
+			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Charisma score increases by 2, and your Intelligence score increases by 1.</p>
 		</description>
 		<sheet alt="Tiefling (Asmodeus)" display="false">
 			<description>Descended of Asmodeus</description>
 		</sheet>
 		<rules>
-			<!-- default subrace, no changes -->
+			<stat name="charisma" value="2" />
+			<stat name="intelligence" value="1" />
 		</rules>
 	</element>
 	
@@ -36,10 +38,8 @@
 		</sheet>
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANTS_TIEFLING_SUBRACE" />
-			<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<stat name="intelligence" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Baalzebub)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Baalzebub)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="charisma" value="2" />
+			<stat name="intelligence" value="1"/>
 			<grant type="Racial Trait" id="ID_WOTC_MTOF_RACIAL_TRAIT_BAALZEBUB_LEGACY_OF_MALADOMINI" />
 		</rules>
 	</element>
@@ -70,10 +70,8 @@
 		</sheet>
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANTS_TIEFLING_SUBRACE" />
-			<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<stat name="dexterity" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Dispater)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Dispater)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="charisma" value="2" />
+			<stat name="dexterity" value="1" />
 			<grant type="Racial Trait" id="ID_WOTC_MTOF_RACIAL_TRAIT_DISPATER_LEGACY_OF_DIS" />
 		</rules>
 	</element>
@@ -104,10 +102,8 @@
 		</sheet>
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANTS_TIEFLING_SUBRACE" />
-			<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<stat name="wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Fierna)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Fierna)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="charisma" value="2"  />
+			<stat name="wisdom" value="1" />
 			<grant type="Racial Trait" id="ID_WOTC_MTOF_RACIAL_TRAIT_FIERNA_LEGACY_OF_PHLEGETHOS" />
 		</rules>
 	</element>
@@ -138,10 +134,8 @@
 		</sheet>
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANTS_TIEFLING_SUBRACE" />
-			<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<stat name="dexterity" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Glasya)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Glasya)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="charisma" value="2"  />
+			<stat name="dexterity" value="1"  />
 			<grant type="Racial Trait" id="ID_WOTC_MTOF_RACIAL_TRAIT_GLASYA_LEGACY_OF_MALBOLGE" />
 		</rules>
 	</element>
@@ -172,10 +166,8 @@
 		</sheet>
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANTS_TIEFLING_SUBRACE" />
-			<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Levistus)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Levistus)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="charisma" value="2"  />
+			<stat name="constitution" value="1"  />
 			<grant type="Racial Trait" id="ID_WOTC_MTOF_RACIAL_TRAIT_LEVISTUS_LEGACY_OF_STYGIA" />
 		</rules>
 	</element>
@@ -206,10 +198,8 @@
 		</sheet>
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANTS_TIEFLING_SUBRACE" />
-			<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<stat name="intelligence" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Mammon)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Mammon)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="charisma" value="2" />
+			<stat name="intelligence" value="1" />
 			<grant type="Racial Trait" id="ID_WOTC_MTOF_RACIAL_TRAIT_MAMMON_LEGACY_OF_MINAUROS" />
 		</rules>
 	</element>
@@ -240,10 +230,8 @@
 		</sheet>
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANTS_TIEFLING_SUBRACE" />
-			<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<stat name="intelligence" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Mephistopheles)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Mephistopheles)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="charisma" value="2" />
+			<stat name="intelligence" value="1"  />
 			<grant type="Racial Trait" id="ID_WOTC_MTOF_RACIAL_TRAIT_MEPHISTOPHELES_LEGACY_OF_CANIA" />
 		</rules>
 	</element>
@@ -274,10 +262,8 @@
 		</sheet>
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANTS_TIEFLING_SUBRACE" />
-			<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Zariel)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Zariel)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="charisma" value="2" />
+			<stat name="strength" value="1"/>
 			<grant type="Racial Trait" id="ID_WOTC_MTOF_RACIAL_TRAIT_ZARIEL_LEGACY_OF_AVERNUS" />
 		</rules>
 	</element>
