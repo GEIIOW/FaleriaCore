@@ -15,7 +15,6 @@
 		<description>
 			<p>The tieflings connected to Nessus command the power of fire and darkness, guided by a keener than normal intellect, as befits those linked to Asmodeus himself. Such tieflings use the Ability Score Increase and Infernal Legacy traits in the Player’s Handbook.</p>
 			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Charisma score increases by 2, and your Intelligence score increases by 1.</p>
-			<p class="indent"><strong><em>Hellish Resistance.</em></strong> You have resistance to fire damage.</p>
 			<p class="indent"><strong><em>Infernal Legacy.</em></strong> You know the thaumaturgy cantrip. Once you reach 3rd level, you can cast the hellish rebuke spell, as a 2nd-level spell, you must finish a long rest to cast the spell again with the trait. Once you reach 5th level, you can also cast the darkness spell, you must finish a long rest to cast the spell again with the trait. Charisma is your spellcasting ability for these spells.</p>
 		</description>
 		<sheet alt="Tiefling (Asmodeus)" display="false">
@@ -25,7 +24,6 @@
 			<grant type="Grants" id="ID_INTERNAL_GRANTS_TIEFLING_SUBRACE" />	
 			<stat name="charisma" value="2" />
 			<stat name="intelligence" value="1" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HELLISH_RESISTANCE" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_INFERNAL_LEGACY" />
 		</rules>
 	</element>
