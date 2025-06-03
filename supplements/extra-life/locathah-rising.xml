@@ -26,6 +26,11 @@
 	<element name="Locathah" type="Race" source="Locathah Rising" id="ID_WOTC_LR_RACE_LOCATHAH">
 		<description>
 			<p>Featured in Ghosts of Saltmarsh, these resilient and proud fish-folk have endured war, slavery, and mistreatment at the hands of other aquatic creatures. They dwell in submerged tribal communities along seacoasts, and hunt both above and below the water.</p>
+						
+			<p style="text-align:center">
+        	<img src="https://5e.tools/img/bestiary/GoS/Locathah.webp" width="200" />
+            </p>
+			
 			<h4>LOCATHAH TRAITS</h4>
 			<p>Your locathah character has an assortment of inborn abilities, part and parcel of locathah nature.</p>
 			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Strength score increases by 2 and your Dexterity score increases by 1.</p>
@@ -51,7 +56,7 @@
 			<stat name="innate speed:swim" value="30" bonus="base" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<grant type="Language" id="ID_LANGUAGE_LEVISH"/>
-			<select type="Language" name="Language (Locathah)" supports="Standard" restrict="-Levish"
+			<select type="Language" name="Language (Locathah)" supports="Standard" restrict="-Levish"/>
 			<grant type="Racial Trait" id="ID_WOTC_LR_RACIAL_TRAIT_LOCATHAH_NATURAL_ARMOR" />
 			<grant type="Racial Trait" id="ID_WOTC_LR_RACIAL_TRAIT_LOCATHAH_OBSERVANT_AND_ATHLETIC" />
 			<grant type="Racial Trait" id="ID_WOTC_LR_RACIAL_TRAIT_LOCATHAH_LEVIATHAN_WILL" />
