@@ -24,7 +24,8 @@
 		<file name="fizbans-treasury-of-dragons.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/fizbans-treasury-of-dragons.index" /> 
 		<file name="mordenkainens-tome-of-foes.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/mordenkainens-tome-of-foes.index" />
 		<file name="guildmasters-guide-to-ravnica.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/guildmasters-guide-to-ravnica.index" />
-	
+		<file name="sword-coast-adventurers-guide.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide.index" />
+
 	
 	<!--
   		
@@ -35,7 +36,6 @@
 		<file name="rise-of-tiamat.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/rise-of-tiamat.index" />
 		<file name="princes-of-the-apocalypse.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/princes-of-the-apocalypse.index" />
 		<file name="out-of-the-abyss.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/out-of-the-abyss.index" />
-		<file name="sword-coast-adventurers-guide.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide.index" />
 		<file name="curse-of-strahd.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/curse-of-strahd.index" />
 		<file name="storm-kings-thunder.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/storm-kings-thunder.index" />
 		<file name="tales-from-the-yawning-portal.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/tales-from-the-yawning-portal.index" />
