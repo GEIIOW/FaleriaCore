@@ -42,7 +42,6 @@
 		<file name="house-agent.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/eberron-rising-from-the-last-war/backgrounds/house-agent.xml" />	
 		<file name="feats.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/eberron-rising-from-the-last-war/feats.xml" />
 		<file name="items.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/eberron-rising-from-the-last-war/items.xml" />
-		<file name="deities.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/eberron-rising-from-the-last-war/deities.xml" />
 		<file name="languages.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/eberron-rising-from-the-last-war/languages.xml" />
 	</files>
 </index>
