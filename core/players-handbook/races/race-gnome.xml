@@ -61,7 +61,7 @@
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_GNOME_CUNNING" />
 			<grant type="Language" id="ID_LANGUAGE_LEVISH" />
-			<select type="Language" name="Customized Language" supports="Custom Race Language" />
+			<select type="Language" name="Language (Gnome)" supports="Standard" restrict="-Levish" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_GNOME_SUBRACE" />
 		</rules>
 	</element>

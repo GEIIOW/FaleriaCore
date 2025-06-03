@@ -51,7 +51,7 @@
 			<stat name="innate speed:swim" value="30" bonus="base" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<grant type="Language" id="ID_LANGUAGE_LEVISH"/>
-			<select type="Language" name="Customized Language" supports="Custom Race Language" />
+			<select type="Language" name="Language (Locathah)" supports="Standard" restrict="-Levish"
 			<grant type="Racial Trait" id="ID_WOTC_LR_RACIAL_TRAIT_LOCATHAH_NATURAL_ARMOR" />
 			<grant type="Racial Trait" id="ID_WOTC_LR_RACIAL_TRAIT_LOCATHAH_OBSERVANT_AND_ATHLETIC" />
 			<grant type="Racial Trait" id="ID_WOTC_LR_RACIAL_TRAIT_LOCATHAH_LEVIATHAN_WILL" />

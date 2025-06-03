@@ -75,7 +75,7 @@
 				<!-- <span class="feature">Alignment.</span>Humans tend toward no particular alignment. The best and the worst are found among them.<br /> -->
 				<span class="feature">Size.</span>Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.<br />
 				<span class="feature">Speed.</span>Your base walking speed is 30 feet.<br />
-				<span class="feature">Languages.</span>You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.<br />
+				<span class="feature">Languages.</span>You can speak, read, and write Levish and one extra language of your choice.<br />
 			</p>
 			<div element="ID_RACE_VARIANT_HUMAN_VARIANT"/>
 		</description>
@@ -97,9 +97,8 @@
 			<stat name="charisma" value="1" requirements="!(ID_INTERNAL_GRANTS_REQTEMPFIX||ID_RACE_VARIANT_HUMAN_VARIANT||ID_INTERNAL_GRANTS_DRAGONMARK||ID_WOTC_WGTE_GRANTS_DARKMARKED||ID_UA_PS_GRANTS_HUMAN_VARIANT)" />      
 			<grant type="Size" id="ID_SIZE_MEDIUM"/>
 			<stat name="innate speed" value="30" bonus="base"/>
-			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Customized Language" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />	  
-			<select type="Language" name="Language (Human)" supports="Standard||Exotic" requirements="!ID_UA_PS_GRANTS_HUMAN_VARIANT,!ID_WOTC_ERLW_DRAGONMARK_MARK_OF_FINDING"/>
+			<grant type="Language" id="ID_LANGUAGE_LEVISH" />
+			<select type="Language" name="Language (Human)" supports="Standard||Exotic"/>
 			<select type="Race Variant" name="Human Variant" supports="Human" optional="true" />
 		</rules>
 	</element>
