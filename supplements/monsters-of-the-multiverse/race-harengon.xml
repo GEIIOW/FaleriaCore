@@ -22,12 +22,11 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Ability Score Improvement" name="Ability Score Improvement Option (Harengon)" supports="Custom Ability Score Improvement Option" />
+			<select type="Ability Score Improvement" name="Ability Score Improvement (Harengon)" supports="ID_ASI_RACE_GELLOW1|ID_ASI_RACE_GELLOW2" />		
 			<select type="Racial Trait" name="Size (Harengon)" supports="ID_INTERNAL_RACIAL_TRAIT_SMALL|ID_INTERNAL_RACIAL_TRAIT_MEDIUM" />
 			<stat name="innate speed" value="30" bonus="base" />
 
-			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Customized Language (Harengon)" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_LANGUAGE_LEVISH" />
 			<select type="Language" name="Language (Harengon)" supports="Standard||Exotic" />
 
 			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_HARENGON_HARE_TRIGGER" />
