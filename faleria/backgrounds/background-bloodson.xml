@@ -19,11 +19,24 @@
 				<li><strong>Languages:</strong> Ixali</li>
 				<li><strong>Equipment:</strong> A set of fine clothers, a signet ring, a scroll of pedigree, and a purse containing 25 gp.</li>
 			</ul>
-			<div element="ID_BACKGROUND_FEATURE_MILITARY_RANK" />
-			<h5>Suggested Characteristics</h5>
-			<p>The horrors of war combined with the rigid discipline of military service leave their mark on all soldiers, shaping their ideals, creating strong bonds, and often leaving them scarred and vulnerable to fear, shame, and hatred.</p>
-			<h5>Speciality</h5>
+				<h5>SPECIALTY</h5>
 			<p>During your time as a soldier, you had a specific role to play in your unit or army. Roll a d8 or choose from the options in the table below to determine your role:</p>
+			<table>
+				<thead>
+					<tr><td class="col-20">d8</td><td>Specialty</td></tr>
+				</thead>
+				<tr><td>1</td><td>Officer</td></tr>
+				<tr><td>2</td><td>Scout</td></tr>
+				<tr><td>3</td><td>Infantary</td></tr>
+				<tr><td>4</td><td>Cavalary</td></tr>
+				<tr><td>5</td><td>Healer</td></tr>
+				<tr><td>6</td><td>Quartermaster</td></tr>
+				<tr><td>7</td><td>Standard-bearer</td></tr>
+				<tr><td>8</td><td>Support staff (cook, blacksmith, or the like)</td></tr>
+			</table>
+			<div element="ID_BACKGROUND_FEATURE_MILITARY_RANK" />
+			<h5>SUGGESTED CHARACTERISTICS</h5>
+			<p>The horrors of war combined with the rigid discipline of military service leave their mark on all soldiers, shaping their ideals, creating strong bonds, and often leaving them scarred and vulnerable to fear, shame, and hatred.</p>
 		</description>
 		<setters>
 			<set name="short">Insight, Persuasion, 2 Languages</set>
@@ -33,7 +46,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
 			<grant type="Language" id="ID_LANGUAGE_IXALI" />
 			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_MILITARY_RANK"/>
-			<select type="List" name="Speciality">
+			<select type="List" name="Speciality" optional="true">
 				<item id="1">Officer.</item>
 				<item id="2">Scout.</item>
 				<item id="3">Infantry.</item>
