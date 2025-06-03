@@ -25,6 +25,7 @@
 		<file name="mordenkainens-tome-of-foes.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/mordenkainens-tome-of-foes.index" />
 		<file name="guildmasters-guide-to-ravnica.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/guildmasters-guide-to-ravnica.index" />
 		<file name="sword-coast-adventurers-guide.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide.index" />
+		<file name="tomb-of-annihilation.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/tomb-of-annihilation.index" />
 
 	<!--
   		
@@ -38,7 +39,6 @@
 		<file name="curse-of-strahd.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/curse-of-strahd.index" />
 		<file name="storm-kings-thunder.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/storm-kings-thunder.index" />
 		<file name="tales-from-the-yawning-portal.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/tales-from-the-yawning-portal.index" />
-		<file name="tomb-of-annihilation.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/tomb-of-annihilation.index" />
 		<file name="waterdeep-dragon-heist.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/waterdeep-dragon-heist.index" />
 		<file name="waterdeep-dungeon-of-the-mad-mage.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/waterdeep-dungeon-of-the-mad-mage.index" />
 		<file name="ghosts-of-saltmarsh.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/ghosts-of-saltmarsh.index" />

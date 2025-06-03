@@ -13,8 +13,5 @@
 		<!-- backgrounds -->
 		<file name="background-anthropologist.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/tomb-of-annihilation/backgrounds/background-anthropologist.xml" />
 		<file name="background-archaeologist.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/tomb-of-annihilation/backgrounds/background-archaeologist.xml" />
-		
-		<!-- races -->
-		<obsolete name="race-tortle.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/tomb-of-annihilation/races/race-tortle.xml" />
 	</files>
 </index>
