@@ -23,7 +23,6 @@
 		<file name="background-uthgardttribemember.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide/backgrounds/background-uthgardttribemember.xml" />
 		<file name="background-waterdhaviannoble.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide/backgrounds/background-waterdhaviannoble.xml" />
 	
-	
 		<file name="barbarian-battlerager.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide/classes/barbarian-battlerager.xml" />
 		<file name="barbarian-totemwarrior.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide/classes/barbarian-totemwarrior.xml" />
 		<file name="cleric-arcanadomain.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide/classes/cleric-arcanadomain.xml" />
@@ -36,6 +35,5 @@
 		<file name="sorcerer-stormsorcery.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide/classes/sorcerer-stormsorcery.xml" />
 		<file name="warlock-theundying.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide/classes/warlock-theundying.xml" />
 		<file name="wizard-bladesinging.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide/classes/wizard-bladesinging.xml" />
-	
 	</files>
 </index>
