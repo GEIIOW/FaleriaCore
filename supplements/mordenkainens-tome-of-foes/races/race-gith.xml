@@ -20,7 +20,7 @@
 			<p class="indent"><b><i>Age. </i></b>Gith reach adulthood in their late teens and live for about a century.</p>
 			<p class="indent"><b><i>Size. </i></b>Gith are taller and leaner than humans, with most a slender 6 feet in height.</p>
 			<p class="indent"><b><i>Speed. </i></b>Your base walking speed is 30 feet.</p>
-			<p class="indent"><b><i>Language. </i></b>You can speak, read, and write Common and Gith.</p>
+			<p class="indent"><b><i>Language. </i></b> You can speak, read, and write Levish and one other language that you and your DM agree is appropriate for your character.</p>
 			<p class="indent"><b><i>Subrace. </i></b>There are two kinds of gith, githyanki and githzerai. Choose one of these subraces.</p>
 		</description>
 		<sheet display="false"/>
@@ -33,13 +33,10 @@
 		</setters>
 		<rules>
 			<stat name="intelligence" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Gith)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
-			<grant type="Language" id="ID_LANGUAGE_LEVISH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<grant type="Language" id="ID_LANGUAGE_GITH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Customized Language" supports="Custom Race Language||Gith Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Customized Language" supports="Custom Race Language||Gith Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_LANGUAGE_LEVISH" />
+			<select type="Language" name="Language (Gith)" supports="Standard||Exotic" />
 			<select type="Sub Race" name="Gith Subrace" supports="Gith" />
 		</rules>
 	</element>
@@ -61,8 +58,7 @@
 		</description>
 		<sheet display="false"/>
 		<rules>
-			<stat name="strength" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Githyanki)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="strength" value="2" />
 			<grant type="Racial Trait" id="ID_WOTC_MTOF_RACIAL_TRAIT_GITHYANKI_DECADENT_MASTERY" />
 			<grant type="Racial Trait" id="ID_WOTC_MTOF_RACIAL_TRAIT_GITHYANKI_MARTIAL_PRODIGY" />
 			<grant type="Racial Trait" id="ID_WOTC_MTOF_RACIAL_TRAIT_GITHYANKI_GITHYANKI_PSIONICS" />
@@ -138,8 +134,7 @@
 		</description>
 		<sheet display="false"/>
 		<rules>
-			<stat name="wisdom" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Githzerai)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="wisdom" value="2" />
 			<grant type="Racial Trait" id="ID_WOTC_MTOF_RACIAL_TRAIT_GITHZERAI_MENTAL_DISCIPLINE" />
 			<grant type="Racial Trait" id="ID_WOTC_MTOF_RACIAL_TRAIT_GITHZERAI_GITHZERAI_PSIONICS" />
 		</rules>
@@ -169,16 +164,7 @@
 			<grant type="Spell" name="ID_PHB_SPELL_DETECT_THOUGHTS" level="5" />
 		</rules>
 	</element>
-	<element name="Gith" type="Language" source="Mordenkainen’s Tome of Foes" id="ID_LANGUAGE_GITH">
-		<supports>Exotic,Gith Language</supports>
-		<description>
-			<p>Typically spoken by githyanki and githzerai.</p>
-		</description>
-		<setters>
-			<set name="exotic">true</set>
-			<set name="speakers">Githyanki and githzerai</set>
-		</setters>
-	</element>
+
 	<element name="Greater Silver Sword" type="Magic Item" source="Mordenkainen’s Tome of Foes" id="ID_WOTC_MTOF_WEAPON_GREATER_SILVER_SWORD">
 		<description>
 			<p>This magic weapon grants a +3 bonus to attack and damage rolls made with it. While you hold the sword, you have advantage on Intelligence, Wisdom, and Charisma saving throws, you are immune to being charmed, and you have resistance to psychic damage. In addition, if you score a critical hit with it against a creature's astral body, you can cut the silvery cord that tethers the target to its material body, instead of dealing damage.</p>
