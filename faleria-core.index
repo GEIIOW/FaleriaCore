@@ -28,7 +28,8 @@
 		<file name="tomb-of-annihilation.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/tomb-of-annihilation.index" />
 		<file name="van-richtens-guide-to-ravenloft.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/van-richtens-guide-to-ravenloft.index" />
 
-	<!--<file name="sword-coast-adventurers-guide.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide.index" />
+	<!--<file name="van-richtens-guide-to-ravenloft.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/van-richtens-guide-to-ravenloft.index"
+		<file name="sword-coast-adventurers-guide.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide.index" />
 		<file name="ranger-favored-enemies.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/ranger-favored-enemies.xml" />
 		<file name="lost-mines-phandelver.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/lost-mines-phandelver.index" />
 		<file name="hoard-of-the-dragon-queen.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/hoard-of-the-dragon-queen.index" />
