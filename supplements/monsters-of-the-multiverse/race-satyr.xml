@@ -19,6 +19,7 @@
 			<p class="indent"><strong><em>Magic Resistance.</em></strong> You have advantage on saving throws against spells.</p>
 			<p class="indent"><strong><em>Mirthful Leaps.</em></strong> Whenever you make a long jump or a high jump, you can roll a d8 and add the number rolled to the number of feet you cover, even when making a standing jump. This extra distance costs movement as normal.</p>
 			<p class="indent"><strong><em>Reveler.</em></strong> As an embodiment of revelry, you have proficiency in the Performance and Persuasion skills, and you have proficiency with one musical instrument of your choice.</p>
+			<p class="indent"><strong><em>Language.</em></strong> You can speak, read, and write Levish and one other language that you and your DM agree is appropriate for your character.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -27,8 +28,7 @@
 			<stat name="innate speed" value="35" bonus="base" />
 			<grant type="Racial Trait" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_FEY" />
 
-			<grant type="Language" id="ID_LANGUAGE_LEVISH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Customized Language (Satyr)" supports="Custom Race Language"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_LANGUAGE_LEVISH" />
 			<select type="Language" name="Language (Satyr)" supports="Standard||Exotic" />
 
 			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_SATYR_RAM" />
