@@ -9,6 +9,11 @@
 	<element name="Leonin" type="Race" source="Mythic Odysseys of Theros" id="ID_WOTC_MOOT_RACE_LEONIN">
 		<description>
 			<p>The leonin guard the shining lands of Oreskos, a golden plain where even the gods rarely trespass. Prides of these nomadic, lion-like humanoids rarely interact with other peoples, having all they need in their shimmering homeland and knowing the treachery of strangers. Still, some leonin wonder what lies beyond Oreskos’s border mountains and seek to test themselves in a wider world.</p>
+			
+			<p style="text-align:center">
+        	<img src="https://5e.tools/img/races/MOT/Leonin.webp" width="200" />
+            </p>
+			
 			<h4>NOBLE AND FIERCE</h4>
 			<p>Leonin tend to be tall compared to humans and move with a boldness that suggests their physical might. Tawny fur covers leonin bodies, and some grow thick manes ranging in shades from gold to black. While their hands prove as nimble as those of other humanoids, leonin have retractable feline claws, which they can extend instantly. This, along with their ability to produce bone-shaking roars, gives most leonin an air that readily shifts between regal and fearsome.</p>
 			<p class="indent">Leonin often act with confidence, which can come off as imperiousness. While this can reassure their allies, it can also suggest defiance in the face of what they perceive as imposed authority or unworthy experts.</p>
