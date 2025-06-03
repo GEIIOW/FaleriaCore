@@ -21,17 +21,17 @@
 			<p class="indent"><strong><em>Changeling Instincts.</em></strong> Thanks to your connection to the fey realm, you gain proficiency with two of the following skills of your choice: Deception, Insight, Intimidation, Performance, or Persuasion.</p>
 			<p class="indent"><strong><em>Shapechanger.</em></strong> As an action, you can change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight and can change your size between Medium and Small. You can make yourself appear as a member of another race, though none of your game statistics change. You can't duplicate the appearance of an individual you've never seen, and you must adopt a form that has the same basic arrangement of limbs that you have. Your clothing and equipment aren't changed by this trait.</p>
 			<p class="indent">You stay in the new form until you use an action to revert to your true form or until you die.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Levish and two other languages of your choice.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Ability Score Improvement" name="Ability Score Improvement Option (Changeling)" supports="Custom Ability Score Improvement Option" />
+			<select type="Ability Score Improvement" name="Ability Score Improvement (Changeling)" supports="ID_ASI_RACE_GELLOW1|ID_ASI_RACE_GELLOW2" />	
 			<select type="Racial Trait" name="Size (Changeling)" supports="ID_INTERNAL_RACIAL_TRAIT_SMALL|ID_INTERNAL_RACIAL_TRAIT_MEDIUM" />
 			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Racial Trait" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_FEY" />
 
-			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Customized Language (Changeling)" supports="Custom Race Language"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Language (Changeling)" supports="Standard||Exotic" />
+			<grant type="Language" id="ID_LANGUAGE_LEVISH"  />
+			<select type="Language" name="Language (Changeling)" supports="Standard||Exotic" number="2" />
 			
 			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_CHANGELING_CHANGELING_INSTINCTS" />
 			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_CHANGELING_SHAPECHANGER" />
