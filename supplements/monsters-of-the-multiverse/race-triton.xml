@@ -10,12 +10,13 @@
 	<element name="Triton" type="Race" source="Mythic Odysseys of Theros" id="ID_WOTC_MOTM_RACE_TRITON">
 		<description>
 			<p>Originally from the Elemental Plane of Water, many tritons entered the Material Plane centuries ago in response to the growing threat of evil elementals. Those tritons spread across the worlds’ oceans, protecting the surface from terrors in the deep. Over time, triton have extended their stewardship over the sea floor to the ocean’s surface</p>
+			<p class="indent">Tritons have webbed hands and feet, small fins on their calves, and coloration that favors blues and greens.</p>
+
 			
 			<p style="text-align:center">
         	<img src="https://5e.tools/img/races/MOT/Triton%202.webp" width="200" />
             </p>	
 			
-			<p class="indent">Tritons have webbed hands and feet, small fins on their calves, and coloration that favors blues and greens.</p>
 			<h4>TRITON TRAITS</h4>
 			<p>As a triton, you have the following racial traits.</p>
 			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
