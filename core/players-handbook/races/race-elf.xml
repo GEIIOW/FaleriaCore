@@ -224,6 +224,7 @@
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_EXTRA_LANGUAGE" />
 		</rules>
 	</element> 	
+	
 	<element name="Elf Weapon Training" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_ELF_WEAPON_TRAINING">
 		<description>
 			<p>You have proficiency with the longsword, shortsword, shortbow, and longbow.</p>
@@ -240,6 +241,7 @@
 			<select type="Proficiency" name="Simple/Martial Weapon or Tool (Elf Weapon Training)" number="3" supports="Weapon||Tool" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 		</rules>
 	</element>
+	
 	<element name="Cantrip" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_CANTRIP">
 		<description>
 			<p>You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.</p>
