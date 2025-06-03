@@ -30,7 +30,7 @@
 			<stat name="innate speed" value="30" bonus="base" />
 			<stat name="speed:climb" value="speed" bonus="base"/>
 			<select type="Ability Score Improvement" name="Ability Score Improvement Option (Hadozee)" supports="Custom Ability Score Improvement Option" />
-			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_LANGUAGE_LEVISH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Customized Language (Hadozee)" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Language (Hadozee)" supports="Standard||Exotic" />
 			<grant type="Racial Trait" id="ID_WOTC_AAG_RACIAL_TRAIT_HADOZEE_DEXTEROUS_FEET" />

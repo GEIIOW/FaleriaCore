@@ -39,7 +39,7 @@
 			<grant type="Racial Trait" id="ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_FINDING_HUNTERS_INTUITION" />
 			<grant type="Racial Trait" id="ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_FINDING_FINDERS_MAGIC" />
 			<grant type="Racial Trait" id="ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_FINDING_SPELLS_OF_THE_MARK" />
-			<!-- <grant type="Language" id="ID_LANGUAGE_COMMON" /> -->
+			<!-- <grant type="Language" id="ID_LANGUAGE_LEVISH" /> -->
 			<grant type="Language" id="ID_LANGUAGE_GOBLIN" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Customized Language" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 		</rules>
@@ -128,7 +128,7 @@
 			<grant type="Racial Trait" id="ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_FINDING_HUNTERS_INTUITION" />
 			<grant type="Racial Trait" id="ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_FINDING_FINDERS_MAGIC" />
 			<grant type="Racial Trait" id="ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_FINDING_SPELLS_OF_THE_MARK" />
-			<!-- <grant type="Language" id="ID_LANGUAGE_COMMON" /> -->
+			<!-- <grant type="Language" id="ID_LANGUAGE_LEVISH" /> -->
 			<grant type="Language" id="ID_LANGUAGE_GOBLIN" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Customized Language" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 		</rules>

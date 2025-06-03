@@ -32,7 +32,7 @@
 			<select type="Racial Trait" name="Size (Plasmoid)" supports="ID_INTERNAL_RACIAL_TRAIT_SMALL|ID_INTERNAL_RACIAL_TRAIT_MEDIUM" />
 			<stat name="innate speed" value="30" bonus="base" />
 			<select type="Ability Score Improvement" name="Ability Score Improvement Option (Plasmoid)" supports="Custom Ability Score Improvement Option" />
-			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_LANGUAGE_LEVISH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Customized Language (Plasmoid)" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Language (Plasmoid)" supports="Standard||Exotic" />
 			<grant type="Vision" id="ID_VISION_DARKVISION" />

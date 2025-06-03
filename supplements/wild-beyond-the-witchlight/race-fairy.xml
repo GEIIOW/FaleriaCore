@@ -40,7 +40,7 @@
 			<grant type="Racial Trait" id="ID_INTERNAL_RACIAL_TRAIT_SMALL" />
 			<stat name="innate speed" value="30" bonus="base" />
 			<select type="Ability Score Improvement" name="Ability Score Improvement Option (Fairy)" supports="Custom Ability Score Improvement Option" />
-			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_LANGUAGE_LEVISH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Customized Language" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Language (Fairy)" supports="Standard||Exotic" />
 			<grant type="Racial Trait" id="ID_WOTC_WBW_RACIAL_TRAIT_FAIRY_FLIGHT" />
