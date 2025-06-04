@@ -44,7 +44,7 @@
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_HISTORY" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_RELIGION" />
-			<select type="Profiency" name="Tool Profiency (Background)" supports="Artisans Tools" />
+			<select type="Proficiency" name="Tool Profiency (Background)" supports="Artisans Tools" />
 			<select type="Language" name="Language (Background)" supports="Standard" number="2" />
 			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_MILITARY_RANK"/>
 			<select type="List" name="Speciality" optional="true">
