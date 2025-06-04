@@ -201,7 +201,7 @@
 		</sheet>
 	</element>
 
-	<!--Sea Elf-->
+	<!--High Elf-->
 	<element name="High Elf" type="Sub Race" source="Player’s Handbook" id="ID_SUB_RACE_HIGH_ELF">
 		<supports>Elf</supports>
 		<description>

@@ -20,7 +20,7 @@
 	</element>
 		
 	<element name="Silvanian" type="Language" source="Yozolin's Lost Tome" id="ID_LANGUAGE_SILVANIAN">
-		<supports>Standard||Silvermace</supports>
+		<supports>Standard</supports>
 		<description>
 			<p>Common Tongue of Silvermace</p>
 		</description>
@@ -30,6 +30,19 @@
 			<set name="script">Adelon</set>
 		</setters>
 	</element>
+
+	<element name="Goddardian" type="Language" source="Yozolin's Lost Tome" id="ID_LANGUAGE_GODDARDIAN">
+		<supports>Standard</supports>
+		<description>
+			<p>Common Tongue of Goddardia</p>
+		</description>
+		<setters>
+			<set name="Standard">true</set>
+			<set name="speakers">Human, Elf, Orc, Lenam, Aarakocra, Genasi, Centaur, Goliath</set>
+			<set name="script">Adelon</set>
+		</setters>
+	</element>
+		
 		
 	<element name="Vendul" type="Language" source="Yozolin's Lost Tome" id="ID_LANGUAGE_VENDUL">
 		<supports>Standard</supports>
