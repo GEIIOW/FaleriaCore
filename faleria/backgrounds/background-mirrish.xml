@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Mirrish Arcanum Scholaris Student</name>
+		<description>Mirrish Arcanum Scholaris Student Background</description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Lucky Crown</author>
+		<update version="0.0.1">
+			<file name="background-mirrish.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/backgrounds/background-mirrish.xml" />
+		</update>
+	</info>
+
+	<element name="Mirrish Arcanum Scholaris Student" type="Background" source="Yozolin's Lost Tome" id="ID_BACKGROUND_MIRRISH">
+		<description>
+			<p>The Mirrish Arcanum Scholaris is an institute from the Silvermace Empire that prides itself on being the best in the world when it comes to molding and developing young minds into experts of magic and science.</p>
+			<p class="indent">To get into this institute you must be brilliant to start with, but to get the bare minimum of acceptable results you must study day and night the subject that you are interested in.</p>
+			<ul class="unstyled">
+				<li><strong>Skill Proficiencies:</strong> One Intelligence skill, One Wisdom skill</li>
+				<li><strong>Tool Proficiency:</strong> One type of artisan’s tools</li>
+				<li><strong>Languages:</strong> One of your choice, Silvanian</li>
+				<li><strong>Equipment:</strong> A bottle of black ink, a quill, a small knife, a letter from a colleague posing a question you have not yet been able to answer, a set of common clothes, and a belt pouch containing 10 gp</li>
+			</ul>
+				<h5>SPECIALTY</h5>
+			<p>During your time as a student, you studied a particular field to advance your curriculum. Roll a d8 or choose from the options in the table below to determine your role:</p>
+			<table>
+				<thead>
+					<tr><td class="col-20">d8</td><td>Specialty</td></tr>
+				</thead>
+				<tr><td>1</td><td>Officer</td></tr>
+				<tr><td>2</td><td>Scout</td></tr>
+				<tr><td>3</td><td>Infantary</td></tr>
+				<tr><td>4</td><td>Cavalary</td></tr>
+				<tr><td>5</td><td>Healer</td></tr>
+				<tr><td>6</td><td>Quartermaster</td></tr>
+				<tr><td>7</td><td>Standard-bearer</td></tr>
+				<tr><td>8</td><td>Support staff (cook, blacksmith, or the like)</td></tr>
+			</table>
+			<h5>SUGGESTED CHARACTERISTICS</h5>
+			<p>The horrors of war combined with the rigid discipline of military service leave their mark on all soldiers, shaping their ideals, creating strong bonds, and often leaving them scarred and vulnerable to fear, shame, and hatred</p>
+		</description>
+		<setters>
+			<set name="short">One Intelligence skill, One Wisdom skill, Calligrapher’s Supplies, One language of your choice, Silvanian </set>
+		</setters>
+		<rules>
+			<select type="Proficiency" name="Intelligence Skill (Background)" supports="ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_RELIGION" />
+			<select type="Proficiency" name="Wisdom Skill (Background)" supports="ID_PROFICIENCY_SKILL_ANIMALHANDLING|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_SURVIVAL" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_CALLIGRAPHERS_SUPPLIES" />
+			<grant type="Language" id="ID_LANGUAGE_SILVANIAN" />
+			<select type="Language" name="Language (Background)" supports="Standard" />
+					<select type="List" name="Role" optional="true">
+						<item id="1">Botany.</item>
+						<item id="2">Humanoid Anatomy.</item>
+						<item id="3">Astronomy.</item>
+						<item id="4">Zoology.</item>
+						<item id="5">Arcanology.</item>
+						<item id="6">Engineering.</item>
+						<item id="7">Petrology.</item>
+						<item id="8">Naval Architecture.</item>
+						<item id="9">Alchemy.</item>
+						<item id="10">Metallurgy.</item>
+					</select>
+				<select type="List" name="Personality Trait">
+					<item id="1">I use polysyllabic words that convey the impression of great erudition.</item>
+					<item id="2">I’ve read every book in the world’s greatest libraries—or I like to boast that I have.</item>
+					<item id="3">I’m used to helping out those who aren’t as smart as I am, and I patiently explain anything and everything to others.</item>
+					<item id="4">There’s nothing I like more than a good mystery.</item>
+					<item id="5">I’m willing to listen to every side of an argument before I make my own judgment.</item>
+					<item id="6">I… speak… slowly… when talking… to idiots,… which… almost… everyone… is… compared… to me.</item>
+					<item id="7">I am horribly, horribly awkward in social situations.</item>
+					<item id="8">I’m convinced that people are always trying to steal my secrets.</item>
+				</select>
+
+				<select type="List" name="Ideal">
+					<item id="1">Knowledge. The path to power and self-improvement is through knowledge. (Neutral)</item>
+					<item id="2">Beauty. What is beautiful points us beyond itself toward what is true. (Good)</item>
+					<item id="3">Logic. Emotions must not cloud our logical thinking. (Lawful)</item>
+					<item id="4">No Limits. Nothing should fetter the infinite possibility inherent in all existence. (Chaotic)</item>
+					<item id="5">Power. Knowledge is the path to power and domination. (Evil)</item>
+					<item id="6">Self-Improvement. The goal of a life of study is the betterment of oneself. (Any)</item>
+				</select>
+
+				<select type="List" name="Bond">
+					<item id="1">It is my duty to protect my students.</item>
+					<item id="2">I have an ancient text that holds terrible secrets that must not fall into the wrong hands.</item>
+					<item id="3">I work to preserve a library, university, scriptorium, or monastery.</item>
+					<item id="4">My life’s work is a series of tomes related to a specific field of lore.</item>
+					<item id="5">I’ve been searching my whole life for the answer to a certain question.</item>
+					<item id="6">I sold my soul for knowledge. I hope to do great deeds and win it back.</item>
+				</select>
+
+				<select type="List" name="Flaw">
+					<item id="1">I am easily distracted by the promise of information.</item>
+					<item id="2">Most people scream and run when they see a demon. I stop and take notes on its anatomy.</item>
+					<item id="3">Unlocking an ancient mystery is worth the price of a civilization.</item>
+					<item id="4">I overlook obvious solutions in favor of complicated ones.</item>
+					<item id="5">I speak without really thinking through my words, invariably insulting others.</item>
+					<item id="6">I can’t keep a secret to save my life, or anyone else’s.</item>
+				</select>
+		</rules>
+	</element>
+</elements>
