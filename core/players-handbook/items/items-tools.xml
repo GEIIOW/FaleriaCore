@@ -90,6 +90,7 @@
 		</setters>
 	</element>
 	<element name="Carpenter’s Tools" type="Item" source="Player’s Handbook" id="ID_WOTC_PHB_ITEM_TOOL_CARPENTERS_TOOLS">
+		<supports>Artisans Tools</supports>
 		<description>
 			<p>Skill at carpentry enables a character to construct wooden structures. A carpenter can build a house, a shack, a wooden cabinet, or similar items.</p>
 			<p class="indent"><strong><em>Components.</em></strong> Carpenter’s tools include a saw, a hammer, nails, a hatchet, a square, a ruler, an adze, a plane, and a chisel.</p>
