@@ -9,9 +9,9 @@
 	<files>
 		<file name="warlock-undead.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/van-richtens-guide-to-ravenloft/warlock-undead.xml" />
 		
-		<file name="background-haunted-one.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/van-richtens-guide-to-ravenloft/backgrounds/background-haunted-one.xml" />
-		<file name="background-investigator.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/van-richtens-guide-to-ravenloft/backgrounds/background-investigator.xml" />
-		<file name="background-optional-features.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/van-richtens-guide-to-ravenloft/backgrounds/background-optional-features.xml" />
+		<file name="background-haunted-one.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/van-richtens-guide-to-ravenloft/background-haunted-one.xml" />
+		<file name="background-investigator.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/van-richtens-guide-to-ravenloft/background-investigator.xml" />
+		<file name="background-optional-features.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/van-richtens-guide-to-ravenloft/background-optional-features.xml" />
 		
 		<file name="source.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/van-richtens-guide-to-ravenloft/source.xml" />
 	</files>
