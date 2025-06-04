@@ -21,19 +21,21 @@
 			</ul>
 				<h5>SPECIALTY</h5>
 			<p>During your time as a student, you studied a particular field to advance your curriculum. Roll a d8 or choose from the options in the table below to determine your role:</p>
-			<table>
+				<table>
 				<thead>
-					<tr><td class="col-20">d8</td><td>Specialty</td></tr>
+					<tr><td class="col-20">d10</td><td>Area of Study</td></tr>
 				</thead>
-				<tr><td>1</td><td>Officer</td></tr>
-				<tr><td>2</td><td>Scout</td></tr>
-				<tr><td>3</td><td>Infantary</td></tr>
-				<tr><td>4</td><td>Cavalary</td></tr>
-				<tr><td>5</td><td>Healer</td></tr>
-				<tr><td>6</td><td>Quartermaster</td></tr>
-				<tr><td>7</td><td>Standard-bearer</td></tr>
-				<tr><td>8</td><td>Support staff (cook, blacksmith, or the like)</td></tr>
-			</table>
+				<tr><td>1</td><td>Botany</td></tr>
+				<tr><td>2</td><td>Humanoid Anatomy</td></tr>
+				<tr><td>3</td><td>Astronomy</td></tr>
+				<tr><td>4</td><td>Zoology</td></tr>
+				<tr><td>5</td><td>Arcanology</td></tr>
+				<tr><td>6</td><td>Engineering</td></tr>
+				<tr><td>7</td><td>Petrology</td></tr>
+				<tr><td>8</td><td>Naval Architecture</td></tr>
+				<tr><td>9</td><td>Alchemy</td></tr>
+				<tr><td>10</td><td>Metallurgy</td></tr>
+				</table>
 			<h5>SUGGESTED CHARACTERISTICS</h5>
 			<p>The horrors of war combined with the rigid discipline of military service leave their mark on all soldiers, shaping their ideals, creating strong bonds, and often leaving them scarred and vulnerable to fear, shame, and hatred</p>
 		</description>
