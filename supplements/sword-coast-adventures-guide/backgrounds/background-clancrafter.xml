@@ -8,7 +8,7 @@
 			<file name="background-clancrafter.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventures-guide/backgrounds/background-clancrafter.xml" />
 		</update>
 	</info>
-sword-coast-adventures-guide
+
 	<element name="Clan Crafter" type="Background" source="Sword Coast Adventurer’s Guide" id="ID_SCAG_BACKGROUND_CLAN_CRAFTER">
 		<description>
 			<p>The Stout Folk are well known for their artisanship and the worth of their handiworks, and you have been trained in that ancient tradition. For years you labored under a dwarf master of the craft, enduring long hours. and dismissive, sour-tempered treatment in order to gain the fine skills you possess today.</p>
