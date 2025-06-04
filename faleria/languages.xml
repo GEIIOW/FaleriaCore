@@ -32,7 +32,7 @@
 	</element>
 		
 	<element name="Vendul" type="Language" source="Yozolin's Lost Tome" id="ID_LANGUAGE_VENDUL">
-		<supports>Standard||Silvermace</supports>
+		<supports>Standard</supports>
 		<description>
 			<p>Common Tongue of Silvermace</p>
 		</description>
