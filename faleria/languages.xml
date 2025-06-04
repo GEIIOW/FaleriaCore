@@ -43,7 +43,6 @@
 		</setters>
 	</element>
 		
-		
 	<element name="Vendul" type="Language" source="Yozolin's Lost Tome" id="ID_LANGUAGE_VENDUL">
 		<supports>Standard</supports>
 		<description>
