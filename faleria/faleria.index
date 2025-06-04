@@ -16,6 +16,7 @@
 		<file name="background-cazan.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/backgrounds/background-cazan.xml" />
 		<file name="background-mirrish.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/backgrounds/background-mirrish.xml" />
 		<file name="background-oldson.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/backgrounds/background-oldson.xml" />
+		<file name="background-vodorda.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/backgrounds/background-vodorda.xml" />
 
 		<!--Base-->		
 		<file name="languages.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/faleria/languages.xml" />
