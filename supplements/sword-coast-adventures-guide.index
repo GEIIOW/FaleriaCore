@@ -5,7 +5,7 @@
 		<description>Welcome to the sword coast—a region of Faerûn that comprises shining paragons of civilization and culture, perilous locales fraught with dread and evil, and encompassing them all, a wilderness that offers every explorer vast opportunity and simultaneously promises great danger. While the Sword Coast Adventurer’s Guide is a valuable resource for Dungeon Masters, it was crafted with players and their characters foremost in mind. There is a plethora of new character options to intrigue and inspire every member of the adventuring party.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/sc-adventurers-guide">Wizards of the Coast</author>
 		<update version="0.2.6">
-			<file name="sword-coast-adventures-guide.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/supplements/sword-coast-adventures-guide.index" />
+			<file name="sword-coast-adventures-guide.index" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventures-guide.index" />
 		</update>
 	</info>
 	<files>
