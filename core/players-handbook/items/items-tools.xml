@@ -8,7 +8,6 @@
 		</update>
 	</info>
 	<element name="Alchemist’s Supplies" type="Item" source="Player’s Handbook" id="ID_WOTC_PHB_ITEM_TOOL_ALCHEMISTS_SUPPLIES">
-		<supports>Artisans Tools</supports>
 		<description>
 			<p>Alchemist’s supplies enable a character to produce useful concoctions, such as acid or alchemist’s fire.</p>
 			<p class="indent"><strong><em>Components.</em></strong> Alchemist’s supplies include two glass beakers, a metal frame to hold a beaker in place over an open flame, a glass stirring rod, a small mortar and pestle, and a pouch of common alchemical ingredients, including salt, powdered iron, and purified water.</p>
@@ -36,7 +35,6 @@
 		</setters>
 	</element>
 	<element name="Brewer’s Supplies" type="Item" source="Player’s Handbook" id="ID_WOTC_PHB_ITEM_TOOL_BREWERS_SUPPLIES">
-		<supports>Artisans Tools</supports>
 		<description>
 			<p>Brewing is the art of producing beer. Not only does beer serve as an alcoholic beverage, but the process of brewing purifies water. Crafting beer takes weeks of fermentation, but only a few hours of work.</p>
 			<p class="indent"><strong><em>Components.</em></strong> Brewer's supplies include a large glass jug, a quantity of hops, a siphon, and several feet of tubing.</p>
@@ -63,7 +61,6 @@
 		</setters>
 	</element>
 	<element name="Calligrapher’s Supplies" type="Item" source="Player’s Handbook" id="ID_WOTC_PHB_ITEM_TOOL_CALLIGRAPHERS_SUPPLIES">
-		<supports>Artisans Tools</supports>
 		<description>
 			<p>Calligraphy treats writing as a delicate, beautiful art. Calligraphers produce text that is pleasing to the eye, using a style that is difficult to forge. Their supplies also give them some ability to examine scripts and determine if they are legitimate, since a calligrapher’s training involves long hours of studying writing and attempting to replicate its style and design.</p>
 			<p class="indent"><strong><em>Components.</em></strong> Calligrapher’s supplies include ink, a dozen sheets of parchment, and three quills.</p>
@@ -90,7 +87,6 @@
 		</setters>
 	</element>
 	<element name="Carpenter’s Tools" type="Item" source="Player’s Handbook" id="ID_WOTC_PHB_ITEM_TOOL_CARPENTERS_TOOLS">
-		<supports>Artisans Tools</supports>
 		<description>
 			<p>Skill at carpentry enables a character to construct wooden structures. A carpenter can build a house, a shack, a wooden cabinet, or similar items.</p>
 			<p class="indent"><strong><em>Components.</em></strong> Carpenter’s tools include a saw, a hammer, nails, a hatchet, a square, a ruler, an adze, a plane, and a chisel.</p>
@@ -147,7 +143,6 @@
 		</setters>
 	</element>
 	<element name="Cobbler’s Tools" type="Item" source="Player’s Handbook" id="ID_WOTC_PHB_ITEM_TOOL_COBBLERS_TOOLS">
-		<supports>Artisans Tools</supports>
 		<description>
 			<p>Although the cobbler’s trade might seem too humble for an adventurer, a good pair of boots will see a character across rugged wilderness and through deadly dungeons.</p>
 			<p class="indent"><strong><em>Components.</em></strong> Cobbler’s tools consist of a hammer, an awl, a knife, a shoe stand, a cutter, spare leather, and thread.</p>
@@ -173,7 +168,6 @@
 		</setters>
 	</element>
 	<element name="Cook’s Utensils" type="Item" source="Player’s Handbook" id="ID_WOTC_PHB_ITEM_TOOL_COOKS_UTENSILS">
-		<supports>Artisans Tools</supports>
 		<description>
 			<p>Adventuring is a hard life. With a cook along on the journey, your meals will be much better than the typical mix of hardtack and dried fruit.</p>
 			<p class="indent"><strong><em>Components.</em></strong> Cook’s utensils include a metal pot, knives, forks, a stirring spoon, and a ladle.</p>
@@ -256,7 +250,6 @@
 		</setters>
 	</element>
 	<element name="Glassblower’s Tools" type="Item" source="Player’s Handbook" id="ID_WOTC_PHB_ITEM_TOOL_GLASSBLOWERS_TOOLS">
-		<supports>Artisans Tools</supports>
 		<description>
 			<p>Someone who is proficient with glassblower’s tools has not only the ability to shape glass, but also specialized knowledge of the methods used to produce glass objects.</p>
 			<p class="indent"><strong><em>Components.</em></strong> The tools include a blowpipe, a small marver, blocks, and tweezers. You need a source of heat to work glass.</p>
@@ -307,7 +300,6 @@
 		</setters>
 	</element>
 	<element name="Jeweler’s Tools" type="Item" source="Player’s Handbook" id="ID_WOTC_PHB_ITEM_TOOL_JEWELERS_TOOLS">
-		<supports>Artisans Tools</supports>
 		<description>
 			<p>Training with jeweler’s tools includes the basic techniques needed to beautify gems. it also gives you expertise in identifying precious stones.</p>
 			<p class="indent"><strong><em>Components.</em></strong> Jeweler’s tools consist Of a small saw and hammer, files, pliers, and tweezers.</p>
@@ -332,7 +324,6 @@
 		</setters>
 	</element>
 	<element name="Leatherworker’s Tools" type="Item" source="Player’s Handbook" id="ID_WOTC_PHB_ITEM_TOOL_LEATHERWORKERS_TOOLS">
-		<supports>Artisans Tools</supports>
 		<description>
 			<p>Knowledge of leatherworking extends to lore concerning animal hides and their properties. It also confers knowledge of leather armor and similar goods.</p>
 			<p class="indent"><strong><em>Components.</em></strong> Leatherworker’s tools include a knife, a small mallet, an edger, a hole punch, thread, and leather scraps.</p>
@@ -357,7 +348,6 @@
 		</setters>
 	</element>
 	<element name="Mason’s Tools" type="Item" source="Player’s Handbook" id="ID_WOTC_PHB_ITEM_TOOL_MASONS_TOOLS">
-		<supports>Artisans Tools</supports>
 		<description>
 			<p>Mason’s tools allow you to craft stone structures, including walls and buildings crafted from brick.</p>
 			<p class="indent"><strong><em>Components.</em></strong> Mason’s tools consist of a trowel, a hammer, a chisel, brushes, and a square.</p>
@@ -406,7 +396,6 @@
 		</setters>
 	</element>
 	<element name="Painter’s Supplies" type="Item" source="Player’s Handbook" id="ID_WOTC_PHB_ITEM_TOOL_PAINTERS_SUPPLIES">
-		<supports>Artisans Tools</supports>
 		<description>
 			<p>Proficiency with painter’s supplies represents your ability to paint and draw. You also acquire an understanding of art history, which can aid you in examining works of art.</p>
 			<p class="indent"><strong><em>Components.</em></strong> Painter’s supplies include an easel, canvas, paints, brushes, charcoal sticks. and a palette.</p>
@@ -457,7 +446,6 @@
 		</setters>
 	</element>
 	<element name="Potter’s Tools" type="Item" source="Player’s Handbook" id="ID_WOTC_PHB_ITEM_TOOL_POTTERS_TOOLS">
-		<supports>Artisans Tools</supports>
 		<description>
 			<p>Potter’s tools are used to create a variety of ceramic Objects, most typically pots and similar vessels.</p>
 			<p class="indent"><strong><em>Components.</em></strong> Potter’s tools include potter’s needles, ribs, scrapers, a knife, and calipers.</p>
@@ -483,7 +471,6 @@
 		</setters>
 	</element>
 	<element name="Smith’s Tools" type="Item" source="Player’s Handbook" id="ID_WOTC_PHB_ITEM_TOOL_SMITHS_TOOLS">
-		<supports>Artisans Tools</supports>
 		<description>
 			<p>Smith’s tools allow you to work metal, heating it to alter its shape, repair damage, or work raw ingots into useful items.</p>
 			<p class="indent"><strong><em>Components.</em></strong> Smith’s tools include hammers, tongs, charcoal, rags, and a Whetstone.</p>
@@ -533,7 +520,6 @@
 		</setters>
 	</element>
 	<element name="Tinker’s Tools" type="Item" source="Player’s Handbook" id="ID_WOTC_PHB_ITEM_TOOL_TINKERS_TOOLS">
-		<supports>Artisans Tools</supports>
 		<description>
 			<p>A set of tinker’s tools is designed to enable you to repair many mundane objects. Though you can’t manufacture much with tinker’s tools, you can mend torn clothes, sharpen a worn sword, and patch a tattered suit of chain mail.</p>
 			<p class="indent"><strong><em>Components.</em></strong> Tinker’s tools include a variety of hand tools, thread, needles, a Whetstone, scraps of cloth and leather, and a small pot of glue.</p>
@@ -559,7 +545,6 @@
 		</setters>
 	</element>
 	<element name="Weaver’s Tools" type="Item" source="Player’s Handbook" id="ID_WOTC_PHB_ITEM_TOOL_WEAVERS_TOOLS">
-		<supports>Artisans Tools</supports>
 		<description>
 			<p>Weaver‘s tools allow you to create cloth and tailor it into articles of clothing.</p>
 			<p class="indent"><strong><em>Components.</em></strong> Weaver’s tools include thread, needles, and scraps of cloth. You know how to work a loom, but such equipment is too large to transport.</p>
@@ -586,7 +571,6 @@
 		</setters>
 	</element>
 	<element name="Woodcarver’s Tools" type="Item" source="Player’s Handbook" id="ID_WOTC_PHB_ITEM_TOOL_WOODCARVERS_TOOLS">
-		<supports>Artisans Tools</supports>
 		<description>
 			<p>Woodcarver’s tools allow you to craft intricate objects from wood, such as wooden tokens or arrows.</p>
 			<p class="indent"><strong><em>Components.</em></strong> Woodcarver’s tools consist of a knife, a gouge, and a small saw.</p>
