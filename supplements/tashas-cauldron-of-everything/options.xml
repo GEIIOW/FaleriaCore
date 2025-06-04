@@ -56,7 +56,7 @@
 	<append id="ID_LANGUAGE_CELESTIAL">
 		<supports>Custom Race Language</supports>
 	</append>
-	<append id="ID_LANGUAGE_LEVISH">
+	<append id="ID_LANGUAGE_COMMON">
 		<supports>Custom Race Language</supports>
 	</append>
 	<append id="ID_LANGUAGE_DEEP_SPEECH">
