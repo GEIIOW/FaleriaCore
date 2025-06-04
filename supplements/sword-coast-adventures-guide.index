@@ -9,32 +9,32 @@
 		</update>
 	</info>
 	<files>
-		<file name="source.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide/source.xml" />
-		<file name="background-citywatch.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide/backgrounds/background-citywatch.xml" />
-		<file name="background-clancrafter.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide/backgrounds/background-clancrafter.xml" />
-		<file name="background-cloisteredscholar.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide/backgrounds/background-cloisteredscholar.xml" />
-		<file name="background-courtier.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide/backgrounds/background-courtier.xml" />
-		<file name="background-factionagent.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide/backgrounds/background-factionagent.xml" />
-		<file name="background-fartraveler.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide/backgrounds/background-fartraveler.xml" />
-		<file name="background-inheritor.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide/backgrounds/background-inheritor.xml" />
-		<file name="background-knightoftheorder.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide/backgrounds/background-knightoftheorder.xml" />
-		<file name="background-mercenaryveteran.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide/backgrounds/background-mercenaryveteran.xml" />
-		<file name="background-urbanbountyhunter.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide/backgrounds/background-urbanbountyhunter.xml" />
-		<file name="background-uthgardttribemember.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide/backgrounds/background-uthgardttribemember.xml" />
-		<file name="background-waterdhaviannoble.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide/backgrounds/background-waterdhaviannoble.xml" />
+		<file name="source.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventures-guide/source.xml" />
+		<file name="background-citywatch.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventures-guide/backgrounds/background-citywatch.xml" />
+		<file name="background-clancrafter.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventures-guide/backgrounds/background-clancrafter.xml" />
+		<file name="background-cloisteredscholar.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventures-guide/backgrounds/background-cloisteredscholar.xml" />
+		<file name="background-courtier.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventures-guide/backgrounds/background-courtier.xml" />
+		<file name="background-factionagent.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventures-guide/backgrounds/background-factionagent.xml" />
+		<file name="background-fartraveler.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventures-guide/backgrounds/background-fartraveler.xml" />
+		<file name="background-inheritor.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventures-guide/backgrounds/background-inheritor.xml" />
+		<file name="background-knightoftheorder.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventures-guide/backgrounds/background-knightoftheorder.xml" />
+		<file name="background-mercenaryveteran.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventures-guide/backgrounds/background-mercenaryveteran.xml" />
+		<file name="background-urbanbountyhunter.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventures-guide/backgrounds/background-urbanbountyhunter.xml" />
+		<file name="background-uthgardttribemember.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventures-guide/backgrounds/background-uthgardttribemember.xml" />
+		<file name="background-waterdhaviannoble.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventures-guide/backgrounds/background-waterdhaviannoble.xml" />
 	
-		<file name="barbarian-battlerager.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide/classes/barbarian-battlerager.xml" />
-		<file name="barbarian-totemwarrior.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide/classes/barbarian-totemwarrior.xml" />
-		<file name="cleric-arcanadomain.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide/classes/cleric-arcanadomain.xml" />
-		<file name="fighter-purpledragonknight.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide/classes/fighter-purpledragonknight.xml" />
-		<file name="monk-longdeath.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide/classes/monk-longdeath.xml" />
-		<file name="monk-sunsoul.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide/classes/monk-sunsoul.xml" />
-		<file name="paladin-thecrown.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide/classes/paladin-thecrown.xml" />
-		<file name="archetype-mastermind.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide/classes/archetype-mastermind.xml" />
-		<file name="archetype-swashbuckler.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide/classes/archetype-swashbuckler.xml" />
-		<file name="sorcerer-stormsorcery.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide/classes/sorcerer-stormsorcery.xml" />
-		<file name="warlock-theundying.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide/classes/warlock-theundying.xml" />
-		<file name="wizard-bladesinging.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventurers-guide/classes/wizard-bladesinging.xml" />
+		<file name="barbarian-battlerager.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventures-guide/classes/barbarian-battlerager.xml" />
+		<file name="barbarian-totemwarrior.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventures-guide/classes/barbarian-totemwarrior.xml" />
+		<file name="cleric-arcanadomain.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventures-guide/classes/cleric-arcanadomain.xml" />
+		<file name="fighter-purpledragonknight.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventures-guide/classes/fighter-purpledragonknight.xml" />
+		<file name="monk-longdeath.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventures-guide/classes/monk-longdeath.xml" />
+		<file name="monk-sunsoul.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventures-guide/classes/monk-sunsoul.xml" />
+		<file name="paladin-thecrown.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventures-guide/classes/paladin-thecrown.xml" />
+		<file name="archetype-mastermind.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventures-guide/classes/archetype-mastermind.xml" />
+		<file name="archetype-swashbuckler.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventures-guide/classes/archetype-swashbuckler.xml" />
+		<file name="sorcerer-stormsorcery.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventures-guide/classes/sorcerer-stormsorcery.xml" />
+		<file name="warlock-theundying.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventures-guide/classes/warlock-theundying.xml" />
+		<file name="wizard-bladesinging.xml" url="https://raw.githubusercontent.com/GEIIOW/FaleriaCore/refs/heads/main/supplements/sword-coast-adventures-guide/classes/wizard-bladesinging.xml" />
 	</files>
 </index>
 
