@@ -92,6 +92,7 @@
 			<set name="range">150/600</set>
 			<set name="damage" type="piercing" modifier="strength">2d6</set>
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW</set>
-	</setters>
+		</setters>
 	</element>
+
 </elements>
